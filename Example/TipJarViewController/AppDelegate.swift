@@ -7,40 +7,51 @@
 //
 
 import UIKit
+import LionheartExtensions
+import TipJarViewController
+import QuickTableView
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
-
+class AppDelegate: UIResponder, UIApplicationDelegateWithWindow {
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        rootViewController = TipJarViewController<ExampleTipJarOptions>()
         return true
     }
-
-    func applicationWillResignActive(_ application: UIApplication) {
-        // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
-        // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
-    }
-
-    func applicationDidEnterBackground(_ application: UIApplication) {
-        // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
-        // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
-    }
-
-    func applicationWillEnterForeground(_ application: UIApplication) {
-        // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
-    }
-
-    func applicationDidBecomeActive(_ application: UIApplication) {
-        // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
-    }
-
-    func applicationWillTerminate(_ application: UIApplication) {
-        // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
-    }
-
-
 }
 
+struct ExampleTipJarOptions: TipJarConfiguration {
+    static var topHeader = "Hi There"
+    
+    static var topDescription = """
+If you've been enjoying Pushpin for a while, and would like to show your support, please consider a tip. They go such a long way, and every little bit helps. Thanks! :)
+"""
+    
+    static func subscriptionProductIdentifier(for subscription: TipJarViewController<ExampleTipJarOptions>.SubscriptionRow) -> String {
+        switch subscription {
+        case .monthly: return "com.lionheartsw.Pushpin.TipJarSubscription.Monthly"
+        case .yearly: return "com.lionheartsw.Pushpin.TipJarSubscription.Yearly"
+        }
+    }
+    
+    static func oneTimeProductIdentifier(for subscription: TipJarViewController<ExampleTipJarOptions>.OneTimeRow) -> String {
+        switch subscription {
+        case .small: return "com.lionheartsw.Pushpin.Tip.Small"
+        case .medium: return "com.lionheartsw.Pushpin.Tip.Medium"
+        case .large: return "com.lionheartsw.Pushpin.Tip.Large"
+        case .huge: return "com.lionheartsw.Pushpin.Tip.Huge"
+        case .massive: return "com.lionheartsw.Pushpin.Tip.Massive"
+        }
+    }
+    
+    static var termsOfUseURLString = "https://lionheartsw.com/software/pushpin/terms.html"
+    static var privacyPolicyURLString = "https://lionheartsw.com/software/pushpin/privacy.html"
+}
+
+extension ExampleTipJarOptions: TipJarOptionalConfiguration {
+    static var title = "Tip Jar"
+    static var oneTimeTipsTitle = "One-Time Tips"
+    static var subscriptionTipsTitle = "Ongoing Tips ❤️"
+    static var receiptVerifierURLString = "https://iap-receipt-verifier.herokuapp.com/verify"
+}

@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		12EB783E83C4D0FBB957C100 /* Pods_TipJarViewController_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 889EF08179C44426DBCDD390 /* Pods_TipJarViewController_Tests.framework */; };
+		3C9E545F5F76B18A38EF2EE6 /* Pods_TipJarViewController_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35722A280D7A143E891FF0DE /* Pods_TipJarViewController_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		CBD917EC79076C8DDCBFE0D1 /* Pods_TipJarViewController_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 892CF558C4F3702570A22CC6 /* Pods_TipJarViewController_Example.framework */; };
+		D5113B8FD1E16E0F6446D9CD /* Pods_TipJarViewController_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 506112A319D17B7E790515D8 /* Pods_TipJarViewController_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +31,8 @@
 		0C2BE038183F617436067FC4 /* Pods-TipJarViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TipJarViewController_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TipJarViewController_Tests/Pods-TipJarViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1B87E78EAE477705418C3A6A /* TipJarViewController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TipJarViewController.podspec; path = ../TipJarViewController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1D8C76CF681E61C6743C371E /* Pods-TipJarViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TipJarViewController_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TipJarViewController_Example/Pods-TipJarViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		35722A280D7A143E891FF0DE /* Pods_TipJarViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TipJarViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		506112A319D17B7E790515D8 /* Pods_TipJarViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TipJarViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* TipJarViewController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipJarViewController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,8 +46,6 @@
 		7726DF54E3C2234671A62076 /* Pods-TipJarViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TipJarViewController_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TipJarViewController_Tests/Pods-TipJarViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		799E96330750D7ECE0C22433 /* Pods-TipJarViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TipJarViewController_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TipJarViewController_Example/Pods-TipJarViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		7C9383EA8020A5327A5ADF2F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		889EF08179C44426DBCDD390 /* Pods_TipJarViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TipJarViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		892CF558C4F3702570A22CC6 /* Pods_TipJarViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TipJarViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC5253C900C399632D9D5347 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBD917EC79076C8DDCBFE0D1 /* Pods_TipJarViewController_Example.framework in Frameworks */,
+				D5113B8FD1E16E0F6446D9CD /* Pods_TipJarViewController_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12EB783E83C4D0FBB957C100 /* Pods_TipJarViewController_Tests.framework in Frameworks */,
+				3C9E545F5F76B18A38EF2EE6 /* Pods_TipJarViewController_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,8 +72,8 @@
 		16201A081B771A7274195576 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				892CF558C4F3702570A22CC6 /* Pods_TipJarViewController_Example.framework */,
-				889EF08179C44426DBCDD390 /* Pods_TipJarViewController_Tests.framework */,
+				506112A319D17B7E790515D8 /* Pods_TipJarViewController_Example.framework */,
+				35722A280D7A143E891FF0DE /* Pods_TipJarViewController_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -170,7 +170,7 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				8B08661FFDC4EE808F0CCF00 /* [CP] Embed Pods Frameworks */,
+				66E421F9DA94359D8D86D706 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -212,10 +212,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 63553QQ62F;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 63553QQ62F;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -261,6 +263,32 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		66E421F9DA94359D8D86D706 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TipJarViewController_Example/Pods-TipJarViewController_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/KeyboardAdjuster/KeyboardAdjuster.framework",
+				"${BUILT_PRODUCTS_DIR}/LionheartExtensions/LionheartExtensions.framework",
+				"${BUILT_PRODUCTS_DIR}/QuickTableView/QuickTableView.framework",
+				"${BUILT_PRODUCTS_DIR}/SuperLayout/SuperLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/TipJarViewController/TipJarViewController.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeyboardAdjuster.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LionheartExtensions.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QuickTableView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SuperLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TipJarViewController.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TipJarViewController_Example/Pods-TipJarViewController_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		66F3BEA12724B468923564EE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -277,24 +305,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8B08661FFDC4EE808F0CCF00 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-TipJarViewController_Example/Pods-TipJarViewController_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/TipJarViewController/TipJarViewController.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TipJarViewController.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TipJarViewController_Example/Pods-TipJarViewController_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C29F1DBD34F04D9AE1271ECA /* [CP] Check Pods Manifest.lock */ = {
@@ -410,7 +420,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -456,7 +466,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -469,10 +479,11 @@
 			baseConfigurationReference = 799E96330750D7ECE0C22433 /* Pods-TipJarViewController_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 63553QQ62F;
 				INFOPLIST_FILE = TipJarViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = io.aurora.pushpin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -484,10 +495,11 @@
 			baseConfigurationReference = 1D8C76CF681E61C6743C371E /* Pods-TipJarViewController_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 63553QQ62F;
 				INFOPLIST_FILE = TipJarViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = io.aurora.pushpin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -498,6 +510,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0C2BE038183F617436067FC4 /* Pods-TipJarViewController_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 63553QQ62F;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -519,6 +532,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7726DF54E3C2234671A62076 /* Pods-TipJarViewController_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 63553QQ62F;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

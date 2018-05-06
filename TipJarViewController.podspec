@@ -1,15 +1,15 @@
-#
-# Be sure to run `pod lib lint TipJarViewController.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
+# vim: ft=ruby
 
 Pod::Spec.new do |s|
   s.name             = 'TipJarViewController'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of TipJarViewController.'
+  s.summary          = 'Easy, drop-in tipping for iOS apps.'
+  s.homepage         = 'https://github.com/lionheart/TipJarViewController'
+  s.license          = { :type => 'Apache 2.0', :file => 'LICENSE' }
+  s.author           = { 'Dan Loewenherz' => 'dan@lionheartsw.com' }
+  s.source           = { :git => 'https://github.com/lionheart/TipJarViewController.git', :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/lionheartsw'
+  s.documentation_url = 'https://code.lionheart.software/TipJarViewController/'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,22 +21,17 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Dan Loewenherz/TipJarViewController'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'Apache 2.0', :file => 'LICENSE' }
-  s.author           = { 'Dan Loewenherz' => 'dan@lionheartsw.com' }
-  s.source           = { :git => 'https://github.com/Dan Loewenherz/TipJarViewController.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.3'
+  s.swift_version = '4.0'
 
   s.source_files = 'TipJarViewController/Classes/**/*'
-  
   # s.resource_bundles = {
   #   'TipJarViewController' => ['TipJarViewController/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'UIKit', 'StoreKit'
+  s.dependency 'QuickTableView', '~> 2.0'
+  s.dependency 'SuperLayout', '~> 1.0'
+  s.dependency 'LionheartExtensions', '~> 3.0'
 end
