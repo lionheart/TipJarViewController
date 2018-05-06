@@ -1,0 +1,16 @@
+PODS:
+  - TipJarViewController (0.1.0)
+
+DEPENDENCIES:
+  - TipJarViewController (from `../`)
+
+EXTERNAL SOURCES:
+  TipJarViewController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TipJarViewController: 19ff4826b63ea99ef86aecf8470c4235731a93be
+
+PODFILE CHECKSUM: f67ce73d3093042d76a865bd09ab29bed060a559
+
+COCOAPODS: 1.5.0
