@@ -1,8 +1,10 @@
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/TipJarViewController"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_CFLAGS = $(inherited) -iquote "${PODS_CONFIGURATION_BUILD_DIR}/TipJarViewController/TipJarViewController.framework/Headers"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/KeyboardAdjuster" "${PODS_CONFIGURATION_BUILD_DIR}/QuickTableView" "${PODS_CONFIGURATION_BUILD_DIR}/TipJarViewController"
+OTHER_CFLAGS = $(inherited) -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/KeyboardAdjuster/KeyboardAdjuster.modulemap" -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/QuickTableView/QuickTableView.modulemap" -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/TipJarViewController/TipJarViewController.modulemap"
+OTHER_LDFLAGS = $(inherited) -ObjC -framework "StoreKit" -framework "UIKit"
+OTHER_SWIFT_FLAGS = $(inherited) -Xcc -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/KeyboardAdjuster/KeyboardAdjuster.modulemap" -Xcc -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/QuickTableView/QuickTableView.modulemap" -Xcc -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/TipJarViewController/TipJarViewController.modulemap"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
 PODS_ROOT = ${SRCROOT}/Pods
+SWIFT_INCLUDE_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/KeyboardAdjuster" "${PODS_CONFIGURATION_BUILD_DIR}/QuickTableView" "${PODS_CONFIGURATION_BUILD_DIR}/TipJarViewController"
