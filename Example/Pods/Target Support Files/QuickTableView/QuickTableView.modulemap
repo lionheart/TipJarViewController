@@ -1,0 +1,6 @@
+framework module QuickTableView {
+  umbrella header "QuickTableView-umbrella.h"
+
+  export *
+  module * { export * }
+}

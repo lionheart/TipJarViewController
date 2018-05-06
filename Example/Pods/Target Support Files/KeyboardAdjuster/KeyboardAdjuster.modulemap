@@ -1,0 +1,6 @@
+framework module KeyboardAdjuster {
+  umbrella header "KeyboardAdjuster-umbrella.h"
+
+  export *
+  module * { export * }
+}

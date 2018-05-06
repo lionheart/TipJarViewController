@@ -1,0 +1,6 @@
+framework module SuperLayout {
+  umbrella header "SuperLayout-umbrella.h"
+
+  export *
+  module * { export * }
+}

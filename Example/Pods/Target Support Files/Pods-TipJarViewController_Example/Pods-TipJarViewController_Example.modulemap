@@ -1,4 +1,4 @@
-module Pods_TipJarViewController_Example [system] {
+framework module Pods_TipJarViewController_Example {
   umbrella header "Pods-TipJarViewController_Example-umbrella.h"
 
   export *
