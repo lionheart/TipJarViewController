@@ -24,10 +24,6 @@ limitations under the License.
 [![CocoaPods][downloads-badge]][cocoapods-repo-url]
 [![CocoaPods][downloads-monthly-badge]][cocoapods-repo-url]
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
 ![](screenshot.jpeg)
 
 ### Usage
