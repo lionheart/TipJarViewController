@@ -1,22 +1,34 @@
 {
   "name": "TipJarViewController",
   "version": "0.1.0",
-  "summary": "A short description of TipJarViewController.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Dan Loewenherz/TipJarViewController",
+  "summary": "Easy, drop-in tipping for iOS apps.",
+  "homepage": "https://github.com/lionheart/TipJarViewController",
   "license": {
-    "type": "MIT",
+    "type": "Apache 2.0",
     "file": "LICENSE"
   },
   "authors": {
     "Dan Loewenherz": "dan@lionheartsw.com"
   },
   "source": {
-    "git": "https://github.com/Dan Loewenherz/TipJarViewController.git",
+    "git": "https://github.com/lionheart/TipJarViewController.git",
     "tag": "0.1.0"
   },
+  "social_media_url": "https://twitter.com/lionheartsw",
+  "documentation_url": "https://code.lionheart.software/TipJarViewController/",
+  "description": "TODO: Add long description of the pod here.",
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.3"
   },
-  "source_files": "TipJarViewController/Classes/**/*"
+  "swift_version": "4.0",
+  "source_files": "TipJarViewController/Classes/**/*",
+  "frameworks": [
+    "UIKit",
+    "StoreKit"
+  ],
+  "dependencies": {
+    "QuickTableView": [
+      "~> 2.0"
+    ]
+  }
 }
