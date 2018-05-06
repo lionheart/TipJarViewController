@@ -29,6 +29,12 @@
   "dependencies": {
     "QuickTableView": [
       "~> 2.0"
+    ],
+    "SuperLayout": [
+      "~> 1.0"
+    ],
+    "LionheartExtensions": [
+      "~> 3.0"
     ]
   }
 }

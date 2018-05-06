@@ -7,429 +7,776 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		032D64E488B9215CAD230B5FE25814F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33BEBDC1CC1313A4528E6E2ECC3EAEF1 /* Foundation.framework */; };
-		07DF44D13D43C6BE827F598DDB32FE39 /* TipJarViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90BF1FFE7938DEF7A4715813B7C68420 /* TipJarViewController-dummy.m */; };
-		09549659DB05BD2195ECD58C01D7F556 /* QuickTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FCA3A39691CAFAC249DFAEA213C80A /* QuickTableViewController.swift */; };
-		0BDB2F6C52A6AD355FA7000AEE8FDAA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33BEBDC1CC1313A4528E6E2ECC3EAEF1 /* Foundation.framework */; };
-		264A49BA10A72829FD39CC86446A2B2A /* Pods-TipJarViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A5096561D0A42EB2166E92B85B8EEA /* Pods-TipJarViewController_Example-dummy.m */; };
-		2D61BC0EC80BE91FC6629F1DCAF0B452 /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBDCFBF8B901A6CA8B7F210195F9DD7 /* UITableView.swift */; };
-		4EA3423F984140C75F0E15D33D742011 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33BEBDC1CC1313A4528E6E2ECC3EAEF1 /* Foundation.framework */; };
-		50F371D13751CBD19F0CE989E4EDD84B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FE81B90AFA3D29077DE5616B5BC8693 /* UIKit.framework */; };
-		525B82876D1BA004F37895AC97B7250B /* QuickTableViewCellSubtitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA2323408BE668AD34028A78B42892E /* QuickTableViewCellSubtitle.swift */; };
-		53F3D27F50A5C113E5F073E6EC802E53 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33BEBDC1CC1313A4528E6E2ECC3EAEF1 /* Foundation.framework */; };
-		573D5BCE275A4FA2B264A5471FFFA21F /* Pods-TipJarViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 440FE98F458B3ACDD8CF2BE9BA202012 /* Pods-TipJarViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		61CFD2DE1C00ACD8FA61B85226372B5F /* KeyboardAdjuster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDE0419D5DC142F074E009A45907AD8 /* KeyboardAdjuster.swift */; };
-		74200DCA992DFE83613F0F1C4FBF8B03 /* QuickTableViewCellValue1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D67056C7218A3525E7B20CD3503905 /* QuickTableViewCellValue1.swift */; };
-		7BB60F91BD3E5705C68D1598DA17EF09 /* KeyboardAdjuster-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 542148DDFE10629DFBD743B1BCB306F6 /* KeyboardAdjuster-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7EE18D8057BA38210503D7CCEAE8801B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FE81B90AFA3D29077DE5616B5BC8693 /* UIKit.framework */; };
-		926CE6C5AB68BBFE7EDDE38DCAFD4FDF /* TipJarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548194B701CE2369F6EE6DD23B0E4D52 /* TipJarViewController.swift */; };
-		A3FA2BE16D312F5555A19852930F85BA /* TipJarViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 420D12E30059315C20E6FF1123CD0AD7 /* TipJarViewController-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A6699D12012744807D0B13CCBDC2C674 /* QuickTableViewProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0B24C669677C94EDCF387000539205 /* QuickTableViewProtocols.swift */; };
-		B017B9620C9E30DAE351EAB43884007A /* QuickTableViewCellValue2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F8E777B447F5AE341CB9134CD6BB2C /* QuickTableViewCellValue2.swift */; };
-		B28F29AE0FE11028AECF2156BCEBD479 /* QuickTableView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 375CF03F582D80B87581E0B5015664B4 /* QuickTableView-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BA415D479DE03C7E7088B0A4EB908EEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33BEBDC1CC1313A4528E6E2ECC3EAEF1 /* Foundation.framework */; };
-		BBD24044B389F50C077C5409A95D70EA /* Pods-TipJarViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC73F3EBF7E39ACC8E79A66EB16BB72 /* Pods-TipJarViewController_Tests-dummy.m */; };
-		D4C81B39E35A37C2209983BD7A546015 /* QuickTableViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353431A486DD84D354D53F24F2CD56D5 /* QuickTableViewRow.swift */; };
-		DD274E7D65DAD4AB22934CF5412317A3 /* QuickTableView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A962B5C59F5EA6B6624D225F00413F /* QuickTableView-dummy.m */; };
-		E506FBB0889B592F757303830B16C55B /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A311B9399A2914B2348BF5D0F1A585 /* StoreKit.framework */; };
-		E577E3551006DB1333C776C626D2507B /* QuickTableViewCellDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DC96A2977507A9AD7A507A8AFA1064 /* QuickTableViewCellDefault.swift */; };
-		EFE53846EF91E2B77FD1BF3B27037D6E /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234A1029CB5183DFB1FCC9CB1CE5A71B /* BaseTableViewController.swift */; };
-		F213CCB239938C3FC95DFBFD47FD8898 /* KeyboardAdjuster-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DE41705373443E365A4757B148EC7C /* KeyboardAdjuster-dummy.m */; };
-		FFA8326032D0D3173F0CE3BF56826F35 /* QuickTableViewSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E1A22A08A7A29AD56B1F1F63B6CA11 /* QuickTableViewSection.swift */; };
+		06244542747736AFB17E5D95836F7409 /* Int+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A4B03DE7726782FCD0A497B371C08B /* Int+LionheartExtensions.swift */; };
+		07CF20EB5C8D03992FF0F279914277D2 /* UIAlertController+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4411212448B072168BB56CF37ED5549 /* UIAlertController+LionheartExtensions.swift */; };
+		08100E937EE71A6548351A9F22113C6F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58C907CFB3AB9472B2FCC9AEFF552C9E /* UIKit.framework */; };
+		0B66314B219B0AAE35E8B71842B70070 /* UIScreen+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49033D6F1469AF921E3545F729EA4D06 /* UIScreen+LionheartExtensions.swift */; };
+		13775BC5E7D812624E95386B9B4346B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BCC4F5FE70F112ACE68670E797380F7 /* Foundation.framework */; };
+		16E66523103381536E978A6B6557F303 /* QuickTableViewCellSubtitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D9780852DF52D13256463A91298BBC /* QuickTableViewCellSubtitle.swift */; };
+		17D227F4B68B7EC67732B09C10A08F10 /* ActivityIndicatorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7CAB8BDE0D6F58BCF53EDC07BCF950 /* ActivityIndicatorButton.swift */; };
+		1D4B9FDB48B0C44C6DB61A73A50511EB /* UITextField+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565F3B9D970F162A6C69AB4B51405C35 /* UITextField+LionheartExtensions.swift */; };
+		1DD252931A854731B0E6F62E494ED91A /* QuickTableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B41A795D4FAC418D2F8B107712DCBE9 /* QuickTableView.framework */; };
+		1F055F4D9F681D9C8E6C74EE675A0EB7 /* TipJarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289B99F3B8D57DB6BB6307D218E82D6D /* TipJarTableViewCell.swift */; };
+		1F4388268680E1F5C4D02160847A41E1 /* QuickTableView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB500DF5A4CC4B528F6DBAA0C6AA371B /* QuickTableView-dummy.m */; };
+		21E8E7BF8F5383CE72BDD73A36CFE656 /* UIDevice+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C7CC3A9E8EBE5179448934AB435D30 /* UIDevice+LionheartExtensions.swift */; };
+		24477DB8E5B204505F7AE92A7866E019 /* QuickTableView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D59A3259344D3F57435B678F10CFF51 /* QuickTableView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A3C2A7A00C117978DE28F76DE435221 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8415EFA8D8AB1882D6882DAF9C062045 /* StoreKit.framework */; };
+		2BAFF91C82EE3A4623A604AEE9EBF2EF /* UIApplicationDelegate+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D05570C77161F4C7E420E74375B976 /* UIApplicationDelegate+LionheartExtensions.swift */; };
+		2D492EA0A7CF5E53E378E055C8DF1ACD /* SuperLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 734FC51589540AD2EE6D1CF907D6E2A2 /* SuperLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D60543486B69C2D34FBBB93612A0969 /* QuickTableViewCellValue1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9F745DA341B09140FCF60FA1D23683 /* QuickTableViewCellValue1.swift */; };
+		2FD4B0F4ED7832457E06206F3F5F65C0 /* UIPrintPageRenderer+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B6B1AB0C98770A718630782EB42B4D /* UIPrintPageRenderer+LionheartExtensions.swift */; };
+		37A6EED8209F7C91009D0CC7 /* MultilineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A6EED7209F7C91009D0CC7 /* MultilineTableViewCell.swift */; };
+		37A6EEDA209F7CB1009D0CC7 /* ActivityIndicatorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A6EED9209F7CB1009D0CC7 /* ActivityIndicatorTableViewCell.swift */; };
+		37A6EEDC209F7CE4009D0CC7 /* UIImage+TipJarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A6EEDB209F7CE4009D0CC7 /* UIImage+TipJarViewController.swift */; };
+		37A6EEDE209F7CFB009D0CC7 /* TipJarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A6EEDD209F7CFB009D0CC7 /* TipJarButton.swift */; };
+		37DF74CB209F7D6200FDEE8D /* TipJarFrequency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DF74CA209F7D6200FDEE8D /* TipJarFrequency.swift */; };
+		37EAF37D209F98550089D63C /* TipJarViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EAF37C209F98550089D63C /* TipJarViewControllerDelegate.swift */; };
+		387AD1EE479F99DB2D0EF2DF3662BE76 /* UIColor+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4001E970B8AB82AA4AF12FBC44C8CB90 /* UIColor+LionheartExtensions.swift */; };
+		43B8103993FAE8A17A9A553DC54F2313 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BCC4F5FE70F112ACE68670E797380F7 /* Foundation.framework */; };
+		43E7314F66BC85191531BD7879C60C0A /* UIWindow+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F92C801387A8953B6B6AEEC4A9D16E /* UIWindow+LionheartExtensions.swift */; };
+		4ABCE6241383E1D18DC749FA7E2B77EB /* QuickTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E081D9EAF98A976DF75A6921E03BECC /* QuickTableViewController.swift */; };
+		4E56D6A79122BBF20F23477A7AC0216A /* CIImage+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC242936E7BF8E3A9EF07974316541D2 /* CIImage+LionheartExtensions.swift */; };
+		53F4A51EAB077341AA2ACC90372C7002 /* KeyboardAdjuster-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FB9155D75DECAF983103CB8622712B /* KeyboardAdjuster-dummy.m */; };
+		579AE788D2031E3A7C2BF2D3E5CB11F9 /* Pods-TipJarViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B06A6BA717B03A6C92BE548E94DA672 /* Pods-TipJarViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DA7D67705262E638A7E8A3C407A055C /* TipJarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D67D533A4ED5A8FE563CBCDDA89672 /* TipJarViewController.swift */; };
+		64410FC3E206C84A100F2622128541A4 /* QuickTableViewProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759E58F76F4054B9306ED9A47502F2A9 /* QuickTableViewProtocols.swift */; };
+		67A50970447A7CE8EF75118B726E9D78 /* NSDecimalNumber+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A24515281D947C48F65C11B4CC3C10 /* NSDecimalNumber+LionheartExtensions.swift */; };
+		7156FC51A284415E87ADE6B05536B09E /* Bundle+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B2DF5743DBF1497F6EE8A38A2B2C08 /* Bundle+LionheartExtensions.swift */; };
+		720C87A950E7DB223061E98D8BCAEA3A /* LionheartExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E6C3014BB0B9B95926828CFECA63538 /* LionheartExtensions.framework */; };
+		7AB7924AB396DF2658BFD8ACA3C57467 /* NSURLSession+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AB72612F46F88541B9D6EECDF621D3 /* NSURLSession+LionheartExtensions.swift */; };
+		802EAB015D1A87C4F3A4752CC7BA7A16 /* QuickTableViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B881CF275B043E95BFE65708D7884E /* QuickTableViewRow.swift */; };
+		8239C949942CB89A534A404E3E83DC23 /* KeyboardAdjuster-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 92B726F044EF3C601163C3F6C7EFCFEC /* KeyboardAdjuster-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		867B623C7527CD15075A604EA53EFC0A /* KeyboardAdjuster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FFB611A9EEE26195A95230A2AD26C63 /* KeyboardAdjuster.framework */; };
+		8736360A63A154702107AA993D1BD70E /* TitleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052D4E44C0FED18C5CE780FDD82F2296 /* TitleButton.swift */; };
+		890951D6BACE5C4DDE03AF5184AC39F5 /* Pods-TipJarViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E305206ACA8DAF497ACBB144E513EA /* Pods-TipJarViewController_Example-dummy.m */; };
+		89C60F57BE85EB1A2D1DF1B9007692EF /* Pods-TipJarViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7D32E2ECCC8321BA38DE00CCC5B192 /* Pods-TipJarViewController_Tests-dummy.m */; };
+		8B000F8105BD3089576E1AB51A05E4CC /* TipJarViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD8117B02747AC8ED58CF88DF011C04 /* TipJarViewController-dummy.m */; };
+		8B34D627C4528ED957071EBF6A0779E2 /* ColorRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECB6D5252D2E8D39067739B48E5C2C2 /* ColorRepresentation.swift */; };
+		95627386B8729652B27B1198830E9EED /* UIFont+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4B66D8D01EA57483FE02DB6CAD1A85 /* UIFont+LionheartExtensions.swift */; };
+		97DEE5B5191C6D9A9B2C694FA6DE0C16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BCC4F5FE70F112ACE68670E797380F7 /* Foundation.framework */; };
+		9F98C482388B7A2D0F16994D8E32838A /* CustomButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FF67FCD4262CF3D775C637B5585F19 /* CustomButtonType.swift */; };
+		A0193F857A2FCB8F1837841CBED26B78 /* SuperLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3440B34F93E91454C5351943850BFDE8 /* SuperLayout.framework */; };
+		A05E7DB807B8350D02CDB1D50D54C206 /* KeyboardAdjuster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FFB611A9EEE26195A95230A2AD26C63 /* KeyboardAdjuster.framework */; };
+		A201F1C81615A8EB2F15B82A63334FB1 /* QuickTableViewCellDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0B89886B1DA2A5450E01EA75876DD9 /* QuickTableViewCellDefault.swift */; };
+		A51BB0996A1AD31D4A28483733509C43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BCC4F5FE70F112ACE68670E797380F7 /* Foundation.framework */; };
+		A5DA78EE7CA4387C29F964B4ADC9442D /* IndexPath+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C79D6D927C735730C4A97E195EDBF6B /* IndexPath+LionheartExtensions.swift */; };
+		AB6270EEC5FB6C5CFA39B9E6D2ED3FB5 /* Optional+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1C24F8E5D37AF52917A7B9D03034AF /* Optional+LionheartExtensions.swift */; };
+		B0BC517AA427C283645EBDCFD13C1692 /* Array+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B9AD0CBF5A2C3E3DB51E01E177AEEC /* Array+LionheartExtensions.swift */; };
+		B0E93D96A75F303596192202C3F67A1F /* String+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD275EA88588BC20EB06AE91F77AF721 /* String+LionheartExtensions.swift */; };
+		B1F4F1047F4D83EC25F6DB1A0404E02E /* Any+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1B661A30D557E88CFC95E059D5D005 /* Any+LionheartExtensions.swift */; };
+		BA1CB8B89AD8F273A877A086CE34BBDA /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD92E19A59F8F23951B666B60910972 /* UITableView.swift */; };
+		BAB0A7A84213EC9ED7B5C9420324A1D5 /* DateFormatter+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E27A4600B2CA2E4DAC6DD84E007E05 /* DateFormatter+LionheartExtensions.swift */; };
+		BDBB59EBEBD611CD92201F792432E0CF /* UIView+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE1BA04C5E02872CDD7FE71E2F1203F /* UIView+LionheartExtensions.swift */; };
+		C6851578C4BCD6146536D2D325F9E323 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7100E77A259D0890359D5E1A055EECC /* BaseTableViewController.swift */; };
+		C886CBDEACE24C8962767CDDB2682A97 /* Summable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B3ACF72B57130935710694A6A1AB0B /* Summable.swift */; };
+		CDFDC07AFAA1494214A84791470B1A1D /* IAPRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDC607FFA96ED2BF61E08CAB759ABF7 /* IAPRow.swift */; };
+		CEE53F823465721BC152E02D22260941 /* QuickTableViewSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841AE372ED62C4AFDAB30A873BDEA556 /* QuickTableViewSection.swift */; };
+		D0F72A5E9CFA4F4B1CFDAEF6FBA52FBB /* FileManager+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB596F1B5033D462984F230E906B0FF /* FileManager+LionheartExtensions.swift */; };
+		D10E7809CF3B5F014BDF7F79DAE50DC2 /* QuickTableViewCellValue2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B8BE4ACC9CF15948A3F589898AB993 /* QuickTableViewCellValue2.swift */; };
+		D401C57349C650462EF760A235DD42D7 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456E021555632DC54FF54E23DCF0D9D1 /* Main.swift */; };
+		D73B14CCEDD0769E0E7E7E82D6885F60 /* UIImage+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44ED4211B2998FEDF5C666B8C3E01086 /* UIImage+LionheartExtensions.swift */; };
+		E00CDD66C84CE8F33036333E5365AA69 /* SuperLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF5B1EC30B18D49B2F657FE3560EEEA /* SuperLayout-dummy.m */; };
+		E664B0EE749FFDCE359DC2F9FB02A4D0 /* LionheartExtensions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 163807F1D92A0EBCBF7ADF7445FD4813 /* LionheartExtensions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6F54F35FC07F916EE1F1CECDF5F73D8 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B955EA52CDD3EE3294F548DCD7D0C81 /* File.swift */; };
+		E9F1B61DA0FF9C23EDD1E3AD48803DC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BCC4F5FE70F112ACE68670E797380F7 /* Foundation.framework */; };
+		EA31B284AC75E4E3E6CDF04E0F5B330B /* Functional.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B513833197CBE0666E536102666860 /* Functional.swift */; };
+		EA3485AAF54A52C0A9BF3470668B970B /* TipJarViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A4ECB8456A940151DFB12610CD44882 /* TipJarViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB33D33EE6B552E80CA361D0531A0B67 /* KeyboardAdjuster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73763FE4A863B18633807096B39B21AA /* KeyboardAdjuster.swift */; };
+		EE6A9ADBA87B8D2AB512BD550A077A8D /* Pods-TipJarViewController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D41D8C9FE00D878C3CEB3F4A24F2961F /* Pods-TipJarViewController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F10052264CBFA9C68DA7AD6E68CFE71B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BCC4F5FE70F112ACE68670E797380F7 /* Foundation.framework */; };
+		F12C8CD5B8A919BB3F1318ACF2CF24AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58C907CFB3AB9472B2FCC9AEFF552C9E /* UIKit.framework */; };
+		F23D52041EBF0E6999C51EBBD600FC38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BCC4F5FE70F112ACE68670E797380F7 /* Foundation.framework */; };
+		F3747812C5CF03F50B149F20204A636F /* SuperLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3497A6BA1E458FAACB9BCED7A44D3D4 /* SuperLayout.swift */; };
+		F437883C0A14DE1883726E8E807F8949 /* LionheartExtensions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA685809330B8293119BFFD166EE1C0F /* LionheartExtensions-dummy.m */; };
+		F8903877AE5EBDC31E144F1C55D6F4F2 /* UIViewController+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB8ADFC3D6DF02FDAAEA7144D84EEBF /* UIViewController+LionheartExtensions.swift */; };
+		FED52AECB002867D409D08CFE356A47E /* NSRegularExpression+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026DCCF94C15BCCE3C767C4A3DFFF48A /* NSRegularExpression+LionheartExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		169D1E49270F95F9D3A57BD20D538952 /* PBXContainerItemProxy */ = {
+		21432AD90B5B3CF795C94DBC0173769D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 89567012324C1A05A5615FEC9BA0CD39;
+			remoteGlobalIDString = D1B50B9B447D2577DF6BED5EC0B3CADF;
 			remoteInfo = QuickTableView;
 		};
-		1A8B3F560785930D88C3D015D5F007C9 /* PBXContainerItemProxy */ = {
+		2AB988D0ADCC653182E1B5FD71917496 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3A0998C1988EDBBCA5B4880CD10220DF;
+			remoteGlobalIDString = 3936CB349499B90894F495A51775D37F;
 			remoteInfo = KeyboardAdjuster;
 		};
-		72FD98097B8B06978AFBCD612473402B /* PBXContainerItemProxy */ = {
+		39812A30AEA783939AB30EE2C8089DEB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3A0998C1988EDBBCA5B4880CD10220DF;
-			remoteInfo = KeyboardAdjuster;
+			remoteGlobalIDString = DBFFF639F5B12CCBDC7BE95224B386E9;
+			remoteInfo = LionheartExtensions;
 		};
-		82E210F3CD2227E6ABAD23781A3898B1 /* PBXContainerItemProxy */ = {
+		8507A3E310914CCB560B2F1572BED824 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F13BB2E2BF4D7C3CE1336257D7111CC1;
+			remoteGlobalIDString = 35F69E6EABB6B371E6B09470108753AC;
 			remoteInfo = "Pods-TipJarViewController_Example";
 		};
-		853B27AF49CDA6A3A4296394CDD75FA2 /* PBXContainerItemProxy */ = {
+		9358019A8FFAE763073CDE733D27B414 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 66855573B32BD2A4C35940B7431DBD47;
+			remoteGlobalIDString = 2B21B0A3CBA25C92BDDF5E8955CEAD1D;
+			remoteInfo = SuperLayout;
+		};
+		953D15D7FD566E57DF94A5DB1C5F436E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C638C9E0D82ADCB9DD3E1A2CBAEA3598;
 			remoteInfo = TipJarViewController;
 		};
-		8B7DD15B1D82723C95FE3BD5E8D0939C /* PBXContainerItemProxy */ = {
+		A1136F6FD9FA4D29CF46DDF641CEEFD3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3A0998C1988EDBBCA5B4880CD10220DF;
+			remoteGlobalIDString = 3936CB349499B90894F495A51775D37F;
 			remoteInfo = KeyboardAdjuster;
 		};
-		95E82EAC43E9446DD9028D3C8C191D4C /* PBXContainerItemProxy */ = {
+		AA650F7C54AB452F6EFC73D9D2AC01D4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 89567012324C1A05A5615FEC9BA0CD39;
+			remoteGlobalIDString = D1B50B9B447D2577DF6BED5EC0B3CADF;
 			remoteInfo = QuickTableView;
+		};
+		AAF25ABF22B142528882CEF62FA4A1C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3936CB349499B90894F495A51775D37F;
+			remoteInfo = KeyboardAdjuster;
+		};
+		BA61CE152F893FF88AD57B4F53FCCB45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBFFF639F5B12CCBDC7BE95224B386E9;
+			remoteInfo = LionheartExtensions;
+		};
+		E69F46BF5E0DCCCD1EB3EF3F5CFA6623 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B21B0A3CBA25C92BDDF5E8955CEAD1D;
+			remoteInfo = SuperLayout;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06E1BE8E93F8B79B639DDF445AC78FF9 /* Pods-TipJarViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TipJarViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		0AC73F3EBF7E39ACC8E79A66EB16BB72 /* Pods-TipJarViewController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TipJarViewController_Tests-dummy.m"; sourceTree = "<group>"; };
-		0CA2323408BE668AD34028A78B42892E /* QuickTableViewCellSubtitle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickTableViewCellSubtitle.swift; path = "Pod/Classes/Table View Cells/QuickTableViewCellSubtitle.swift"; sourceTree = "<group>"; };
-		0F2B2143AB8CA8DB04491E10147AFCE9 /* TipJarViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TipJarViewController-prefix.pch"; sourceTree = "<group>"; };
-		12A5096561D0A42EB2166E92B85B8EEA /* Pods-TipJarViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TipJarViewController_Example-dummy.m"; sourceTree = "<group>"; };
-		15DE41705373443E365A4757B148EC7C /* KeyboardAdjuster-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KeyboardAdjuster-dummy.m"; sourceTree = "<group>"; };
-		16D5B25BA5BF44878649604C1B8E59DC /* libTipJarViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTipJarViewController.a; path = libTipJarViewController.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		197AFC1C5341AD7CACEB8B75C3D18626 /* libPods-TipJarViewController_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TipJarViewController_Example.a"; path = "libPods-TipJarViewController_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F41A54BB59879497BDEE20A4CDD4448 /* KeyboardAdjuster-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeyboardAdjuster-prefix.pch"; sourceTree = "<group>"; };
-		234A1029CB5183DFB1FCC9CB1CE5A71B /* BaseTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseTableViewController.swift; path = Pod/Classes/BaseTableViewController.swift; sourceTree = "<group>"; };
-		25D67056C7218A3525E7B20CD3503905 /* QuickTableViewCellValue1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickTableViewCellValue1.swift; path = "Pod/Classes/Table View Cells/QuickTableViewCellValue1.swift"; sourceTree = "<group>"; };
-		30CB1CF066639A94423CB55442F55040 /* Pods-TipJarViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TipJarViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
-		33BEBDC1CC1313A4528E6E2ECC3EAEF1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		34125F5D637D7FBE62FDC7D2C8C38B6E /* TipJarViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = TipJarViewController.modulemap; path = ../../Headers/Public/TipJarViewController/TipJarViewController.modulemap; sourceTree = "<group>"; };
-		353431A486DD84D354D53F24F2CD56D5 /* QuickTableViewRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickTableViewRow.swift; path = Pod/Extensions/QuickTableViewRow.swift; sourceTree = "<group>"; };
-		371789BB3525CF3FEBF43E51E9A4E40B /* libKeyboardAdjuster.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libKeyboardAdjuster.a; path = libKeyboardAdjuster.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		375CF03F582D80B87581E0B5015664B4 /* QuickTableView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "QuickTableView-umbrella.h"; path = "../../Headers/Public/QuickTableView/QuickTableView-umbrella.h"; sourceTree = "<group>"; };
-		3BD5BF2AB5004D32C9317C23887EB6A0 /* Pods-TipJarViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TipJarViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		3CDE0419D5DC142F074E009A45907AD8 /* KeyboardAdjuster.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardAdjuster.swift; path = Pod/Classes/KeyboardAdjuster.swift; sourceTree = "<group>"; };
-		3D1911FF6FA87658E26028B23EFCA5DF /* Pods-TipJarViewController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TipJarViewController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3FE81B90AFA3D29077DE5616B5BC8693 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		40FCA3A39691CAFAC249DFAEA213C80A /* QuickTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickTableViewController.swift; path = Pod/Classes/QuickTableViewController.swift; sourceTree = "<group>"; };
-		420D12E30059315C20E6FF1123CD0AD7 /* TipJarViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TipJarViewController-umbrella.h"; path = "../../Headers/Public/TipJarViewController/TipJarViewController-umbrella.h"; sourceTree = "<group>"; };
-		440FE98F458B3ACDD8CF2BE9BA202012 /* Pods-TipJarViewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TipJarViewController_Example-umbrella.h"; sourceTree = "<group>"; };
-		49EE560E86E10D978648C68F15EF7EFE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		542148DDFE10629DFBD743B1BCB306F6 /* KeyboardAdjuster-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "KeyboardAdjuster-umbrella.h"; path = "../../Headers/Public/KeyboardAdjuster/KeyboardAdjuster-umbrella.h"; sourceTree = "<group>"; };
-		548194B701CE2369F6EE6DD23B0E4D52 /* TipJarViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TipJarViewController.swift; path = TipJarViewController/Classes/TipJarViewController.swift; sourceTree = "<group>"; };
-		5705A78E1BE9117FD2DF600EE06E5026 /* KeyboardAdjuster.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeyboardAdjuster.xcconfig; sourceTree = "<group>"; };
-		5C9CE36BF07867A0DEECB5C5624A1D06 /* Pods-TipJarViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TipJarViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		733522F89D8872754AD676B955BE447E /* Pods-TipJarViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TipJarViewController_Example.modulemap"; sourceTree = "<group>"; };
-		7584160622C80E57440869833095DAC8 /* TipJarViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TipJarViewController.xcconfig; sourceTree = "<group>"; };
-		7B95948DBFC52399A1C0939CCD330020 /* QuickTableView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QuickTableView-prefix.pch"; sourceTree = "<group>"; };
-		80DC96A2977507A9AD7A507A8AFA1064 /* QuickTableViewCellDefault.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickTableViewCellDefault.swift; path = "Pod/Classes/Table View Cells/QuickTableViewCellDefault.swift"; sourceTree = "<group>"; };
-		81DC902B0FB5D411F4335D4CEE5F7C40 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		866416E993E8A2AEFE0D22531DF0B32E /* QuickTableView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = QuickTableView.modulemap; path = ../../Headers/Public/QuickTableView/QuickTableView.modulemap; sourceTree = "<group>"; };
-		8FBDCFBF8B901A6CA8B7F210195F9DD7 /* UITableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITableView.swift; path = Pod/Extensions/UITableView.swift; sourceTree = "<group>"; };
-		90BF1FFE7938DEF7A4715813B7C68420 /* TipJarViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TipJarViewController-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		96CA8E38939DC8A221C7D71361B04E00 /* Pods-TipJarViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TipJarViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
-		98F8E777B447F5AE341CB9134CD6BB2C /* QuickTableViewCellValue2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickTableViewCellValue2.swift; path = "Pod/Classes/Table View Cells/QuickTableViewCellValue2.swift"; sourceTree = "<group>"; };
-		B0E1A22A08A7A29AD56B1F1F63B6CA11 /* QuickTableViewSection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickTableViewSection.swift; path = Pod/Extensions/QuickTableViewSection.swift; sourceTree = "<group>"; };
-		B51C612A033CC51730AB101ED24C8E8C /* Pods-TipJarViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TipJarViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		BC39530BBE42FDE4C50D7F951BFD35C2 /* libPods-TipJarViewController_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TipJarViewController_Tests.a"; path = "libPods-TipJarViewController_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C3069B01A8390F8C81CEA50CFFB97785 /* Pods-TipJarViewController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TipJarViewController_Example-resources.sh"; sourceTree = "<group>"; };
-		CC0B24C669677C94EDCF387000539205 /* QuickTableViewProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickTableViewProtocols.swift; path = Pod/Protocols/QuickTableViewProtocols.swift; sourceTree = "<group>"; };
-		D3FB5B8A347738976B9DD60800FEBE76 /* Pods-TipJarViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TipJarViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		D5E167D08639F89BEE055638DD2033BB /* Pods-TipJarViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TipJarViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D820AF212B3C2595AAF4FF88B50445EF /* Pods-TipJarViewController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TipJarViewController_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		DCE791CE9996A346F93852224499D2AD /* Pods-TipJarViewController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TipJarViewController_Tests-resources.sh"; sourceTree = "<group>"; };
-		E3A962B5C59F5EA6B6624D225F00413F /* QuickTableView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QuickTableView-dummy.m"; sourceTree = "<group>"; };
-		F320B08112751C6975ED3DED926A7F45 /* KeyboardAdjuster.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = KeyboardAdjuster.modulemap; path = ../../Headers/Public/KeyboardAdjuster/KeyboardAdjuster.modulemap; sourceTree = "<group>"; };
-		F5C0DDDD0191EC0C975135C6BABFEEC1 /* libQuickTableView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libQuickTableView.a; path = libQuickTableView.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		F7A311B9399A2914B2348BF5D0F1A585 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
-		F8D39BC654868CCD1154F555A09AF12F /* TipJarViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = TipJarViewController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		FF4798956D4505B3B02E3F6991FD148C /* QuickTableView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QuickTableView.xcconfig; sourceTree = "<group>"; };
+		00496660024F8A285248557FD3E437FE /* TipJarViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TipJarViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		017D134677C79EAEADB6847590C9F77F /* SuperLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SuperLayout.xcconfig; sourceTree = "<group>"; };
+		026DCCF94C15BCCE3C767C4A3DFFF48A /* NSRegularExpression+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSRegularExpression+LionheartExtensions.swift"; path = "Pod/Classes/Core/NSRegularExpression+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		052D4E44C0FED18C5CE780FDD82F2296 /* TitleButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TitleButton.swift; path = Pod/Classes/TitleButton.swift; sourceTree = "<group>"; };
+		0CC0FF1613850783B73B5FCB1FC94C63 /* TipJarViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TipJarViewController-prefix.pch"; sourceTree = "<group>"; };
+		0E67BA134A16724027BC1FEF3421ACCD /* Pods-TipJarViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TipJarViewController_Example.modulemap"; sourceTree = "<group>"; };
+		0E6C3014BB0B9B95926828CFECA63538 /* LionheartExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LionheartExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10C7CC3A9E8EBE5179448934AB435D30 /* UIDevice+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIDevice+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIDevice+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		11BE1AAD8537B9CFDAAF7003F06FE707 /* SuperLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SuperLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		15F92C801387A8953B6B6AEEC4A9D16E /* UIWindow+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIWindow+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIWindow+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		163807F1D92A0EBCBF7ADF7445FD4813 /* LionheartExtensions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LionheartExtensions-umbrella.h"; sourceTree = "<group>"; };
+		1AF247CDDC21005832A1D807551EF583 /* LionheartExtensions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LionheartExtensions.modulemap; sourceTree = "<group>"; };
+		1B41A795D4FAC418D2F8B107712DCBE9 /* QuickTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QuickTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BD92E19A59F8F23951B666B60910972 /* UITableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITableView.swift; path = Pod/Extensions/UITableView.swift; sourceTree = "<group>"; };
+		1CDC607FFA96ED2BF61E08CAB759ABF7 /* IAPRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IAPRow.swift; path = TipJarViewController/Classes/IAPRow.swift; sourceTree = "<group>"; };
+		1EBDF1F1830749C8A6CF3C8E28EA4118 /* Pods-TipJarViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TipJarViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		20702FE8AA5436393F4204941519130A /* QuickTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QuickTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		289B99F3B8D57DB6BB6307D218E82D6D /* TipJarTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TipJarTableViewCell.swift; path = TipJarViewController/Classes/TipJarTableViewCell.swift; sourceTree = "<group>"; };
+		29A4B03DE7726782FCD0A497B371C08B /* Int+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Int+LionheartExtensions.swift"; path = "Pod/Classes/Core/Int+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		29AA36D0A98E46DCBB636904FD761FC5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BCC4F5FE70F112ACE68670E797380F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2E8A2457D479D01DECD1E0E2F5C3C3D0 /* Pods-TipJarViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TipJarViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3440B34F93E91454C5351943850BFDE8 /* SuperLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SuperLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37A6EED7209F7C91009D0CC7 /* MultilineTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MultilineTableViewCell.swift; path = TipJarViewController/Classes/MultilineTableViewCell.swift; sourceTree = "<group>"; };
+		37A6EED9209F7CB1009D0CC7 /* ActivityIndicatorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ActivityIndicatorTableViewCell.swift; path = TipJarViewController/Classes/ActivityIndicatorTableViewCell.swift; sourceTree = "<group>"; };
+		37A6EEDB209F7CE4009D0CC7 /* UIImage+TipJarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIImage+TipJarViewController.swift"; path = "TipJarViewController/Classes/UIImage+TipJarViewController.swift"; sourceTree = "<group>"; };
+		37A6EEDD209F7CFB009D0CC7 /* TipJarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TipJarButton.swift; path = TipJarViewController/Classes/TipJarButton.swift; sourceTree = "<group>"; };
+		37DF74CA209F7D6200FDEE8D /* TipJarFrequency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TipJarFrequency.swift; path = TipJarViewController/Classes/TipJarFrequency.swift; sourceTree = "<group>"; };
+		37EAF37C209F98550089D63C /* TipJarViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TipJarViewControllerDelegate.swift; path = TipJarViewController/Classes/TipJarViewControllerDelegate.swift; sourceTree = "<group>"; };
+		3A4ECB8456A940151DFB12610CD44882 /* TipJarViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TipJarViewController-umbrella.h"; sourceTree = "<group>"; };
+		3AE1BA04C5E02872CDD7FE71E2F1203F /* UIView+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIView+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		3C5B30CC4DE2020DDFA507573DA7BF62 /* QuickTableView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QuickTableView.modulemap; sourceTree = "<group>"; };
+		3D59A3259344D3F57435B678F10CFF51 /* QuickTableView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QuickTableView-umbrella.h"; sourceTree = "<group>"; };
+		3DB6E366C143835183D56FE89C5AE5EC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ECB6D5252D2E8D39067739B48E5C2C2 /* ColorRepresentation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorRepresentation.swift; path = Pod/Classes/ColorRepresentation.swift; sourceTree = "<group>"; };
+		4001E970B8AB82AA4AF12FBC44C8CB90 /* UIColor+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIColor+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		42AB72612F46F88541B9D6EECDF621D3 /* NSURLSession+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSURLSession+LionheartExtensions.swift"; path = "Pod/Classes/Core/NSURLSession+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		44ED4211B2998FEDF5C666B8C3E01086 /* UIImage+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIImage+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		456E021555632DC54FF54E23DCF0D9D1 /* Main.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Main.swift; path = Pod/Classes/Main.swift; sourceTree = "<group>"; };
+		46A24515281D947C48F65C11B4CC3C10 /* NSDecimalNumber+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSDecimalNumber+LionheartExtensions.swift"; path = "Pod/Classes/Core/NSDecimalNumber+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		47F1AB2A5F70A5114982AAE2253527A4 /* SuperLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SuperLayout-prefix.pch"; sourceTree = "<group>"; };
+		49033D6F1469AF921E3545F729EA4D06 /* UIScreen+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIScreen+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIScreen+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		4B7CAB8BDE0D6F58BCF53EDC07BCF950 /* ActivityIndicatorButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityIndicatorButton.swift; path = Pod/Classes/ActivityIndicatorButton.swift; sourceTree = "<group>"; };
+		4CD8117B02747AC8ED58CF88DF011C04 /* TipJarViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TipJarViewController-dummy.m"; sourceTree = "<group>"; };
+		507AA9E14C303D321AAE4B340577DA09 /* Pods-TipJarViewController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TipJarViewController_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		51847E2A8093AFB8F261E4FCD866BFC5 /* Pods_TipJarViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TipJarViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53FF67FCD4262CF3D775C637B5585F19 /* CustomButtonType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomButtonType.swift; path = Pod/Classes/CustomButtonType.swift; sourceTree = "<group>"; };
+		5638358AE02F28A0C526EAC543A315BA /* Pods-TipJarViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TipJarViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		565F3B9D970F162A6C69AB4B51405C35 /* UITextField+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+LionheartExtensions.swift"; path = "Pod/Classes/Core/UITextField+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		58C907CFB3AB9472B2FCC9AEFF552C9E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		5E081D9EAF98A976DF75A6921E03BECC /* QuickTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickTableViewController.swift; path = Pod/Classes/QuickTableViewController.swift; sourceTree = "<group>"; };
+		5EB596F1B5033D462984F230E906B0FF /* FileManager+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FileManager+LionheartExtensions.swift"; path = "Pod/Classes/Core/FileManager+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		5FFB611A9EEE26195A95230A2AD26C63 /* KeyboardAdjuster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KeyboardAdjuster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6246D190304BAB51CDED6B6AC995964A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		63D9780852DF52D13256463A91298BBC /* QuickTableViewCellSubtitle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickTableViewCellSubtitle.swift; path = "Pod/Classes/Table View Cells/QuickTableViewCellSubtitle.swift"; sourceTree = "<group>"; };
+		64EFDAF978B97293ECF569AAD15BD037 /* Pods-TipJarViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TipJarViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		66B8BE4ACC9CF15948A3F589898AB993 /* QuickTableViewCellValue2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickTableViewCellValue2.swift; path = "Pod/Classes/Table View Cells/QuickTableViewCellValue2.swift"; sourceTree = "<group>"; };
+		6BF5B1EC30B18D49B2F657FE3560EEEA /* SuperLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SuperLayout-dummy.m"; sourceTree = "<group>"; };
+		7126C5A829CA2B5CF5B375E6B0F46F88 /* LionheartExtensions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LionheartExtensions-prefix.pch"; sourceTree = "<group>"; };
+		727C54D3F909012E9409D526E61202BA /* KeyboardAdjuster.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeyboardAdjuster.xcconfig; sourceTree = "<group>"; };
+		734FC51589540AD2EE6D1CF907D6E2A2 /* SuperLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SuperLayout-umbrella.h"; sourceTree = "<group>"; };
+		73763FE4A863B18633807096B39B21AA /* KeyboardAdjuster.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardAdjuster.swift; path = Pod/Classes/KeyboardAdjuster.swift; sourceTree = "<group>"; };
+		759E58F76F4054B9306ED9A47502F2A9 /* QuickTableViewProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickTableViewProtocols.swift; path = Pod/Protocols/QuickTableViewProtocols.swift; sourceTree = "<group>"; };
+		78B6B1AB0C98770A718630782EB42B4D /* UIPrintPageRenderer+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIPrintPageRenderer+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIPrintPageRenderer+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		7C79D6D927C735730C4A97E195EDBF6B /* IndexPath+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IndexPath+LionheartExtensions.swift"; path = "Pod/Classes/Core/IndexPath+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		8111E8AF9620BBF9D02C697C80B6F890 /* Pods-TipJarViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TipJarViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8415EFA8D8AB1882D6882DAF9C062045 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
+		841AE372ED62C4AFDAB30A873BDEA556 /* QuickTableViewSection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickTableViewSection.swift; path = Pod/Extensions/QuickTableViewSection.swift; sourceTree = "<group>"; };
+		88309C85C40128595D337B172BCE6F11 /* SuperLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SuperLayout.modulemap; sourceTree = "<group>"; };
+		89693930BA46D72B263559943C14299B /* Pods-TipJarViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TipJarViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8AE7CA0F7997CF80F2C8916B0141C102 /* TipJarViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TipJarViewController.xcconfig; sourceTree = "<group>"; };
+		8B9F745DA341B09140FCF60FA1D23683 /* QuickTableViewCellValue1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickTableViewCellValue1.swift; path = "Pod/Classes/Table View Cells/QuickTableViewCellValue1.swift"; sourceTree = "<group>"; };
+		9147D3CE5EAD469E34D38CE193E1F2E6 /* QuickTableView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QuickTableView-prefix.pch"; sourceTree = "<group>"; };
+		92B726F044EF3C601163C3F6C7EFCFEC /* KeyboardAdjuster-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeyboardAdjuster-umbrella.h"; sourceTree = "<group>"; };
+		92C108CC16C873D73D2A7E50361E7D16 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93FA577DDBCC59CC9EB40A29294E3781 /* KeyboardAdjuster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KeyboardAdjuster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B06A6BA717B03A6C92BE548E94DA672 /* Pods-TipJarViewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TipJarViewController_Example-umbrella.h"; sourceTree = "<group>"; };
+		9B955EA52CDD3EE3294F548DCD7D0C81 /* File.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = File.swift; path = Pod/Classes/File.swift; sourceTree = "<group>"; };
+		9EB8ADFC3D6DF02FDAAEA7144D84EEBF /* UIViewController+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIViewController+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		A2393EB75F50D3BE31386A231B738010 /* Pods-TipJarViewController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TipJarViewController_Example-resources.sh"; sourceTree = "<group>"; };
+		A2560C3090CFAA34EF5528CD6D5FEBEE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A29FEFE565454FF91002D5ECC2B06953 /* Pods-TipJarViewController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TipJarViewController_Tests-resources.sh"; sourceTree = "<group>"; };
+		A3B3ACF72B57130935710694A6A1AB0B /* Summable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Summable.swift; path = Pod/Classes/Summable.swift; sourceTree = "<group>"; };
+		A3D05570C77161F4C7E420E74375B976 /* UIApplicationDelegate+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIApplicationDelegate+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIApplicationDelegate+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		A4FB9155D75DECAF983103CB8622712B /* KeyboardAdjuster-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KeyboardAdjuster-dummy.m"; sourceTree = "<group>"; };
+		A7100E77A259D0890359D5E1A055EECC /* BaseTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseTableViewController.swift; path = Pod/Classes/BaseTableViewController.swift; sourceTree = "<group>"; };
+		AB9998F533FCC1CD7EBF8804474C7DB9 /* Pods-TipJarViewController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TipJarViewController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AC0B89886B1DA2A5450E01EA75876DD9 /* QuickTableViewCellDefault.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickTableViewCellDefault.swift; path = "Pod/Classes/Table View Cells/QuickTableViewCellDefault.swift"; sourceTree = "<group>"; };
+		B3873CD71A9EE678C536087AF545735D /* KeyboardAdjuster.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KeyboardAdjuster.modulemap; sourceTree = "<group>"; };
+		B39CBA11E508C0FEBD52B6FADB79ECA5 /* Pods_TipJarViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TipJarViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6B513833197CBE0666E536102666860 /* Functional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Functional.swift; path = Pod/Classes/Functional.swift; sourceTree = "<group>"; };
+		B8B2DF5743DBF1497F6EE8A38A2B2C08 /* Bundle+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+LionheartExtensions.swift"; path = "Pod/Classes/Core/Bundle+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		B9CCEA38371728CB5CCA3770D046F733 /* Pods-TipJarViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TipJarViewController_Tests.modulemap"; sourceTree = "<group>"; };
+		BB55A812EDAA1202341D5B2E8DFABCB1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C0F2961DF15291C65BBA03CA0C09D8E7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7D67D533A4ED5A8FE563CBCDDA89672 /* TipJarViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TipJarViewController.swift; path = TipJarViewController/Classes/TipJarViewController.swift; sourceTree = "<group>"; };
+		C9B9AD0CBF5A2C3E3DB51E01E177AEEC /* Array+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+LionheartExtensions.swift"; path = "Pod/Classes/Core/Array+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		CC242936E7BF8E3A9EF07974316541D2 /* CIImage+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CIImage+LionheartExtensions.swift"; path = "Pod/Classes/Core/CIImage+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		CE7D32E2ECCC8321BA38DE00CCC5B192 /* Pods-TipJarViewController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TipJarViewController_Tests-dummy.m"; sourceTree = "<group>"; };
+		D0E0E36020BC37FCCF1935FBE173C301 /* KeyboardAdjuster-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeyboardAdjuster-prefix.pch"; sourceTree = "<group>"; };
+		D41D8C9FE00D878C3CEB3F4A24F2961F /* Pods-TipJarViewController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TipJarViewController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D4E27A4600B2CA2E4DAC6DD84E007E05 /* DateFormatter+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DateFormatter+LionheartExtensions.swift"; path = "Pod/Classes/Core/DateFormatter+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		D4EAF836387014BB796BDB529E7653B1 /* TipJarViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = TipJarViewController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D7E305206ACA8DAF497ACBB144E513EA /* Pods-TipJarViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TipJarViewController_Example-dummy.m"; sourceTree = "<group>"; };
+		DA5FD86828D87D9907ABB0CC25FACDF1 /* Pods-TipJarViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TipJarViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		DA685809330B8293119BFFD166EE1C0F /* LionheartExtensions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LionheartExtensions-dummy.m"; sourceTree = "<group>"; };
+		DB4B66D8D01EA57483FE02DB6CAD1A85 /* UIFont+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIFont+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIFont+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		DD1C24F8E5D37AF52917A7B9D03034AF /* Optional+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Optional+LionheartExtensions.swift"; path = "Pod/Classes/Core/Optional+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		DD6E899FD12462B0CED797084581AC25 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1BFB2AB5983DA96B00733F5DEFF2766 /* Pods-TipJarViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TipJarViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E2B881CF275B043E95BFE65708D7884E /* QuickTableViewRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickTableViewRow.swift; path = Pod/Extensions/QuickTableViewRow.swift; sourceTree = "<group>"; };
+		E680B3C8EC724353DB461F0942A60C82 /* QuickTableView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QuickTableView.xcconfig; sourceTree = "<group>"; };
+		E82BBCABA8E12CEAFFFAA9C01CCB4759 /* TipJarViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TipJarViewController.modulemap; sourceTree = "<group>"; };
+		E8A4E041DF03B600E9E86EB377616DC4 /* LionheartExtensions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LionheartExtensions.xcconfig; sourceTree = "<group>"; };
+		EB500DF5A4CC4B528F6DBAA0C6AA371B /* QuickTableView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QuickTableView-dummy.m"; sourceTree = "<group>"; };
+		ED196E2217BB5E519C9D88310DFD8994 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE1B661A30D557E88CFC95E059D5D005 /* Any+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Any+LionheartExtensions.swift"; path = "Pod/Classes/Core/Any+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		F3497A6BA1E458FAACB9BCED7A44D3D4 /* SuperLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SuperLayout.swift; path = Sources/SuperLayout.swift; sourceTree = "<group>"; };
+		F4411212448B072168BB56CF37ED5549 /* UIAlertController+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIAlertController+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIAlertController+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		F4C92C9704CCF6389E08A9E4D071714E /* LionheartExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LionheartExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD275EA88588BC20EB06AE91F77AF721 /* String+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+LionheartExtensions.swift"; path = "Pod/Classes/Core/String+LionheartExtensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		532E5139C3A1547B4A2133D4177D66B9 /* Frameworks */ = {
+		04F17AF051EB45F03EC7D0B557EB835B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA415D479DE03C7E7088B0A4EB908EEC /* Foundation.framework in Frameworks */,
-				E506FBB0889B592F757303830B16C55B /* StoreKit.framework in Frameworks */,
-				7EE18D8057BA38210503D7CCEAE8801B /* UIKit.framework in Frameworks */,
+				A51BB0996A1AD31D4A28483733509C43 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		564B3ACF1381A057F026852142B56B45 /* Frameworks */ = {
+		0D8C188A62F43E01AE9D8C348081A1F1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				032D64E488B9215CAD230B5FE25814F5 /* Foundation.framework in Frameworks */,
+				43B8103993FAE8A17A9A553DC54F2313 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8BB343F17E70E88A878A24ABAAF8D9C5 /* Frameworks */ = {
+		70CFBD65B37E2F32F5AFA10D84178EF5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53F3D27F50A5C113E5F073E6EC802E53 /* Foundation.framework in Frameworks */,
+				13775BC5E7D812624E95386B9B4346B5 /* Foundation.framework in Frameworks */,
+				A05E7DB807B8350D02CDB1D50D54C206 /* KeyboardAdjuster.framework in Frameworks */,
+				720C87A950E7DB223061E98D8BCAEA3A /* LionheartExtensions.framework in Frameworks */,
+				1DD252931A854731B0E6F62E494ED91A /* QuickTableView.framework in Frameworks */,
+				2A3C2A7A00C117978DE28F76DE435221 /* StoreKit.framework in Frameworks */,
+				A0193F857A2FCB8F1837841CBED26B78 /* SuperLayout.framework in Frameworks */,
+				F12C8CD5B8A919BB3F1318ACF2CF24AE /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		90C7EDD2CC0716F0CC1F43E8DBAC38F0 /* Frameworks */ = {
+		AD0E006CE50A2472BB69E21200958A61 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EA3423F984140C75F0E15D33D742011 /* Foundation.framework in Frameworks */,
-				50F371D13751CBD19F0CE989E4EDD84B /* UIKit.framework in Frameworks */,
+				F23D52041EBF0E6999C51EBBD600FC38 /* Foundation.framework in Frameworks */,
+				867B623C7527CD15075A604EA53EFC0A /* KeyboardAdjuster.framework in Frameworks */,
+				08100E937EE71A6548351A9F22113C6F /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AD88BEFE624F4E5C4DEFB777F1FF10A1 /* Frameworks */ = {
+		BC2C08FEB28D9D13D1D7685F1551DEA4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BDB2F6C52A6AD355FA7000AEE8FDAA8 /* Foundation.framework in Frameworks */,
+				E9F1B61DA0FF9C23EDD1E3AD48803DC7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2B5060C0A863A4DBEC2D4B8852E35AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97DEE5B5191C6D9A9B2C694FA6DE0C16 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2CC1DFF10A439418827BC4D4C410E8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F10052264CBFA9C68DA7AD6E68CFE71B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		005379D5CA5D1C5543E58A69BF6A8D01 /* Development Pods */ = {
+		0AAFD522EB16BF3897E6F1CB2E22FB45 /* QuickTableView */ = {
 			isa = PBXGroup;
 			children = (
-				09D8B2FA2D189BDCDDE621D6A576F1F0 /* TipJarViewController */,
+				A7100E77A259D0890359D5E1A055EECC /* BaseTableViewController.swift */,
+				AC0B89886B1DA2A5450E01EA75876DD9 /* QuickTableViewCellDefault.swift */,
+				63D9780852DF52D13256463A91298BBC /* QuickTableViewCellSubtitle.swift */,
+				8B9F745DA341B09140FCF60FA1D23683 /* QuickTableViewCellValue1.swift */,
+				66B8BE4ACC9CF15948A3F589898AB993 /* QuickTableViewCellValue2.swift */,
+				5E081D9EAF98A976DF75A6921E03BECC /* QuickTableViewController.swift */,
+				759E58F76F4054B9306ED9A47502F2A9 /* QuickTableViewProtocols.swift */,
+				E2B881CF275B043E95BFE65708D7884E /* QuickTableViewRow.swift */,
+				841AE372ED62C4AFDAB30A873BDEA556 /* QuickTableViewSection.swift */,
+				1BD92E19A59F8F23951B666B60910972 /* UITableView.swift */,
+				AB3133AF789025A452D1BBCECFF6AB5A /* Support Files */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		01203035EDF0AE08F7B12BD1FC7410BA /* QuickTableView */ = {
-			isa = PBXGroup;
-			children = (
-				234A1029CB5183DFB1FCC9CB1CE5A71B /* BaseTableViewController.swift */,
-				80DC96A2977507A9AD7A507A8AFA1064 /* QuickTableViewCellDefault.swift */,
-				0CA2323408BE668AD34028A78B42892E /* QuickTableViewCellSubtitle.swift */,
-				25D67056C7218A3525E7B20CD3503905 /* QuickTableViewCellValue1.swift */,
-				98F8E777B447F5AE341CB9134CD6BB2C /* QuickTableViewCellValue2.swift */,
-				40FCA3A39691CAFAC249DFAEA213C80A /* QuickTableViewController.swift */,
-				CC0B24C669677C94EDCF387000539205 /* QuickTableViewProtocols.swift */,
-				353431A486DD84D354D53F24F2CD56D5 /* QuickTableViewRow.swift */,
-				B0E1A22A08A7A29AD56B1F1F63B6CA11 /* QuickTableViewSection.swift */,
-				8FBDCFBF8B901A6CA8B7F210195F9DD7 /* UITableView.swift */,
-				B5AA78EA0FD0178EB497726E2165A5B4 /* Support Files */,
-			);
-			name = QuickTableView;
 			path = QuickTableView;
 			sourceTree = "<group>";
 		};
-		09D8B2FA2D189BDCDDE621D6A576F1F0 /* TipJarViewController */ = {
+		1AA2F49AA3358A910CF7452794ADF356 /* LionheartExtensions */ = {
 			isa = PBXGroup;
 			children = (
-				548194B701CE2369F6EE6DD23B0E4D52 /* TipJarViewController.swift */,
-				F687E805D1C7C0ECC5CF4C6448ED3DDE /* Pod */,
-				F610B830365D6BFC24D2C98734437115 /* Support Files */,
+				B1BD4C5B007686F1F15CECEC2BA729CB /* Core */,
+				56E16DAB34C58D26657255A1FCF458E3 /* Support Files */,
 			);
-			name = TipJarViewController;
-			path = ../..;
+			path = LionheartExtensions;
 			sourceTree = "<group>";
 		};
-		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+		236BB38E5DD6078262AFEDC744DDBDB1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6D114975774DFB0EDBBD2546092612FE /* iOS */,
+				93FA577DDBCC59CC9EB40A29294E3781 /* KeyboardAdjuster.framework */,
+				F4C92C9704CCF6389E08A9E4D071714E /* LionheartExtensions.framework */,
+				51847E2A8093AFB8F261E4FCD866BFC5 /* Pods_TipJarViewController_Example.framework */,
+				B39CBA11E508C0FEBD52B6FADB79ECA5 /* Pods_TipJarViewController_Tests.framework */,
+				20702FE8AA5436393F4204941519130A /* QuickTableView.framework */,
+				11BE1AAD8537B9CFDAAF7003F06FE707 /* SuperLayout.framework */,
+				00496660024F8A285248557FD3E437FE /* TipJarViewController.framework */,
 			);
-			name = Frameworks;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		1B1F1C324313E32A32A078B9BAFD9CCF /* Pods */ = {
+		314A0A7CEDE562C24BA3B967C0A78315 /* Pods-TipJarViewController_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				F396B3DF2835089F1FE1E5FC1512D883 /* KeyboardAdjuster */,
-				01203035EDF0AE08F7B12BD1FC7410BA /* QuickTableView */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		6B5FE985CC4D085353271BB6451E57FE /* Pods-TipJarViewController_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				3D1911FF6FA87658E26028B23EFCA5DF /* Pods-TipJarViewController_Tests-acknowledgements.markdown */,
-				3BD5BF2AB5004D32C9317C23887EB6A0 /* Pods-TipJarViewController_Tests-acknowledgements.plist */,
-				0AC73F3EBF7E39ACC8E79A66EB16BB72 /* Pods-TipJarViewController_Tests-dummy.m */,
-				D820AF212B3C2595AAF4FF88B50445EF /* Pods-TipJarViewController_Tests-frameworks.sh */,
-				DCE791CE9996A346F93852224499D2AD /* Pods-TipJarViewController_Tests-resources.sh */,
-				D5E167D08639F89BEE055638DD2033BB /* Pods-TipJarViewController_Tests.debug.xcconfig */,
-				B51C612A033CC51730AB101ED24C8E8C /* Pods-TipJarViewController_Tests.release.xcconfig */,
+				ED196E2217BB5E519C9D88310DFD8994 /* Info.plist */,
+				B9CCEA38371728CB5CCA3770D046F733 /* Pods-TipJarViewController_Tests.modulemap */,
+				AB9998F533FCC1CD7EBF8804474C7DB9 /* Pods-TipJarViewController_Tests-acknowledgements.markdown */,
+				5638358AE02F28A0C526EAC543A315BA /* Pods-TipJarViewController_Tests-acknowledgements.plist */,
+				CE7D32E2ECCC8321BA38DE00CCC5B192 /* Pods-TipJarViewController_Tests-dummy.m */,
+				507AA9E14C303D321AAE4B340577DA09 /* Pods-TipJarViewController_Tests-frameworks.sh */,
+				A29FEFE565454FF91002D5ECC2B06953 /* Pods-TipJarViewController_Tests-resources.sh */,
+				D41D8C9FE00D878C3CEB3F4A24F2961F /* Pods-TipJarViewController_Tests-umbrella.h */,
+				1EBDF1F1830749C8A6CF3C8E28EA4118 /* Pods-TipJarViewController_Tests.debug.xcconfig */,
+				2E8A2457D479D01DECD1E0E2F5C3C3D0 /* Pods-TipJarViewController_Tests.release.xcconfig */,
 			);
 			name = "Pods-TipJarViewController_Tests";
 			path = "Target Support Files/Pods-TipJarViewController_Tests";
 			sourceTree = "<group>";
 		};
-		6D114975774DFB0EDBBD2546092612FE /* iOS */ = {
+		348CA3FA6A31768911FD1A2BA5AB27CD /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				33BEBDC1CC1313A4528E6E2ECC3EAEF1 /* Foundation.framework */,
-				F7A311B9399A2914B2348BF5D0F1A585 /* StoreKit.framework */,
-				3FE81B90AFA3D29077DE5616B5BC8693 /* UIKit.framework */,
+				5C3448BEDC60A9C4F58D6CCACACF17F2 /* Pods-TipJarViewController_Example */,
+				314A0A7CEDE562C24BA3B967C0A78315 /* Pods-TipJarViewController_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		351ED52D6D68D01B8286F7690E37F782 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2BCC4F5FE70F112ACE68670E797380F7 /* Foundation.framework */,
+				8415EFA8D8AB1882D6882DAF9C062045 /* StoreKit.framework */,
+				58C907CFB3AB9472B2FCC9AEFF552C9E /* UIKit.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		7C2092683263898FDC4EEB9D7B8746B2 /* Support Files */ = {
+		56E16DAB34C58D26657255A1FCF458E3 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F320B08112751C6975ED3DED926A7F45 /* KeyboardAdjuster.modulemap */,
-				5705A78E1BE9117FD2DF600EE06E5026 /* KeyboardAdjuster.xcconfig */,
-				15DE41705373443E365A4757B148EC7C /* KeyboardAdjuster-dummy.m */,
-				1F41A54BB59879497BDEE20A4CDD4448 /* KeyboardAdjuster-prefix.pch */,
-				542148DDFE10629DFBD743B1BCB306F6 /* KeyboardAdjuster-umbrella.h */,
+				92C108CC16C873D73D2A7E50361E7D16 /* Info.plist */,
+				1AF247CDDC21005832A1D807551EF583 /* LionheartExtensions.modulemap */,
+				E8A4E041DF03B600E9E86EB377616DC4 /* LionheartExtensions.xcconfig */,
+				DA685809330B8293119BFFD166EE1C0F /* LionheartExtensions-dummy.m */,
+				7126C5A829CA2B5CF5B375E6B0F46F88 /* LionheartExtensions-prefix.pch */,
+				163807F1D92A0EBCBF7ADF7445FD4813 /* LionheartExtensions-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/KeyboardAdjuster";
+			path = "../Target Support Files/LionheartExtensions";
+			sourceTree = "<group>";
+		};
+		5C3448BEDC60A9C4F58D6CCACACF17F2 /* Pods-TipJarViewController_Example */ = {
+			isa = PBXGroup;
+			children = (
+				DD6E899FD12462B0CED797084581AC25 /* Info.plist */,
+				0E67BA134A16724027BC1FEF3421ACCD /* Pods-TipJarViewController_Example.modulemap */,
+				64EFDAF978B97293ECF569AAD15BD037 /* Pods-TipJarViewController_Example-acknowledgements.markdown */,
+				8111E8AF9620BBF9D02C697C80B6F890 /* Pods-TipJarViewController_Example-acknowledgements.plist */,
+				D7E305206ACA8DAF497ACBB144E513EA /* Pods-TipJarViewController_Example-dummy.m */,
+				DA5FD86828D87D9907ABB0CC25FACDF1 /* Pods-TipJarViewController_Example-frameworks.sh */,
+				A2393EB75F50D3BE31386A231B738010 /* Pods-TipJarViewController_Example-resources.sh */,
+				9B06A6BA717B03A6C92BE548E94DA672 /* Pods-TipJarViewController_Example-umbrella.h */,
+				E1BFB2AB5983DA96B00733F5DEFF2766 /* Pods-TipJarViewController_Example.debug.xcconfig */,
+				89693930BA46D72B263559943C14299B /* Pods-TipJarViewController_Example.release.xcconfig */,
+			);
+			name = "Pods-TipJarViewController_Example";
+			path = "Target Support Files/Pods-TipJarViewController_Example";
+			sourceTree = "<group>";
+		};
+		6D564C3E84D10713E8FB269A9F4DCBF9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6246D190304BAB51CDED6B6AC995964A /* LICENSE */,
+				BB55A812EDAA1202341D5B2E8DFABCB1 /* README.md */,
+				D4EAF836387014BB796BDB529E7653B1 /* TipJarViewController.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		6DC8C7D86F978EE1C4B28511FA96F648 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F3497A6BA1E458FAACB9BCED7A44D3D4 /* SuperLayout.swift */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		790F57C6F2DDD118755E2CC150F2403F /* KeyboardAdjuster */ = {
+			isa = PBXGroup;
+			children = (
+				73763FE4A863B18633807096B39B21AA /* KeyboardAdjuster.swift */,
+				BECF085002CA1011670C73896044AB13 /* Support Files */,
+			);
+			path = KeyboardAdjuster;
+			sourceTree = "<group>";
+		};
+		7B4AF34CACD0E9A9A85E9BF636D73F98 /* SuperLayout */ = {
+			isa = PBXGroup;
+			children = (
+				6DC8C7D86F978EE1C4B28511FA96F648 /* Core */,
+				84FA8FDEB683C9E16760AA3878ECA0CE /* Support Files */,
+			);
+			path = SuperLayout;
+			sourceTree = "<group>";
+		};
+		7D26F41665170EE2D32DDB1446165E25 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0F2961DF15291C65BBA03CA0C09D8E7 /* Info.plist */,
+				E82BBCABA8E12CEAFFFAA9C01CCB4759 /* TipJarViewController.modulemap */,
+				8AE7CA0F7997CF80F2C8916B0141C102 /* TipJarViewController.xcconfig */,
+				4CD8117B02747AC8ED58CF88DF011C04 /* TipJarViewController-dummy.m */,
+				0CC0FF1613850783B73B5FCB1FC94C63 /* TipJarViewController-prefix.pch */,
+				3A4ECB8456A940151DFB12610CD44882 /* TipJarViewController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TipJarViewController";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				005379D5CA5D1C5543E58A69BF6A8D01 /* Development Pods */,
-				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
-				1B1F1C324313E32A32A078B9BAFD9CCF /* Pods */,
-				FA2C841D7D2FF30C298F506C7CBF0D51 /* Products */,
-				A0A6B54B884CD6CD21244EB579D67177 /* Targets Support Files */,
+				9E0BECC4BBF5D9A4F9D580F1451CD22C /* Development Pods */,
+				CD73DC2ACF36D0FAE98C0330151EF6B6 /* Frameworks */,
+				8964352053A845B7B2F050609E4645FA /* Pods */,
+				236BB38E5DD6078262AFEDC744DDBDB1 /* Products */,
+				348CA3FA6A31768911FD1A2BA5AB27CD /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		906E405EF9448E0B2E4A72828D71BBFA /* Pods-TipJarViewController_Example */ = {
+		84FA8FDEB683C9E16760AA3878ECA0CE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				733522F89D8872754AD676B955BE447E /* Pods-TipJarViewController_Example.modulemap */,
-				5C9CE36BF07867A0DEECB5C5624A1D06 /* Pods-TipJarViewController_Example-acknowledgements.markdown */,
-				D3FB5B8A347738976B9DD60800FEBE76 /* Pods-TipJarViewController_Example-acknowledgements.plist */,
-				12A5096561D0A42EB2166E92B85B8EEA /* Pods-TipJarViewController_Example-dummy.m */,
-				96CA8E38939DC8A221C7D71361B04E00 /* Pods-TipJarViewController_Example-frameworks.sh */,
-				C3069B01A8390F8C81CEA50CFFB97785 /* Pods-TipJarViewController_Example-resources.sh */,
-				440FE98F458B3ACDD8CF2BE9BA202012 /* Pods-TipJarViewController_Example-umbrella.h */,
-				06E1BE8E93F8B79B639DDF445AC78FF9 /* Pods-TipJarViewController_Example.debug.xcconfig */,
-				30CB1CF066639A94423CB55442F55040 /* Pods-TipJarViewController_Example.release.xcconfig */,
+				A2560C3090CFAA34EF5528CD6D5FEBEE /* Info.plist */,
+				88309C85C40128595D337B172BCE6F11 /* SuperLayout.modulemap */,
+				017D134677C79EAEADB6847590C9F77F /* SuperLayout.xcconfig */,
+				6BF5B1EC30B18D49B2F657FE3560EEEA /* SuperLayout-dummy.m */,
+				47F1AB2A5F70A5114982AAE2253527A4 /* SuperLayout-prefix.pch */,
+				734FC51589540AD2EE6D1CF907D6E2A2 /* SuperLayout-umbrella.h */,
 			);
-			name = "Pods-TipJarViewController_Example";
-			path = "Target Support Files/Pods-TipJarViewController_Example";
+			name = "Support Files";
+			path = "../Target Support Files/SuperLayout";
 			sourceTree = "<group>";
 		};
-		A0A6B54B884CD6CD21244EB579D67177 /* Targets Support Files */ = {
+		8964352053A845B7B2F050609E4645FA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				906E405EF9448E0B2E4A72828D71BBFA /* Pods-TipJarViewController_Example */,
-				6B5FE985CC4D085353271BB6451E57FE /* Pods-TipJarViewController_Tests */,
+				790F57C6F2DDD118755E2CC150F2403F /* KeyboardAdjuster */,
+				1AA2F49AA3358A910CF7452794ADF356 /* LionheartExtensions */,
+				0AAFD522EB16BF3897E6F1CB2E22FB45 /* QuickTableView */,
+				7B4AF34CACD0E9A9A85E9BF636D73F98 /* SuperLayout */,
 			);
-			name = "Targets Support Files";
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		B5AA78EA0FD0178EB497726E2165A5B4 /* Support Files */ = {
+		9E0BECC4BBF5D9A4F9D580F1451CD22C /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				866416E993E8A2AEFE0D22531DF0B32E /* QuickTableView.modulemap */,
-				FF4798956D4505B3B02E3F6991FD148C /* QuickTableView.xcconfig */,
-				E3A962B5C59F5EA6B6624D225F00413F /* QuickTableView-dummy.m */,
-				7B95948DBFC52399A1C0939CCD330020 /* QuickTableView-prefix.pch */,
-				375CF03F582D80B87581E0B5015664B4 /* QuickTableView-umbrella.h */,
+				B3EDDDEBB0683CD22FE60C3347543DF9 /* TipJarViewController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		AB3133AF789025A452D1BBCECFF6AB5A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				29AA36D0A98E46DCBB636904FD761FC5 /* Info.plist */,
+				3C5B30CC4DE2020DDFA507573DA7BF62 /* QuickTableView.modulemap */,
+				E680B3C8EC724353DB461F0942A60C82 /* QuickTableView.xcconfig */,
+				EB500DF5A4CC4B528F6DBAA0C6AA371B /* QuickTableView-dummy.m */,
+				9147D3CE5EAD469E34D38CE193E1F2E6 /* QuickTableView-prefix.pch */,
+				3D59A3259344D3F57435B678F10CFF51 /* QuickTableView-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/QuickTableView";
 			sourceTree = "<group>";
 		};
-		F396B3DF2835089F1FE1E5FC1512D883 /* KeyboardAdjuster */ = {
+		B1BD4C5B007686F1F15CECEC2BA729CB /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				3CDE0419D5DC142F074E009A45907AD8 /* KeyboardAdjuster.swift */,
-				7C2092683263898FDC4EEB9D7B8746B2 /* Support Files */,
+				4B7CAB8BDE0D6F58BCF53EDC07BCF950 /* ActivityIndicatorButton.swift */,
+				EE1B661A30D557E88CFC95E059D5D005 /* Any+LionheartExtensions.swift */,
+				C9B9AD0CBF5A2C3E3DB51E01E177AEEC /* Array+LionheartExtensions.swift */,
+				B8B2DF5743DBF1497F6EE8A38A2B2C08 /* Bundle+LionheartExtensions.swift */,
+				CC242936E7BF8E3A9EF07974316541D2 /* CIImage+LionheartExtensions.swift */,
+				3ECB6D5252D2E8D39067739B48E5C2C2 /* ColorRepresentation.swift */,
+				53FF67FCD4262CF3D775C637B5585F19 /* CustomButtonType.swift */,
+				D4E27A4600B2CA2E4DAC6DD84E007E05 /* DateFormatter+LionheartExtensions.swift */,
+				9B955EA52CDD3EE3294F548DCD7D0C81 /* File.swift */,
+				5EB596F1B5033D462984F230E906B0FF /* FileManager+LionheartExtensions.swift */,
+				B6B513833197CBE0666E536102666860 /* Functional.swift */,
+				7C79D6D927C735730C4A97E195EDBF6B /* IndexPath+LionheartExtensions.swift */,
+				29A4B03DE7726782FCD0A497B371C08B /* Int+LionheartExtensions.swift */,
+				456E021555632DC54FF54E23DCF0D9D1 /* Main.swift */,
+				46A24515281D947C48F65C11B4CC3C10 /* NSDecimalNumber+LionheartExtensions.swift */,
+				026DCCF94C15BCCE3C767C4A3DFFF48A /* NSRegularExpression+LionheartExtensions.swift */,
+				42AB72612F46F88541B9D6EECDF621D3 /* NSURLSession+LionheartExtensions.swift */,
+				DD1C24F8E5D37AF52917A7B9D03034AF /* Optional+LionheartExtensions.swift */,
+				FD275EA88588BC20EB06AE91F77AF721 /* String+LionheartExtensions.swift */,
+				A3B3ACF72B57130935710694A6A1AB0B /* Summable.swift */,
+				052D4E44C0FED18C5CE780FDD82F2296 /* TitleButton.swift */,
+				F4411212448B072168BB56CF37ED5549 /* UIAlertController+LionheartExtensions.swift */,
+				A3D05570C77161F4C7E420E74375B976 /* UIApplicationDelegate+LionheartExtensions.swift */,
+				4001E970B8AB82AA4AF12FBC44C8CB90 /* UIColor+LionheartExtensions.swift */,
+				10C7CC3A9E8EBE5179448934AB435D30 /* UIDevice+LionheartExtensions.swift */,
+				DB4B66D8D01EA57483FE02DB6CAD1A85 /* UIFont+LionheartExtensions.swift */,
+				44ED4211B2998FEDF5C666B8C3E01086 /* UIImage+LionheartExtensions.swift */,
+				78B6B1AB0C98770A718630782EB42B4D /* UIPrintPageRenderer+LionheartExtensions.swift */,
+				49033D6F1469AF921E3545F729EA4D06 /* UIScreen+LionheartExtensions.swift */,
+				565F3B9D970F162A6C69AB4B51405C35 /* UITextField+LionheartExtensions.swift */,
+				3AE1BA04C5E02872CDD7FE71E2F1203F /* UIView+LionheartExtensions.swift */,
+				9EB8ADFC3D6DF02FDAAEA7144D84EEBF /* UIViewController+LionheartExtensions.swift */,
+				15F92C801387A8953B6B6AEEC4A9D16E /* UIWindow+LionheartExtensions.swift */,
 			);
-			name = KeyboardAdjuster;
-			path = KeyboardAdjuster;
+			name = Core;
 			sourceTree = "<group>";
 		};
-		F610B830365D6BFC24D2C98734437115 /* Support Files */ = {
+		B3EDDDEBB0683CD22FE60C3347543DF9 /* TipJarViewController */ = {
 			isa = PBXGroup;
 			children = (
-				34125F5D637D7FBE62FDC7D2C8C38B6E /* TipJarViewController.modulemap */,
-				7584160622C80E57440869833095DAC8 /* TipJarViewController.xcconfig */,
-				90BF1FFE7938DEF7A4715813B7C68420 /* TipJarViewController-dummy.m */,
-				0F2B2143AB8CA8DB04491E10147AFCE9 /* TipJarViewController-prefix.pch */,
-				420D12E30059315C20E6FF1123CD0AD7 /* TipJarViewController-umbrella.h */,
+				37A6EED9209F7CB1009D0CC7 /* ActivityIndicatorTableViewCell.swift */,
+				1CDC607FFA96ED2BF61E08CAB759ABF7 /* IAPRow.swift */,
+				37A6EED7209F7C91009D0CC7 /* MultilineTableViewCell.swift */,
+				37EAF37C209F98550089D63C /* TipJarViewControllerDelegate.swift */,
+				37A6EEDD209F7CFB009D0CC7 /* TipJarButton.swift */,
+				289B99F3B8D57DB6BB6307D218E82D6D /* TipJarTableViewCell.swift */,
+				37DF74CA209F7D6200FDEE8D /* TipJarFrequency.swift */,
+				C7D67D533A4ED5A8FE563CBCDDA89672 /* TipJarViewController.swift */,
+				37A6EEDB209F7CE4009D0CC7 /* UIImage+TipJarViewController.swift */,
+				6D564C3E84D10713E8FB269A9F4DCBF9 /* Pod */,
+				7D26F41665170EE2D32DDB1446165E25 /* Support Files */,
+			);
+			name = TipJarViewController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BECF085002CA1011670C73896044AB13 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DB6E366C143835183D56FE89C5AE5EC /* Info.plist */,
+				B3873CD71A9EE678C536087AF545735D /* KeyboardAdjuster.modulemap */,
+				727C54D3F909012E9409D526E61202BA /* KeyboardAdjuster.xcconfig */,
+				A4FB9155D75DECAF983103CB8622712B /* KeyboardAdjuster-dummy.m */,
+				D0E0E36020BC37FCCF1935FBE173C301 /* KeyboardAdjuster-prefix.pch */,
+				92B726F044EF3C601163C3F6C7EFCFEC /* KeyboardAdjuster-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TipJarViewController";
+			path = "../Target Support Files/KeyboardAdjuster";
 			sourceTree = "<group>";
 		};
-		F687E805D1C7C0ECC5CF4C6448ED3DDE /* Pod */ = {
+		CD73DC2ACF36D0FAE98C0330151EF6B6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				81DC902B0FB5D411F4335D4CEE5F7C40 /* LICENSE */,
-				49EE560E86E10D978648C68F15EF7EFE /* README.md */,
-				F8D39BC654868CCD1154F555A09AF12F /* TipJarViewController.podspec */,
+				5FFB611A9EEE26195A95230A2AD26C63 /* KeyboardAdjuster.framework */,
+				0E6C3014BB0B9B95926828CFECA63538 /* LionheartExtensions.framework */,
+				1B41A795D4FAC418D2F8B107712DCBE9 /* QuickTableView.framework */,
+				3440B34F93E91454C5351943850BFDE8 /* SuperLayout.framework */,
+				351ED52D6D68D01B8286F7690E37F782 /* iOS */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		FA2C841D7D2FF30C298F506C7CBF0D51 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				371789BB3525CF3FEBF43E51E9A4E40B /* libKeyboardAdjuster.a */,
-				197AFC1C5341AD7CACEB8B75C3D18626 /* libPods-TipJarViewController_Example.a */,
-				BC39530BBE42FDE4C50D7F951BFD35C2 /* libPods-TipJarViewController_Tests.a */,
-				F5C0DDDD0191EC0C975135C6BABFEEC1 /* libQuickTableView.a */,
-				16D5B25BA5BF44878649604C1B8E59DC /* libTipJarViewController.a */,
-			);
-			name = Products;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		5FE219066E4FC4F50DA370E16FEFFF69 /* Headers */ = {
+		1DC1108E600E18FD06FDB11017D84146 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BB60F91BD3E5705C68D1598DA17EF09 /* KeyboardAdjuster-umbrella.h in Headers */,
+				EE6A9ADBA87B8D2AB512BD550A077A8D /* Pods-TipJarViewController_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A412F52E2D85758794DD2B9B1D74CAB4 /* Headers */ = {
+		55B9843DCADED27F6C2D9E4127D7E5D7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3FA2BE16D312F5555A19852930F85BA /* TipJarViewController-umbrella.h in Headers */,
+				24477DB8E5B204505F7AE92A7866E019 /* QuickTableView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A600432F19A063BA63171BB443414702 /* Headers */ = {
+		70586C29D39AA110FD5B8C24B7F4EA71 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				573D5BCE275A4FA2B264A5471FFFA21F /* Pods-TipJarViewController_Example-umbrella.h in Headers */,
+				E664B0EE749FFDCE359DC2F9FB02A4D0 /* LionheartExtensions-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E88B68A4E4F0433921FC083C5EF0D519 /* Headers */ = {
+		A1D9C153717F7D74AFC3436D5CCF6043 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B28F29AE0FE11028AECF2156BCEBD479 /* QuickTableView-umbrella.h in Headers */,
+				EA3485AAF54A52C0A9BF3470668B970B /* TipJarViewController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A89B111C93E919030BA3309A29F8B828 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8239C949942CB89A534A404E3E83DC23 /* KeyboardAdjuster-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D72EE9873201EE98B488EF52B99091A5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				579AE788D2031E3A7C2BF2D3E5CB11F9 /* Pods-TipJarViewController_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2629FB38F028E9ADAB0D1A038468B14 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D492EA0A7CF5E53E378E055C8DF1ACD /* SuperLayout-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3A0998C1988EDBBCA5B4880CD10220DF /* KeyboardAdjuster */ = {
+		2B21B0A3CBA25C92BDDF5E8955CEAD1D /* SuperLayout */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F33FE1E5DF3C87FE8CD3A47CB5775039 /* Build configuration list for PBXNativeTarget "KeyboardAdjuster" */;
+			buildConfigurationList = 1BC1CC9BDE328F0C1A9A30EC55FF6325 /* Build configuration list for PBXNativeTarget "SuperLayout" */;
 			buildPhases = (
-				C615782DB945BEDCEB1FF2494C87B30A /* Sources */,
-				AD88BEFE624F4E5C4DEFB777F1FF10A1 /* Frameworks */,
-				5FE219066E4FC4F50DA370E16FEFFF69 /* Headers */,
-				A5768B556B688402A7894E0DD6C4CE7F /* Copy generated compatibility header */,
+				6AF0D84735D9670F6318557921798776 /* Sources */,
+				D2CC1DFF10A439418827BC4D4C410E8B /* Frameworks */,
+				E2629FB38F028E9ADAB0D1A038468B14 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperLayout;
+			productName = SuperLayout;
+			productReference = 11BE1AAD8537B9CFDAAF7003F06FE707 /* SuperLayout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		35F69E6EABB6B371E6B09470108753AC /* Pods-TipJarViewController_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA6D7D19588D8A42E9D16B2A716900F7 /* Build configuration list for PBXNativeTarget "Pods-TipJarViewController_Example" */;
+			buildPhases = (
+				CDF900CBDA78A6BB592C6CC230A55F7C /* Sources */,
+				D2B5060C0A863A4DBEC2D4B8852E35AE /* Frameworks */,
+				D72EE9873201EE98B488EF52B99091A5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DF3D0B79B04ACBF71C82722FA4CB928 /* PBXTargetDependency */,
+				2EF361FE716FD3DFE22446435C69BF81 /* PBXTargetDependency */,
+				0DB1C316A1EAFC7A8BBBCF9736E99F62 /* PBXTargetDependency */,
+				768ADBCF1A7B6EB442F4E04E94FF620A /* PBXTargetDependency */,
+				3DBCDB104964A78A7EACDB8FA8E9C583 /* PBXTargetDependency */,
+			);
+			name = "Pods-TipJarViewController_Example";
+			productName = "Pods-TipJarViewController_Example";
+			productReference = 51847E2A8093AFB8F261E4FCD866BFC5 /* Pods_TipJarViewController_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3936CB349499B90894F495A51775D37F /* KeyboardAdjuster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E0ACB0797BCB48E28859E2336B7FEB9 /* Build configuration list for PBXNativeTarget "KeyboardAdjuster" */;
+			buildPhases = (
+				ED4AC9F06A6C6D68938B07F56EF39C1E /* Sources */,
+				04F17AF051EB45F03EC7D0B557EB835B /* Frameworks */,
+				A89B111C93E919030BA3309A29F8B828 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -437,84 +784,82 @@
 			);
 			name = KeyboardAdjuster;
 			productName = KeyboardAdjuster;
-			productReference = 371789BB3525CF3FEBF43E51E9A4E40B /* libKeyboardAdjuster.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = 93FA577DDBCC59CC9EB40A29294E3781 /* KeyboardAdjuster.framework */;
+			productType = "com.apple.product-type.framework";
 		};
-		66855573B32BD2A4C35940B7431DBD47 /* TipJarViewController */ = {
+		C638C9E0D82ADCB9DD3E1A2CBAEA3598 /* TipJarViewController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F7B93F9729264E25DEBC6AD7A256F2C7 /* Build configuration list for PBXNativeTarget "TipJarViewController" */;
+			buildConfigurationList = ABB72542FAAA5812753343D5490F99BD /* Build configuration list for PBXNativeTarget "TipJarViewController" */;
 			buildPhases = (
-				6CBCA558440F14E19B9D472CFB5FA5E6 /* Sources */,
-				532E5139C3A1547B4A2133D4177D66B9 /* Frameworks */,
-				A412F52E2D85758794DD2B9B1D74CAB4 /* Headers */,
-				A0D1BF0B3EC98A3D2CA8498C5DCBCBC2 /* Copy generated compatibility header */,
+				B8831A58521E15291D01CF33E9855840 /* Sources */,
+				70CFBD65B37E2F32F5AFA10D84178EF5 /* Frameworks */,
+				A1D9C153717F7D74AFC3436D5CCF6043 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				512043614EA4097B94BB700DD42879FC /* PBXTargetDependency */,
-				85CB5FC2E502B41FEE529FBEC1A83809 /* PBXTargetDependency */,
+				523D6EA4EE7B67A4FADF9D0AA157E042 /* PBXTargetDependency */,
+				630A77940823A476490C8632F5B8BA1A /* PBXTargetDependency */,
+				560563E2D9CE2C41D0312D1D83D06864 /* PBXTargetDependency */,
+				528C09614DEFC9F7CF5BE2E179E222F0 /* PBXTargetDependency */,
 			);
 			name = TipJarViewController;
 			productName = TipJarViewController;
-			productReference = 16D5B25BA5BF44878649604C1B8E59DC /* libTipJarViewController.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = 00496660024F8A285248557FD3E437FE /* TipJarViewController.framework */;
+			productType = "com.apple.product-type.framework";
 		};
-		7ACAB533579624D4C97E57B0D648F214 /* Pods-TipJarViewController_Tests */ = {
+		D1B50B9B447D2577DF6BED5EC0B3CADF /* QuickTableView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0D88D3A17DF82DDF6B41413DAD9E6871 /* Build configuration list for PBXNativeTarget "Pods-TipJarViewController_Tests" */;
+			buildConfigurationList = 128C6A4F85B564B8C7154A7D945C77CF /* Build configuration list for PBXNativeTarget "QuickTableView" */;
 			buildPhases = (
-				29EE38D4E5E1580B829A18B942E6CA4F /* Sources */,
-				8BB343F17E70E88A878A24ABAAF8D9C5 /* Frameworks */,
+				38E49DA1A91B60E13CD04683417D9F4D /* Sources */,
+				AD0E006CE50A2472BB69E21200958A61 /* Frameworks */,
+				55B9843DCADED27F6C2D9E4127D7E5D7 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				944FDC3F3E7F2133382694C9A7CB43EA /* PBXTargetDependency */,
-			);
-			name = "Pods-TipJarViewController_Tests";
-			productName = "Pods-TipJarViewController_Tests";
-			productReference = BC39530BBE42FDE4C50D7F951BFD35C2 /* libPods-TipJarViewController_Tests.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		89567012324C1A05A5615FEC9BA0CD39 /* QuickTableView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7827705B7F6BA3EAC0D57867D766A7C1 /* Build configuration list for PBXNativeTarget "QuickTableView" */;
-			buildPhases = (
-				CF12A5FA6E255C1ED39DD49CB75DAAF7 /* Sources */,
-				90C7EDD2CC0716F0CC1F43E8DBAC38F0 /* Frameworks */,
-				E88B68A4E4F0433921FC083C5EF0D519 /* Headers */,
-				840BFDAD018A9CB64CF568F2F98C5BD2 /* Copy generated compatibility header */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				060A59751BC385D09D80FEB97365966B /* PBXTargetDependency */,
+				DF4D0EE88E36F6609592A9FB1B1FC365 /* PBXTargetDependency */,
 			);
 			name = QuickTableView;
 			productName = QuickTableView;
-			productReference = F5C0DDDD0191EC0C975135C6BABFEEC1 /* libQuickTableView.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = 20702FE8AA5436393F4204941519130A /* QuickTableView.framework */;
+			productType = "com.apple.product-type.framework";
 		};
-		F13BB2E2BF4D7C3CE1336257D7111CC1 /* Pods-TipJarViewController_Example */ = {
+		DBFFF639F5B12CCBDC7BE95224B386E9 /* LionheartExtensions */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9D999746CF3C78A647B06837C4834FFE /* Build configuration list for PBXNativeTarget "Pods-TipJarViewController_Example" */;
+			buildConfigurationList = AA8DF98810B8E7428CC676EC22E65724 /* Build configuration list for PBXNativeTarget "LionheartExtensions" */;
 			buildPhases = (
-				7993E29EB6BFC87F9D7F39A7246C0638 /* Sources */,
-				564B3ACF1381A057F026852142B56B45 /* Frameworks */,
-				A600432F19A063BA63171BB443414702 /* Headers */,
+				7A1126BE16EB90EB7504C7F3B030C846 /* Sources */,
+				BC2C08FEB28D9D13D1D7685F1551DEA4 /* Frameworks */,
+				70586C29D39AA110FD5B8C24B7F4EA71 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D7D692738931262C24986E6946EDB50D /* PBXTargetDependency */,
-				C491860040587D584B20C31244391953 /* PBXTargetDependency */,
-				FB93B0893AC2567CF832BD9806F03503 /* PBXTargetDependency */,
 			);
-			name = "Pods-TipJarViewController_Example";
-			productName = "Pods-TipJarViewController_Example";
-			productReference = 197AFC1C5341AD7CACEB8B75C3D18626 /* libPods-TipJarViewController_Example.a */;
-			productType = "com.apple.product-type.library.static";
+			name = LionheartExtensions;
+			productName = LionheartExtensions;
+			productReference = F4C92C9704CCF6389E08A9E4D071714E /* LionheartExtensions.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EF17D65B8481003EF3ED94A941DBFE93 /* Pods-TipJarViewController_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78C8447FC2464D652979C4695D9B3F90 /* Build configuration list for PBXNativeTarget "Pods-TipJarViewController_Tests" */;
+			buildPhases = (
+				194D32673DFFE7DA361A6587B54E479F /* Sources */,
+				0D8C188A62F43E01AE9D8C348081A1F1 /* Frameworks */,
+				1DC1108E600E18FD06FDB11017D84146 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD9A094631F677D13AF70AB44F2C8C2B /* PBXTargetDependency */,
+			);
+			name = "Pods-TipJarViewController_Tests";
+			productName = "Pods-TipJarViewController_Tests";
+			productReference = B39CBA11E508C0FEBD52B6FADB79ECA5 /* Pods_TipJarViewController_Tests.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -533,308 +878,292 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = FA2C841D7D2FF30C298F506C7CBF0D51 /* Products */;
+			productRefGroup = 236BB38E5DD6078262AFEDC744DDBDB1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3A0998C1988EDBBCA5B4880CD10220DF /* KeyboardAdjuster */,
-				F13BB2E2BF4D7C3CE1336257D7111CC1 /* Pods-TipJarViewController_Example */,
-				7ACAB533579624D4C97E57B0D648F214 /* Pods-TipJarViewController_Tests */,
-				89567012324C1A05A5615FEC9BA0CD39 /* QuickTableView */,
-				66855573B32BD2A4C35940B7431DBD47 /* TipJarViewController */,
+				3936CB349499B90894F495A51775D37F /* KeyboardAdjuster */,
+				DBFFF639F5B12CCBDC7BE95224B386E9 /* LionheartExtensions */,
+				35F69E6EABB6B371E6B09470108753AC /* Pods-TipJarViewController_Example */,
+				EF17D65B8481003EF3ED94A941DBFE93 /* Pods-TipJarViewController_Tests */,
+				D1B50B9B447D2577DF6BED5EC0B3CADF /* QuickTableView */,
+				2B21B0A3CBA25C92BDDF5E8955CEAD1D /* SuperLayout */,
+				C638C9E0D82ADCB9DD3E1A2CBAEA3598 /* TipJarViewController */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		840BFDAD018A9CB64CF568F2F98C5BD2 /* Copy generated compatibility header */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
-				"${PODS_ROOT}/Headers/Public/QuickTableView/QuickTableView.modulemap",
-				"${PODS_ROOT}/Headers/Public/QuickTableView/QuickTableView-umbrella.h",
-			);
-			name = "Copy generated compatibility header";
-			outputPaths = (
-				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
-				"${BUILT_PRODUCTS_DIR}/QuickTableView-umbrella.h",
-				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/QuickTableView/QuickTableView.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/QuickTableView/QuickTableView-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
-			showEnvVarsInLog = 1;
-		};
-		A0D1BF0B3EC98A3D2CA8498C5DCBCBC2 /* Copy generated compatibility header */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
-				"${PODS_ROOT}/Headers/Public/TipJarViewController/TipJarViewController.modulemap",
-				"${PODS_ROOT}/Headers/Public/TipJarViewController/TipJarViewController-umbrella.h",
-			);
-			name = "Copy generated compatibility header";
-			outputPaths = (
-				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
-				"${BUILT_PRODUCTS_DIR}/TipJarViewController-umbrella.h",
-				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/TipJarViewController/TipJarViewController.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/TipJarViewController/TipJarViewController-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
-			showEnvVarsInLog = 1;
-		};
-		A5768B556B688402A7894E0DD6C4CE7F /* Copy generated compatibility header */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
-				"${PODS_ROOT}/Headers/Public/KeyboardAdjuster/KeyboardAdjuster.modulemap",
-				"${PODS_ROOT}/Headers/Public/KeyboardAdjuster/KeyboardAdjuster-umbrella.h",
-			);
-			name = "Copy generated compatibility header";
-			outputPaths = (
-				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
-				"${BUILT_PRODUCTS_DIR}/KeyboardAdjuster-umbrella.h",
-				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/KeyboardAdjuster/KeyboardAdjuster.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/KeyboardAdjuster/KeyboardAdjuster-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
-			showEnvVarsInLog = 1;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		29EE38D4E5E1580B829A18B942E6CA4F /* Sources */ = {
+		194D32673DFFE7DA361A6587B54E479F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBD24044B389F50C077C5409A95D70EA /* Pods-TipJarViewController_Tests-dummy.m in Sources */,
+				89C60F57BE85EB1A2D1DF1B9007692EF /* Pods-TipJarViewController_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6CBCA558440F14E19B9D472CFB5FA5E6 /* Sources */ = {
+		38E49DA1A91B60E13CD04683417D9F4D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07DF44D13D43C6BE827F598DDB32FE39 /* TipJarViewController-dummy.m in Sources */,
-				926CE6C5AB68BBFE7EDDE38DCAFD4FDF /* TipJarViewController.swift in Sources */,
+				C6851578C4BCD6146536D2D325F9E323 /* BaseTableViewController.swift in Sources */,
+				1F4388268680E1F5C4D02160847A41E1 /* QuickTableView-dummy.m in Sources */,
+				A201F1C81615A8EB2F15B82A63334FB1 /* QuickTableViewCellDefault.swift in Sources */,
+				16E66523103381536E978A6B6557F303 /* QuickTableViewCellSubtitle.swift in Sources */,
+				2D60543486B69C2D34FBBB93612A0969 /* QuickTableViewCellValue1.swift in Sources */,
+				D10E7809CF3B5F014BDF7F79DAE50DC2 /* QuickTableViewCellValue2.swift in Sources */,
+				4ABCE6241383E1D18DC749FA7E2B77EB /* QuickTableViewController.swift in Sources */,
+				64410FC3E206C84A100F2622128541A4 /* QuickTableViewProtocols.swift in Sources */,
+				802EAB015D1A87C4F3A4752CC7BA7A16 /* QuickTableViewRow.swift in Sources */,
+				CEE53F823465721BC152E02D22260941 /* QuickTableViewSection.swift in Sources */,
+				BA1CB8B89AD8F273A877A086CE34BBDA /* UITableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7993E29EB6BFC87F9D7F39A7246C0638 /* Sources */ = {
+		6AF0D84735D9670F6318557921798776 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				264A49BA10A72829FD39CC86446A2B2A /* Pods-TipJarViewController_Example-dummy.m in Sources */,
+				E00CDD66C84CE8F33036333E5365AA69 /* SuperLayout-dummy.m in Sources */,
+				F3747812C5CF03F50B149F20204A636F /* SuperLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C615782DB945BEDCEB1FF2494C87B30A /* Sources */ = {
+		7A1126BE16EB90EB7504C7F3B030C846 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F213CCB239938C3FC95DFBFD47FD8898 /* KeyboardAdjuster-dummy.m in Sources */,
-				61CFD2DE1C00ACD8FA61B85226372B5F /* KeyboardAdjuster.swift in Sources */,
+				17D227F4B68B7EC67732B09C10A08F10 /* ActivityIndicatorButton.swift in Sources */,
+				B1F4F1047F4D83EC25F6DB1A0404E02E /* Any+LionheartExtensions.swift in Sources */,
+				B0BC517AA427C283645EBDCFD13C1692 /* Array+LionheartExtensions.swift in Sources */,
+				7156FC51A284415E87ADE6B05536B09E /* Bundle+LionheartExtensions.swift in Sources */,
+				4E56D6A79122BBF20F23477A7AC0216A /* CIImage+LionheartExtensions.swift in Sources */,
+				8B34D627C4528ED957071EBF6A0779E2 /* ColorRepresentation.swift in Sources */,
+				9F98C482388B7A2D0F16994D8E32838A /* CustomButtonType.swift in Sources */,
+				BAB0A7A84213EC9ED7B5C9420324A1D5 /* DateFormatter+LionheartExtensions.swift in Sources */,
+				E6F54F35FC07F916EE1F1CECDF5F73D8 /* File.swift in Sources */,
+				D0F72A5E9CFA4F4B1CFDAEF6FBA52FBB /* FileManager+LionheartExtensions.swift in Sources */,
+				EA31B284AC75E4E3E6CDF04E0F5B330B /* Functional.swift in Sources */,
+				A5DA78EE7CA4387C29F964B4ADC9442D /* IndexPath+LionheartExtensions.swift in Sources */,
+				06244542747736AFB17E5D95836F7409 /* Int+LionheartExtensions.swift in Sources */,
+				F437883C0A14DE1883726E8E807F8949 /* LionheartExtensions-dummy.m in Sources */,
+				D401C57349C650462EF760A235DD42D7 /* Main.swift in Sources */,
+				67A50970447A7CE8EF75118B726E9D78 /* NSDecimalNumber+LionheartExtensions.swift in Sources */,
+				FED52AECB002867D409D08CFE356A47E /* NSRegularExpression+LionheartExtensions.swift in Sources */,
+				7AB7924AB396DF2658BFD8ACA3C57467 /* NSURLSession+LionheartExtensions.swift in Sources */,
+				AB6270EEC5FB6C5CFA39B9E6D2ED3FB5 /* Optional+LionheartExtensions.swift in Sources */,
+				B0E93D96A75F303596192202C3F67A1F /* String+LionheartExtensions.swift in Sources */,
+				C886CBDEACE24C8962767CDDB2682A97 /* Summable.swift in Sources */,
+				8736360A63A154702107AA993D1BD70E /* TitleButton.swift in Sources */,
+				07CF20EB5C8D03992FF0F279914277D2 /* UIAlertController+LionheartExtensions.swift in Sources */,
+				2BAFF91C82EE3A4623A604AEE9EBF2EF /* UIApplicationDelegate+LionheartExtensions.swift in Sources */,
+				387AD1EE479F99DB2D0EF2DF3662BE76 /* UIColor+LionheartExtensions.swift in Sources */,
+				21E8E7BF8F5383CE72BDD73A36CFE656 /* UIDevice+LionheartExtensions.swift in Sources */,
+				95627386B8729652B27B1198830E9EED /* UIFont+LionheartExtensions.swift in Sources */,
+				D73B14CCEDD0769E0E7E7E82D6885F60 /* UIImage+LionheartExtensions.swift in Sources */,
+				2FD4B0F4ED7832457E06206F3F5F65C0 /* UIPrintPageRenderer+LionheartExtensions.swift in Sources */,
+				0B66314B219B0AAE35E8B71842B70070 /* UIScreen+LionheartExtensions.swift in Sources */,
+				1D4B9FDB48B0C44C6DB61A73A50511EB /* UITextField+LionheartExtensions.swift in Sources */,
+				BDBB59EBEBD611CD92201F792432E0CF /* UIView+LionheartExtensions.swift in Sources */,
+				F8903877AE5EBDC31E144F1C55D6F4F2 /* UIViewController+LionheartExtensions.swift in Sources */,
+				43E7314F66BC85191531BD7879C60C0A /* UIWindow+LionheartExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CF12A5FA6E255C1ED39DD49CB75DAAF7 /* Sources */ = {
+		B8831A58521E15291D01CF33E9855840 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFE53846EF91E2B77FD1BF3B27037D6E /* BaseTableViewController.swift in Sources */,
-				DD274E7D65DAD4AB22934CF5412317A3 /* QuickTableView-dummy.m in Sources */,
-				E577E3551006DB1333C776C626D2507B /* QuickTableViewCellDefault.swift in Sources */,
-				525B82876D1BA004F37895AC97B7250B /* QuickTableViewCellSubtitle.swift in Sources */,
-				74200DCA992DFE83613F0F1C4FBF8B03 /* QuickTableViewCellValue1.swift in Sources */,
-				B017B9620C9E30DAE351EAB43884007A /* QuickTableViewCellValue2.swift in Sources */,
-				09549659DB05BD2195ECD58C01D7F556 /* QuickTableViewController.swift in Sources */,
-				A6699D12012744807D0B13CCBDC2C674 /* QuickTableViewProtocols.swift in Sources */,
-				D4C81B39E35A37C2209983BD7A546015 /* QuickTableViewRow.swift in Sources */,
-				FFA8326032D0D3173F0CE3BF56826F35 /* QuickTableViewSection.swift in Sources */,
-				2D61BC0EC80BE91FC6629F1DCAF0B452 /* UITableView.swift in Sources */,
+				37DF74CB209F7D6200FDEE8D /* TipJarFrequency.swift in Sources */,
+				37A6EED8209F7C91009D0CC7 /* MultilineTableViewCell.swift in Sources */,
+				CDFDC07AFAA1494214A84791470B1A1D /* IAPRow.swift in Sources */,
+				1F055F4D9F681D9C8E6C74EE675A0EB7 /* TipJarTableViewCell.swift in Sources */,
+				37A6EEDE209F7CFB009D0CC7 /* TipJarButton.swift in Sources */,
+				8B000F8105BD3089576E1AB51A05E4CC /* TipJarViewController-dummy.m in Sources */,
+				37A6EEDA209F7CB1009D0CC7 /* ActivityIndicatorTableViewCell.swift in Sources */,
+				37A6EEDC209F7CE4009D0CC7 /* UIImage+TipJarViewController.swift in Sources */,
+				5DA7D67705262E638A7E8A3C407A055C /* TipJarViewController.swift in Sources */,
+				37EAF37D209F98550089D63C /* TipJarViewControllerDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF900CBDA78A6BB592C6CC230A55F7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				890951D6BACE5C4DDE03AF5184AC39F5 /* Pods-TipJarViewController_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED4AC9F06A6C6D68938B07F56EF39C1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53F4A51EAB077341AA2ACC90372C7002 /* KeyboardAdjuster-dummy.m in Sources */,
+				EB33D33EE6B552E80CA361D0531A0B67 /* KeyboardAdjuster.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		060A59751BC385D09D80FEB97365966B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = KeyboardAdjuster;
-			target = 3A0998C1988EDBBCA5B4880CD10220DF /* KeyboardAdjuster */;
-			targetProxy = 1A8B3F560785930D88C3D015D5F007C9 /* PBXContainerItemProxy */;
-		};
-		512043614EA4097B94BB700DD42879FC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = KeyboardAdjuster;
-			target = 3A0998C1988EDBBCA5B4880CD10220DF /* KeyboardAdjuster */;
-			targetProxy = 8B7DD15B1D82723C95FE3BD5E8D0939C /* PBXContainerItemProxy */;
-		};
-		85CB5FC2E502B41FEE529FBEC1A83809 /* PBXTargetDependency */ = {
+		0DB1C316A1EAFC7A8BBBCF9736E99F62 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = QuickTableView;
-			target = 89567012324C1A05A5615FEC9BA0CD39 /* QuickTableView */;
-			targetProxy = 95E82EAC43E9446DD9028D3C8C191D4C /* PBXContainerItemProxy */;
+			target = D1B50B9B447D2577DF6BED5EC0B3CADF /* QuickTableView */;
+			targetProxy = AA650F7C54AB452F6EFC73D9D2AC01D4 /* PBXContainerItemProxy */;
 		};
-		944FDC3F3E7F2133382694C9A7CB43EA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-TipJarViewController_Example";
-			target = F13BB2E2BF4D7C3CE1336257D7111CC1 /* Pods-TipJarViewController_Example */;
-			targetProxy = 82E210F3CD2227E6ABAD23781A3898B1 /* PBXContainerItemProxy */;
-		};
-		C491860040587D584B20C31244391953 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = QuickTableView;
-			target = 89567012324C1A05A5615FEC9BA0CD39 /* QuickTableView */;
-			targetProxy = 169D1E49270F95F9D3A57BD20D538952 /* PBXContainerItemProxy */;
-		};
-		D7D692738931262C24986E6946EDB50D /* PBXTargetDependency */ = {
+		2DF3D0B79B04ACBF71C82722FA4CB928 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KeyboardAdjuster;
-			target = 3A0998C1988EDBBCA5B4880CD10220DF /* KeyboardAdjuster */;
-			targetProxy = 72FD98097B8B06978AFBCD612473402B /* PBXContainerItemProxy */;
+			target = 3936CB349499B90894F495A51775D37F /* KeyboardAdjuster */;
+			targetProxy = 2AB988D0ADCC653182E1B5FD71917496 /* PBXContainerItemProxy */;
 		};
-		FB93B0893AC2567CF832BD9806F03503 /* PBXTargetDependency */ = {
+		2EF361FE716FD3DFE22446435C69BF81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LionheartExtensions;
+			target = DBFFF639F5B12CCBDC7BE95224B386E9 /* LionheartExtensions */;
+			targetProxy = 39812A30AEA783939AB30EE2C8089DEB /* PBXContainerItemProxy */;
+		};
+		3DBCDB104964A78A7EACDB8FA8E9C583 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TipJarViewController;
-			target = 66855573B32BD2A4C35940B7431DBD47 /* TipJarViewController */;
-			targetProxy = 853B27AF49CDA6A3A4296394CDD75FA2 /* PBXContainerItemProxy */;
+			target = C638C9E0D82ADCB9DD3E1A2CBAEA3598 /* TipJarViewController */;
+			targetProxy = 953D15D7FD566E57DF94A5DB1C5F436E /* PBXContainerItemProxy */;
+		};
+		523D6EA4EE7B67A4FADF9D0AA157E042 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KeyboardAdjuster;
+			target = 3936CB349499B90894F495A51775D37F /* KeyboardAdjuster */;
+			targetProxy = AAF25ABF22B142528882CEF62FA4A1C2 /* PBXContainerItemProxy */;
+		};
+		528C09614DEFC9F7CF5BE2E179E222F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SuperLayout;
+			target = 2B21B0A3CBA25C92BDDF5E8955CEAD1D /* SuperLayout */;
+			targetProxy = 9358019A8FFAE763073CDE733D27B414 /* PBXContainerItemProxy */;
+		};
+		560563E2D9CE2C41D0312D1D83D06864 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QuickTableView;
+			target = D1B50B9B447D2577DF6BED5EC0B3CADF /* QuickTableView */;
+			targetProxy = 21432AD90B5B3CF795C94DBC0173769D /* PBXContainerItemProxy */;
+		};
+		630A77940823A476490C8632F5B8BA1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LionheartExtensions;
+			target = DBFFF639F5B12CCBDC7BE95224B386E9 /* LionheartExtensions */;
+			targetProxy = BA61CE152F893FF88AD57B4F53FCCB45 /* PBXContainerItemProxy */;
+		};
+		768ADBCF1A7B6EB442F4E04E94FF620A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SuperLayout;
+			target = 2B21B0A3CBA25C92BDDF5E8955CEAD1D /* SuperLayout */;
+			targetProxy = E69F46BF5E0DCCCD1EB3EF3F5CFA6623 /* PBXContainerItemProxy */;
+		};
+		AD9A094631F677D13AF70AB44F2C8C2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TipJarViewController_Example";
+			target = 35F69E6EABB6B371E6B09470108753AC /* Pods-TipJarViewController_Example */;
+			targetProxy = 8507A3E310914CCB560B2F1572BED824 /* PBXContainerItemProxy */;
+		};
+		DF4D0EE88E36F6609592A9FB1B1FC365 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KeyboardAdjuster;
+			target = 3936CB349499B90894F495A51775D37F /* KeyboardAdjuster */;
+			targetProxy = A1136F6FD9FA4D29CF46DDF641CEEFD3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1D13414EB6BF2B7E2E2F51996C340722 /* Release */ = {
+		0147BD45C2BB4ADE90BD9BBC1B3E31DA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF4798956D4505B3B02E3F6991FD148C /* QuickTableView.xcconfig */;
+			baseConfigurationReference = 8AE7CA0F7997CF80F2C8916B0141C102 /* TipJarViewController.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/QuickTableView/QuickTableView-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				MODULEMAP_FILE = Headers/Public/QuickTableView/QuickTableView.modulemap;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = QuickTableView;
-				PRODUCT_NAME = QuickTableView;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		298B28899DA7CCDF10F2872ACC9144C4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D5E167D08639F89BEE055638DD2033BB /* Pods-TipJarViewController_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		3D4245B4BA76D3B1F6C1F7C2FD3918CF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7584160622C80E57440869833095DAC8 /* TipJarViewController.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/TipJarViewController/TipJarViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TipJarViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				MODULEMAP_FILE = Headers/Public/TipJarViewController/TipJarViewController.modulemap;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TipJarViewController/TipJarViewController.modulemap";
 				PRODUCT_MODULE_NAME = TipJarViewController;
 				PRODUCT_NAME = TipJarViewController;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		6556532D0359C722ECE4F636F66D3660 /* Release */ = {
+		04891577840F619B7702A0B0F52D926C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5705A78E1BE9117FD2DF600EE06E5026 /* KeyboardAdjuster.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/KeyboardAdjuster/KeyboardAdjuster-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MODULEMAP_FILE = Headers/Public/KeyboardAdjuster/KeyboardAdjuster.modulemap;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = KeyboardAdjuster;
-				PRODUCT_NAME = KeyboardAdjuster;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		91686B31F1A2A2B8A25668F39CEC9C2F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7584160622C80E57440869833095DAC8 /* TipJarViewController.xcconfig */;
+			baseConfigurationReference = E680B3C8EC724353DB461F0942A60C82 /* QuickTableView.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/TipJarViewController/TipJarViewController-prefix.pch";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QuickTableView/QuickTableView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QuickTableView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				MODULEMAP_FILE = Headers/Public/TipJarViewController/TipJarViewController.modulemap;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = TipJarViewController;
-				PRODUCT_NAME = TipJarViewController;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QuickTableView/QuickTableView.modulemap";
+				PRODUCT_MODULE_NAME = QuickTableView;
+				PRODUCT_NAME = QuickTableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0775981B89E62B4F09567EC2C598132B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8A4E041DF03B600E9E86EB377616DC4 /* LionheartExtensions.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LionheartExtensions/LionheartExtensions-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LionheartExtensions/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LionheartExtensions/LionheartExtensions.modulemap";
+				PRODUCT_MODULE_NAME = LionheartExtensions;
+				PRODUCT_NAME = LionheartExtensions;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -842,134 +1171,349 @@
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		96666195FAFBD805A9B5CD7733F42903 /* Debug */ = {
+		1218B6E05316CCCB3D677C4C316D7247 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 06E1BE8E93F8B79B639DDF445AC78FF9 /* Pods-TipJarViewController_Example.debug.xcconfig */;
+			baseConfigurationReference = 017D134677C79EAEADB6847590C9F77F /* SuperLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SuperLayout/SuperLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SuperLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SuperLayout/SuperLayout.modulemap";
+				PRODUCT_MODULE_NAME = SuperLayout;
+				PRODUCT_NAME = SuperLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		16F86F547474657976EF5575215E8E14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E680B3C8EC724353DB461F0942A60C82 /* QuickTableView.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QuickTableView/QuickTableView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QuickTableView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QuickTableView/QuickTableView.modulemap";
+				PRODUCT_MODULE_NAME = QuickTableView;
+				PRODUCT_NAME = QuickTableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		19AB6D492C589C2CEB809204BD7DE9C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 017D134677C79EAEADB6847590C9F77F /* SuperLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SuperLayout/SuperLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SuperLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SuperLayout/SuperLayout.modulemap";
+				PRODUCT_MODULE_NAME = SuperLayout;
+				PRODUCT_NAME = SuperLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3EEBBBB435E3F3EEE1F9E3412BC5165E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AE7CA0F7997CF80F2C8916B0141C102 /* TipJarViewController.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TipJarViewController/TipJarViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TipJarViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TipJarViewController/TipJarViewController.modulemap";
+				PRODUCT_MODULE_NAME = TipJarViewController;
+				PRODUCT_NAME = TipJarViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		53692A4E1CD06FE95051F23915D5E165 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 727C54D3F909012E9409D526E61202BA /* KeyboardAdjuster.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KeyboardAdjuster/KeyboardAdjuster-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KeyboardAdjuster/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KeyboardAdjuster/KeyboardAdjuster.modulemap";
+				PRODUCT_MODULE_NAME = KeyboardAdjuster;
+				PRODUCT_NAME = KeyboardAdjuster;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5CA5F6511BB77AA549A08812D623D45A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E8A2457D479D01DECD1E0E2F5C3C3D0 /* Pods-TipJarViewController_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TipJarViewController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TipJarViewController_Tests/Pods-TipJarViewController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		74A19DFFA9C7B8B4B155C488593AF381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89693930BA46D72B263559943C14299B /* Pods-TipJarViewController_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TipJarViewController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-TipJarViewController_Example/Pods-TipJarViewController_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7E7ED31102E92514BBEC67E1D771FBBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1BFB2AB5983DA96B00733F5DEFF2766 /* Pods-TipJarViewController_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TipJarViewController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TipJarViewController_Example/Pods-TipJarViewController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		9AB6B3244CCBAFE0B2A80BF3E9D92D7F /* Debug */ = {
+		953D2A6BA75B322D92B7343C07273FC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5705A78E1BE9117FD2DF600EE06E5026 /* KeyboardAdjuster.xcconfig */;
+			baseConfigurationReference = 1EBDF1F1830749C8A6CF3C8E28EA4118 /* Pods-TipJarViewController_Tests.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/KeyboardAdjuster/KeyboardAdjuster-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MODULEMAP_FILE = Headers/Public/KeyboardAdjuster/KeyboardAdjuster.modulemap;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TipJarViewController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TipJarViewController_Tests/Pods-TipJarViewController_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A20100D0F07EC087EE586FB7773EBB7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 727C54D3F909012E9409D526E61202BA /* KeyboardAdjuster.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KeyboardAdjuster/KeyboardAdjuster-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KeyboardAdjuster/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KeyboardAdjuster/KeyboardAdjuster.modulemap";
 				PRODUCT_MODULE_NAME = KeyboardAdjuster;
 				PRODUCT_NAME = KeyboardAdjuster;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		A4BED3174BA3D710B4D1845072EC33E3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF4798956D4505B3B02E3F6991FD148C /* QuickTableView.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/QuickTableView/QuickTableView-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				MODULEMAP_FILE = Headers/Public/QuickTableView/QuickTableView.modulemap;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = QuickTableView;
-				PRODUCT_NAME = QuickTableView;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		A74B8332BEBF4234DFDD92E7E578E30B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 30CB1CF066639A94423CB55442F55040 /* Pods-TipJarViewController_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TipJarViewController_Example/Pods-TipJarViewController_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		CB6283A2FC38C0C596D75CDC3080A74A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B51C612A033CC51730AB101ED24C8E8C /* Pods-TipJarViewController_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
 		};
 		CE6BB864FB202B78BB66ACCAACAA0513 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1092,14 +1636,56 @@
 			};
 			name = Debug;
 		};
+		D8A3C6E8685543B4B703ABD25A28124A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8A4E041DF03B600E9E86EB377616DC4 /* LionheartExtensions.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LionheartExtensions/LionheartExtensions-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LionheartExtensions/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LionheartExtensions/LionheartExtensions.modulemap";
+				PRODUCT_MODULE_NAME = LionheartExtensions;
+				PRODUCT_NAME = LionheartExtensions;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0D88D3A17DF82DDF6B41413DAD9E6871 /* Build configuration list for PBXNativeTarget "Pods-TipJarViewController_Tests" */ = {
+		128C6A4F85B564B8C7154A7D945C77CF /* Build configuration list for PBXNativeTarget "QuickTableView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				298B28899DA7CCDF10F2872ACC9144C4 /* Debug */,
-				CB6283A2FC38C0C596D75CDC3080A74A /* Release */,
+				04891577840F619B7702A0B0F52D926C /* Debug */,
+				16F86F547474657976EF5575215E8E14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BC1CC9BDE328F0C1A9A30EC55FF6325 /* Build configuration list for PBXNativeTarget "SuperLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1218B6E05316CCCB3D677C4C316D7247 /* Debug */,
+				19AB6D492C589C2CEB809204BD7DE9C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1113,38 +1699,47 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7827705B7F6BA3EAC0D57867D766A7C1 /* Build configuration list for PBXNativeTarget "QuickTableView" */ = {
+		3E0ACB0797BCB48E28859E2336B7FEB9 /* Build configuration list for PBXNativeTarget "KeyboardAdjuster" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A4BED3174BA3D710B4D1845072EC33E3 /* Debug */,
-				1D13414EB6BF2B7E2E2F51996C340722 /* Release */,
+				A20100D0F07EC087EE586FB7773EBB7E /* Debug */,
+				53692A4E1CD06FE95051F23915D5E165 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9D999746CF3C78A647B06837C4834FFE /* Build configuration list for PBXNativeTarget "Pods-TipJarViewController_Example" */ = {
+		78C8447FC2464D652979C4695D9B3F90 /* Build configuration list for PBXNativeTarget "Pods-TipJarViewController_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				96666195FAFBD805A9B5CD7733F42903 /* Debug */,
-				A74B8332BEBF4234DFDD92E7E578E30B /* Release */,
+				953D2A6BA75B322D92B7343C07273FC3 /* Debug */,
+				5CA5F6511BB77AA549A08812D623D45A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F33FE1E5DF3C87FE8CD3A47CB5775039 /* Build configuration list for PBXNativeTarget "KeyboardAdjuster" */ = {
+		AA8DF98810B8E7428CC676EC22E65724 /* Build configuration list for PBXNativeTarget "LionheartExtensions" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9AB6B3244CCBAFE0B2A80BF3E9D92D7F /* Debug */,
-				6556532D0359C722ECE4F636F66D3660 /* Release */,
+				D8A3C6E8685543B4B703ABD25A28124A /* Debug */,
+				0775981B89E62B4F09567EC2C598132B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F7B93F9729264E25DEBC6AD7A256F2C7 /* Build configuration list for PBXNativeTarget "TipJarViewController" */ = {
+		ABB72542FAAA5812753343D5490F99BD /* Build configuration list for PBXNativeTarget "TipJarViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3D4245B4BA76D3B1F6C1F7C2FD3918CF /* Debug */,
-				91686B31F1A2A2B8A25668F39CEC9C2F /* Release */,
+				0147BD45C2BB4ADE90BD9BBC1B3E31DA /* Debug */,
+				3EEBBBB435E3F3EEE1F9E3412BC5165E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA6D7D19588D8A42E9D16B2A716900F7 /* Build configuration list for PBXNativeTarget "Pods-TipJarViewController_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E7ED31102E92514BBEC67E1D771FBBC /* Debug */,
+				74A19DFFA9C7B8B4B155C488593AF381 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
