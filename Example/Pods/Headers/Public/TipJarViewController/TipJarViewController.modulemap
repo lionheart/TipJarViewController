@@ -1,0 +1,6 @@
+module TipJarViewController [system] {
+  umbrella header "TipJarViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}
