@@ -21,8 +21,11 @@ limitations under the License.
 [![Version][version-badge]][cocoapods-repo-url]
 [![License][license-badge]][cocoapods-repo-url]
 [![Platform][platform-badge]][cocoapods-repo-url]
+
+<!--
 [![CocoaPods][downloads-badge]][cocoapods-repo-url]
 [![CocoaPods][downloads-monthly-badge]][cocoapods-repo-url]
+-->
 
 ![](screenshot.jpeg)
 
