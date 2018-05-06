@@ -9,7 +9,7 @@ import UIKit
 import QuickTableView
 import StoreKit
 
-public final class TipJarViewController<T>: BaseTableViewController, UITableViewDelegate, UITableViewDataSource, SKProductsRequestDelegate, SKPaymentTransactionObserver where T: TipJarConfiguration {
+open class TipJarViewController<T>: BaseTableViewController, UITableViewDelegate, UITableViewDataSource, SKProductsRequestDelegate, SKPaymentTransactionObserver where T: TipJarConfiguration {
     var loading = true
     var purchased = false
     var products: [String: SKProduct]?
@@ -113,7 +113,7 @@ public final class TipJarViewController<T>: BaseTableViewController, UITableView
         }
     }
 
-    override public func viewDidLoad() {
+    override open func viewDidLoad() {
         super.viewDidLoad()
 
         title = T._title
@@ -169,13 +169,13 @@ public final class TipJarViewController<T>: BaseTableViewController, UITableView
         tableView.registerClass(QuickTableViewCellValue1.self)
     }
     
-    override public func viewDidDisappear(_ animated: Bool) {
+    override open func viewDidDisappear(_ animated: Bool) {
         super.viewDidDisappear(animated)
         
         SKPaymentQueue.default().remove(self)
     }
     
-    override public func viewWillAppear(_ animated: Bool) {
+    override open func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
         SKPaymentQueue.default().add(self)
