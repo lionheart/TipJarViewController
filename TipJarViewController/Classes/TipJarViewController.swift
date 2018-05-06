@@ -107,7 +107,7 @@ public final class TipJarViewController<T>: BaseTableViewController, UITableView
         static var title: String { return T._oneTimeTitle }
         
         public var frequency: TipJarFrequency { return .oneTime }
-        
+
         public var productIdentifier: String {
             return T.oneTimeProductIdentifier(for: self)
         }

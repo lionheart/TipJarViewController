@@ -28,9 +28,58 @@ limitations under the License.
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+![](screenshot.jpeg)
+
+### Usage
+
+Before you can use TipJarViewController in your app, you'll first need to create a few IAPs in iTunes Connect--2 subscription IAPs and 5 one-time IAPs. This is currently a requirement but may change in the future.
+
+Once you've created your IAPs, you just need to configure the header and description at the top of the view controller, and tell TipJarViewController what your IAP product identifiers are, using the `TipJarConfiguration` protocol. E.g.,
+
+```swift
+struct ExampleTipJarConfiguration: TipJarConfiguration {
+    static var topHeader = "Hi There"
+
+    static var topDescription = """
+If you've been enjoying this app and would like to show your support, please consider a tip. They go such a long way, and every little bit helps. Thanks! :)
+"""
+
+    static func subscriptionProductIdentifier(for subscription: TipJarViewController<ExampleTipJarOptions>.SubscriptionRow) -> String {
+        switch subscription {
+        case .monthly: return "com.acme.app.TipJarSubscription.Monthly"
+        case .yearly: return "com.acme.app.TipJarSubscription.Yearly"
+        }
+    }
+
+    static func oneTimeProductIdentifier(for subscription: TipJarViewController<ExampleTipJarOptions>.OneTimeRow) -> String {
+        switch subscription {
+        case .small: return "com.acme.app.Tip.Small"
+        case .medium: return "com.acme.app.Tip.Medium"
+        case .large: return "com.acme.app.Tip.Large"
+        case .huge: return "com.acme.app.Tip.Huge"
+        case .massive: return "com.acme.app.Tip.Massive"
+        }
+    }
+
+    static var termsOfUseURLString = "https://acme.app/terms.html"
+    static var privacyPolicyURLString = "https://acme.app/privacy.html"
+}
+```
+
+If you want more customization options, just make your configuration conform to `TipJarOptionalConfiguration`. You can also specify a URL running Lionheart's [receipt verifier](https://github.com/lionheart/in_app_purchase_receipt_verifier) to check for valid purchases on your own server.
+
+```swift
+extension ExampleTipJarConfiguration: TipJarOptionalConfiguration {
+    static var title = "Tip Jar"
+    static var oneTimeTipsTitle = "One-Time Tips"
+    static var subscriptionTipsTitle = "Ongoing Tips ❤️"
+    static var receiptVerifierURLString = "https://receipt-verifier.herokuapp.com/verify"
+}
+```
+
 ## Requirements
 
-## Installation
+### Installation
 
 TipJarViewController is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
@@ -39,7 +88,7 @@ it, simply add the following line to your Podfile:
 pod 'TipJarViewController'
 ```
 
-## License
+### License
 
 TipJarViewController is available under the Apache 2.0 license. See the [LICENSE](LICENSE) file for more info.
 

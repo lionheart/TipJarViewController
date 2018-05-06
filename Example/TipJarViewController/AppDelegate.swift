@@ -16,7 +16,8 @@ class AppDelegate: UIResponder, UIApplicationDelegateWithWindow {
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        rootViewController = TipJarViewController<ExampleTipJarOptions>()
+        let navigation = UINavigationController(rootViewController: TipJarViewController<ExampleTipJarOptions>())
+        rootViewController = navigation
         return true
     }
 }
@@ -25,7 +26,7 @@ struct ExampleTipJarOptions: TipJarConfiguration {
     static var topHeader = "Hi There"
     
     static var topDescription = """
-If you've been enjoying Pushpin for a while, and would like to show your support, please consider a tip. They go such a long way, and every little bit helps. Thanks! :)
+If you've been enjoying this app and would like to show your support, please consider a tip. They go such a long way, and every little bit helps. Thanks! :)
 """
     
     static func subscriptionProductIdentifier(for subscription: TipJarViewController<ExampleTipJarOptions>.SubscriptionRow) -> String {
