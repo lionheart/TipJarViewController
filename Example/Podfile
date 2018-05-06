@@ -1,11 +1,13 @@
 # vim: ft=ruby
 
 platform :ios, '10.3'
+use_frameworks!
 
 target 'TipJarViewController_Example' do
   pod 'TipJarViewController', :path => '../'
 
   target 'TipJarViewController_Tests' do
     inherit! :search_paths
+
   end
 end
