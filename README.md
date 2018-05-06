@@ -26,6 +26,15 @@ limitations under the License.
 
 ![](screenshot.jpeg)
 
+## Installation
+
+TipJarViewController is available through [CocoaPods](https://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod 'TipJarViewController'
+```
+
 ### Usage
 
 Before you can use TipJarViewController in your app, you'll first need to create a few IAPs in iTunes Connect--2 subscription IAPs and 5 one-time IAPs. This is currently a requirement but may change in the future.
@@ -73,18 +82,7 @@ extension ExampleTipJarConfiguration: TipJarOptionalConfiguration {
 }
 ```
 
-## Requirements
-
-### Installation
-
-TipJarViewController is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod 'TipJarViewController'
-```
-
-### License
+## License
 
 TipJarViewController is available under the Apache 2.0 license. See the [LICENSE](LICENSE) file for more info.
 
