@@ -1,16 +1,27 @@
 PODS:
-  - TipJarViewController (0.1.0)
+  - KeyboardAdjuster (3.0.2)
+  - QuickTableView (2.6.2):
+    - KeyboardAdjuster (~> 3)
+  - TipJarViewController (0.1.0):
+    - QuickTableView (~> 2.0)
 
 DEPENDENCIES:
   - TipJarViewController (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - KeyboardAdjuster
+    - QuickTableView
 
 EXTERNAL SOURCES:
   TipJarViewController:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TipJarViewController: 19ff4826b63ea99ef86aecf8470c4235731a93be
+  KeyboardAdjuster: 8391eadd333fefaacaf110c9dfcbb07a2f6b3404
+  QuickTableView: 6c7689b1b392e8d4d01c26161ca0c3b7a2079435
+  TipJarViewController: 1e9ab3b322355a5802ce7b91590ef64ac3f0e426
 
-PODFILE CHECKSUM: f67ce73d3093042d76a865bd09ab29bed060a559
+PODFILE CHECKSUM: 649ad6c51a4e29af768e32796dccfff2f3f39fb0
 
 COCOAPODS: 1.5.0
