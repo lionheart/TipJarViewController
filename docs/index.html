@@ -141,14 +141,14 @@ it, simply add the following line to your Podfile:</p>
 If you've been enjoying this app and would like to show your support, please consider a tip. They go such a long way, and every little bit helps. Thanks! :)
 """</span>
 
-    <span class="kd">static</span> <span class="kd">func</span> <span class="nf">subscriptionProductIdentifier</span><span class="p">(</span><span class="k">for</span> <span class="nv">subscription</span><span class="p">:</span> <span class="kt">TipJarViewController</span><span class="o">&lt;</span><span class="kt">ExampleTipJarOptions</span><span class="o">&gt;.</span><span class="kt">SubscriptionRow</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">String</span> <span class="p">{</span>
+    <span class="kd">static</span> <span class="kd">func</span> <span class="nf">subscriptionProductIdentifier</span><span class="p">(</span><span class="k">for</span> <span class="nv">subscription</span><span class="p">:</span> <span class="kt">SubscriptionRow</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">String</span> <span class="p">{</span>
         <span class="k">switch</span> <span class="n">subscription</span> <span class="p">{</span>
         <span class="k">case</span> <span class="o">.</span><span class="nv">monthly</span><span class="p">:</span> <span class="k">return</span> <span class="s">"com.acme.app.TipJarSubscription.Monthly"</span>
         <span class="k">case</span> <span class="o">.</span><span class="nv">yearly</span><span class="p">:</span> <span class="k">return</span> <span class="s">"com.acme.app.TipJarSubscription.Yearly"</span>
         <span class="p">}</span>
     <span class="p">}</span>
 
-    <span class="kd">static</span> <span class="kd">func</span> <span class="nf">oneTimeProductIdentifier</span><span class="p">(</span><span class="k">for</span> <span class="nv">subscription</span><span class="p">:</span> <span class="kt">TipJarViewController</span><span class="o">&lt;</span><span class="kt">ExampleTipJarOptions</span><span class="o">&gt;.</span><span class="kt">OneTimeRow</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">String</span> <span class="p">{</span>
+    <span class="kd">static</span> <span class="kd">func</span> <span class="nf">oneTimeProductIdentifier</span><span class="p">(</span><span class="k">for</span> <span class="nv">subscription</span><span class="p">:</span> <span class="kt">OneTimeRow</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">String</span> <span class="p">{</span>
         <span class="k">switch</span> <span class="n">subscription</span> <span class="p">{</span>
         <span class="k">case</span> <span class="o">.</span><span class="nv">small</span><span class="p">:</span> <span class="k">return</span> <span class="s">"com.acme.app.Tip.Small"</span>
         <span class="k">case</span> <span class="o">.</span><span class="nv">medium</span><span class="p">:</span> <span class="k">return</span> <span class="s">"com.acme.app.Tip.Medium"</span>
