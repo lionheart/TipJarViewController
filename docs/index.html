@@ -134,7 +134,7 @@ it, simply add the following line to your Podfile:</p>
 <p>Before you can use TipJarViewController in your app, you&rsquo;ll first need to create a few IAPs in iTunes Connect&ndash;2 subscription IAPs and 5 one-time IAPs. This is currently a requirement but may change in the future.</p>
 
 <p>Once you&rsquo;ve created your IAPs, you just need to configure the header and description at the top of the view controller, and tell TipJarViewController what your IAP product identifiers are, using the <code><a href="Protocols/TipJarConfiguration.html">TipJarConfiguration</a></code> protocol. E.g.,</p>
-<pre class="highlight swift"><code><span class="kd">struct</span> <span class="kt">ExampleTipJarConfiguration</span><span class="p">:</span> <span class="kt">TipJarConfiguration</span> <span class="p">{</span>
+<pre class="highlight swift"><code><span class="kd">struct</span> <span class="kt">TipJarOptions</span><span class="p">:</span> <span class="kt">TipJarConfiguration</span> <span class="p">{</span>
     <span class="kd">static</span> <span class="k">var</span> <span class="nv">topHeader</span> <span class="o">=</span> <span class="s">"Hi There"</span>
 
     <span class="kd">static</span> <span class="k">var</span> <span class="nv">topDescription</span> <span class="o">=</span> <span class="s">"""
@@ -163,8 +163,12 @@ If you've been enjoying this app and would like to show your support, please con
 <span class="p">}</span>
 </code></pre>
 
+<p>And then, to instantiate the <code><a href="Classes/TipJarViewController.html">TipJarViewController</a></code>:</p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">controller</span> <span class="o">=</span> <span class="kt">TipJarViewController</span><span class="o">&lt;</span><span class="kt">TipJarOptions</span><span class="o">&gt;</span><span class="p">()</span>
+</code></pre>
+
 <p>If you want more customization options, just make your configuration conform to <code><a href="Protocols/TipJarOptionalConfiguration.html">TipJarOptionalConfiguration</a></code>. You can also specify a URL running Lionheart&rsquo;s <a href="https://github.com/lionheart/in_app_purchase_receipt_verifier">receipt verifier</a> to check for valid purchases on your own server.</p>
-<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">ExampleTipJarConfiguration</span><span class="p">:</span> <span class="kt">TipJarOptionalConfiguration</span> <span class="p">{</span>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">TipJarOptions</span><span class="p">:</span> <span class="kt">TipJarOptionalConfiguration</span> <span class="p">{</span>
     <span class="kd">static</span> <span class="k">var</span> <span class="nv">title</span> <span class="o">=</span> <span class="s">"Tip Jar"</span>
     <span class="kd">static</span> <span class="k">var</span> <span class="nv">oneTimeTipsTitle</span> <span class="o">=</span> <span class="s">"One-Time Tips"</span>
     <span class="kd">static</span> <span class="k">var</span> <span class="nv">subscriptionTipsTitle</span> <span class="o">=</span> <span class="s">"Ongoing Tips ❤️"</span>
