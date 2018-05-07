@@ -45,7 +45,7 @@ Before you can use TipJarViewController in your app, you'll first need to create
 Once you've created your IAPs, you just need to configure the header and description at the top of the view controller, and tell TipJarViewController what your IAP product identifiers are, using the `TipJarConfiguration` protocol. E.g.,
 
 ```swift
-struct ExampleTipJarConfiguration: TipJarConfiguration {
+struct TipJarOptions: TipJarConfiguration {
     static var topHeader = "Hi There"
 
     static var topDescription = """
@@ -74,10 +74,16 @@ If you've been enjoying this app and would like to show your support, please con
 }
 ```
 
+And then, to instantiate the `TipJarViewController`:
+
+```swift
+let controller = TipJarViewController<TipJarOptions>()
+```
+
 If you want more customization options, just make your configuration conform to `TipJarOptionalConfiguration`. You can also specify a URL running Lionheart's [receipt verifier](https://github.com/lionheart/in_app_purchase_receipt_verifier) to check for valid purchases on your own server.
 
 ```swift
-extension ExampleTipJarConfiguration: TipJarOptionalConfiguration {
+extension TipJarOptions: TipJarOptionalConfiguration {
     static var title = "Tip Jar"
     static var oneTimeTipsTitle = "One-Time Tips"
     static var subscriptionTipsTitle = "Ongoing Tips ❤️"
