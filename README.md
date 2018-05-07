@@ -52,14 +52,14 @@ struct TipJarOptions: TipJarConfiguration {
 If you've been enjoying this app and would like to show your support, please consider a tip. They go such a long way, and every little bit helps. Thanks! :)
 """
 
-    static func subscriptionProductIdentifier(for subscription: TipJarViewController<ExampleTipJarOptions>.SubscriptionRow) -> String {
+    static func subscriptionProductIdentifier(for subscription: SubscriptionRow) -> String {
         switch subscription {
         case .monthly: return "com.acme.app.TipJarSubscription.Monthly"
         case .yearly: return "com.acme.app.TipJarSubscription.Yearly"
         }
     }
 
-    static func oneTimeProductIdentifier(for subscription: TipJarViewController<ExampleTipJarOptions>.OneTimeRow) -> String {
+    static func oneTimeProductIdentifier(for subscription: OneTimeRow) -> String {
         switch subscription {
         case .small: return "com.acme.app.Tip.Small"
         case .medium: return "com.acme.app.Tip.Medium"

@@ -9,13 +9,16 @@ import UIKit
 import QuickTableView
 
 public protocol TipJarConfiguration {
+    typealias SubscriptionRow = TipJarViewController<Self>.SubscriptionRow
+    typealias OneTimeRow = TipJarViewController<Self>.OneTimeRow
+
     static var topHeader: String { get }
     static var topDescription: String { get }
     static var termsOfUseURLString: String { get }
     static var privacyPolicyURLString: String { get }
 
-    static func subscriptionProductIdentifier(for subscription: TipJarViewController<Self>.SubscriptionRow) -> String
-    static func oneTimeProductIdentifier(for subscription: TipJarViewController<Self>.OneTimeRow) -> String
+    static func subscriptionProductIdentifier(for subscription: SubscriptionRow) -> String
+    static func oneTimeProductIdentifier(for subscription: OneTimeRow) -> String
 }
 
 public protocol TipJarOptionalConfiguration {
