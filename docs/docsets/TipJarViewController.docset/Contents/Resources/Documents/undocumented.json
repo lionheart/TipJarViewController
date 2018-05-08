@@ -269,111 +269,125 @@
     {
       "file": "/Users/dan/Projects/TipJarViewController/TipJarViewController/Classes/TipJarViewControllerDelegate.swift",
       "line": 12,
+      "symbol": "TipJarConfiguration.SubscriptionRow",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dan/Projects/TipJarViewController/TipJarViewController/Classes/TipJarViewControllerDelegate.swift",
+      "line": 13,
+      "symbol": "TipJarConfiguration.OneTimeRow",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dan/Projects/TipJarViewController/TipJarViewController/Classes/TipJarViewControllerDelegate.swift",
+      "line": 15,
       "symbol": "TipJarConfiguration.topHeader",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/dan/Projects/TipJarViewController/TipJarViewController/Classes/TipJarViewControllerDelegate.swift",
-      "line": 13,
+      "line": 16,
       "symbol": "TipJarConfiguration.topDescription",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/dan/Projects/TipJarViewController/TipJarViewController/Classes/TipJarViewControllerDelegate.swift",
-      "line": 14,
+      "line": 17,
       "symbol": "TipJarConfiguration.termsOfUseURLString",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/dan/Projects/TipJarViewController/TipJarViewController/Classes/TipJarViewControllerDelegate.swift",
-      "line": 15,
+      "line": 18,
       "symbol": "TipJarConfiguration.privacyPolicyURLString",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/dan/Projects/TipJarViewController/TipJarViewController/Classes/TipJarViewControllerDelegate.swift",
-      "line": 17,
+      "line": 20,
       "symbol": "TipJarConfiguration.subscriptionProductIdentifier(for:)",
       "symbol_kind": "source.lang.swift.decl.function.method.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/dan/Projects/TipJarViewController/TipJarViewController/Classes/TipJarViewControllerDelegate.swift",
-      "line": 18,
+      "line": 21,
       "symbol": "TipJarConfiguration.oneTimeProductIdentifier(for:)",
       "symbol_kind": "source.lang.swift.decl.function.method.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/dan/Projects/TipJarViewController/TipJarViewController/Classes/TipJarViewControllerDelegate.swift",
-      "line": 21,
+      "line": 24,
       "symbol": "TipJarOptionalConfiguration",
       "symbol_kind": "source.lang.swift.decl.protocol",
       "warning": "undocumented"
     },
     {
       "file": "/Users/dan/Projects/TipJarViewController/TipJarViewController/Classes/TipJarViewControllerDelegate.swift",
-      "line": 22,
+      "line": 25,
       "symbol": "TipJarOptionalConfiguration.title",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/dan/Projects/TipJarViewController/TipJarViewController/Classes/TipJarViewControllerDelegate.swift",
-      "line": 23,
+      "line": 26,
       "symbol": "TipJarOptionalConfiguration.oneTimeTipsTitle",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/dan/Projects/TipJarViewController/TipJarViewController/Classes/TipJarViewControllerDelegate.swift",
-      "line": 24,
+      "line": 27,
       "symbol": "TipJarOptionalConfiguration.subscriptionTipsTitle",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/dan/Projects/TipJarViewController/TipJarViewController/Classes/TipJarViewControllerDelegate.swift",
-      "line": 26,
+      "line": 29,
       "symbol": "TipJarOptionalConfiguration.receiptVerifierURLString",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/dan/Projects/TipJarViewController/TipJarViewController/Classes/TipJarViewControllerDelegate.swift",
-      "line": 30,
+      "line": 33,
       "symbol": "TipJarConfiguration.options",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/dan/Projects/TipJarViewController/TipJarViewController/Classes/TipJarViewControllerDelegate.swift",
-      "line": 34,
+      "line": 37,
       "symbol": "TipJarConfiguration.receiptVerifierURL",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/dan/Projects/TipJarViewController/TipJarViewController/Classes/TipJarViewControllerDelegate.swift",
-      "line": 42,
+      "line": 45,
       "symbol": "TipJarConfiguration._title",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/dan/Projects/TipJarViewController/TipJarViewController/Classes/TipJarViewControllerDelegate.swift",
-      "line": 43,
+      "line": 46,
       "symbol": "TipJarConfiguration._oneTimeTitle",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/dan/Projects/TipJarViewController/TipJarViewController/Classes/TipJarViewControllerDelegate.swift",
-      "line": 44,
+      "line": 47,
       "symbol": "TipJarConfiguration._subscriptionTitle",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
