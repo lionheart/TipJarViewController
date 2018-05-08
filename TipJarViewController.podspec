@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TipJarViewController'
-  s.version          =  "0.1.2"
+  s.version          =  "0.1.3"
   s.summary          = 'Easy, drop-in tipping for iOS apps.'
   s.homepage         = 'https://github.com/lionheart/TipJarViewController'
   s.license          = { :type => 'Apache 2.0', :file => 'LICENSE' }
