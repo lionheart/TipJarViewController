@@ -12,11 +12,11 @@
 		08100E937EE71A6548351A9F22113C6F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58C907CFB3AB9472B2FCC9AEFF552C9E /* UIKit.framework */; };
 		0B66314B219B0AAE35E8B71842B70070 /* UIScreen+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49033D6F1469AF921E3545F729EA4D06 /* UIScreen+LionheartExtensions.swift */; };
 		13775BC5E7D812624E95386B9B4346B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BCC4F5FE70F112ACE68670E797380F7 /* Foundation.framework */; };
+		15A0AA05CD6FF7B18DB056B506B87CF5 /* MultilineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0DC1BE46086FA8914CC70EF216EE6A /* MultilineTableViewCell.swift */; };
 		16E66523103381536E978A6B6557F303 /* QuickTableViewCellSubtitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D9780852DF52D13256463A91298BBC /* QuickTableViewCellSubtitle.swift */; };
 		17D227F4B68B7EC67732B09C10A08F10 /* ActivityIndicatorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7CAB8BDE0D6F58BCF53EDC07BCF950 /* ActivityIndicatorButton.swift */; };
 		1D4B9FDB48B0C44C6DB61A73A50511EB /* UITextField+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565F3B9D970F162A6C69AB4B51405C35 /* UITextField+LionheartExtensions.swift */; };
 		1DD252931A854731B0E6F62E494ED91A /* QuickTableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B41A795D4FAC418D2F8B107712DCBE9 /* QuickTableView.framework */; };
-		1F055F4D9F681D9C8E6C74EE675A0EB7 /* TipJarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289B99F3B8D57DB6BB6307D218E82D6D /* TipJarTableViewCell.swift */; };
 		1F4388268680E1F5C4D02160847A41E1 /* QuickTableView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB500DF5A4CC4B528F6DBAA0C6AA371B /* QuickTableView-dummy.m */; };
 		21E8E7BF8F5383CE72BDD73A36CFE656 /* UIDevice+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C7CC3A9E8EBE5179448934AB435D30 /* UIDevice+LionheartExtensions.swift */; };
 		24477DB8E5B204505F7AE92A7866E019 /* QuickTableView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D59A3259344D3F57435B678F10CFF51 /* QuickTableView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -25,20 +25,17 @@
 		2D492EA0A7CF5E53E378E055C8DF1ACD /* SuperLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 734FC51589540AD2EE6D1CF907D6E2A2 /* SuperLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2D60543486B69C2D34FBBB93612A0969 /* QuickTableViewCellValue1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9F745DA341B09140FCF60FA1D23683 /* QuickTableViewCellValue1.swift */; };
 		2FD4B0F4ED7832457E06206F3F5F65C0 /* UIPrintPageRenderer+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B6B1AB0C98770A718630782EB42B4D /* UIPrintPageRenderer+LionheartExtensions.swift */; };
-		37A6EED8209F7C91009D0CC7 /* MultilineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A6EED7209F7C91009D0CC7 /* MultilineTableViewCell.swift */; };
-		37A6EEDA209F7CB1009D0CC7 /* ActivityIndicatorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A6EED9209F7CB1009D0CC7 /* ActivityIndicatorTableViewCell.swift */; };
-		37A6EEDC209F7CE4009D0CC7 /* UIImage+TipJarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A6EEDB209F7CE4009D0CC7 /* UIImage+TipJarViewController.swift */; };
-		37A6EEDE209F7CFB009D0CC7 /* TipJarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A6EEDD209F7CFB009D0CC7 /* TipJarButton.swift */; };
-		37DF74CB209F7D6200FDEE8D /* TipJarFrequency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DF74CA209F7D6200FDEE8D /* TipJarFrequency.swift */; };
-		37EAF37D209F98550089D63C /* TipJarViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EAF37C209F98550089D63C /* TipJarViewControllerDelegate.swift */; };
 		387AD1EE479F99DB2D0EF2DF3662BE76 /* UIColor+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4001E970B8AB82AA4AF12FBC44C8CB90 /* UIColor+LionheartExtensions.swift */; };
+		422B39474F50DED6F89645B1542BB3EE /* TipJarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282ED103688808D6897ACB186BCA1AE6 /* TipJarButton.swift */; };
 		43B8103993FAE8A17A9A553DC54F2313 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BCC4F5FE70F112ACE68670E797380F7 /* Foundation.framework */; };
 		43E7314F66BC85191531BD7879C60C0A /* UIWindow+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F92C801387A8953B6B6AEEC4A9D16E /* UIWindow+LionheartExtensions.swift */; };
+		4479E4DEB059C028AAD1FE8E5BB93FB8 /* TipJarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2B7280D55CE64BB5D8ECB6B8E33F82 /* TipJarViewController.swift */; };
 		4ABCE6241383E1D18DC749FA7E2B77EB /* QuickTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E081D9EAF98A976DF75A6921E03BECC /* QuickTableViewController.swift */; };
 		4E56D6A79122BBF20F23477A7AC0216A /* CIImage+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC242936E7BF8E3A9EF07974316541D2 /* CIImage+LionheartExtensions.swift */; };
 		53F4A51EAB077341AA2ACC90372C7002 /* KeyboardAdjuster-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FB9155D75DECAF983103CB8622712B /* KeyboardAdjuster-dummy.m */; };
 		579AE788D2031E3A7C2BF2D3E5CB11F9 /* Pods-TipJarViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B06A6BA717B03A6C92BE548E94DA672 /* Pods-TipJarViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5DA7D67705262E638A7E8A3C407A055C /* TipJarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D67D533A4ED5A8FE563CBCDDA89672 /* TipJarViewController.swift */; };
+		604BF2434604A24B8BDD9BE7051F3383 /* IAPRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2691D96D098E6336A4358D82BBF31E /* IAPRow.swift */; };
+		632064E02BAE989BA75FC4F5897410EE /* TipJarFrequency.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8AD0647166F7D9974F93AC337A51A9 /* TipJarFrequency.swift */; };
 		64410FC3E206C84A100F2622128541A4 /* QuickTableViewProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759E58F76F4054B9306ED9A47502F2A9 /* QuickTableViewProtocols.swift */; };
 		67A50970447A7CE8EF75118B726E9D78 /* NSDecimalNumber+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A24515281D947C48F65C11B4CC3C10 /* NSDecimalNumber+LionheartExtensions.swift */; };
 		7156FC51A284415E87ADE6B05536B09E /* Bundle+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B2DF5743DBF1497F6EE8A38A2B2C08 /* Bundle+LionheartExtensions.swift */; };
@@ -50,16 +47,17 @@
 		8736360A63A154702107AA993D1BD70E /* TitleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052D4E44C0FED18C5CE780FDD82F2296 /* TitleButton.swift */; };
 		890951D6BACE5C4DDE03AF5184AC39F5 /* Pods-TipJarViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E305206ACA8DAF497ACBB144E513EA /* Pods-TipJarViewController_Example-dummy.m */; };
 		89C60F57BE85EB1A2D1DF1B9007692EF /* Pods-TipJarViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7D32E2ECCC8321BA38DE00CCC5B192 /* Pods-TipJarViewController_Tests-dummy.m */; };
-		8B000F8105BD3089576E1AB51A05E4CC /* TipJarViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD8117B02747AC8ED58CF88DF011C04 /* TipJarViewController-dummy.m */; };
 		8B34D627C4528ED957071EBF6A0779E2 /* ColorRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECB6D5252D2E8D39067739B48E5C2C2 /* ColorRepresentation.swift */; };
 		95627386B8729652B27B1198830E9EED /* UIFont+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4B66D8D01EA57483FE02DB6CAD1A85 /* UIFont+LionheartExtensions.swift */; };
 		97DEE5B5191C6D9A9B2C694FA6DE0C16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BCC4F5FE70F112ACE68670E797380F7 /* Foundation.framework */; };
+		9D713B14BEF6596DF6BC480F282E43E3 /* UIImage+TipJarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFD4EDE4229A4733A2F333C1A5C2155 /* UIImage+TipJarViewController.swift */; };
 		9F98C482388B7A2D0F16994D8E32838A /* CustomButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FF67FCD4262CF3D775C637B5585F19 /* CustomButtonType.swift */; };
 		A0193F857A2FCB8F1837841CBED26B78 /* SuperLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3440B34F93E91454C5351943850BFDE8 /* SuperLayout.framework */; };
 		A05E7DB807B8350D02CDB1D50D54C206 /* KeyboardAdjuster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FFB611A9EEE26195A95230A2AD26C63 /* KeyboardAdjuster.framework */; };
 		A201F1C81615A8EB2F15B82A63334FB1 /* QuickTableViewCellDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0B89886B1DA2A5450E01EA75876DD9 /* QuickTableViewCellDefault.swift */; };
 		A51BB0996A1AD31D4A28483733509C43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BCC4F5FE70F112ACE68670E797380F7 /* Foundation.framework */; };
 		A5DA78EE7CA4387C29F964B4ADC9442D /* IndexPath+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C79D6D927C735730C4A97E195EDBF6B /* IndexPath+LionheartExtensions.swift */; };
+		A9FB8DC19C1DD68D147B3C948E6EBF1F /* ActivityIndicatorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122B554259BCA7BB94385CF22FD974C2 /* ActivityIndicatorTableViewCell.swift */; };
 		AB6270EEC5FB6C5CFA39B9E6D2ED3FB5 /* Optional+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1C24F8E5D37AF52917A7B9D03034AF /* Optional+LionheartExtensions.swift */; };
 		B0BC517AA427C283645EBDCFD13C1692 /* Array+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B9AD0CBF5A2C3E3DB51E01E177AEEC /* Array+LionheartExtensions.swift */; };
 		B0E93D96A75F303596192202C3F67A1F /* String+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD275EA88588BC20EB06AE91F77AF721 /* String+LionheartExtensions.swift */; };
@@ -67,9 +65,9 @@
 		BA1CB8B89AD8F273A877A086CE34BBDA /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD92E19A59F8F23951B666B60910972 /* UITableView.swift */; };
 		BAB0A7A84213EC9ED7B5C9420324A1D5 /* DateFormatter+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E27A4600B2CA2E4DAC6DD84E007E05 /* DateFormatter+LionheartExtensions.swift */; };
 		BDBB59EBEBD611CD92201F792432E0CF /* UIView+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE1BA04C5E02872CDD7FE71E2F1203F /* UIView+LionheartExtensions.swift */; };
+		C2B10B3441ED29D151C7C639548FB422 /* TipJarViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B8F5C7D98501B1CF645DCA75699351 /* TipJarViewController-dummy.m */; };
 		C6851578C4BCD6146536D2D325F9E323 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7100E77A259D0890359D5E1A055EECC /* BaseTableViewController.swift */; };
 		C886CBDEACE24C8962767CDDB2682A97 /* Summable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B3ACF72B57130935710694A6A1AB0B /* Summable.swift */; };
-		CDFDC07AFAA1494214A84791470B1A1D /* IAPRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDC607FFA96ED2BF61E08CAB759ABF7 /* IAPRow.swift */; };
 		CEE53F823465721BC152E02D22260941 /* QuickTableViewSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841AE372ED62C4AFDAB30A873BDEA556 /* QuickTableViewSection.swift */; };
 		D0F72A5E9CFA4F4B1CFDAEF6FBA52FBB /* FileManager+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB596F1B5033D462984F230E906B0FF /* FileManager+LionheartExtensions.swift */; };
 		D10E7809CF3B5F014BDF7F79DAE50DC2 /* QuickTableViewCellValue2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B8BE4ACC9CF15948A3F589898AB993 /* QuickTableViewCellValue2.swift */; };
@@ -80,9 +78,11 @@
 		E6F54F35FC07F916EE1F1CECDF5F73D8 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B955EA52CDD3EE3294F548DCD7D0C81 /* File.swift */; };
 		E9F1B61DA0FF9C23EDD1E3AD48803DC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BCC4F5FE70F112ACE68670E797380F7 /* Foundation.framework */; };
 		EA31B284AC75E4E3E6CDF04E0F5B330B /* Functional.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B513833197CBE0666E536102666860 /* Functional.swift */; };
-		EA3485AAF54A52C0A9BF3470668B970B /* TipJarViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A4ECB8456A940151DFB12610CD44882 /* TipJarViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA3485AAF54A52C0A9BF3470668B970B /* TipJarViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 016288D971877B387801C3EDD52E34F4 /* TipJarViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EB33D33EE6B552E80CA361D0531A0B67 /* KeyboardAdjuster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73763FE4A863B18633807096B39B21AA /* KeyboardAdjuster.swift */; };
+		EDD7890FDAD828FD276EED7F075FF6B7 /* TipJarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C51CB035FFCCA6B071DBB81FC49532 /* TipJarTableViewCell.swift */; };
 		EE6A9ADBA87B8D2AB512BD550A077A8D /* Pods-TipJarViewController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D41D8C9FE00D878C3CEB3F4A24F2961F /* Pods-TipJarViewController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F05F1B08C03AE0B47C4C58117A734098 /* TipJarViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347509D759EBF5EF5353B7213CFD1733 /* TipJarViewControllerDelegate.swift */; };
 		F10052264CBFA9C68DA7AD6E68CFE71B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BCC4F5FE70F112ACE68670E797380F7 /* Foundation.framework */; };
 		F12C8CD5B8A919BB3F1318ACF2CF24AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58C907CFB3AB9472B2FCC9AEFF552C9E /* UIKit.framework */; };
 		F23D52041EBF0E6999C51EBBD600FC38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BCC4F5FE70F112ACE68670E797380F7 /* Foundation.framework */; };
@@ -173,83 +173,116 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00496660024F8A285248557FD3E437FE /* TipJarViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TipJarViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		00496660024F8A285248557FD3E437FE /* TipJarViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TipJarViewController.framework; path = TipJarViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		016288D971877B387801C3EDD52E34F4 /* TipJarViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TipJarViewController-umbrella.h"; sourceTree = "<group>"; };
 		017D134677C79EAEADB6847590C9F77F /* SuperLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SuperLayout.xcconfig; sourceTree = "<group>"; };
 		026DCCF94C15BCCE3C767C4A3DFFF48A /* NSRegularExpression+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSRegularExpression+LionheartExtensions.swift"; path = "Pod/Classes/Core/NSRegularExpression+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		04F402A93AAF7582CFC120D4BD98D38D /* filelist-md5 */ = {isa = PBXFileReference; includeInIndex = 1; name = "filelist-md5"; path = "docs/filelist-md5"; sourceTree = "<group>"; };
 		052D4E44C0FED18C5CE780FDD82F2296 /* TitleButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TitleButton.swift; path = Pod/Classes/TitleButton.swift; sourceTree = "<group>"; };
-		0CC0FF1613850783B73B5FCB1FC94C63 /* TipJarViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TipJarViewController-prefix.pch"; sourceTree = "<group>"; };
+		06FECA41BE0FDC968C5337093894E143 /* IAPRow.html */ = {isa = PBXFileReference; includeInIndex = 1; name = IAPRow.html; path = docs/docsets/TipJarViewController.docset/Contents/Resources/Documents/Protocols/IAPRow.html; sourceTree = "<group>"; };
 		0E67BA134A16724027BC1FEF3421ACCD /* Pods-TipJarViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TipJarViewController_Example.modulemap"; sourceTree = "<group>"; };
 		0E6C3014BB0B9B95926828CFECA63538 /* LionheartExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LionheartExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1063B4EDAF753DA077F2713DC559DEAA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		10C7CC3A9E8EBE5179448934AB435D30 /* UIDevice+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIDevice+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIDevice+LionheartExtensions.swift"; sourceTree = "<group>"; };
-		11BE1AAD8537B9CFDAAF7003F06FE707 /* SuperLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SuperLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11BE1AAD8537B9CFDAAF7003F06FE707 /* SuperLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SuperLayout.framework; path = SuperLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		122B554259BCA7BB94385CF22FD974C2 /* ActivityIndicatorTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityIndicatorTableViewCell.swift; path = TipJarViewController/Classes/ActivityIndicatorTableViewCell.swift; sourceTree = "<group>"; };
 		15F92C801387A8953B6B6AEEC4A9D16E /* UIWindow+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIWindow+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIWindow+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		163807F1D92A0EBCBF7ADF7445FD4813 /* LionheartExtensions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LionheartExtensions-umbrella.h"; sourceTree = "<group>"; };
+		1857E5D3EF4C69C30658E9AB0BB2B6B0 /* filelist-local-md5 */ = {isa = PBXFileReference; includeInIndex = 1; name = "filelist-local-md5"; path = "docs/docsets/TipJarViewController.docset/Contents/Resources/Documents/filelist-local-md5"; sourceTree = "<group>"; };
 		1AF247CDDC21005832A1D807551EF583 /* LionheartExtensions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LionheartExtensions.modulemap; sourceTree = "<group>"; };
 		1B41A795D4FAC418D2F8B107712DCBE9 /* QuickTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QuickTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BD92E19A59F8F23951B666B60910972 /* UITableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITableView.swift; path = Pod/Extensions/UITableView.swift; sourceTree = "<group>"; };
-		1CDC607FFA96ED2BF61E08CAB759ABF7 /* IAPRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IAPRow.swift; path = TipJarViewController/Classes/IAPRow.swift; sourceTree = "<group>"; };
 		1EBDF1F1830749C8A6CF3C8E28EA4118 /* Pods-TipJarViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TipJarViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		20702FE8AA5436393F4204941519130A /* QuickTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QuickTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		289B99F3B8D57DB6BB6307D218E82D6D /* TipJarTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TipJarTableViewCell.swift; path = TipJarViewController/Classes/TipJarTableViewCell.swift; sourceTree = "<group>"; };
+		20702FE8AA5436393F4204941519130A /* QuickTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QuickTableView.framework; path = QuickTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		233B9680BC5E3BE3CF45A522BC60D185 /* OneTimeRow.html */ = {isa = PBXFileReference; includeInIndex = 1; name = OneTimeRow.html; path = docs/docsets/TipJarViewController.docset/Contents/Resources/Documents/Classes/TipJarViewController/OneTimeRow.html; sourceTree = "<group>"; };
+		24959658EA451FF7456733B575AA5EDD /* TipJarViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TipJarViewController-prefix.pch"; sourceTree = "<group>"; };
+		24B8F5C7D98501B1CF645DCA75699351 /* TipJarViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TipJarViewController-dummy.m"; sourceTree = "<group>"; };
+		282ED103688808D6897ACB186BCA1AE6 /* TipJarButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TipJarButton.swift; path = TipJarViewController/Classes/TipJarButton.swift; sourceTree = "<group>"; };
 		29A4B03DE7726782FCD0A497B371C08B /* Int+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Int+LionheartExtensions.swift"; path = "Pod/Classes/Core/Int+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		29AA36D0A98E46DCBB636904FD761FC5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A0FE539D936D5A9BFEBF1EDD4391264 /* carat.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = carat.png; path = docs/img/carat.png; sourceTree = "<group>"; };
+		2B86232A57831383696EF38CDC8DA1C1 /* TipJarViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = TipJarViewController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2BCC4F5FE70F112ACE68670E797380F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2D2691D96D098E6336A4358D82BBF31E /* IAPRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IAPRow.swift; path = TipJarViewController/Classes/IAPRow.swift; sourceTree = "<group>"; };
 		2E8A2457D479D01DECD1E0E2F5C3C3D0 /* Pods-TipJarViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TipJarViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2FD73442CC677804F60D19BD74DBA4A7 /* jquery.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = jquery.min.js; path = docs/docsets/TipJarViewController.docset/Contents/Resources/Documents/js/jquery.min.js; sourceTree = "<group>"; };
+		307D36CDF15A7C5F65027415228EAB09 /* typeahead.jquery.js */ = {isa = PBXFileReference; includeInIndex = 1; name = typeahead.jquery.js; path = docs/docsets/TipJarViewController.docset/Contents/Resources/Documents/js/typeahead.jquery.js; sourceTree = "<group>"; };
+		31FE7218C6EEC3D1A49817B13066B4DE /* docSet.dsidx */ = {isa = PBXFileReference; includeInIndex = 1; name = docSet.dsidx; path = docs/docsets/TipJarViewController.docset/Contents/Resources/docSet.dsidx; sourceTree = "<group>"; };
+		3328BCDA7ACD47071D5B9DBA15EE659A /* Protocols.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Protocols.html; path = docs/docsets/TipJarViewController.docset/Contents/Resources/Documents/Protocols.html; sourceTree = "<group>"; };
 		3440B34F93E91454C5351943850BFDE8 /* SuperLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SuperLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		37A6EED7209F7C91009D0CC7 /* MultilineTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MultilineTableViewCell.swift; path = TipJarViewController/Classes/MultilineTableViewCell.swift; sourceTree = "<group>"; };
-		37A6EED9209F7CB1009D0CC7 /* ActivityIndicatorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ActivityIndicatorTableViewCell.swift; path = TipJarViewController/Classes/ActivityIndicatorTableViewCell.swift; sourceTree = "<group>"; };
-		37A6EEDB209F7CE4009D0CC7 /* UIImage+TipJarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIImage+TipJarViewController.swift"; path = "TipJarViewController/Classes/UIImage+TipJarViewController.swift"; sourceTree = "<group>"; };
-		37A6EEDD209F7CFB009D0CC7 /* TipJarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TipJarButton.swift; path = TipJarViewController/Classes/TipJarButton.swift; sourceTree = "<group>"; };
-		37DF74CA209F7D6200FDEE8D /* TipJarFrequency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TipJarFrequency.swift; path = TipJarViewController/Classes/TipJarFrequency.swift; sourceTree = "<group>"; };
-		37EAF37C209F98550089D63C /* TipJarViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TipJarViewControllerDelegate.swift; path = TipJarViewController/Classes/TipJarViewControllerDelegate.swift; sourceTree = "<group>"; };
-		3A4ECB8456A940151DFB12610CD44882 /* TipJarViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TipJarViewController-umbrella.h"; sourceTree = "<group>"; };
+		347509D759EBF5EF5353B7213CFD1733 /* TipJarViewControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TipJarViewControllerDelegate.swift; path = TipJarViewController/Classes/TipJarViewControllerDelegate.swift; sourceTree = "<group>"; };
+		353EE8D980DE0F42D72387378A6AEAB3 /* jazzy.css */ = {isa = PBXFileReference; includeInIndex = 1; name = jazzy.css; path = docs/css/jazzy.css; sourceTree = "<group>"; };
+		38E393A88D43741F70DA8A8AC4E14C5A /* jazzy.search.js */ = {isa = PBXFileReference; includeInIndex = 1; name = jazzy.search.js; path = docs/docsets/TipJarViewController.docset/Contents/Resources/Documents/js/jazzy.search.js; sourceTree = "<group>"; };
+		38EF3653A142A75E560303CD94CD6BD7 /* badge.svg */ = {isa = PBXFileReference; includeInIndex = 1; name = badge.svg; path = docs/docsets/TipJarViewController.docset/Contents/Resources/Documents/badge.svg; sourceTree = "<group>"; };
 		3AE1BA04C5E02872CDD7FE71E2F1203F /* UIView+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIView+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		3C5B30CC4DE2020DDFA507573DA7BF62 /* QuickTableView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QuickTableView.modulemap; sourceTree = "<group>"; };
 		3D59A3259344D3F57435B678F10CFF51 /* QuickTableView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QuickTableView-umbrella.h"; sourceTree = "<group>"; };
 		3DB6E366C143835183D56FE89C5AE5EC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DFC5C5C865E4E2FCF4293E98929089F /* jquery.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = jquery.min.js; path = docs/js/jquery.min.js; sourceTree = "<group>"; };
+		3E531457EA0F04327427580B86A5DFD1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E6C3D9ECF12B38FF62E1F3D9C588D22 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		3ECB6D5252D2E8D39067739B48E5C2C2 /* ColorRepresentation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorRepresentation.swift; path = Pod/Classes/ColorRepresentation.swift; sourceTree = "<group>"; };
+		3EFD4EDE4229A4733A2F333C1A5C2155 /* UIImage+TipJarViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+TipJarViewController.swift"; path = "TipJarViewController/Classes/UIImage+TipJarViewController.swift"; sourceTree = "<group>"; };
 		4001E970B8AB82AA4AF12FBC44C8CB90 /* UIColor+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIColor+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		42AB72612F46F88541B9D6EECDF621D3 /* NSURLSession+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSURLSession+LionheartExtensions.swift"; path = "Pod/Classes/Core/NSURLSession+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		44ED4211B2998FEDF5C666B8C3E01086 /* UIImage+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIImage+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		44F1E53CF3BBEC26E799118C9D0E9597 /* filelist-local-md5 */ = {isa = PBXFileReference; includeInIndex = 1; name = "filelist-local-md5"; path = "docs/filelist-local-md5"; sourceTree = "<group>"; };
 		456E021555632DC54FF54E23DCF0D9D1 /* Main.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Main.swift; path = Pod/Classes/Main.swift; sourceTree = "<group>"; };
 		46A24515281D947C48F65C11B4CC3C10 /* NSDecimalNumber+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSDecimalNumber+LionheartExtensions.swift"; path = "Pod/Classes/Core/NSDecimalNumber+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		47F1AB2A5F70A5114982AAE2253527A4 /* SuperLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SuperLayout-prefix.pch"; sourceTree = "<group>"; };
 		49033D6F1469AF921E3545F729EA4D06 /* UIScreen+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIScreen+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIScreen+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		4B7CAB8BDE0D6F58BCF53EDC07BCF950 /* ActivityIndicatorButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityIndicatorButton.swift; path = Pod/Classes/ActivityIndicatorButton.swift; sourceTree = "<group>"; };
-		4CD8117B02747AC8ED58CF88DF011C04 /* TipJarViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TipJarViewController-dummy.m"; sourceTree = "<group>"; };
 		507AA9E14C303D321AAE4B340577DA09 /* Pods-TipJarViewController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TipJarViewController_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		51847E2A8093AFB8F261E4FCD866BFC5 /* Pods_TipJarViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TipJarViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51847E2A8093AFB8F261E4FCD866BFC5 /* Pods_TipJarViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TipJarViewController_Example.framework; path = "Pods-TipJarViewController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53FF67FCD4262CF3D775C637B5585F19 /* CustomButtonType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomButtonType.swift; path = Pod/Classes/CustomButtonType.swift; sourceTree = "<group>"; };
 		5638358AE02F28A0C526EAC543A315BA /* Pods-TipJarViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TipJarViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		565F3B9D970F162A6C69AB4B51405C35 /* UITextField+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+LionheartExtensions.swift"; path = "Pod/Classes/Core/UITextField+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		571FE7DF74642582293C199E9B46031E /* highlight.css */ = {isa = PBXFileReference; includeInIndex = 1; name = highlight.css; path = docs/docsets/TipJarViewController.docset/Contents/Resources/Documents/css/highlight.css; sourceTree = "<group>"; };
+		57EB470E7A451DC88C9C43AB2502D33B /* search.json */ = {isa = PBXFileReference; includeInIndex = 1; name = search.json; path = docs/docsets/TipJarViewController.docset/Contents/Resources/Documents/search.json; sourceTree = "<group>"; };
 		58C907CFB3AB9472B2FCC9AEFF552C9E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		58E026FDB1606AB7B2C1D9BC60973101 /* undocumented.json */ = {isa = PBXFileReference; includeInIndex = 1; name = undocumented.json; path = docs/docsets/TipJarViewController.docset/Contents/Resources/Documents/undocumented.json; sourceTree = "<group>"; };
 		5E081D9EAF98A976DF75A6921E03BECC /* QuickTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickTableViewController.swift; path = Pod/Classes/QuickTableViewController.swift; sourceTree = "<group>"; };
 		5EB596F1B5033D462984F230E906B0FF /* FileManager+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FileManager+LionheartExtensions.swift"; path = "Pod/Classes/Core/FileManager+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		5FFB611A9EEE26195A95230A2AD26C63 /* KeyboardAdjuster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KeyboardAdjuster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6246D190304BAB51CDED6B6AC995964A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		60B0635726A67E70B662FBEFFEF01B03 /* TipJarViewController.html */ = {isa = PBXFileReference; includeInIndex = 1; name = TipJarViewController.html; path = docs/docsets/TipJarViewController.docset/Contents/Resources/Documents/Classes/TipJarViewController.html; sourceTree = "<group>"; };
+		61606B52EFCEC98D58C1FB3447940EB9 /* index.html */ = {isa = PBXFileReference; includeInIndex = 1; name = index.html; path = docs/index.html; sourceTree = "<group>"; };
+		62E16139325B9EC6141862380CC0C6ED /* typeahead.jquery.js */ = {isa = PBXFileReference; includeInIndex = 1; name = typeahead.jquery.js; path = docs/js/typeahead.jquery.js; sourceTree = "<group>"; };
 		63D9780852DF52D13256463A91298BBC /* QuickTableViewCellSubtitle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickTableViewCellSubtitle.swift; path = "Pod/Classes/Table View Cells/QuickTableViewCellSubtitle.swift"; sourceTree = "<group>"; };
 		64EFDAF978B97293ECF569AAD15BD037 /* Pods-TipJarViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TipJarViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6533A4F52FE0CE6BCACD256273A726A0 /* Classes.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Classes.html; path = docs/Classes.html; sourceTree = "<group>"; };
 		66B8BE4ACC9CF15948A3F589898AB993 /* QuickTableViewCellValue2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickTableViewCellValue2.swift; path = "Pod/Classes/Table View Cells/QuickTableViewCellValue2.swift"; sourceTree = "<group>"; };
+		6A9CFA293F6796DA0BA323EA6B689910 /* filelist */ = {isa = PBXFileReference; includeInIndex = 1; name = filelist; path = docs/filelist; sourceTree = "<group>"; };
 		6BF5B1EC30B18D49B2F657FE3560EEEA /* SuperLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SuperLayout-dummy.m"; sourceTree = "<group>"; };
+		6F8B53AFE2C85211ED8FB90D03D3A3D3 /* SubscriptionRow.html */ = {isa = PBXFileReference; includeInIndex = 1; name = SubscriptionRow.html; path = docs/docsets/TipJarViewController.docset/Contents/Resources/Documents/Classes/TipJarViewController/SubscriptionRow.html; sourceTree = "<group>"; };
+		6FEE6DDFD5040FAF6C4E17B8AD4E99BD /* badge.svg */ = {isa = PBXFileReference; includeInIndex = 1; name = badge.svg; path = docs/badge.svg; sourceTree = "<group>"; };
 		7126C5A829CA2B5CF5B375E6B0F46F88 /* LionheartExtensions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LionheartExtensions-prefix.pch"; sourceTree = "<group>"; };
 		727C54D3F909012E9409D526E61202BA /* KeyboardAdjuster.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeyboardAdjuster.xcconfig; sourceTree = "<group>"; };
 		734FC51589540AD2EE6D1CF907D6E2A2 /* SuperLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SuperLayout-umbrella.h"; sourceTree = "<group>"; };
 		73763FE4A863B18633807096B39B21AA /* KeyboardAdjuster.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardAdjuster.swift; path = Pod/Classes/KeyboardAdjuster.swift; sourceTree = "<group>"; };
+		7385EDDA3BA9B76CDDC207240EBA50EE /* TipJarViewController.tgz */ = {isa = PBXFileReference; includeInIndex = 1; name = TipJarViewController.tgz; path = docs/docsets/TipJarViewController.tgz; sourceTree = "<group>"; };
 		759E58F76F4054B9306ED9A47502F2A9 /* QuickTableViewProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickTableViewProtocols.swift; path = Pod/Protocols/QuickTableViewProtocols.swift; sourceTree = "<group>"; };
+		76C951FE8182242A4807042F0D880164 /* IAPRow.html */ = {isa = PBXFileReference; includeInIndex = 1; name = IAPRow.html; path = docs/Protocols/IAPRow.html; sourceTree = "<group>"; };
 		78B6B1AB0C98770A718630782EB42B4D /* UIPrintPageRenderer+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIPrintPageRenderer+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIPrintPageRenderer+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		79A0D85F731C0B5651A707488BDCDA4A /* TipJarViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TipJarViewController.modulemap; sourceTree = "<group>"; };
+		7B284E8C1F81F8E4932731D92BB88343 /* Classes.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Classes.html; path = docs/docsets/TipJarViewController.docset/Contents/Resources/Documents/Classes.html; sourceTree = "<group>"; };
 		7C79D6D927C735730C4A97E195EDBF6B /* IndexPath+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IndexPath+LionheartExtensions.swift"; path = "Pod/Classes/Core/IndexPath+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		80DE1DEAE7FFFF5A1D8466518CD30FD7 /* jazzy.search.js */ = {isa = PBXFileReference; includeInIndex = 1; name = jazzy.search.js; path = docs/js/jazzy.search.js; sourceTree = "<group>"; };
 		8111E8AF9620BBF9D02C697C80B6F890 /* Pods-TipJarViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TipJarViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		8415EFA8D8AB1882D6882DAF9C062045 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
 		841AE372ED62C4AFDAB30A873BDEA556 /* QuickTableViewSection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickTableViewSection.swift; path = Pod/Extensions/QuickTableViewSection.swift; sourceTree = "<group>"; };
+		8468A811C4DEE08366F03DDE71ECA99B /* TipJarOptionalConfiguration.html */ = {isa = PBXFileReference; includeInIndex = 1; name = TipJarOptionalConfiguration.html; path = docs/docsets/TipJarViewController.docset/Contents/Resources/Documents/Protocols/TipJarOptionalConfiguration.html; sourceTree = "<group>"; };
+		862CBB4C854454C200DE41534EB7ADE7 /* gh.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = gh.png; path = docs/img/gh.png; sourceTree = "<group>"; };
 		88309C85C40128595D337B172BCE6F11 /* SuperLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SuperLayout.modulemap; sourceTree = "<group>"; };
 		89693930BA46D72B263559943C14299B /* Pods-TipJarViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TipJarViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
-		8AE7CA0F7997CF80F2C8916B0141C102 /* TipJarViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TipJarViewController.xcconfig; sourceTree = "<group>"; };
+		8A86941A196297029C26D950FF13A5B6 /* TipJarConfiguration.html */ = {isa = PBXFileReference; includeInIndex = 1; name = TipJarConfiguration.html; path = docs/Protocols/TipJarConfiguration.html; sourceTree = "<group>"; };
 		8B9F745DA341B09140FCF60FA1D23683 /* QuickTableViewCellValue1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickTableViewCellValue1.swift; path = "Pod/Classes/Table View Cells/QuickTableViewCellValue1.swift"; sourceTree = "<group>"; };
+		8BA71307BB713473150ECEC0A85F4DDE /* TipJarViewController.html */ = {isa = PBXFileReference; includeInIndex = 1; name = TipJarViewController.html; path = docs/Classes/TipJarViewController.html; sourceTree = "<group>"; };
 		9147D3CE5EAD469E34D38CE193E1F2E6 /* QuickTableView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QuickTableView-prefix.pch"; sourceTree = "<group>"; };
 		92B726F044EF3C601163C3F6C7EFCFEC /* KeyboardAdjuster-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeyboardAdjuster-umbrella.h"; sourceTree = "<group>"; };
 		92C108CC16C873D73D2A7E50361E7D16 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		93FA577DDBCC59CC9EB40A29294E3781 /* KeyboardAdjuster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KeyboardAdjuster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93FA577DDBCC59CC9EB40A29294E3781 /* KeyboardAdjuster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KeyboardAdjuster.framework; path = KeyboardAdjuster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A7062DEDE42A4509A28EAC45CCB0074 /* jazzy.js */ = {isa = PBXFileReference; includeInIndex = 1; name = jazzy.js; path = docs/js/jazzy.js; sourceTree = "<group>"; };
 		9B06A6BA717B03A6C92BE548E94DA672 /* Pods-TipJarViewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TipJarViewController_Example-umbrella.h"; sourceTree = "<group>"; };
 		9B955EA52CDD3EE3294F548DCD7D0C81 /* File.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = File.swift; path = Pod/Classes/File.swift; sourceTree = "<group>"; };
 		9EB8ADFC3D6DF02FDAAEA7144D84EEBF /* UIViewController+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIViewController+LionheartExtensions.swift"; sourceTree = "<group>"; };
@@ -258,42 +291,70 @@
 		A29FEFE565454FF91002D5ECC2B06953 /* Pods-TipJarViewController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TipJarViewController_Tests-resources.sh"; sourceTree = "<group>"; };
 		A3B3ACF72B57130935710694A6A1AB0B /* Summable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Summable.swift; path = Pod/Classes/Summable.swift; sourceTree = "<group>"; };
 		A3D05570C77161F4C7E420E74375B976 /* UIApplicationDelegate+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIApplicationDelegate+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIApplicationDelegate+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		A4363E1A0F9679D7731F157F9A5DE016 /* OneTimeRow.html */ = {isa = PBXFileReference; includeInIndex = 1; name = OneTimeRow.html; path = docs/Classes/TipJarViewController/OneTimeRow.html; sourceTree = "<group>"; };
+		A4DF946CE4F639BD2CF25B14F6A1B033 /* filelist */ = {isa = PBXFileReference; includeInIndex = 1; name = filelist; path = docs/docsets/TipJarViewController.docset/Contents/Resources/Documents/filelist; sourceTree = "<group>"; };
 		A4FB9155D75DECAF983103CB8622712B /* KeyboardAdjuster-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KeyboardAdjuster-dummy.m"; sourceTree = "<group>"; };
 		A7100E77A259D0890359D5E1A055EECC /* BaseTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseTableViewController.swift; path = Pod/Classes/BaseTableViewController.swift; sourceTree = "<group>"; };
 		AB9998F533FCC1CD7EBF8804474C7DB9 /* Pods-TipJarViewController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TipJarViewController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AC0B89886B1DA2A5450E01EA75876DD9 /* QuickTableViewCellDefault.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickTableViewCellDefault.swift; path = "Pod/Classes/Table View Cells/QuickTableViewCellDefault.swift"; sourceTree = "<group>"; };
+		AD0F26B59B005BB713F68F0F0A941E47 /* search.json */ = {isa = PBXFileReference; includeInIndex = 1; name = search.json; path = docs/search.json; sourceTree = "<group>"; };
+		B22353504610D85076298B5369C9D46C /* lunr.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = lunr.min.js; path = docs/docsets/TipJarViewController.docset/Contents/Resources/Documents/js/lunr.min.js; sourceTree = "<group>"; };
+		B3267F4620AD7BB6AE86661789178FBB /* filelist-local */ = {isa = PBXFileReference; includeInIndex = 1; name = "filelist-local"; path = "docs/docsets/TipJarViewController.docset/Contents/Resources/Documents/filelist-local"; sourceTree = "<group>"; };
 		B3873CD71A9EE678C536087AF545735D /* KeyboardAdjuster.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KeyboardAdjuster.modulemap; sourceTree = "<group>"; };
-		B39CBA11E508C0FEBD52B6FADB79ECA5 /* Pods_TipJarViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TipJarViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B39CBA11E508C0FEBD52B6FADB79ECA5 /* Pods_TipJarViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TipJarViewController_Tests.framework; path = "Pods-TipJarViewController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6B513833197CBE0666E536102666860 /* Functional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Functional.swift; path = Pod/Classes/Functional.swift; sourceTree = "<group>"; };
+		B7FE882ECA9FAE73F3C6834C514F85FF /* carat.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = carat.png; path = docs/docsets/TipJarViewController.docset/Contents/Resources/Documents/img/carat.png; sourceTree = "<group>"; };
 		B8B2DF5743DBF1497F6EE8A38A2B2C08 /* Bundle+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+LionheartExtensions.swift"; path = "Pod/Classes/Core/Bundle+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		B9CCEA38371728CB5CCA3770D046F733 /* Pods-TipJarViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TipJarViewController_Tests.modulemap"; sourceTree = "<group>"; };
-		BB55A812EDAA1202341D5B2E8DFABCB1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		C0F2961DF15291C65BBA03CA0C09D8E7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C7D67D533A4ED5A8FE563CBCDDA89672 /* TipJarViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TipJarViewController.swift; path = TipJarViewController/Classes/TipJarViewController.swift; sourceTree = "<group>"; };
+		BC0DC1BE46086FA8914CC70EF216EE6A /* MultilineTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultilineTableViewCell.swift; path = TipJarViewController/Classes/MultilineTableViewCell.swift; sourceTree = "<group>"; };
+		BF8AD0647166F7D9974F93AC337A51A9 /* TipJarFrequency.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TipJarFrequency.swift; path = TipJarViewController/Classes/TipJarFrequency.swift; sourceTree = "<group>"; };
+		C0397BC69700A31A03658F60C548FC03 /* TipJarFrequency.html */ = {isa = PBXFileReference; includeInIndex = 1; name = TipJarFrequency.html; path = docs/Enums/TipJarFrequency.html; sourceTree = "<group>"; };
+		C1C51CB035FFCCA6B071DBB81FC49532 /* TipJarTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TipJarTableViewCell.swift; path = TipJarViewController/Classes/TipJarTableViewCell.swift; sourceTree = "<group>"; };
+		C24E815E8301BBAD85B43092AFF107AD /* dash.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = dash.png; path = docs/img/dash.png; sourceTree = "<group>"; };
+		C2C0DA09FDBC7DD51325FCA995B32AB1 /* jazzy.js */ = {isa = PBXFileReference; includeInIndex = 1; name = jazzy.js; path = docs/docsets/TipJarViewController.docset/Contents/Resources/Documents/js/jazzy.js; sourceTree = "<group>"; };
+		C414C94DA4CA0DA2F8E78391D83871A0 /* index.html */ = {isa = PBXFileReference; includeInIndex = 1; name = index.html; path = docs/docsets/TipJarViewController.docset/Contents/Resources/Documents/index.html; sourceTree = "<group>"; };
+		C6F359C004952A4AD40E96078EB7EE56 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = docs/docsets/TipJarViewController.docset/Contents/Info.plist; sourceTree = "<group>"; };
 		C9B9AD0CBF5A2C3E3DB51E01E177AEEC /* Array+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+LionheartExtensions.swift"; path = "Pod/Classes/Core/Array+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		CC242936E7BF8E3A9EF07974316541D2 /* CIImage+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CIImage+LionheartExtensions.swift"; path = "Pod/Classes/Core/CIImage+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		CE7D32E2ECCC8321BA38DE00CCC5B192 /* Pods-TipJarViewController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TipJarViewController_Tests-dummy.m"; sourceTree = "<group>"; };
 		D0E0E36020BC37FCCF1935FBE173C301 /* KeyboardAdjuster-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeyboardAdjuster-prefix.pch"; sourceTree = "<group>"; };
+		D2AF94BB410997C7A5F5F50B1BB38497 /* filelist-md5 */ = {isa = PBXFileReference; includeInIndex = 1; name = "filelist-md5"; path = "docs/docsets/TipJarViewController.docset/Contents/Resources/Documents/filelist-md5"; sourceTree = "<group>"; };
+		D34F72989327C010D82FFCFB89E6EC74 /* TipJarFrequency.html */ = {isa = PBXFileReference; includeInIndex = 1; name = TipJarFrequency.html; path = docs/docsets/TipJarViewController.docset/Contents/Resources/Documents/Enums/TipJarFrequency.html; sourceTree = "<group>"; };
 		D41D8C9FE00D878C3CEB3F4A24F2961F /* Pods-TipJarViewController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TipJarViewController_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D4E27A4600B2CA2E4DAC6DD84E007E05 /* DateFormatter+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DateFormatter+LionheartExtensions.swift"; path = "Pod/Classes/Core/DateFormatter+LionheartExtensions.swift"; sourceTree = "<group>"; };
-		D4EAF836387014BB796BDB529E7653B1 /* TipJarViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = TipJarViewController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D7E305206ACA8DAF497ACBB144E513EA /* Pods-TipJarViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TipJarViewController_Example-dummy.m"; sourceTree = "<group>"; };
 		DA5FD86828D87D9907ABB0CC25FACDF1 /* Pods-TipJarViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TipJarViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
 		DA685809330B8293119BFFD166EE1C0F /* LionheartExtensions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LionheartExtensions-dummy.m"; sourceTree = "<group>"; };
+		DAB4194476855AD2E62A18A0B9F0A802 /* TipJarViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TipJarViewController.xcconfig; sourceTree = "<group>"; };
+		DAB8C9ACA1A600FDFFAA49B804EA1816 /* gh.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = gh.png; path = docs/docsets/TipJarViewController.docset/Contents/Resources/Documents/img/gh.png; sourceTree = "<group>"; };
+		DB2AEC7609B5CF24455C0B8964371AFC /* Protocols.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Protocols.html; path = docs/Protocols.html; sourceTree = "<group>"; };
 		DB4B66D8D01EA57483FE02DB6CAD1A85 /* UIFont+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIFont+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIFont+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		DD1C24F8E5D37AF52917A7B9D03034AF /* Optional+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Optional+LionheartExtensions.swift"; path = "Pod/Classes/Core/Optional+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		DD6E899FD12462B0CED797084581AC25 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEC032789F5639B487A602FCAF6F465D /* spinner.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = spinner.gif; path = docs/img/spinner.gif; sourceTree = "<group>"; };
+		DF36523D2A405E60FF5E0A1C4E295027 /* SubscriptionRow.html */ = {isa = PBXFileReference; includeInIndex = 1; name = SubscriptionRow.html; path = docs/Classes/TipJarViewController/SubscriptionRow.html; sourceTree = "<group>"; };
 		E1BFB2AB5983DA96B00733F5DEFF2766 /* Pods-TipJarViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TipJarViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E2B881CF275B043E95BFE65708D7884E /* QuickTableViewRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickTableViewRow.swift; path = Pod/Extensions/QuickTableViewRow.swift; sourceTree = "<group>"; };
+		E42D3E98752AC25E50EC1B6C0F79441B /* TipJarOptionalConfiguration.html */ = {isa = PBXFileReference; includeInIndex = 1; name = TipJarOptionalConfiguration.html; path = docs/Protocols/TipJarOptionalConfiguration.html; sourceTree = "<group>"; };
+		E4EBC91E27FD746913E13D075F9034E6 /* TipJarConfiguration.html */ = {isa = PBXFileReference; includeInIndex = 1; name = TipJarConfiguration.html; path = docs/docsets/TipJarViewController.docset/Contents/Resources/Documents/Protocols/TipJarConfiguration.html; sourceTree = "<group>"; };
 		E680B3C8EC724353DB461F0942A60C82 /* QuickTableView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QuickTableView.xcconfig; sourceTree = "<group>"; };
-		E82BBCABA8E12CEAFFFAA9C01CCB4759 /* TipJarViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TipJarViewController.modulemap; sourceTree = "<group>"; };
 		E8A4E041DF03B600E9E86EB377616DC4 /* LionheartExtensions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LionheartExtensions.xcconfig; sourceTree = "<group>"; };
+		E9994D770068AFE8CE8B7D6A45697AFB /* undocumented.json */ = {isa = PBXFileReference; includeInIndex = 1; name = undocumented.json; path = docs/undocumented.json; sourceTree = "<group>"; };
+		EA2B7280D55CE64BB5D8ECB6B8E33F82 /* TipJarViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TipJarViewController.swift; path = TipJarViewController/Classes/TipJarViewController.swift; sourceTree = "<group>"; };
 		EB500DF5A4CC4B528F6DBAA0C6AA371B /* QuickTableView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QuickTableView-dummy.m"; sourceTree = "<group>"; };
+		EC6025E0C8AF5D0953E05CF6CF900ADF /* spinner.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = spinner.gif; path = docs/docsets/TipJarViewController.docset/Contents/Resources/Documents/img/spinner.gif; sourceTree = "<group>"; };
 		ED196E2217BB5E519C9D88310DFD8994 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE1B661A30D557E88CFC95E059D5D005 /* Any+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Any+LionheartExtensions.swift"; path = "Pod/Classes/Core/Any+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		F17F02F2CF580AD7542FD67FD3939F83 /* highlight.css */ = {isa = PBXFileReference; includeInIndex = 1; name = highlight.css; path = docs/css/highlight.css; sourceTree = "<group>"; };
+		F1B42BA70D44C18C9A5C56A09C58BB1F /* Enums.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Enums.html; path = docs/docsets/TipJarViewController.docset/Contents/Resources/Documents/Enums.html; sourceTree = "<group>"; };
+		F2C60C9B64B09E1566946A2B6781E5AA /* lunr.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = lunr.min.js; path = docs/js/lunr.min.js; sourceTree = "<group>"; };
+		F33B0171479A4EDBD99D76DFE9A547B4 /* filelist-local */ = {isa = PBXFileReference; includeInIndex = 1; name = "filelist-local"; path = "docs/filelist-local"; sourceTree = "<group>"; };
 		F3497A6BA1E458FAACB9BCED7A44D3D4 /* SuperLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SuperLayout.swift; path = Sources/SuperLayout.swift; sourceTree = "<group>"; };
 		F4411212448B072168BB56CF37ED5549 /* UIAlertController+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIAlertController+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIAlertController+LionheartExtensions.swift"; sourceTree = "<group>"; };
-		F4C92C9704CCF6389E08A9E4D071714E /* LionheartExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LionheartExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4C92C9704CCF6389E08A9E4D071714E /* LionheartExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LionheartExtensions.framework; path = LionheartExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F586C62374498D80BCFF9EFEF86900C2 /* Enums.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Enums.html; path = docs/Enums.html; sourceTree = "<group>"; };
+		F5DA604082947BDAF13EE8BE75B27F1F /* jazzy.css */ = {isa = PBXFileReference; includeInIndex = 1; name = jazzy.css; path = docs/docsets/TipJarViewController.docset/Contents/Resources/Documents/css/jazzy.css; sourceTree = "<group>"; };
+		F7055EB944BB72B1D87CDCEA920E9A50 /* dash.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = dash.png; path = docs/docsets/TipJarViewController.docset/Contents/Resources/Documents/img/dash.png; sourceTree = "<group>"; };
 		FD275EA88588BC20EB06AE91F77AF721 /* String+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+LionheartExtensions.swift"; path = "Pod/Classes/Core/String+LionheartExtensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -380,7 +441,22 @@
 				1BD92E19A59F8F23951B666B60910972 /* UITableView.swift */,
 				AB3133AF789025A452D1BBCECFF6AB5A /* Support Files */,
 			);
+			name = QuickTableView;
 			path = QuickTableView;
+			sourceTree = "<group>";
+		};
+		19F92A38E2887A49DA01497973C666DE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E531457EA0F04327427580B86A5DFD1 /* Info.plist */,
+				79A0D85F731C0B5651A707488BDCDA4A /* TipJarViewController.modulemap */,
+				DAB4194476855AD2E62A18A0B9F0A802 /* TipJarViewController.xcconfig */,
+				24B8F5C7D98501B1CF645DCA75699351 /* TipJarViewController-dummy.m */,
+				24959658EA451FF7456733B575AA5EDD /* TipJarViewController-prefix.pch */,
+				016288D971877B387801C3EDD52E34F4 /* TipJarViewController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TipJarViewController";
 			sourceTree = "<group>";
 		};
 		1AA2F49AA3358A910CF7452794ADF356 /* LionheartExtensions */ = {
@@ -389,6 +465,7 @@
 				B1BD4C5B007686F1F15CECEC2BA729CB /* Core */,
 				56E16DAB34C58D26657255A1FCF458E3 /* Support Files */,
 			);
+			name = LionheartExtensions;
 			path = LionheartExtensions;
 			sourceTree = "<group>";
 		};
@@ -475,16 +552,6 @@
 			path = "Target Support Files/Pods-TipJarViewController_Example";
 			sourceTree = "<group>";
 		};
-		6D564C3E84D10713E8FB269A9F4DCBF9 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				6246D190304BAB51CDED6B6AC995964A /* LICENSE */,
-				BB55A812EDAA1202341D5B2E8DFABCB1 /* README.md */,
-				D4EAF836387014BB796BDB529E7653B1 /* TipJarViewController.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		6DC8C7D86F978EE1C4B28511FA96F648 /* Core */ = {
 			isa = PBXGroup;
 			children = (
@@ -499,6 +566,7 @@
 				73763FE4A863B18633807096B39B21AA /* KeyboardAdjuster.swift */,
 				BECF085002CA1011670C73896044AB13 /* Support Files */,
 			);
+			name = KeyboardAdjuster;
 			path = KeyboardAdjuster;
 			sourceTree = "<group>";
 		};
@@ -508,28 +576,15 @@
 				6DC8C7D86F978EE1C4B28511FA96F648 /* Core */,
 				84FA8FDEB683C9E16760AA3878ECA0CE /* Support Files */,
 			);
+			name = SuperLayout;
 			path = SuperLayout;
-			sourceTree = "<group>";
-		};
-		7D26F41665170EE2D32DDB1446165E25 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C0F2961DF15291C65BBA03CA0C09D8E7 /* Info.plist */,
-				E82BBCABA8E12CEAFFFAA9C01CCB4759 /* TipJarViewController.modulemap */,
-				8AE7CA0F7997CF80F2C8916B0141C102 /* TipJarViewController.xcconfig */,
-				4CD8117B02747AC8ED58CF88DF011C04 /* TipJarViewController-dummy.m */,
-				0CC0FF1613850783B73B5FCB1FC94C63 /* TipJarViewController-prefix.pch */,
-				3A4ECB8456A940151DFB12610CD44882 /* TipJarViewController-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TipJarViewController";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				9E0BECC4BBF5D9A4F9D580F1451CD22C /* Development Pods */,
+				8920A39342F8B3D58E4A152F87E2819A /* Development Pods */,
 				CD73DC2ACF36D0FAE98C0330151EF6B6 /* Frameworks */,
 				8964352053A845B7B2F050609E4645FA /* Pods */,
 				236BB38E5DD6078262AFEDC744DDBDB1 /* Products */,
@@ -551,6 +606,14 @@
 			path = "../Target Support Files/SuperLayout";
 			sourceTree = "<group>";
 		};
+		8920A39342F8B3D58E4A152F87E2819A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A54DAB3DC92A485182712A8FD2F0CCA3 /* TipJarViewController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		8964352053A845B7B2F050609E4645FA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -562,12 +625,23 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		9E0BECC4BBF5D9A4F9D580F1451CD22C /* Development Pods */ = {
+		A54DAB3DC92A485182712A8FD2F0CCA3 /* TipJarViewController */ = {
 			isa = PBXGroup;
 			children = (
-				B3EDDDEBB0683CD22FE60C3347543DF9 /* TipJarViewController */,
+				122B554259BCA7BB94385CF22FD974C2 /* ActivityIndicatorTableViewCell.swift */,
+				2D2691D96D098E6336A4358D82BBF31E /* IAPRow.swift */,
+				BC0DC1BE46086FA8914CC70EF216EE6A /* MultilineTableViewCell.swift */,
+				282ED103688808D6897ACB186BCA1AE6 /* TipJarButton.swift */,
+				BF8AD0647166F7D9974F93AC337A51A9 /* TipJarFrequency.swift */,
+				C1C51CB035FFCCA6B071DBB81FC49532 /* TipJarTableViewCell.swift */,
+				EA2B7280D55CE64BB5D8ECB6B8E33F82 /* TipJarViewController.swift */,
+				347509D759EBF5EF5353B7213CFD1733 /* TipJarViewControllerDelegate.swift */,
+				3EFD4EDE4229A4733A2F333C1A5C2155 /* UIImage+TipJarViewController.swift */,
+				DA69F57BD736280C5E5505D73BE2DAAF /* Pod */,
+				19F92A38E2887A49DA01497973C666DE /* Support Files */,
 			);
-			name = "Development Pods";
+			name = TipJarViewController;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		AB3133AF789025A452D1BBCECFF6AB5A /* Support Files */ = {
@@ -624,25 +698,6 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
-		B3EDDDEBB0683CD22FE60C3347543DF9 /* TipJarViewController */ = {
-			isa = PBXGroup;
-			children = (
-				37A6EED9209F7CB1009D0CC7 /* ActivityIndicatorTableViewCell.swift */,
-				1CDC607FFA96ED2BF61E08CAB759ABF7 /* IAPRow.swift */,
-				37A6EED7209F7C91009D0CC7 /* MultilineTableViewCell.swift */,
-				37EAF37C209F98550089D63C /* TipJarViewControllerDelegate.swift */,
-				37A6EEDD209F7CFB009D0CC7 /* TipJarButton.swift */,
-				289B99F3B8D57DB6BB6307D218E82D6D /* TipJarTableViewCell.swift */,
-				37DF74CA209F7D6200FDEE8D /* TipJarFrequency.swift */,
-				C7D67D533A4ED5A8FE563CBCDDA89672 /* TipJarViewController.swift */,
-				37A6EEDB209F7CE4009D0CC7 /* UIImage+TipJarViewController.swift */,
-				6D564C3E84D10713E8FB269A9F4DCBF9 /* Pod */,
-				7D26F41665170EE2D32DDB1446165E25 /* Support Files */,
-			);
-			name = TipJarViewController;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		BECF085002CA1011670C73896044AB13 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -667,6 +722,77 @@
 				351ED52D6D68D01B8286F7690E37F782 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA69F57BD736280C5E5505D73BE2DAAF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6FEE6DDFD5040FAF6C4E17B8AD4E99BD /* badge.svg */,
+				38EF3653A142A75E560303CD94CD6BD7 /* badge.svg */,
+				2A0FE539D936D5A9BFEBF1EDD4391264 /* carat.png */,
+				B7FE882ECA9FAE73F3C6834C514F85FF /* carat.png */,
+				7B284E8C1F81F8E4932731D92BB88343 /* Classes.html */,
+				6533A4F52FE0CE6BCACD256273A726A0 /* Classes.html */,
+				F7055EB944BB72B1D87CDCEA920E9A50 /* dash.png */,
+				C24E815E8301BBAD85B43092AFF107AD /* dash.png */,
+				31FE7218C6EEC3D1A49817B13066B4DE /* docSet.dsidx */,
+				F1B42BA70D44C18C9A5C56A09C58BB1F /* Enums.html */,
+				F586C62374498D80BCFF9EFEF86900C2 /* Enums.html */,
+				6A9CFA293F6796DA0BA323EA6B689910 /* filelist */,
+				A4DF946CE4F639BD2CF25B14F6A1B033 /* filelist */,
+				F33B0171479A4EDBD99D76DFE9A547B4 /* filelist-local */,
+				B3267F4620AD7BB6AE86661789178FBB /* filelist-local */,
+				1857E5D3EF4C69C30658E9AB0BB2B6B0 /* filelist-local-md5 */,
+				44F1E53CF3BBEC26E799118C9D0E9597 /* filelist-local-md5 */,
+				04F402A93AAF7582CFC120D4BD98D38D /* filelist-md5 */,
+				D2AF94BB410997C7A5F5F50B1BB38497 /* filelist-md5 */,
+				862CBB4C854454C200DE41534EB7ADE7 /* gh.png */,
+				DAB8C9ACA1A600FDFFAA49B804EA1816 /* gh.png */,
+				F17F02F2CF580AD7542FD67FD3939F83 /* highlight.css */,
+				571FE7DF74642582293C199E9B46031E /* highlight.css */,
+				06FECA41BE0FDC968C5337093894E143 /* IAPRow.html */,
+				76C951FE8182242A4807042F0D880164 /* IAPRow.html */,
+				61606B52EFCEC98D58C1FB3447940EB9 /* index.html */,
+				C414C94DA4CA0DA2F8E78391D83871A0 /* index.html */,
+				C6F359C004952A4AD40E96078EB7EE56 /* Info.plist */,
+				353EE8D980DE0F42D72387378A6AEAB3 /* jazzy.css */,
+				F5DA604082947BDAF13EE8BE75B27F1F /* jazzy.css */,
+				C2C0DA09FDBC7DD51325FCA995B32AB1 /* jazzy.js */,
+				9A7062DEDE42A4509A28EAC45CCB0074 /* jazzy.js */,
+				38E393A88D43741F70DA8A8AC4E14C5A /* jazzy.search.js */,
+				80DE1DEAE7FFFF5A1D8466518CD30FD7 /* jazzy.search.js */,
+				3DFC5C5C865E4E2FCF4293E98929089F /* jquery.min.js */,
+				2FD73442CC677804F60D19BD74DBA4A7 /* jquery.min.js */,
+				3E6C3D9ECF12B38FF62E1F3D9C588D22 /* LICENSE */,
+				F2C60C9B64B09E1566946A2B6781E5AA /* lunr.min.js */,
+				B22353504610D85076298B5369C9D46C /* lunr.min.js */,
+				A4363E1A0F9679D7731F157F9A5DE016 /* OneTimeRow.html */,
+				233B9680BC5E3BE3CF45A522BC60D185 /* OneTimeRow.html */,
+				3328BCDA7ACD47071D5B9DBA15EE659A /* Protocols.html */,
+				DB2AEC7609B5CF24455C0B8964371AFC /* Protocols.html */,
+				1063B4EDAF753DA077F2713DC559DEAA /* README.md */,
+				57EB470E7A451DC88C9C43AB2502D33B /* search.json */,
+				AD0F26B59B005BB713F68F0F0A941E47 /* search.json */,
+				DEC032789F5639B487A602FCAF6F465D /* spinner.gif */,
+				EC6025E0C8AF5D0953E05CF6CF900ADF /* spinner.gif */,
+				6F8B53AFE2C85211ED8FB90D03D3A3D3 /* SubscriptionRow.html */,
+				DF36523D2A405E60FF5E0A1C4E295027 /* SubscriptionRow.html */,
+				8A86941A196297029C26D950FF13A5B6 /* TipJarConfiguration.html */,
+				E4EBC91E27FD746913E13D075F9034E6 /* TipJarConfiguration.html */,
+				C0397BC69700A31A03658F60C548FC03 /* TipJarFrequency.html */,
+				D34F72989327C010D82FFCFB89E6EC74 /* TipJarFrequency.html */,
+				E42D3E98752AC25E50EC1B6C0F79441B /* TipJarOptionalConfiguration.html */,
+				8468A811C4DEE08366F03DDE71ECA99B /* TipJarOptionalConfiguration.html */,
+				60B0635726A67E70B662FBEFFEF01B03 /* TipJarViewController.html */,
+				8BA71307BB713473150ECEC0A85F4DDE /* TipJarViewController.html */,
+				2B86232A57831383696EF38CDC8DA1C1 /* TipJarViewController.podspec */,
+				7385EDDA3BA9B76CDDC207240EBA50EE /* TipJarViewController.tgz */,
+				62E16139325B9EC6141862380CC0C6ED /* typeahead.jquery.js */,
+				307D36CDF15A7C5F65027415228EAB09 /* typeahead.jquery.js */,
+				58E026FDB1606AB7B2C1D9BC60973101 /* undocumented.json */,
+				E9994D770068AFE8CE8B7D6A45697AFB /* undocumented.json */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -791,7 +917,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ABB72542FAAA5812753343D5490F99BD /* Build configuration list for PBXNativeTarget "TipJarViewController" */;
 			buildPhases = (
-				B8831A58521E15291D01CF33E9855840 /* Sources */,
+				9A5F25F8E1A5C40A318D62CC9AFB5C49 /* Sources */,
 				70CFBD65B37E2F32F5AFA10D84178EF5 /* Frameworks */,
 				A1D9C153717F7D74AFC3436D5CCF6043 /* Headers */,
 			);
@@ -970,20 +1096,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B8831A58521E15291D01CF33E9855840 /* Sources */ = {
+		9A5F25F8E1A5C40A318D62CC9AFB5C49 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37DF74CB209F7D6200FDEE8D /* TipJarFrequency.swift in Sources */,
-				37A6EED8209F7C91009D0CC7 /* MultilineTableViewCell.swift in Sources */,
-				CDFDC07AFAA1494214A84791470B1A1D /* IAPRow.swift in Sources */,
-				1F055F4D9F681D9C8E6C74EE675A0EB7 /* TipJarTableViewCell.swift in Sources */,
-				37A6EEDE209F7CFB009D0CC7 /* TipJarButton.swift in Sources */,
-				8B000F8105BD3089576E1AB51A05E4CC /* TipJarViewController-dummy.m in Sources */,
-				37A6EEDA209F7CB1009D0CC7 /* ActivityIndicatorTableViewCell.swift in Sources */,
-				37A6EEDC209F7CE4009D0CC7 /* UIImage+TipJarViewController.swift in Sources */,
-				5DA7D67705262E638A7E8A3C407A055C /* TipJarViewController.swift in Sources */,
-				37EAF37D209F98550089D63C /* TipJarViewControllerDelegate.swift in Sources */,
+				A9FB8DC19C1DD68D147B3C948E6EBF1F /* ActivityIndicatorTableViewCell.swift in Sources */,
+				604BF2434604A24B8BDD9BE7051F3383 /* IAPRow.swift in Sources */,
+				15A0AA05CD6FF7B18DB056B506B87CF5 /* MultilineTableViewCell.swift in Sources */,
+				422B39474F50DED6F89645B1542BB3EE /* TipJarButton.swift in Sources */,
+				632064E02BAE989BA75FC4F5897410EE /* TipJarFrequency.swift in Sources */,
+				EDD7890FDAD828FD276EED7F075FF6B7 /* TipJarTableViewCell.swift in Sources */,
+				C2B10B3441ED29D151C7C639548FB422 /* TipJarViewController-dummy.m in Sources */,
+				4479E4DEB059C028AAD1FE8E5BB93FB8 /* TipJarViewController.swift in Sources */,
+				F05F1B08C03AE0B47C4C58117A734098 /* TipJarViewControllerDelegate.swift in Sources */,
+				9D713B14BEF6596DF6BC480F282E43E3 /* UIImage+TipJarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1078,7 +1204,7 @@
 /* Begin XCBuildConfiguration section */
 		0147BD45C2BB4ADE90BD9BBC1B3E31DA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8AE7CA0F7997CF80F2C8916B0141C102 /* TipJarViewController.xcconfig */;
+			baseConfigurationReference = DAB4194476855AD2E62A18A0B9F0A802 /* TipJarViewController.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -1277,7 +1403,7 @@
 		};
 		3EEBBBB435E3F3EEE1F9E3412BC5165E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8AE7CA0F7997CF80F2C8916B0141C102 /* TipJarViewController.xcconfig */;
+			baseConfigurationReference = DAB4194476855AD2E62A18A0B9F0A802 /* TipJarViewController.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
