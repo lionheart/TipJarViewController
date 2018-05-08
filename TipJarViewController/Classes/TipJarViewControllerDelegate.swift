@@ -17,8 +17,8 @@ public protocol TipJarConfiguration {
     static var termsOfUseURLString: String { get }
     static var privacyPolicyURLString: String { get }
 
-    static func subscriptionProductIdentifier(for subscription: SubscriptionRow) -> String
-    static func oneTimeProductIdentifier(for subscription: OneTimeRow) -> String
+    static func subscriptionProductIdentifier(for row: SubscriptionRow) -> String
+    static func oneTimeProductIdentifier(for row: OneTimeRow) -> String
 }
 
 public protocol TipJarOptionalConfiguration {
