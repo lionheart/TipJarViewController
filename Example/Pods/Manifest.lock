@@ -8,7 +8,7 @@ PODS:
   - SuperLayout (1.0.1):
     - SuperLayout/Core (= 1.0.1)
   - SuperLayout/Core (1.0.1)
-  - TipJarViewController (0.1.0):
+  - TipJarViewController (0.1.2):
     - LionheartExtensions (~> 3.0)
     - QuickTableView (~> 2.0)
     - SuperLayout (~> 1.0)
@@ -32,7 +32,7 @@ SPEC CHECKSUMS:
   LionheartExtensions: 940dfc87cc527b1d5c39f8ef3ecef7190e0e4dff
   QuickTableView: 6c7689b1b392e8d4d01c26161ca0c3b7a2079435
   SuperLayout: 8d8a8399366e130f244963d97bd04a66fd08d368
-  TipJarViewController: 4837913590c6f6d5154d081674ff5e298fed2f24
+  TipJarViewController: cd1ee199dc5ec75f9d1d8002ef5f80c855df93df
 
 PODFILE CHECKSUM: d73304a2019e4961d0f53bedc71ec62595c4e7e5
 
