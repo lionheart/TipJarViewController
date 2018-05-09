@@ -30,14 +30,14 @@ If you've been enjoying this app and would like to show your support, please con
 """
     
     static func subscriptionProductIdentifier(for row: SubscriptionRow) -> String {
-        switch subscription {
+        switch row {
         case .monthly: return "com.lionheartsw.Pushpin.TipJarSubscription.Monthly"
         case .yearly: return "com.lionheartsw.Pushpin.TipJarSubscription.Yearly"
         }
     }
     
     static func oneTimeProductIdentifier(for row: OneTimeRow) -> String {
-        switch subscription {
+        switch row {
         case .small: return "com.lionheartsw.Pushpin.Tip.Small"
         case .medium: return "com.lionheartsw.Pushpin.Tip.Medium"
         case .large: return "com.lionheartsw.Pushpin.Tip.Large"
