@@ -53,14 +53,14 @@ If you've been enjoying this app and would like to show your support, please con
 """
 
     static func subscriptionProductIdentifier(for row: SubscriptionRow) -> String {
-        switch subscription {
+        switch row {
         case .monthly: return "com.acme.app.TipJarSubscription.Monthly"
         case .yearly: return "com.acme.app.TipJarSubscription.Yearly"
         }
     }
 
     static func oneTimeProductIdentifier(for row: OneTimeRow) -> String {
-        switch subscription {
+        switch row {
         case .small: return "com.acme.app.Tip.Small"
         case .medium: return "com.acme.app.Tip.Medium"
         case .large: return "com.acme.app.Tip.Large"
