@@ -18,7 +18,7 @@
 open class QuickTableViewCellDefault: UITableViewCell, QuickTableViewCellIdentifiableFixedHeight {
     public static var identifier: String = "QuickTableViewCellDefaultCellIdentifier"
 
-    public override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
+    public override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: .default, reuseIdentifier: reuseIdentifier)
     }
 

@@ -72,13 +72,13 @@ extension UIViewController {
         
         let center = NotificationCenter.default
         let queue = OperationQueue.main
-        guide.willHideBlockObserver = center.addObserver(forName: .UIKeyboardWillHide, object: nil, queue: queue, using: { [weak self] notification in
+        guide.willHideBlockObserver = center.addObserver(forName: UIResponder.keyboardWillHideNotification, object: nil, queue: queue, using: { [weak self] notification in
             (self as? KeyboardAdjusterOptions)?.keyboardWillHideHandler()
 
             self?.keyboardWillChangeAppearance(notification, toState: .hidden)
         })
         
-        guide.willShowBlockObserver = center.addObserver(forName: .UIKeyboardWillShow, object: nil, queue: queue, using: { [weak self] notification in
+        guide.willShowBlockObserver = center.addObserver(forName: UIResponder.keyboardWillShowNotification, object: nil, queue: queue, using: { [weak self] notification in
             (self as? KeyboardAdjusterOptions)?.keyboardWillShowHandler()
 
             self?.keyboardWillChangeAppearance(notification, toState: .visible)
@@ -94,13 +94,13 @@ extension UIViewController {
 
     private func keyboardWillChangeAppearance(_ sender: Notification, toState: KeyboardState) {
         guard let userInfo = sender.userInfo,
-            let _curve = userInfo[UIKeyboardAnimationCurveUserInfoKey] as? Int,
-            let curve = UIViewAnimationCurve(rawValue: _curve),
-            let duration = userInfo[UIKeyboardAnimationDurationUserInfoKey] as? Double else {
+            let _curve = userInfo[UIResponder.keyboardAnimationCurveUserInfoKey] as? Int,
+            let curve = UIView.AnimationCurve(rawValue: _curve),
+            let duration = userInfo[UIResponder.keyboardAnimationDurationUserInfoKey] as? Double else {
                 return
         }
 
-        let curveAnimationOption: UIViewAnimationOptions
+        let curveAnimationOption: UIView.AnimationOptions
         switch curve {
         case .easeIn:
             curveAnimationOption = .curveEaseIn
@@ -113,6 +113,10 @@ extension UIViewController {
 
         case .linear:
             curveAnimationOption = .curveLinear
+            
+        default:
+            // This probably doesn't map 1-1 with the animation curve provided in userInfo, but there's no way to tell which one it should really be, so I made an educated guess. :)
+            curveAnimationOption = .curveEaseOut
         }
 
         switch toState {
@@ -120,7 +124,7 @@ extension UIViewController {
             keyboardLayoutGuide.constraint.constant = 0
 
         case .visible:
-            guard let value = userInfo[UIKeyboardFrameEndUserInfoKey] as? NSValue else {
+            guard let value = userInfo[UIResponder.keyboardFrameEndUserInfoKey] as? NSValue else {
                 debugPrint("UIKeyboardFrameEndUserInfoKey not available.")
                 break
             }
@@ -130,7 +134,7 @@ extension UIViewController {
         }
 
         if (self as? KeyboardAdjusterOptions)?.animateKeyboardTransition ?? true {
-            let animationOptions: UIViewAnimationOptions = [.beginFromCurrentState, curveAnimationOption]
+            let animationOptions: UIView.AnimationOptions = [.beginFromCurrentState, curveAnimationOption]
             UIView.animate(withDuration: duration, delay: 0, options: animationOptions, animations: {
                 self.view.layoutIfNeeded()
             })

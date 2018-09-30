@@ -44,10 +44,10 @@ public extension QuickTableViewSection where Self: RawRepresentable, Self.RawVal
 
 public extension QuickTableViewSectionWithConditions where Self: RawRepresentable, Self.RawValue == Int {
     init(at indexPath: IndexPath, container: Container) {
-        self.init(section: indexPath.section, container: container)
+        self.init(at: indexPath.section, container: container)
     }
 
-    init(section: Int, container: Container) {
+    init(at section: Int, container: Container) {
         var section = section
         let _conditionalRows = Self.conditionalSections(for: container)
         for (conditionalRow, test) in _conditionalRows {
@@ -60,7 +60,7 @@ public extension QuickTableViewSectionWithConditions where Self: RawRepresentabl
 
     static func index(section: Self, container: Container) -> Int? {
         for i in 0..<count(for: container) {
-            if section == Self(section: i, container: container) {
+            if section == Self(at: i, container: container) {
                 return i
             }
         }

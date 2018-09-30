@@ -18,7 +18,7 @@
 open class QuickTableViewCellSubtitle: UITableViewCell, QuickTableViewCellIdentifiableFixedHeight {
     public static var identifier: String = "QuickTableViewCellSubtitleCellIdentifier"
 
-    public override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
+    public override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: .subtitle, reuseIdentifier: reuseIdentifier)
     }
 

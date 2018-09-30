@@ -7,168 +7,169 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06244542747736AFB17E5D95836F7409 /* Int+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A4B03DE7726782FCD0A497B371C08B /* Int+LionheartExtensions.swift */; };
-		07CF20EB5C8D03992FF0F279914277D2 /* UIAlertController+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4411212448B072168BB56CF37ED5549 /* UIAlertController+LionheartExtensions.swift */; };
-		08100E937EE71A6548351A9F22113C6F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58C907CFB3AB9472B2FCC9AEFF552C9E /* UIKit.framework */; };
-		0B66314B219B0AAE35E8B71842B70070 /* UIScreen+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49033D6F1469AF921E3545F729EA4D06 /* UIScreen+LionheartExtensions.swift */; };
-		13775BC5E7D812624E95386B9B4346B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BCC4F5FE70F112ACE68670E797380F7 /* Foundation.framework */; };
-		15A0AA05CD6FF7B18DB056B506B87CF5 /* MultilineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0DC1BE46086FA8914CC70EF216EE6A /* MultilineTableViewCell.swift */; };
-		16E66523103381536E978A6B6557F303 /* QuickTableViewCellSubtitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D9780852DF52D13256463A91298BBC /* QuickTableViewCellSubtitle.swift */; };
-		17D227F4B68B7EC67732B09C10A08F10 /* ActivityIndicatorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7CAB8BDE0D6F58BCF53EDC07BCF950 /* ActivityIndicatorButton.swift */; };
-		1D4B9FDB48B0C44C6DB61A73A50511EB /* UITextField+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565F3B9D970F162A6C69AB4B51405C35 /* UITextField+LionheartExtensions.swift */; };
-		1DD252931A854731B0E6F62E494ED91A /* QuickTableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B41A795D4FAC418D2F8B107712DCBE9 /* QuickTableView.framework */; };
-		1F4388268680E1F5C4D02160847A41E1 /* QuickTableView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB500DF5A4CC4B528F6DBAA0C6AA371B /* QuickTableView-dummy.m */; };
-		21E8E7BF8F5383CE72BDD73A36CFE656 /* UIDevice+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C7CC3A9E8EBE5179448934AB435D30 /* UIDevice+LionheartExtensions.swift */; };
-		24477DB8E5B204505F7AE92A7866E019 /* QuickTableView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D59A3259344D3F57435B678F10CFF51 /* QuickTableView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2A3C2A7A00C117978DE28F76DE435221 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8415EFA8D8AB1882D6882DAF9C062045 /* StoreKit.framework */; };
-		2BAFF91C82EE3A4623A604AEE9EBF2EF /* UIApplicationDelegate+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D05570C77161F4C7E420E74375B976 /* UIApplicationDelegate+LionheartExtensions.swift */; };
-		2D492EA0A7CF5E53E378E055C8DF1ACD /* SuperLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 734FC51589540AD2EE6D1CF907D6E2A2 /* SuperLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2D60543486B69C2D34FBBB93612A0969 /* QuickTableViewCellValue1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9F745DA341B09140FCF60FA1D23683 /* QuickTableViewCellValue1.swift */; };
-		2FD4B0F4ED7832457E06206F3F5F65C0 /* UIPrintPageRenderer+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B6B1AB0C98770A718630782EB42B4D /* UIPrintPageRenderer+LionheartExtensions.swift */; };
-		387AD1EE479F99DB2D0EF2DF3662BE76 /* UIColor+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4001E970B8AB82AA4AF12FBC44C8CB90 /* UIColor+LionheartExtensions.swift */; };
-		422B39474F50DED6F89645B1542BB3EE /* TipJarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282ED103688808D6897ACB186BCA1AE6 /* TipJarButton.swift */; };
-		43B8103993FAE8A17A9A553DC54F2313 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BCC4F5FE70F112ACE68670E797380F7 /* Foundation.framework */; };
-		43E7314F66BC85191531BD7879C60C0A /* UIWindow+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F92C801387A8953B6B6AEEC4A9D16E /* UIWindow+LionheartExtensions.swift */; };
-		4479E4DEB059C028AAD1FE8E5BB93FB8 /* TipJarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2B7280D55CE64BB5D8ECB6B8E33F82 /* TipJarViewController.swift */; };
-		4ABCE6241383E1D18DC749FA7E2B77EB /* QuickTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E081D9EAF98A976DF75A6921E03BECC /* QuickTableViewController.swift */; };
-		4E56D6A79122BBF20F23477A7AC0216A /* CIImage+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC242936E7BF8E3A9EF07974316541D2 /* CIImage+LionheartExtensions.swift */; };
-		53F4A51EAB077341AA2ACC90372C7002 /* KeyboardAdjuster-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FB9155D75DECAF983103CB8622712B /* KeyboardAdjuster-dummy.m */; };
-		579AE788D2031E3A7C2BF2D3E5CB11F9 /* Pods-TipJarViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B06A6BA717B03A6C92BE548E94DA672 /* Pods-TipJarViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		604BF2434604A24B8BDD9BE7051F3383 /* IAPRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2691D96D098E6336A4358D82BBF31E /* IAPRow.swift */; };
-		632064E02BAE989BA75FC4F5897410EE /* TipJarFrequency.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8AD0647166F7D9974F93AC337A51A9 /* TipJarFrequency.swift */; };
-		64410FC3E206C84A100F2622128541A4 /* QuickTableViewProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759E58F76F4054B9306ED9A47502F2A9 /* QuickTableViewProtocols.swift */; };
-		67A50970447A7CE8EF75118B726E9D78 /* NSDecimalNumber+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A24515281D947C48F65C11B4CC3C10 /* NSDecimalNumber+LionheartExtensions.swift */; };
-		7156FC51A284415E87ADE6B05536B09E /* Bundle+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B2DF5743DBF1497F6EE8A38A2B2C08 /* Bundle+LionheartExtensions.swift */; };
-		720C87A950E7DB223061E98D8BCAEA3A /* LionheartExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E6C3014BB0B9B95926828CFECA63538 /* LionheartExtensions.framework */; };
-		7AB7924AB396DF2658BFD8ACA3C57467 /* NSURLSession+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AB72612F46F88541B9D6EECDF621D3 /* NSURLSession+LionheartExtensions.swift */; };
-		802EAB015D1A87C4F3A4752CC7BA7A16 /* QuickTableViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B881CF275B043E95BFE65708D7884E /* QuickTableViewRow.swift */; };
-		8239C949942CB89A534A404E3E83DC23 /* KeyboardAdjuster-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 92B726F044EF3C601163C3F6C7EFCFEC /* KeyboardAdjuster-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		867B623C7527CD15075A604EA53EFC0A /* KeyboardAdjuster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FFB611A9EEE26195A95230A2AD26C63 /* KeyboardAdjuster.framework */; };
-		8736360A63A154702107AA993D1BD70E /* TitleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052D4E44C0FED18C5CE780FDD82F2296 /* TitleButton.swift */; };
-		890951D6BACE5C4DDE03AF5184AC39F5 /* Pods-TipJarViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E305206ACA8DAF497ACBB144E513EA /* Pods-TipJarViewController_Example-dummy.m */; };
-		89C60F57BE85EB1A2D1DF1B9007692EF /* Pods-TipJarViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7D32E2ECCC8321BA38DE00CCC5B192 /* Pods-TipJarViewController_Tests-dummy.m */; };
-		8B34D627C4528ED957071EBF6A0779E2 /* ColorRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECB6D5252D2E8D39067739B48E5C2C2 /* ColorRepresentation.swift */; };
-		95627386B8729652B27B1198830E9EED /* UIFont+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4B66D8D01EA57483FE02DB6CAD1A85 /* UIFont+LionheartExtensions.swift */; };
-		97DEE5B5191C6D9A9B2C694FA6DE0C16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BCC4F5FE70F112ACE68670E797380F7 /* Foundation.framework */; };
-		9D713B14BEF6596DF6BC480F282E43E3 /* UIImage+TipJarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFD4EDE4229A4733A2F333C1A5C2155 /* UIImage+TipJarViewController.swift */; };
-		9F98C482388B7A2D0F16994D8E32838A /* CustomButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FF67FCD4262CF3D775C637B5585F19 /* CustomButtonType.swift */; };
-		A0193F857A2FCB8F1837841CBED26B78 /* SuperLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3440B34F93E91454C5351943850BFDE8 /* SuperLayout.framework */; };
-		A05E7DB807B8350D02CDB1D50D54C206 /* KeyboardAdjuster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FFB611A9EEE26195A95230A2AD26C63 /* KeyboardAdjuster.framework */; };
-		A201F1C81615A8EB2F15B82A63334FB1 /* QuickTableViewCellDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0B89886B1DA2A5450E01EA75876DD9 /* QuickTableViewCellDefault.swift */; };
-		A51BB0996A1AD31D4A28483733509C43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BCC4F5FE70F112ACE68670E797380F7 /* Foundation.framework */; };
-		A5DA78EE7CA4387C29F964B4ADC9442D /* IndexPath+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C79D6D927C735730C4A97E195EDBF6B /* IndexPath+LionheartExtensions.swift */; };
-		A9FB8DC19C1DD68D147B3C948E6EBF1F /* ActivityIndicatorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122B554259BCA7BB94385CF22FD974C2 /* ActivityIndicatorTableViewCell.swift */; };
-		AB6270EEC5FB6C5CFA39B9E6D2ED3FB5 /* Optional+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1C24F8E5D37AF52917A7B9D03034AF /* Optional+LionheartExtensions.swift */; };
-		B0BC517AA427C283645EBDCFD13C1692 /* Array+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B9AD0CBF5A2C3E3DB51E01E177AEEC /* Array+LionheartExtensions.swift */; };
-		B0E93D96A75F303596192202C3F67A1F /* String+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD275EA88588BC20EB06AE91F77AF721 /* String+LionheartExtensions.swift */; };
-		B1F4F1047F4D83EC25F6DB1A0404E02E /* Any+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1B661A30D557E88CFC95E059D5D005 /* Any+LionheartExtensions.swift */; };
-		BA1CB8B89AD8F273A877A086CE34BBDA /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD92E19A59F8F23951B666B60910972 /* UITableView.swift */; };
-		BAB0A7A84213EC9ED7B5C9420324A1D5 /* DateFormatter+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E27A4600B2CA2E4DAC6DD84E007E05 /* DateFormatter+LionheartExtensions.swift */; };
-		BDBB59EBEBD611CD92201F792432E0CF /* UIView+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE1BA04C5E02872CDD7FE71E2F1203F /* UIView+LionheartExtensions.swift */; };
-		C2B10B3441ED29D151C7C639548FB422 /* TipJarViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B8F5C7D98501B1CF645DCA75699351 /* TipJarViewController-dummy.m */; };
-		C6851578C4BCD6146536D2D325F9E323 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7100E77A259D0890359D5E1A055EECC /* BaseTableViewController.swift */; };
-		C886CBDEACE24C8962767CDDB2682A97 /* Summable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B3ACF72B57130935710694A6A1AB0B /* Summable.swift */; };
-		CEE53F823465721BC152E02D22260941 /* QuickTableViewSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841AE372ED62C4AFDAB30A873BDEA556 /* QuickTableViewSection.swift */; };
-		D0F72A5E9CFA4F4B1CFDAEF6FBA52FBB /* FileManager+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB596F1B5033D462984F230E906B0FF /* FileManager+LionheartExtensions.swift */; };
-		D10E7809CF3B5F014BDF7F79DAE50DC2 /* QuickTableViewCellValue2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B8BE4ACC9CF15948A3F589898AB993 /* QuickTableViewCellValue2.swift */; };
-		D401C57349C650462EF760A235DD42D7 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456E021555632DC54FF54E23DCF0D9D1 /* Main.swift */; };
-		D73B14CCEDD0769E0E7E7E82D6885F60 /* UIImage+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44ED4211B2998FEDF5C666B8C3E01086 /* UIImage+LionheartExtensions.swift */; };
-		E00CDD66C84CE8F33036333E5365AA69 /* SuperLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF5B1EC30B18D49B2F657FE3560EEEA /* SuperLayout-dummy.m */; };
-		E664B0EE749FFDCE359DC2F9FB02A4D0 /* LionheartExtensions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 163807F1D92A0EBCBF7ADF7445FD4813 /* LionheartExtensions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E6F54F35FC07F916EE1F1CECDF5F73D8 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B955EA52CDD3EE3294F548DCD7D0C81 /* File.swift */; };
-		E9F1B61DA0FF9C23EDD1E3AD48803DC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BCC4F5FE70F112ACE68670E797380F7 /* Foundation.framework */; };
-		EA31B284AC75E4E3E6CDF04E0F5B330B /* Functional.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B513833197CBE0666E536102666860 /* Functional.swift */; };
-		EA3485AAF54A52C0A9BF3470668B970B /* TipJarViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 016288D971877B387801C3EDD52E34F4 /* TipJarViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EB33D33EE6B552E80CA361D0531A0B67 /* KeyboardAdjuster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73763FE4A863B18633807096B39B21AA /* KeyboardAdjuster.swift */; };
-		EDD7890FDAD828FD276EED7F075FF6B7 /* TipJarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C51CB035FFCCA6B071DBB81FC49532 /* TipJarTableViewCell.swift */; };
-		EE6A9ADBA87B8D2AB512BD550A077A8D /* Pods-TipJarViewController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D41D8C9FE00D878C3CEB3F4A24F2961F /* Pods-TipJarViewController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F05F1B08C03AE0B47C4C58117A734098 /* TipJarViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347509D759EBF5EF5353B7213CFD1733 /* TipJarViewControllerDelegate.swift */; };
-		F10052264CBFA9C68DA7AD6E68CFE71B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BCC4F5FE70F112ACE68670E797380F7 /* Foundation.framework */; };
-		F12C8CD5B8A919BB3F1318ACF2CF24AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58C907CFB3AB9472B2FCC9AEFF552C9E /* UIKit.framework */; };
-		F23D52041EBF0E6999C51EBBD600FC38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BCC4F5FE70F112ACE68670E797380F7 /* Foundation.framework */; };
-		F3747812C5CF03F50B149F20204A636F /* SuperLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3497A6BA1E458FAACB9BCED7A44D3D4 /* SuperLayout.swift */; };
-		F437883C0A14DE1883726E8E807F8949 /* LionheartExtensions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA685809330B8293119BFFD166EE1C0F /* LionheartExtensions-dummy.m */; };
-		F8903877AE5EBDC31E144F1C55D6F4F2 /* UIViewController+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB8ADFC3D6DF02FDAAEA7144D84EEBF /* UIViewController+LionheartExtensions.swift */; };
-		FED52AECB002867D409D08CFE356A47E /* NSRegularExpression+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026DCCF94C15BCCE3C767C4A3DFFF48A /* NSRegularExpression+LionheartExtensions.swift */; };
+		01BE035EFBC5828BC012423D089BC4BE /* QuickTableViewProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759E58F76F4054B9306ED9A47502F2A9 /* QuickTableViewProtocols.swift */; };
+		033D310216017CE947B2A5AF971C8757 /* QuickTableView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB500DF5A4CC4B528F6DBAA0C6AA371B /* QuickTableView-dummy.m */; };
+		03701DE4FE375C3A61357B847E4D9187 /* QuickTableView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D59A3259344D3F57435B678F10CFF51 /* QuickTableView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04F456FC96EDC1BB0A75587872CA4F74 /* LionheartExtensions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 826E13F244A0BC544C6306441BA1F667 /* LionheartExtensions-dummy.m */; };
+		0959226A424A02987FAADC078EF3CA03 /* QuickTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E081D9EAF98A976DF75A6921E03BECC /* QuickTableViewController.swift */; };
+		0A386C1669AD14BAB8FEE49F7FA680CA /* QuickTableViewCellDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0B89886B1DA2A5450E01EA75876DD9 /* QuickTableViewCellDefault.swift */; };
+		0AD01EAA7AEC9C074C70CFBE41A1F457 /* NSURLSession+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33AEF091F28FC61857C912B4C7419F3 /* NSURLSession+LionheartExtensions.swift */; };
+		0BE0DA65254029A99B5807E0079D3CE9 /* Array+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5A1327FE04DC4A59A2BEBF8E671B78 /* Array+LionheartExtensions.swift */; };
+		0EB41CD646F5F57DF129700D526DC746 /* QuickTableViewCellSubtitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D9780852DF52D13256463A91298BBC /* QuickTableViewCellSubtitle.swift */; };
+		0F900F03B9992A1E969A8A065B9BABFA /* KeyboardAdjuster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73763FE4A863B18633807096B39B21AA /* KeyboardAdjuster.swift */; };
+		10541D9C1DD4A4C0C35769B6E8362A60 /* TipJarFrequency.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8AD0647166F7D9974F93AC337A51A9 /* TipJarFrequency.swift */; };
+		121B49A509E5B342C04ECC8C02DE682F /* UIDevice+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0264088D53E52450A62E94CBA9962121 /* UIDevice+LionheartExtensions.swift */; };
+		12DFFC5F08BAEF1EB55B4D05301FEE72 /* QuickTableViewCellValue1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9F745DA341B09140FCF60FA1D23683 /* QuickTableViewCellValue1.swift */; };
+		18558E85F70C0E69978A1BE73BC3E4C7 /* Optional+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D4E2BC9944E10239D3DE3FC9F7E178 /* Optional+LionheartExtensions.swift */; };
+		1919DEC635DDA36D90CE04C6E3E86A73 /* Summable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46036E147D6021A3BAC33AC101FF245A /* Summable.swift */; };
+		1DA6ADB1E18CFD931B32E1FA4B6EA5D3 /* UIPrintPageRenderer+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D988547212F600AB09A4271DB61EAE7 /* UIPrintPageRenderer+LionheartExtensions.swift */; };
+		1FC50C99D6C9F53C4A452C43AD36940B /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0595B34705C7D5DE4DFD4CE0C91291E /* Main.swift */; };
+		1FFE44738CDD31BED04DDDBF4B99C8CB /* QuickTableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B41A795D4FAC418D2F8B107712DCBE9 /* QuickTableView.framework */; };
+		22EA06FFC95E9EE261FA3917EFD7DB69 /* FileManager+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55972A2BE93A152759F9FCDB064D8E7 /* FileManager+LionheartExtensions.swift */; };
+		2943E736ED3083B40260FD540D4C6AE1 /* TipJarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282ED103688808D6897ACB186BCA1AE6 /* TipJarButton.swift */; };
+		2B4FBD64062942161F3706F06B2D5B82 /* Pods-TipJarViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E305206ACA8DAF497ACBB144E513EA /* Pods-TipJarViewController_Example-dummy.m */; };
+		2E69A0E5D74F5797FF53CC0CAC126C1B /* QuickTableViewSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841AE372ED62C4AFDAB30A873BDEA556 /* QuickTableViewSection.swift */; };
+		396FFD9EEB607FCA01097A48A75D26E7 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD5675C6217CC883187C2F42C5ACB52 /* File.swift */; };
+		3D82FD48F8EAF45050D3454510415005 /* TitleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740DF8F285CC96CBF78ADA4028628C32 /* TitleButton.swift */; };
+		3DDEBF630622C9A62F2E26CC0BAA5D9D /* TipJarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C51CB035FFCCA6B071DBB81FC49532 /* TipJarTableViewCell.swift */; };
+		404CEC24C0A91E1F4C28EB94C0C32964 /* TipJarViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 016288D971877B387801C3EDD52E34F4 /* TipJarViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4205C92FCA4EBDF22E2B9CCC65CFD336 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A7634EB13DFA3638793F8C9422BB73 /* Foundation.framework */; };
+		439944024EECE2E616746071046CCED6 /* Pods-TipJarViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B06A6BA717B03A6C92BE548E94DA672 /* Pods-TipJarViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4581DB236609DB8765874BF475E83A53 /* Int+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF6FE8029462DE3C8A29CDDFAD2DCF7 /* Int+LionheartExtensions.swift */; };
+		47FFBE0F1EC69E9A02FB723C008C93C6 /* QuickTableViewCellValue2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B8BE4ACC9CF15948A3F589898AB993 /* QuickTableViewCellValue2.swift */; };
+		4A82FDC77711F0A2BF9633E696FD602D /* DateFormatter+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368BA11E2835A88560E020410FB4E14A /* DateFormatter+LionheartExtensions.swift */; };
+		51CABA20E27DE27B82C59EA0B4F05A21 /* IndexPath+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF5E8B5967B807825DF7CEF696920FD /* IndexPath+LionheartExtensions.swift */; };
+		563D26E1C753EC03DE260ED2F4F223A9 /* KeyboardAdjuster-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FB9155D75DECAF983103CB8622712B /* KeyboardAdjuster-dummy.m */; };
+		57E2CAEC2988A90BC0E9197BC412260E /* SuperLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF5B1EC30B18D49B2F657FE3560EEEA /* SuperLayout-dummy.m */; };
+		60B46DAEBB71CB516FE82DAED5B966A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A7634EB13DFA3638793F8C9422BB73 /* Foundation.framework */; };
+		6833F180A2F7E1559679E06EA896F01E /* ColorRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BFB8F850E8213E75F8E1FCAECD4C28 /* ColorRepresentation.swift */; };
+		6846A01F37983684623E403B3ACB952C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8A8E49BF9ED279F5E2864A90EBFF9F9 /* UIKit.framework */; };
+		6B0DDCBC5F4E60766F2B1695C8CAE6CF /* SuperLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3440B34F93E91454C5351943850BFDE8 /* SuperLayout.framework */; };
+		6BA4DF71CF7FAE7F65D0B825D81B8240 /* QuickTableViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B881CF275B043E95BFE65708D7884E /* QuickTableViewRow.swift */; };
+		6D1447FF5491F952C9C8CE4ED128F250 /* NSRegularExpression+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AC38D3970A6224491A68DB3FBFF89B /* NSRegularExpression+LionheartExtensions.swift */; };
+		70F306CF1DA12743ADF56DBFD7031E24 /* KeyboardAdjuster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FFB611A9EEE26195A95230A2AD26C63 /* KeyboardAdjuster.framework */; };
+		733CBE857788620D8769D44F99238B37 /* UIColor+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F316E9B9D7E44671774F5E605340B592 /* UIColor+LionheartExtensions.swift */; };
+		7395E424601C601A7A19EB4057D50A5D /* WKWebView+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA6B383B4463122D4F051E7932FDF38 /* WKWebView+LionheartExtensions.swift */; };
+		73FB220F29D7BAC11B8055035B83531F /* Any+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD611FE4A6D593554DA2AD7A72921D07 /* Any+LionheartExtensions.swift */; };
+		7AAEBB40A9DDABEB13FC48F043FE4668 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8A8E49BF9ED279F5E2864A90EBFF9F9 /* UIKit.framework */; };
+		7F04B02C4BB870615BC6CC1D22E8BDFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A7634EB13DFA3638793F8C9422BB73 /* Foundation.framework */; };
+		7F0CF936A42DC9CE3A1A042BFF46BE67 /* SuperLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 734FC51589540AD2EE6D1CF907D6E2A2 /* SuperLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F4F376A4497BB6D2E3CA23159F5FD37 /* UIApplicationDelegate+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A39686E5D59694520745C37B73FDD36 /* UIApplicationDelegate+LionheartExtensions.swift */; };
+		8212D26BAA770550313EC6FB24C0C689 /* TipJarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2B7280D55CE64BB5D8ECB6B8E33F82 /* TipJarViewController.swift */; };
+		828D6DBCE857489E4EF453D5A82D2935 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A7634EB13DFA3638793F8C9422BB73 /* Foundation.framework */; };
+		871D74DD45429C7D221F0981B509CD23 /* UIAlertController+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF8955FC70CACEAAC045DF789C77FFA /* UIAlertController+LionheartExtensions.swift */; };
+		899208A12B47BF9BCBA673B138D41B67 /* TipJarViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347509D759EBF5EF5353B7213CFD1733 /* TipJarViewControllerDelegate.swift */; };
+		8CE26FEC52479EE7A5E201EF7EE0A7D1 /* Functional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5356A6ECFCA87819001836B6BE68CBF9 /* Functional.swift */; };
+		8EB38CC256F05BE48D895D6CC0C80951 /* UIView+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A886D2BEBB4C991F1A32034D9A2CA4AF /* UIView+LionheartExtensions.swift */; };
+		90C3830EC305E787AA68598211759F9A /* CIImage+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC020588F017FC3ACA6BBC6C5EE7D36B /* CIImage+LionheartExtensions.swift */; };
+		96768DB6692C219EE0D314E81E75E45E /* UIFont+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF5EA1AC6F6FDF24B4F2E1FF13CB193 /* UIFont+LionheartExtensions.swift */; };
+		9CB5444FB8EA4AC7221981F4B124D743 /* CustomButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C97B128CA008FCC82DEE6DE422309F /* CustomButtonType.swift */; };
+		A413373352C880005B867F8B4903462A /* String+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D1E0FC1415AB11E4DDE63CA7DDAE8F /* String+LionheartExtensions.swift */; };
+		A5180DE28E6EF92BA98EE35E79DC4280 /* ActivityIndicatorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122B554259BCA7BB94385CF22FD974C2 /* ActivityIndicatorTableViewCell.swift */; };
+		A91A0E6B4CB5082856BF68490F751E2F /* NSDecimalNumber+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C06222D33D6CCAA63A9913B38FEA307 /* NSDecimalNumber+LionheartExtensions.swift */; };
+		AAB0305779451E50108DD869CBA16804 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7100E77A259D0890359D5E1A055EECC /* BaseTableViewController.swift */; };
+		AD47FAAFCAB4B382D57FBD8D4417A159 /* UIViewController+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29803E9300805E834FB336766B8C1FEE /* UIViewController+LionheartExtensions.swift */; };
+		B21B11121442377A4FECA3531A514F51 /* UITextField+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D5BA8B21F46E721468982746D228A3 /* UITextField+LionheartExtensions.swift */; };
+		B3BF505E0A487530B21A278C93826802 /* UIScreen+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F461C3761C46AECC24813D466AF24F5 /* UIScreen+LionheartExtensions.swift */; };
+		B626CAF5C432A04562A62C04B57C30CA /* Pods-TipJarViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7D32E2ECCC8321BA38DE00CCC5B192 /* Pods-TipJarViewController_Tests-dummy.m */; };
+		BD285BCA095EECA89FACFA1C86FF3163 /* LionheartExtensions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CADD0575BF52260393DC08DAAAB0600B /* LionheartExtensions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1D47B021380A9B151637BEEAD877561 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A7634EB13DFA3638793F8C9422BB73 /* Foundation.framework */; };
+		C36A42113F4B147F02DB14DC7F34D9CA /* UIImage+TipJarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFD4EDE4229A4733A2F333C1A5C2155 /* UIImage+TipJarViewController.swift */; };
+		C606E817DD702F8666B5E388BFDD254F /* IAPRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2691D96D098E6336A4358D82BBF31E /* IAPRow.swift */; };
+		C7ED9B30B3FF6EE2B928597885B37426 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C7DCFEA132AC531400A7D96B6DF608C /* StoreKit.framework */; };
+		C9EFDE72906E993B8DF53FB2A5DA476D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A7634EB13DFA3638793F8C9422BB73 /* Foundation.framework */; };
+		CA815DE10A33DA0A09DF2EA40CBF2F73 /* UIWindow+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F26604D26D094F5081218A82D4EC34A /* UIWindow+LionheartExtensions.swift */; };
+		D28D702132E825E6E4865A9A72EA1A1C /* MultilineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0DC1BE46086FA8914CC70EF216EE6A /* MultilineTableViewCell.swift */; };
+		D31AD621A26401670ECA48EBE0550EB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A7634EB13DFA3638793F8C9422BB73 /* Foundation.framework */; };
+		E18CE6E2A80D472628FE0877F6193983 /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD92E19A59F8F23951B666B60910972 /* UITableView.swift */; };
+		E2CEC3A5A8465371B2C89FDB0C18FEAD /* Bundle+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A2DEB1B7BBF75C1FCBAF412372BC58 /* Bundle+LionheartExtensions.swift */; };
+		E53C6F0FEE2C88584C25FC60467694C8 /* UIImage+LionheartExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067E2281B66FF37258DAE66F4788CF89 /* UIImage+LionheartExtensions.swift */; };
+		E8E1A74E8D29E04A482A35A97F263BED /* Pods-TipJarViewController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D41D8C9FE00D878C3CEB3F4A24F2961F /* Pods-TipJarViewController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFE9C53B2DE5ECAA977E6EE1ED36DE14 /* TipJarViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B8F5C7D98501B1CF645DCA75699351 /* TipJarViewController-dummy.m */; };
+		F1D9C2EF29C7F32B722C650B6C7C0D28 /* ActivityIndicatorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151FFBCE8563CCE506BC38530779CE7F /* ActivityIndicatorButton.swift */; };
+		F5ECD4EE7CAED89DEBE77842081376CD /* LionheartExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E6C3014BB0B9B95926828CFECA63538 /* LionheartExtensions.framework */; };
+		F7CC014F0A9150C323F147320417AC4D /* KeyboardAdjuster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FFB611A9EEE26195A95230A2AD26C63 /* KeyboardAdjuster.framework */; };
+		FB0F22A1BCF2534A8CF8306A5DB6091C /* KeyboardAdjuster-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 92B726F044EF3C601163C3F6C7EFCFEC /* KeyboardAdjuster-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF35FD91A2BCCC238E52150897A6852C /* SuperLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3497A6BA1E458FAACB9BCED7A44D3D4 /* SuperLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		21432AD90B5B3CF795C94DBC0173769D /* PBXContainerItemProxy */ = {
+		15BE3F80F242FA6D0E76A59E8D555ECA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D1B50B9B447D2577DF6BED5EC0B3CADF;
-			remoteInfo = QuickTableView;
-		};
-		2AB988D0ADCC653182E1B5FD71917496 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3936CB349499B90894F495A51775D37F;
-			remoteInfo = KeyboardAdjuster;
-		};
-		39812A30AEA783939AB30EE2C8089DEB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DBFFF639F5B12CCBDC7BE95224B386E9;
-			remoteInfo = LionheartExtensions;
-		};
-		8507A3E310914CCB560B2F1572BED824 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 35F69E6EABB6B371E6B09470108753AC;
+			remoteGlobalIDString = 266B149FD355123B72584F479E5B0124;
 			remoteInfo = "Pods-TipJarViewController_Example";
 		};
-		9358019A8FFAE763073CDE733D27B414 /* PBXContainerItemProxy */ = {
+		1F49161CA238EC034AD239860672BF82 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2B21B0A3CBA25C92BDDF5E8955CEAD1D;
-			remoteInfo = SuperLayout;
-		};
-		953D15D7FD566E57DF94A5DB1C5F436E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C638C9E0D82ADCB9DD3E1A2CBAEA3598;
-			remoteInfo = TipJarViewController;
-		};
-		A1136F6FD9FA4D29CF46DDF641CEEFD3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3936CB349499B90894F495A51775D37F;
-			remoteInfo = KeyboardAdjuster;
-		};
-		AA650F7C54AB452F6EFC73D9D2AC01D4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D1B50B9B447D2577DF6BED5EC0B3CADF;
-			remoteInfo = QuickTableView;
-		};
-		AAF25ABF22B142528882CEF62FA4A1C2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3936CB349499B90894F495A51775D37F;
-			remoteInfo = KeyboardAdjuster;
-		};
-		BA61CE152F893FF88AD57B4F53FCCB45 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DBFFF639F5B12CCBDC7BE95224B386E9;
+			remoteGlobalIDString = E0ABE9D38BE20D63B933BB0F0EC23AC4;
 			remoteInfo = LionheartExtensions;
 		};
-		E69F46BF5E0DCCCD1EB3EF3F5CFA6623 /* PBXContainerItemProxy */ = {
+		2869CBCF91B5859CAF2C9BE6C827206E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2B21B0A3CBA25C92BDDF5E8955CEAD1D;
+			remoteGlobalIDString = 21BADDE4BDBCE182314638CB3B969A2E;
 			remoteInfo = SuperLayout;
+		};
+		392CDE04E0605B3304A954477AFAF623 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8E7C179C3FCB9B58A055109B8F9F419;
+			remoteInfo = KeyboardAdjuster;
+		};
+		465D4CC34C47A7A6B261BDF7C62EA46F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8E7C179C3FCB9B58A055109B8F9F419;
+			remoteInfo = KeyboardAdjuster;
+		};
+		5B0357EB08200275FFD7F81D2E19476E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21BADDE4BDBCE182314638CB3B969A2E;
+			remoteInfo = SuperLayout;
+		};
+		63051C3F5C6F8CB37DF751055D6E85E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0ABE9D38BE20D63B933BB0F0EC23AC4;
+			remoteInfo = LionheartExtensions;
+		};
+		95D2DEA91D09AFC31BD58E970D30D365 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8E7C179C3FCB9B58A055109B8F9F419;
+			remoteInfo = KeyboardAdjuster;
+		};
+		A938BAA670E55A8E2CE7C585D3509158 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28661753ABE021FBBDC706A0DE2A2A23;
+			remoteInfo = QuickTableView;
+		};
+		E96ACBE5D8AA2B2BE72E9251ABF1527E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81EEAB9C349C409EDCCFEAC0A9D6B2B3;
+			remoteInfo = TipJarViewController;
+		};
+		FD096F6053D81C20DF6D85DE81FCBB7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28661753ABE021FBBDC706A0DE2A2A23;
+			remoteInfo = QuickTableView;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -176,33 +177,33 @@
 		00496660024F8A285248557FD3E437FE /* TipJarViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TipJarViewController.framework; path = TipJarViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		016288D971877B387801C3EDD52E34F4 /* TipJarViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TipJarViewController-umbrella.h"; sourceTree = "<group>"; };
 		017D134677C79EAEADB6847590C9F77F /* SuperLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SuperLayout.xcconfig; sourceTree = "<group>"; };
-		026DCCF94C15BCCE3C767C4A3DFFF48A /* NSRegularExpression+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSRegularExpression+LionheartExtensions.swift"; path = "Pod/Classes/Core/NSRegularExpression+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		0264088D53E52450A62E94CBA9962121 /* UIDevice+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIDevice+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIDevice+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		04F402A93AAF7582CFC120D4BD98D38D /* filelist-md5 */ = {isa = PBXFileReference; includeInIndex = 1; name = "filelist-md5"; path = "docs/filelist-md5"; sourceTree = "<group>"; };
-		052D4E44C0FED18C5CE780FDD82F2296 /* TitleButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TitleButton.swift; path = Pod/Classes/TitleButton.swift; sourceTree = "<group>"; };
+		067E2281B66FF37258DAE66F4788CF89 /* UIImage+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIImage+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		06FECA41BE0FDC968C5337093894E143 /* IAPRow.html */ = {isa = PBXFileReference; includeInIndex = 1; name = IAPRow.html; path = docs/docsets/TipJarViewController.docset/Contents/Resources/Documents/Protocols/IAPRow.html; sourceTree = "<group>"; };
+		0A8478C2FC7091D1E9FA2269600E67FE /* LionheartExtensions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LionheartExtensions-prefix.pch"; sourceTree = "<group>"; };
 		0E67BA134A16724027BC1FEF3421ACCD /* Pods-TipJarViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TipJarViewController_Example.modulemap"; sourceTree = "<group>"; };
 		0E6C3014BB0B9B95926828CFECA63538 /* LionheartExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LionheartExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1063B4EDAF753DA077F2713DC559DEAA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		10C7CC3A9E8EBE5179448934AB435D30 /* UIDevice+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIDevice+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIDevice+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		11BE1AAD8537B9CFDAAF7003F06FE707 /* SuperLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SuperLayout.framework; path = SuperLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		122B554259BCA7BB94385CF22FD974C2 /* ActivityIndicatorTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityIndicatorTableViewCell.swift; path = TipJarViewController/Classes/ActivityIndicatorTableViewCell.swift; sourceTree = "<group>"; };
-		15F92C801387A8953B6B6AEEC4A9D16E /* UIWindow+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIWindow+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIWindow+LionheartExtensions.swift"; sourceTree = "<group>"; };
-		163807F1D92A0EBCBF7ADF7445FD4813 /* LionheartExtensions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LionheartExtensions-umbrella.h"; sourceTree = "<group>"; };
+		151FFBCE8563CCE506BC38530779CE7F /* ActivityIndicatorButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityIndicatorButton.swift; path = Pod/Classes/ActivityIndicatorButton.swift; sourceTree = "<group>"; };
 		1857E5D3EF4C69C30658E9AB0BB2B6B0 /* filelist-local-md5 */ = {isa = PBXFileReference; includeInIndex = 1; name = "filelist-local-md5"; path = "docs/docsets/TipJarViewController.docset/Contents/Resources/Documents/filelist-local-md5"; sourceTree = "<group>"; };
-		1AF247CDDC21005832A1D807551EF583 /* LionheartExtensions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LionheartExtensions.modulemap; sourceTree = "<group>"; };
 		1B41A795D4FAC418D2F8B107712DCBE9 /* QuickTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QuickTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BD92E19A59F8F23951B666B60910972 /* UITableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITableView.swift; path = Pod/Extensions/UITableView.swift; sourceTree = "<group>"; };
+		1D988547212F600AB09A4271DB61EAE7 /* UIPrintPageRenderer+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIPrintPageRenderer+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIPrintPageRenderer+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		1EBDF1F1830749C8A6CF3C8E28EA4118 /* Pods-TipJarViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TipJarViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		20702FE8AA5436393F4204941519130A /* QuickTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QuickTableView.framework; path = QuickTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		233B9680BC5E3BE3CF45A522BC60D185 /* OneTimeRow.html */ = {isa = PBXFileReference; includeInIndex = 1; name = OneTimeRow.html; path = docs/docsets/TipJarViewController.docset/Contents/Resources/Documents/Classes/TipJarViewController/OneTimeRow.html; sourceTree = "<group>"; };
 		24959658EA451FF7456733B575AA5EDD /* TipJarViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TipJarViewController-prefix.pch"; sourceTree = "<group>"; };
 		24B8F5C7D98501B1CF645DCA75699351 /* TipJarViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TipJarViewController-dummy.m"; sourceTree = "<group>"; };
+		25B8D1B74F9871B3DD2CAD58953A9A92 /* LionheartExtensions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LionheartExtensions.modulemap; sourceTree = "<group>"; };
 		282ED103688808D6897ACB186BCA1AE6 /* TipJarButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TipJarButton.swift; path = TipJarViewController/Classes/TipJarButton.swift; sourceTree = "<group>"; };
-		29A4B03DE7726782FCD0A497B371C08B /* Int+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Int+LionheartExtensions.swift"; path = "Pod/Classes/Core/Int+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		29803E9300805E834FB336766B8C1FEE /* UIViewController+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIViewController+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		29AA36D0A98E46DCBB636904FD761FC5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A0FE539D936D5A9BFEBF1EDD4391264 /* carat.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = carat.png; path = docs/img/carat.png; sourceTree = "<group>"; };
 		2B86232A57831383696EF38CDC8DA1C1 /* TipJarViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = TipJarViewController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		2BCC4F5FE70F112ACE68670E797380F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2BA6B383B4463122D4F051E7932FDF38 /* WKWebView+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "WKWebView+LionheartExtensions.swift"; path = "Pod/Classes/Core/WKWebView+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		2D2691D96D098E6336A4358D82BBF31E /* IAPRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IAPRow.swift; path = TipJarViewController/Classes/IAPRow.swift; sourceTree = "<group>"; };
 		2E8A2457D479D01DECD1E0E2F5C3C3D0 /* Pods-TipJarViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TipJarViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2FD73442CC677804F60D19BD74DBA4A7 /* jquery.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = jquery.min.js; path = docs/docsets/TipJarViewController.docset/Contents/Resources/Documents/js/jquery.min.js; sourceTree = "<group>"; };
@@ -212,99 +213,100 @@
 		3440B34F93E91454C5351943850BFDE8 /* SuperLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SuperLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		347509D759EBF5EF5353B7213CFD1733 /* TipJarViewControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TipJarViewControllerDelegate.swift; path = TipJarViewController/Classes/TipJarViewControllerDelegate.swift; sourceTree = "<group>"; };
 		353EE8D980DE0F42D72387378A6AEAB3 /* jazzy.css */ = {isa = PBXFileReference; includeInIndex = 1; name = jazzy.css; path = docs/css/jazzy.css; sourceTree = "<group>"; };
+		368BA11E2835A88560E020410FB4E14A /* DateFormatter+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DateFormatter+LionheartExtensions.swift"; path = "Pod/Classes/Core/DateFormatter+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		3771E2FF5FF58255A6D5E4E338C9D9BD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37A7634EB13DFA3638793F8C9422BB73 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		38E393A88D43741F70DA8A8AC4E14C5A /* jazzy.search.js */ = {isa = PBXFileReference; includeInIndex = 1; name = jazzy.search.js; path = docs/docsets/TipJarViewController.docset/Contents/Resources/Documents/js/jazzy.search.js; sourceTree = "<group>"; };
 		38EF3653A142A75E560303CD94CD6BD7 /* badge.svg */ = {isa = PBXFileReference; includeInIndex = 1; name = badge.svg; path = docs/docsets/TipJarViewController.docset/Contents/Resources/Documents/badge.svg; sourceTree = "<group>"; };
-		3AE1BA04C5E02872CDD7FE71E2F1203F /* UIView+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIView+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		3C5B30CC4DE2020DDFA507573DA7BF62 /* QuickTableView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QuickTableView.modulemap; sourceTree = "<group>"; };
 		3D59A3259344D3F57435B678F10CFF51 /* QuickTableView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QuickTableView-umbrella.h"; sourceTree = "<group>"; };
 		3DB6E366C143835183D56FE89C5AE5EC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DF5E8B5967B807825DF7CEF696920FD /* IndexPath+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IndexPath+LionheartExtensions.swift"; path = "Pod/Classes/Core/IndexPath+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		3DFC5C5C865E4E2FCF4293E98929089F /* jquery.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = jquery.min.js; path = docs/js/jquery.min.js; sourceTree = "<group>"; };
 		3E531457EA0F04327427580B86A5DFD1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E6C3D9ECF12B38FF62E1F3D9C588D22 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		3ECB6D5252D2E8D39067739B48E5C2C2 /* ColorRepresentation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorRepresentation.swift; path = Pod/Classes/ColorRepresentation.swift; sourceTree = "<group>"; };
 		3EFD4EDE4229A4733A2F333C1A5C2155 /* UIImage+TipJarViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+TipJarViewController.swift"; path = "TipJarViewController/Classes/UIImage+TipJarViewController.swift"; sourceTree = "<group>"; };
-		4001E970B8AB82AA4AF12FBC44C8CB90 /* UIColor+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIColor+LionheartExtensions.swift"; sourceTree = "<group>"; };
-		42AB72612F46F88541B9D6EECDF621D3 /* NSURLSession+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSURLSession+LionheartExtensions.swift"; path = "Pod/Classes/Core/NSURLSession+LionheartExtensions.swift"; sourceTree = "<group>"; };
-		44ED4211B2998FEDF5C666B8C3E01086 /* UIImage+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIImage+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		3F461C3761C46AECC24813D466AF24F5 /* UIScreen+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIScreen+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIScreen+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		42A2DEB1B7BBF75C1FCBAF412372BC58 /* Bundle+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+LionheartExtensions.swift"; path = "Pod/Classes/Core/Bundle+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		44F1E53CF3BBEC26E799118C9D0E9597 /* filelist-local-md5 */ = {isa = PBXFileReference; includeInIndex = 1; name = "filelist-local-md5"; path = "docs/filelist-local-md5"; sourceTree = "<group>"; };
-		456E021555632DC54FF54E23DCF0D9D1 /* Main.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Main.swift; path = Pod/Classes/Main.swift; sourceTree = "<group>"; };
-		46A24515281D947C48F65C11B4CC3C10 /* NSDecimalNumber+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSDecimalNumber+LionheartExtensions.swift"; path = "Pod/Classes/Core/NSDecimalNumber+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		46036E147D6021A3BAC33AC101FF245A /* Summable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Summable.swift; path = Pod/Classes/Summable.swift; sourceTree = "<group>"; };
 		47F1AB2A5F70A5114982AAE2253527A4 /* SuperLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SuperLayout-prefix.pch"; sourceTree = "<group>"; };
-		49033D6F1469AF921E3545F729EA4D06 /* UIScreen+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIScreen+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIScreen+LionheartExtensions.swift"; sourceTree = "<group>"; };
-		4B7CAB8BDE0D6F58BCF53EDC07BCF950 /* ActivityIndicatorButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityIndicatorButton.swift; path = Pod/Classes/ActivityIndicatorButton.swift; sourceTree = "<group>"; };
+		4C06222D33D6CCAA63A9913B38FEA307 /* NSDecimalNumber+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSDecimalNumber+LionheartExtensions.swift"; path = "Pod/Classes/Core/NSDecimalNumber+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		507AA9E14C303D321AAE4B340577DA09 /* Pods-TipJarViewController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TipJarViewController_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		51847E2A8093AFB8F261E4FCD866BFC5 /* Pods_TipJarViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TipJarViewController_Example.framework; path = "Pods-TipJarViewController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		53FF67FCD4262CF3D775C637B5585F19 /* CustomButtonType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomButtonType.swift; path = Pod/Classes/CustomButtonType.swift; sourceTree = "<group>"; };
+		5356A6ECFCA87819001836B6BE68CBF9 /* Functional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Functional.swift; path = Pod/Classes/Functional.swift; sourceTree = "<group>"; };
 		5638358AE02F28A0C526EAC543A315BA /* Pods-TipJarViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TipJarViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		565F3B9D970F162A6C69AB4B51405C35 /* UITextField+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+LionheartExtensions.swift"; path = "Pod/Classes/Core/UITextField+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		571FE7DF74642582293C199E9B46031E /* highlight.css */ = {isa = PBXFileReference; includeInIndex = 1; name = highlight.css; path = docs/docsets/TipJarViewController.docset/Contents/Resources/Documents/css/highlight.css; sourceTree = "<group>"; };
 		57EB470E7A451DC88C9C43AB2502D33B /* search.json */ = {isa = PBXFileReference; includeInIndex = 1; name = search.json; path = docs/docsets/TipJarViewController.docset/Contents/Resources/Documents/search.json; sourceTree = "<group>"; };
-		58C907CFB3AB9472B2FCC9AEFF552C9E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		58E026FDB1606AB7B2C1D9BC60973101 /* undocumented.json */ = {isa = PBXFileReference; includeInIndex = 1; name = undocumented.json; path = docs/docsets/TipJarViewController.docset/Contents/Resources/Documents/undocumented.json; sourceTree = "<group>"; };
 		5E081D9EAF98A976DF75A6921E03BECC /* QuickTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickTableViewController.swift; path = Pod/Classes/QuickTableViewController.swift; sourceTree = "<group>"; };
-		5EB596F1B5033D462984F230E906B0FF /* FileManager+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FileManager+LionheartExtensions.swift"; path = "Pod/Classes/Core/FileManager+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		5FF8955FC70CACEAAC045DF789C77FFA /* UIAlertController+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIAlertController+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIAlertController+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		5FFB611A9EEE26195A95230A2AD26C63 /* KeyboardAdjuster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KeyboardAdjuster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		60B0635726A67E70B662FBEFFEF01B03 /* TipJarViewController.html */ = {isa = PBXFileReference; includeInIndex = 1; name = TipJarViewController.html; path = docs/docsets/TipJarViewController.docset/Contents/Resources/Documents/Classes/TipJarViewController.html; sourceTree = "<group>"; };
 		61606B52EFCEC98D58C1FB3447940EB9 /* index.html */ = {isa = PBXFileReference; includeInIndex = 1; name = index.html; path = docs/index.html; sourceTree = "<group>"; };
+		61D4E2BC9944E10239D3DE3FC9F7E178 /* Optional+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Optional+LionheartExtensions.swift"; path = "Pod/Classes/Core/Optional+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		62E16139325B9EC6141862380CC0C6ED /* typeahead.jquery.js */ = {isa = PBXFileReference; includeInIndex = 1; name = typeahead.jquery.js; path = docs/js/typeahead.jquery.js; sourceTree = "<group>"; };
+		63D5BA8B21F46E721468982746D228A3 /* UITextField+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+LionheartExtensions.swift"; path = "Pod/Classes/Core/UITextField+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		63D9780852DF52D13256463A91298BBC /* QuickTableViewCellSubtitle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickTableViewCellSubtitle.swift; path = "Pod/Classes/Table View Cells/QuickTableViewCellSubtitle.swift"; sourceTree = "<group>"; };
 		64EFDAF978B97293ECF569AAD15BD037 /* Pods-TipJarViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TipJarViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6533A4F52FE0CE6BCACD256273A726A0 /* Classes.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Classes.html; path = docs/Classes.html; sourceTree = "<group>"; };
 		66B8BE4ACC9CF15948A3F589898AB993 /* QuickTableViewCellValue2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickTableViewCellValue2.swift; path = "Pod/Classes/Table View Cells/QuickTableViewCellValue2.swift"; sourceTree = "<group>"; };
 		6A9CFA293F6796DA0BA323EA6B689910 /* filelist */ = {isa = PBXFileReference; includeInIndex = 1; name = filelist; path = docs/filelist; sourceTree = "<group>"; };
 		6BF5B1EC30B18D49B2F657FE3560EEEA /* SuperLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SuperLayout-dummy.m"; sourceTree = "<group>"; };
+		6DD5675C6217CC883187C2F42C5ACB52 /* File.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = File.swift; path = Pod/Classes/File.swift; sourceTree = "<group>"; };
+		6E5A1327FE04DC4A59A2BEBF8E671B78 /* Array+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+LionheartExtensions.swift"; path = "Pod/Classes/Core/Array+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		6F8B53AFE2C85211ED8FB90D03D3A3D3 /* SubscriptionRow.html */ = {isa = PBXFileReference; includeInIndex = 1; name = SubscriptionRow.html; path = docs/docsets/TipJarViewController.docset/Contents/Resources/Documents/Classes/TipJarViewController/SubscriptionRow.html; sourceTree = "<group>"; };
 		6FEE6DDFD5040FAF6C4E17B8AD4E99BD /* badge.svg */ = {isa = PBXFileReference; includeInIndex = 1; name = badge.svg; path = docs/badge.svg; sourceTree = "<group>"; };
-		7126C5A829CA2B5CF5B375E6B0F46F88 /* LionheartExtensions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LionheartExtensions-prefix.pch"; sourceTree = "<group>"; };
 		727C54D3F909012E9409D526E61202BA /* KeyboardAdjuster.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeyboardAdjuster.xcconfig; sourceTree = "<group>"; };
 		734FC51589540AD2EE6D1CF907D6E2A2 /* SuperLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SuperLayout-umbrella.h"; sourceTree = "<group>"; };
 		73763FE4A863B18633807096B39B21AA /* KeyboardAdjuster.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardAdjuster.swift; path = Pod/Classes/KeyboardAdjuster.swift; sourceTree = "<group>"; };
 		7385EDDA3BA9B76CDDC207240EBA50EE /* TipJarViewController.tgz */ = {isa = PBXFileReference; includeInIndex = 1; name = TipJarViewController.tgz; path = docs/docsets/TipJarViewController.tgz; sourceTree = "<group>"; };
+		740DF8F285CC96CBF78ADA4028628C32 /* TitleButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TitleButton.swift; path = Pod/Classes/TitleButton.swift; sourceTree = "<group>"; };
 		759E58F76F4054B9306ED9A47502F2A9 /* QuickTableViewProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickTableViewProtocols.swift; path = Pod/Protocols/QuickTableViewProtocols.swift; sourceTree = "<group>"; };
 		76C951FE8182242A4807042F0D880164 /* IAPRow.html */ = {isa = PBXFileReference; includeInIndex = 1; name = IAPRow.html; path = docs/Protocols/IAPRow.html; sourceTree = "<group>"; };
-		78B6B1AB0C98770A718630782EB42B4D /* UIPrintPageRenderer+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIPrintPageRenderer+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIPrintPageRenderer+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		79A0D85F731C0B5651A707488BDCDA4A /* TipJarViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TipJarViewController.modulemap; sourceTree = "<group>"; };
 		7B284E8C1F81F8E4932731D92BB88343 /* Classes.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Classes.html; path = docs/docsets/TipJarViewController.docset/Contents/Resources/Documents/Classes.html; sourceTree = "<group>"; };
-		7C79D6D927C735730C4A97E195EDBF6B /* IndexPath+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IndexPath+LionheartExtensions.swift"; path = "Pod/Classes/Core/IndexPath+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		7F26604D26D094F5081218A82D4EC34A /* UIWindow+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIWindow+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIWindow+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		80DE1DEAE7FFFF5A1D8466518CD30FD7 /* jazzy.search.js */ = {isa = PBXFileReference; includeInIndex = 1; name = jazzy.search.js; path = docs/js/jazzy.search.js; sourceTree = "<group>"; };
 		8111E8AF9620BBF9D02C697C80B6F890 /* Pods-TipJarViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TipJarViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		8415EFA8D8AB1882D6882DAF9C062045 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
+		826E13F244A0BC544C6306441BA1F667 /* LionheartExtensions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LionheartExtensions-dummy.m"; sourceTree = "<group>"; };
 		841AE372ED62C4AFDAB30A873BDEA556 /* QuickTableViewSection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickTableViewSection.swift; path = Pod/Extensions/QuickTableViewSection.swift; sourceTree = "<group>"; };
 		8468A811C4DEE08366F03DDE71ECA99B /* TipJarOptionalConfiguration.html */ = {isa = PBXFileReference; includeInIndex = 1; name = TipJarOptionalConfiguration.html; path = docs/docsets/TipJarViewController.docset/Contents/Resources/Documents/Protocols/TipJarOptionalConfiguration.html; sourceTree = "<group>"; };
 		862CBB4C854454C200DE41534EB7ADE7 /* gh.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = gh.png; path = docs/img/gh.png; sourceTree = "<group>"; };
 		88309C85C40128595D337B172BCE6F11 /* SuperLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SuperLayout.modulemap; sourceTree = "<group>"; };
 		89693930BA46D72B263559943C14299B /* Pods-TipJarViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TipJarViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8A39686E5D59694520745C37B73FDD36 /* UIApplicationDelegate+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIApplicationDelegate+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIApplicationDelegate+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		8A86941A196297029C26D950FF13A5B6 /* TipJarConfiguration.html */ = {isa = PBXFileReference; includeInIndex = 1; name = TipJarConfiguration.html; path = docs/Protocols/TipJarConfiguration.html; sourceTree = "<group>"; };
 		8B9F745DA341B09140FCF60FA1D23683 /* QuickTableViewCellValue1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickTableViewCellValue1.swift; path = "Pod/Classes/Table View Cells/QuickTableViewCellValue1.swift"; sourceTree = "<group>"; };
 		8BA71307BB713473150ECEC0A85F4DDE /* TipJarViewController.html */ = {isa = PBXFileReference; includeInIndex = 1; name = TipJarViewController.html; path = docs/Classes/TipJarViewController.html; sourceTree = "<group>"; };
 		9147D3CE5EAD469E34D38CE193E1F2E6 /* QuickTableView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QuickTableView-prefix.pch"; sourceTree = "<group>"; };
 		92B726F044EF3C601163C3F6C7EFCFEC /* KeyboardAdjuster-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeyboardAdjuster-umbrella.h"; sourceTree = "<group>"; };
-		92C108CC16C873D73D2A7E50361E7D16 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93FA577DDBCC59CC9EB40A29294E3781 /* KeyboardAdjuster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KeyboardAdjuster.framework; path = KeyboardAdjuster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A7062DEDE42A4509A28EAC45CCB0074 /* jazzy.js */ = {isa = PBXFileReference; includeInIndex = 1; name = jazzy.js; path = docs/js/jazzy.js; sourceTree = "<group>"; };
 		9B06A6BA717B03A6C92BE548E94DA672 /* Pods-TipJarViewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TipJarViewController_Example-umbrella.h"; sourceTree = "<group>"; };
-		9B955EA52CDD3EE3294F548DCD7D0C81 /* File.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = File.swift; path = Pod/Classes/File.swift; sourceTree = "<group>"; };
-		9EB8ADFC3D6DF02FDAAEA7144D84EEBF /* UIViewController+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIViewController+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		9C7DCFEA132AC531400A7D96B6DF608C /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
+		9EF5EA1AC6F6FDF24B4F2E1FF13CB193 /* UIFont+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIFont+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIFont+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		A2393EB75F50D3BE31386A231B738010 /* Pods-TipJarViewController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TipJarViewController_Example-resources.sh"; sourceTree = "<group>"; };
 		A2560C3090CFAA34EF5528CD6D5FEBEE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A29FEFE565454FF91002D5ECC2B06953 /* Pods-TipJarViewController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TipJarViewController_Tests-resources.sh"; sourceTree = "<group>"; };
-		A3B3ACF72B57130935710694A6A1AB0B /* Summable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Summable.swift; path = Pod/Classes/Summable.swift; sourceTree = "<group>"; };
-		A3D05570C77161F4C7E420E74375B976 /* UIApplicationDelegate+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIApplicationDelegate+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIApplicationDelegate+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		A4363E1A0F9679D7731F157F9A5DE016 /* OneTimeRow.html */ = {isa = PBXFileReference; includeInIndex = 1; name = OneTimeRow.html; path = docs/Classes/TipJarViewController/OneTimeRow.html; sourceTree = "<group>"; };
 		A4DF946CE4F639BD2CF25B14F6A1B033 /* filelist */ = {isa = PBXFileReference; includeInIndex = 1; name = filelist; path = docs/docsets/TipJarViewController.docset/Contents/Resources/Documents/filelist; sourceTree = "<group>"; };
 		A4FB9155D75DECAF983103CB8622712B /* KeyboardAdjuster-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KeyboardAdjuster-dummy.m"; sourceTree = "<group>"; };
+		A5C97B128CA008FCC82DEE6DE422309F /* CustomButtonType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomButtonType.swift; path = Pod/Classes/CustomButtonType.swift; sourceTree = "<group>"; };
 		A7100E77A259D0890359D5E1A055EECC /* BaseTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseTableViewController.swift; path = Pod/Classes/BaseTableViewController.swift; sourceTree = "<group>"; };
+		A886D2BEBB4C991F1A32034D9A2CA4AF /* UIView+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIView+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		A8A8E49BF9ED279F5E2864A90EBFF9F9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		AB9998F533FCC1CD7EBF8804474C7DB9 /* Pods-TipJarViewController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TipJarViewController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AC0B89886B1DA2A5450E01EA75876DD9 /* QuickTableViewCellDefault.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickTableViewCellDefault.swift; path = "Pod/Classes/Table View Cells/QuickTableViewCellDefault.swift"; sourceTree = "<group>"; };
 		AD0F26B59B005BB713F68F0F0A941E47 /* search.json */ = {isa = PBXFileReference; includeInIndex = 1; name = search.json; path = docs/search.json; sourceTree = "<group>"; };
 		B22353504610D85076298B5369C9D46C /* lunr.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = lunr.min.js; path = docs/docsets/TipJarViewController.docset/Contents/Resources/Documents/js/lunr.min.js; sourceTree = "<group>"; };
 		B3267F4620AD7BB6AE86661789178FBB /* filelist-local */ = {isa = PBXFileReference; includeInIndex = 1; name = "filelist-local"; path = "docs/docsets/TipJarViewController.docset/Contents/Resources/Documents/filelist-local"; sourceTree = "<group>"; };
+		B33AEF091F28FC61857C912B4C7419F3 /* NSURLSession+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSURLSession+LionheartExtensions.swift"; path = "Pod/Classes/Core/NSURLSession+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		B3873CD71A9EE678C536087AF545735D /* KeyboardAdjuster.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KeyboardAdjuster.modulemap; sourceTree = "<group>"; };
 		B39CBA11E508C0FEBD52B6FADB79ECA5 /* Pods_TipJarViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TipJarViewController_Tests.framework; path = "Pods-TipJarViewController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B6B513833197CBE0666E536102666860 /* Functional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Functional.swift; path = Pod/Classes/Functional.swift; sourceTree = "<group>"; };
+		B4AC38D3970A6224491A68DB3FBFF89B /* NSRegularExpression+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSRegularExpression+LionheartExtensions.swift"; path = "Pod/Classes/Core/NSRegularExpression+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		B7FE882ECA9FAE73F3C6834C514F85FF /* carat.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = carat.png; path = docs/docsets/TipJarViewController.docset/Contents/Resources/Documents/img/carat.png; sourceTree = "<group>"; };
-		B8B2DF5743DBF1497F6EE8A38A2B2C08 /* Bundle+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+LionheartExtensions.swift"; path = "Pod/Classes/Core/Bundle+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		B9CCEA38371728CB5CCA3770D046F733 /* Pods-TipJarViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TipJarViewController_Tests.modulemap"; sourceTree = "<group>"; };
 		BC0DC1BE46086FA8914CC70EF216EE6A /* MultilineTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultilineTableViewCell.swift; path = TipJarViewController/Classes/MultilineTableViewCell.swift; sourceTree = "<group>"; };
 		BF8AD0647166F7D9974F93AC337A51A9 /* TipJarFrequency.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TipJarFrequency.swift; path = TipJarViewController/Classes/TipJarFrequency.swift; sourceTree = "<group>"; };
@@ -314,22 +316,19 @@
 		C2C0DA09FDBC7DD51325FCA995B32AB1 /* jazzy.js */ = {isa = PBXFileReference; includeInIndex = 1; name = jazzy.js; path = docs/docsets/TipJarViewController.docset/Contents/Resources/Documents/js/jazzy.js; sourceTree = "<group>"; };
 		C414C94DA4CA0DA2F8E78391D83871A0 /* index.html */ = {isa = PBXFileReference; includeInIndex = 1; name = index.html; path = docs/docsets/TipJarViewController.docset/Contents/Resources/Documents/index.html; sourceTree = "<group>"; };
 		C6F359C004952A4AD40E96078EB7EE56 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = docs/docsets/TipJarViewController.docset/Contents/Info.plist; sourceTree = "<group>"; };
-		C9B9AD0CBF5A2C3E3DB51E01E177AEEC /* Array+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+LionheartExtensions.swift"; path = "Pod/Classes/Core/Array+LionheartExtensions.swift"; sourceTree = "<group>"; };
-		CC242936E7BF8E3A9EF07974316541D2 /* CIImage+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CIImage+LionheartExtensions.swift"; path = "Pod/Classes/Core/CIImage+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		C87CE8606BA87DE9297D9282739AD564 /* LionheartExtensions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LionheartExtensions.xcconfig; sourceTree = "<group>"; };
+		CADD0575BF52260393DC08DAAAB0600B /* LionheartExtensions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LionheartExtensions-umbrella.h"; sourceTree = "<group>"; };
 		CE7D32E2ECCC8321BA38DE00CCC5B192 /* Pods-TipJarViewController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TipJarViewController_Tests-dummy.m"; sourceTree = "<group>"; };
 		D0E0E36020BC37FCCF1935FBE173C301 /* KeyboardAdjuster-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeyboardAdjuster-prefix.pch"; sourceTree = "<group>"; };
 		D2AF94BB410997C7A5F5F50B1BB38497 /* filelist-md5 */ = {isa = PBXFileReference; includeInIndex = 1; name = "filelist-md5"; path = "docs/docsets/TipJarViewController.docset/Contents/Resources/Documents/filelist-md5"; sourceTree = "<group>"; };
 		D34F72989327C010D82FFCFB89E6EC74 /* TipJarFrequency.html */ = {isa = PBXFileReference; includeInIndex = 1; name = TipJarFrequency.html; path = docs/docsets/TipJarViewController.docset/Contents/Resources/Documents/Enums/TipJarFrequency.html; sourceTree = "<group>"; };
 		D41D8C9FE00D878C3CEB3F4A24F2961F /* Pods-TipJarViewController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TipJarViewController_Tests-umbrella.h"; sourceTree = "<group>"; };
-		D4E27A4600B2CA2E4DAC6DD84E007E05 /* DateFormatter+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DateFormatter+LionheartExtensions.swift"; path = "Pod/Classes/Core/DateFormatter+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		D6D1E0FC1415AB11E4DDE63CA7DDAE8F /* String+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+LionheartExtensions.swift"; path = "Pod/Classes/Core/String+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		D7E305206ACA8DAF497ACBB144E513EA /* Pods-TipJarViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TipJarViewController_Example-dummy.m"; sourceTree = "<group>"; };
 		DA5FD86828D87D9907ABB0CC25FACDF1 /* Pods-TipJarViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TipJarViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
-		DA685809330B8293119BFFD166EE1C0F /* LionheartExtensions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LionheartExtensions-dummy.m"; sourceTree = "<group>"; };
 		DAB4194476855AD2E62A18A0B9F0A802 /* TipJarViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TipJarViewController.xcconfig; sourceTree = "<group>"; };
 		DAB8C9ACA1A600FDFFAA49B804EA1816 /* gh.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = gh.png; path = docs/docsets/TipJarViewController.docset/Contents/Resources/Documents/img/gh.png; sourceTree = "<group>"; };
 		DB2AEC7609B5CF24455C0B8964371AFC /* Protocols.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Protocols.html; path = docs/Protocols.html; sourceTree = "<group>"; };
-		DB4B66D8D01EA57483FE02DB6CAD1A85 /* UIFont+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIFont+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIFont+LionheartExtensions.swift"; sourceTree = "<group>"; };
-		DD1C24F8E5D37AF52917A7B9D03034AF /* Optional+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Optional+LionheartExtensions.swift"; path = "Pod/Classes/Core/Optional+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		DD6E899FD12462B0CED797084581AC25 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DEC032789F5639B487A602FCAF6F465D /* spinner.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = spinner.gif; path = docs/img/spinner.gif; sourceTree = "<group>"; };
 		DF36523D2A405E60FF5E0A1C4E295027 /* SubscriptionRow.html */ = {isa = PBXFileReference; includeInIndex = 1; name = SubscriptionRow.html; path = docs/Classes/TipJarViewController/SubscriptionRow.html; sourceTree = "<group>"; };
@@ -337,89 +336,92 @@
 		E2B881CF275B043E95BFE65708D7884E /* QuickTableViewRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickTableViewRow.swift; path = Pod/Extensions/QuickTableViewRow.swift; sourceTree = "<group>"; };
 		E42D3E98752AC25E50EC1B6C0F79441B /* TipJarOptionalConfiguration.html */ = {isa = PBXFileReference; includeInIndex = 1; name = TipJarOptionalConfiguration.html; path = docs/Protocols/TipJarOptionalConfiguration.html; sourceTree = "<group>"; };
 		E4EBC91E27FD746913E13D075F9034E6 /* TipJarConfiguration.html */ = {isa = PBXFileReference; includeInIndex = 1; name = TipJarConfiguration.html; path = docs/docsets/TipJarViewController.docset/Contents/Resources/Documents/Protocols/TipJarConfiguration.html; sourceTree = "<group>"; };
+		E55972A2BE93A152759F9FCDB064D8E7 /* FileManager+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FileManager+LionheartExtensions.swift"; path = "Pod/Classes/Core/FileManager+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		E680B3C8EC724353DB461F0942A60C82 /* QuickTableView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QuickTableView.xcconfig; sourceTree = "<group>"; };
-		E8A4E041DF03B600E9E86EB377616DC4 /* LionheartExtensions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LionheartExtensions.xcconfig; sourceTree = "<group>"; };
 		E9994D770068AFE8CE8B7D6A45697AFB /* undocumented.json */ = {isa = PBXFileReference; includeInIndex = 1; name = undocumented.json; path = docs/undocumented.json; sourceTree = "<group>"; };
 		EA2B7280D55CE64BB5D8ECB6B8E33F82 /* TipJarViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TipJarViewController.swift; path = TipJarViewController/Classes/TipJarViewController.swift; sourceTree = "<group>"; };
 		EB500DF5A4CC4B528F6DBAA0C6AA371B /* QuickTableView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QuickTableView-dummy.m"; sourceTree = "<group>"; };
 		EC6025E0C8AF5D0953E05CF6CF900ADF /* spinner.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = spinner.gif; path = docs/docsets/TipJarViewController.docset/Contents/Resources/Documents/img/spinner.gif; sourceTree = "<group>"; };
+		ECF6FE8029462DE3C8A29CDDFAD2DCF7 /* Int+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Int+LionheartExtensions.swift"; path = "Pod/Classes/Core/Int+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		ED196E2217BB5E519C9D88310DFD8994 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EE1B661A30D557E88CFC95E059D5D005 /* Any+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Any+LionheartExtensions.swift"; path = "Pod/Classes/Core/Any+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		F0595B34705C7D5DE4DFD4CE0C91291E /* Main.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Main.swift; path = Pod/Classes/Main.swift; sourceTree = "<group>"; };
 		F17F02F2CF580AD7542FD67FD3939F83 /* highlight.css */ = {isa = PBXFileReference; includeInIndex = 1; name = highlight.css; path = docs/css/highlight.css; sourceTree = "<group>"; };
 		F1B42BA70D44C18C9A5C56A09C58BB1F /* Enums.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Enums.html; path = docs/docsets/TipJarViewController.docset/Contents/Resources/Documents/Enums.html; sourceTree = "<group>"; };
 		F2C60C9B64B09E1566946A2B6781E5AA /* lunr.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = lunr.min.js; path = docs/js/lunr.min.js; sourceTree = "<group>"; };
+		F316E9B9D7E44671774F5E605340B592 /* UIColor+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIColor+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		F33B0171479A4EDBD99D76DFE9A547B4 /* filelist-local */ = {isa = PBXFileReference; includeInIndex = 1; name = "filelist-local"; path = "docs/filelist-local"; sourceTree = "<group>"; };
 		F3497A6BA1E458FAACB9BCED7A44D3D4 /* SuperLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SuperLayout.swift; path = Sources/SuperLayout.swift; sourceTree = "<group>"; };
-		F4411212448B072168BB56CF37ED5549 /* UIAlertController+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIAlertController+LionheartExtensions.swift"; path = "Pod/Classes/Core/UIAlertController+LionheartExtensions.swift"; sourceTree = "<group>"; };
 		F4C92C9704CCF6389E08A9E4D071714E /* LionheartExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LionheartExtensions.framework; path = LionheartExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F586C62374498D80BCFF9EFEF86900C2 /* Enums.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Enums.html; path = docs/Enums.html; sourceTree = "<group>"; };
 		F5DA604082947BDAF13EE8BE75B27F1F /* jazzy.css */ = {isa = PBXFileReference; includeInIndex = 1; name = jazzy.css; path = docs/docsets/TipJarViewController.docset/Contents/Resources/Documents/css/jazzy.css; sourceTree = "<group>"; };
+		F6BFB8F850E8213E75F8E1FCAECD4C28 /* ColorRepresentation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorRepresentation.swift; path = Pod/Classes/ColorRepresentation.swift; sourceTree = "<group>"; };
 		F7055EB944BB72B1D87CDCEA920E9A50 /* dash.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = dash.png; path = docs/docsets/TipJarViewController.docset/Contents/Resources/Documents/img/dash.png; sourceTree = "<group>"; };
-		FD275EA88588BC20EB06AE91F77AF721 /* String+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+LionheartExtensions.swift"; path = "Pod/Classes/Core/String+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		FC020588F017FC3ACA6BBC6C5EE7D36B /* CIImage+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CIImage+LionheartExtensions.swift"; path = "Pod/Classes/Core/CIImage+LionheartExtensions.swift"; sourceTree = "<group>"; };
+		FD611FE4A6D593554DA2AD7A72921D07 /* Any+LionheartExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Any+LionheartExtensions.swift"; path = "Pod/Classes/Core/Any+LionheartExtensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		04F17AF051EB45F03EC7D0B557EB835B /* Frameworks */ = {
+		13E0BAE988F26A401CE3204E5904C1E5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A51BB0996A1AD31D4A28483733509C43 /* Foundation.framework in Frameworks */,
+				60B46DAEBB71CB516FE82DAED5B966A3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0D8C188A62F43E01AE9D8C348081A1F1 /* Frameworks */ = {
+		32876F16C9DD18B66E7B5678BB34F427 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43B8103993FAE8A17A9A553DC54F2313 /* Foundation.framework in Frameworks */,
+				C1D47B021380A9B151637BEEAD877561 /* Foundation.framework in Frameworks */,
+				70F306CF1DA12743ADF56DBFD7031E24 /* KeyboardAdjuster.framework in Frameworks */,
+				F5ECD4EE7CAED89DEBE77842081376CD /* LionheartExtensions.framework in Frameworks */,
+				1FFE44738CDD31BED04DDDBF4B99C8CB /* QuickTableView.framework in Frameworks */,
+				C7ED9B30B3FF6EE2B928597885B37426 /* StoreKit.framework in Frameworks */,
+				6B0DDCBC5F4E60766F2B1695C8CAE6CF /* SuperLayout.framework in Frameworks */,
+				6846A01F37983684623E403B3ACB952C /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		70CFBD65B37E2F32F5AFA10D84178EF5 /* Frameworks */ = {
+		70A400E5C38FFD8B6EBAED82E2585DD2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13775BC5E7D812624E95386B9B4346B5 /* Foundation.framework in Frameworks */,
-				A05E7DB807B8350D02CDB1D50D54C206 /* KeyboardAdjuster.framework in Frameworks */,
-				720C87A950E7DB223061E98D8BCAEA3A /* LionheartExtensions.framework in Frameworks */,
-				1DD252931A854731B0E6F62E494ED91A /* QuickTableView.framework in Frameworks */,
-				2A3C2A7A00C117978DE28F76DE435221 /* StoreKit.framework in Frameworks */,
-				A0193F857A2FCB8F1837841CBED26B78 /* SuperLayout.framework in Frameworks */,
-				F12C8CD5B8A919BB3F1318ACF2CF24AE /* UIKit.framework in Frameworks */,
+				C9EFDE72906E993B8DF53FB2A5DA476D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AD0E006CE50A2472BB69E21200958A61 /* Frameworks */ = {
+		92F77C373E845E0C7C67BE86FD0AC70C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F23D52041EBF0E6999C51EBBD600FC38 /* Foundation.framework in Frameworks */,
-				867B623C7527CD15075A604EA53EFC0A /* KeyboardAdjuster.framework in Frameworks */,
-				08100E937EE71A6548351A9F22113C6F /* UIKit.framework in Frameworks */,
+				828D6DBCE857489E4EF453D5A82D2935 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BC2C08FEB28D9D13D1D7685F1551DEA4 /* Frameworks */ = {
+		A326D6D4DA7DF17BA2F7127ED460A354 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9F1B61DA0FF9C23EDD1E3AD48803DC7 /* Foundation.framework in Frameworks */,
+				4205C92FCA4EBDF22E2B9CCC65CFD336 /* Foundation.framework in Frameworks */,
+				F7CC014F0A9150C323F147320417AC4D /* KeyboardAdjuster.framework in Frameworks */,
+				7AAEBB40A9DDABEB13FC48F043FE4668 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D2B5060C0A863A4DBEC2D4B8852E35AE /* Frameworks */ = {
+		B7D85C8AAE0CFAC524727902071AD555 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97DEE5B5191C6D9A9B2C694FA6DE0C16 /* Foundation.framework in Frameworks */,
+				7F04B02C4BB870615BC6CC1D22E8BDFD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D2CC1DFF10A439418827BC4D4C410E8B /* Frameworks */ = {
+		EB6DC72EE5BC9EDEC45FEDB1A5E50C40 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F10052264CBFA9C68DA7AD6E68CFE71B /* Foundation.framework in Frameworks */,
+				D31AD621A26401670ECA48EBE0550EB9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,14 +461,14 @@
 			path = "Example/Pods/Target Support Files/TipJarViewController";
 			sourceTree = "<group>";
 		};
-		1AA2F49AA3358A910CF7452794ADF356 /* LionheartExtensions */ = {
+		1D3367DAF437597ED1B2C5B5418A2540 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				B1BD4C5B007686F1F15CECEC2BA729CB /* Core */,
-				56E16DAB34C58D26657255A1FCF458E3 /* Support Files */,
+				37A7634EB13DFA3638793F8C9422BB73 /* Foundation.framework */,
+				9C7DCFEA132AC531400A7D96B6DF608C /* StoreKit.framework */,
+				A8A8E49BF9ED279F5E2864A90EBFF9F9 /* UIKit.framework */,
 			);
-			name = LionheartExtensions;
-			path = LionheartExtensions;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		236BB38E5DD6078262AFEDC744DDBDB1 /* Products */ = {
@@ -510,30 +512,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		351ED52D6D68D01B8286F7690E37F782 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				2BCC4F5FE70F112ACE68670E797380F7 /* Foundation.framework */,
-				8415EFA8D8AB1882D6882DAF9C062045 /* StoreKit.framework */,
-				58C907CFB3AB9472B2FCC9AEFF552C9E /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		56E16DAB34C58D26657255A1FCF458E3 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				92C108CC16C873D73D2A7E50361E7D16 /* Info.plist */,
-				1AF247CDDC21005832A1D807551EF583 /* LionheartExtensions.modulemap */,
-				E8A4E041DF03B600E9E86EB377616DC4 /* LionheartExtensions.xcconfig */,
-				DA685809330B8293119BFFD166EE1C0F /* LionheartExtensions-dummy.m */,
-				7126C5A829CA2B5CF5B375E6B0F46F88 /* LionheartExtensions-prefix.pch */,
-				163807F1D92A0EBCBF7ADF7445FD4813 /* LionheartExtensions-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/LionheartExtensions";
-			sourceTree = "<group>";
-		};
 		5C3448BEDC60A9C4F58D6CCACACF17F2 /* Pods-TipJarViewController_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -550,6 +528,16 @@
 			);
 			name = "Pods-TipJarViewController_Example";
 			path = "Target Support Files/Pods-TipJarViewController_Example";
+			sourceTree = "<group>";
+		};
+		679647E51C1F7F954621D5688BE0312A /* LionheartExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				D9E3F1199402C37028A08B9D3F636AF0 /* Core */,
+				A0006ED9E728C208B9FCEC8D68FC3FDF /* Support Files */,
+			);
+			name = LionheartExtensions;
+			path = LionheartExtensions;
 			sourceTree = "<group>";
 		};
 		6DC8C7D86F978EE1C4B28511FA96F648 /* Core */ = {
@@ -618,11 +606,25 @@
 			isa = PBXGroup;
 			children = (
 				790F57C6F2DDD118755E2CC150F2403F /* KeyboardAdjuster */,
-				1AA2F49AA3358A910CF7452794ADF356 /* LionheartExtensions */,
+				679647E51C1F7F954621D5688BE0312A /* LionheartExtensions */,
 				0AAFD522EB16BF3897E6F1CB2E22FB45 /* QuickTableView */,
 				7B4AF34CACD0E9A9A85E9BF636D73F98 /* SuperLayout */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		A0006ED9E728C208B9FCEC8D68FC3FDF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3771E2FF5FF58255A6D5E4E338C9D9BD /* Info.plist */,
+				25B8D1B74F9871B3DD2CAD58953A9A92 /* LionheartExtensions.modulemap */,
+				C87CE8606BA87DE9297D9282739AD564 /* LionheartExtensions.xcconfig */,
+				826E13F244A0BC544C6306441BA1F667 /* LionheartExtensions-dummy.m */,
+				0A8478C2FC7091D1E9FA2269600E67FE /* LionheartExtensions-prefix.pch */,
+				CADD0575BF52260393DC08DAAAB0600B /* LionheartExtensions-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LionheartExtensions";
 			sourceTree = "<group>";
 		};
 		A54DAB3DC92A485182712A8FD2F0CCA3 /* TipJarViewController */ = {
@@ -658,46 +660,6 @@
 			path = "../Target Support Files/QuickTableView";
 			sourceTree = "<group>";
 		};
-		B1BD4C5B007686F1F15CECEC2BA729CB /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				4B7CAB8BDE0D6F58BCF53EDC07BCF950 /* ActivityIndicatorButton.swift */,
-				EE1B661A30D557E88CFC95E059D5D005 /* Any+LionheartExtensions.swift */,
-				C9B9AD0CBF5A2C3E3DB51E01E177AEEC /* Array+LionheartExtensions.swift */,
-				B8B2DF5743DBF1497F6EE8A38A2B2C08 /* Bundle+LionheartExtensions.swift */,
-				CC242936E7BF8E3A9EF07974316541D2 /* CIImage+LionheartExtensions.swift */,
-				3ECB6D5252D2E8D39067739B48E5C2C2 /* ColorRepresentation.swift */,
-				53FF67FCD4262CF3D775C637B5585F19 /* CustomButtonType.swift */,
-				D4E27A4600B2CA2E4DAC6DD84E007E05 /* DateFormatter+LionheartExtensions.swift */,
-				9B955EA52CDD3EE3294F548DCD7D0C81 /* File.swift */,
-				5EB596F1B5033D462984F230E906B0FF /* FileManager+LionheartExtensions.swift */,
-				B6B513833197CBE0666E536102666860 /* Functional.swift */,
-				7C79D6D927C735730C4A97E195EDBF6B /* IndexPath+LionheartExtensions.swift */,
-				29A4B03DE7726782FCD0A497B371C08B /* Int+LionheartExtensions.swift */,
-				456E021555632DC54FF54E23DCF0D9D1 /* Main.swift */,
-				46A24515281D947C48F65C11B4CC3C10 /* NSDecimalNumber+LionheartExtensions.swift */,
-				026DCCF94C15BCCE3C767C4A3DFFF48A /* NSRegularExpression+LionheartExtensions.swift */,
-				42AB72612F46F88541B9D6EECDF621D3 /* NSURLSession+LionheartExtensions.swift */,
-				DD1C24F8E5D37AF52917A7B9D03034AF /* Optional+LionheartExtensions.swift */,
-				FD275EA88588BC20EB06AE91F77AF721 /* String+LionheartExtensions.swift */,
-				A3B3ACF72B57130935710694A6A1AB0B /* Summable.swift */,
-				052D4E44C0FED18C5CE780FDD82F2296 /* TitleButton.swift */,
-				F4411212448B072168BB56CF37ED5549 /* UIAlertController+LionheartExtensions.swift */,
-				A3D05570C77161F4C7E420E74375B976 /* UIApplicationDelegate+LionheartExtensions.swift */,
-				4001E970B8AB82AA4AF12FBC44C8CB90 /* UIColor+LionheartExtensions.swift */,
-				10C7CC3A9E8EBE5179448934AB435D30 /* UIDevice+LionheartExtensions.swift */,
-				DB4B66D8D01EA57483FE02DB6CAD1A85 /* UIFont+LionheartExtensions.swift */,
-				44ED4211B2998FEDF5C666B8C3E01086 /* UIImage+LionheartExtensions.swift */,
-				78B6B1AB0C98770A718630782EB42B4D /* UIPrintPageRenderer+LionheartExtensions.swift */,
-				49033D6F1469AF921E3545F729EA4D06 /* UIScreen+LionheartExtensions.swift */,
-				565F3B9D970F162A6C69AB4B51405C35 /* UITextField+LionheartExtensions.swift */,
-				3AE1BA04C5E02872CDD7FE71E2F1203F /* UIView+LionheartExtensions.swift */,
-				9EB8ADFC3D6DF02FDAAEA7144D84EEBF /* UIViewController+LionheartExtensions.swift */,
-				15F92C801387A8953B6B6AEEC4A9D16E /* UIWindow+LionheartExtensions.swift */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
 		BECF085002CA1011670C73896044AB13 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -719,9 +681,50 @@
 				0E6C3014BB0B9B95926828CFECA63538 /* LionheartExtensions.framework */,
 				1B41A795D4FAC418D2F8B107712DCBE9 /* QuickTableView.framework */,
 				3440B34F93E91454C5351943850BFDE8 /* SuperLayout.framework */,
-				351ED52D6D68D01B8286F7690E37F782 /* iOS */,
+				1D3367DAF437597ED1B2C5B5418A2540 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9E3F1199402C37028A08B9D3F636AF0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				151FFBCE8563CCE506BC38530779CE7F /* ActivityIndicatorButton.swift */,
+				FD611FE4A6D593554DA2AD7A72921D07 /* Any+LionheartExtensions.swift */,
+				6E5A1327FE04DC4A59A2BEBF8E671B78 /* Array+LionheartExtensions.swift */,
+				42A2DEB1B7BBF75C1FCBAF412372BC58 /* Bundle+LionheartExtensions.swift */,
+				FC020588F017FC3ACA6BBC6C5EE7D36B /* CIImage+LionheartExtensions.swift */,
+				F6BFB8F850E8213E75F8E1FCAECD4C28 /* ColorRepresentation.swift */,
+				A5C97B128CA008FCC82DEE6DE422309F /* CustomButtonType.swift */,
+				368BA11E2835A88560E020410FB4E14A /* DateFormatter+LionheartExtensions.swift */,
+				6DD5675C6217CC883187C2F42C5ACB52 /* File.swift */,
+				E55972A2BE93A152759F9FCDB064D8E7 /* FileManager+LionheartExtensions.swift */,
+				5356A6ECFCA87819001836B6BE68CBF9 /* Functional.swift */,
+				3DF5E8B5967B807825DF7CEF696920FD /* IndexPath+LionheartExtensions.swift */,
+				ECF6FE8029462DE3C8A29CDDFAD2DCF7 /* Int+LionheartExtensions.swift */,
+				F0595B34705C7D5DE4DFD4CE0C91291E /* Main.swift */,
+				4C06222D33D6CCAA63A9913B38FEA307 /* NSDecimalNumber+LionheartExtensions.swift */,
+				B4AC38D3970A6224491A68DB3FBFF89B /* NSRegularExpression+LionheartExtensions.swift */,
+				B33AEF091F28FC61857C912B4C7419F3 /* NSURLSession+LionheartExtensions.swift */,
+				61D4E2BC9944E10239D3DE3FC9F7E178 /* Optional+LionheartExtensions.swift */,
+				D6D1E0FC1415AB11E4DDE63CA7DDAE8F /* String+LionheartExtensions.swift */,
+				46036E147D6021A3BAC33AC101FF245A /* Summable.swift */,
+				740DF8F285CC96CBF78ADA4028628C32 /* TitleButton.swift */,
+				5FF8955FC70CACEAAC045DF789C77FFA /* UIAlertController+LionheartExtensions.swift */,
+				8A39686E5D59694520745C37B73FDD36 /* UIApplicationDelegate+LionheartExtensions.swift */,
+				F316E9B9D7E44671774F5E605340B592 /* UIColor+LionheartExtensions.swift */,
+				0264088D53E52450A62E94CBA9962121 /* UIDevice+LionheartExtensions.swift */,
+				9EF5EA1AC6F6FDF24B4F2E1FF13CB193 /* UIFont+LionheartExtensions.swift */,
+				067E2281B66FF37258DAE66F4788CF89 /* UIImage+LionheartExtensions.swift */,
+				1D988547212F600AB09A4271DB61EAE7 /* UIPrintPageRenderer+LionheartExtensions.swift */,
+				3F461C3761C46AECC24813D466AF24F5 /* UIScreen+LionheartExtensions.swift */,
+				63D5BA8B21F46E721468982746D228A3 /* UITextField+LionheartExtensions.swift */,
+				A886D2BEBB4C991F1A32034D9A2CA4AF /* UIView+LionheartExtensions.swift */,
+				29803E9300805E834FB336766B8C1FEE /* UIViewController+LionheartExtensions.swift */,
+				7F26604D26D094F5081218A82D4EC34A /* UIWindow+LionheartExtensions.swift */,
+				2BA6B383B4463122D4F051E7932FDF38 /* WKWebView+LionheartExtensions.swift */,
+			);
+			name = Core;
 			sourceTree = "<group>";
 		};
 		DA69F57BD736280C5E5505D73BE2DAAF /* Pod */ = {
@@ -798,72 +801,73 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1DC1108E600E18FD06FDB11017D84146 /* Headers */ = {
+		1DD16A36474F3D4E55C18B07DFB280F2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE6A9ADBA87B8D2AB512BD550A077A8D /* Pods-TipJarViewController_Tests-umbrella.h in Headers */,
+				404CEC24C0A91E1F4C28EB94C0C32964 /* TipJarViewController-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		55B9843DCADED27F6C2D9E4127D7E5D7 /* Headers */ = {
+		4F546E31C1C19CB0ED511692AA0E46EB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24477DB8E5B204505F7AE92A7866E019 /* QuickTableView-umbrella.h in Headers */,
+				439944024EECE2E616746071046CCED6 /* Pods-TipJarViewController_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		70586C29D39AA110FD5B8C24B7F4EA71 /* Headers */ = {
+		599DD7E4F022C47E9F19C33107AF0701 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E664B0EE749FFDCE359DC2F9FB02A4D0 /* LionheartExtensions-umbrella.h in Headers */,
+				7F0CF936A42DC9CE3A1A042BFF46BE67 /* SuperLayout-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A1D9C153717F7D74AFC3436D5CCF6043 /* Headers */ = {
+		643B3D1A5DAB51E47B1E7BD3E72DCEE8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA3485AAF54A52C0A9BF3470668B970B /* TipJarViewController-umbrella.h in Headers */,
+				BD285BCA095EECA89FACFA1C86FF3163 /* LionheartExtensions-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A89B111C93E919030BA3309A29F8B828 /* Headers */ = {
+		66377EAF8B7CA604804C2F17FFCEB2BE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8239C949942CB89A534A404E3E83DC23 /* KeyboardAdjuster-umbrella.h in Headers */,
+				E8E1A74E8D29E04A482A35A97F263BED /* Pods-TipJarViewController_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D72EE9873201EE98B488EF52B99091A5 /* Headers */ = {
+		6EEF596F9DB51CBBD004302C6CB93BCD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				579AE788D2031E3A7C2BF2D3E5CB11F9 /* Pods-TipJarViewController_Example-umbrella.h in Headers */,
+				FB0F22A1BCF2534A8CF8306A5DB6091C /* KeyboardAdjuster-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E2629FB38F028E9ADAB0D1A038468B14 /* Headers */ = {
+		FB409858910CB8D26053D515D633A008 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D492EA0A7CF5E53E378E055C8DF1ACD /* SuperLayout-umbrella.h in Headers */,
+				03701DE4FE375C3A61357B847E4D9187 /* QuickTableView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2B21B0A3CBA25C92BDDF5E8955CEAD1D /* SuperLayout */ = {
+		21BADDE4BDBCE182314638CB3B969A2E /* SuperLayout */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1BC1CC9BDE328F0C1A9A30EC55FF6325 /* Build configuration list for PBXNativeTarget "SuperLayout" */;
+			buildConfigurationList = 6AC35D0300EE8CE0076FCC2843508874 /* Build configuration list for PBXNativeTarget "SuperLayout" */;
 			buildPhases = (
-				6AF0D84735D9670F6318557921798776 /* Sources */,
-				D2CC1DFF10A439418827BC4D4C410E8B /* Frameworks */,
-				E2629FB38F028E9ADAB0D1A038468B14 /* Headers */,
+				599DD7E4F022C47E9F19C33107AF0701 /* Headers */,
+				D897E1145987BB54AA8145242A8BDC6A /* Sources */,
+				EB6DC72EE5BC9EDEC45FEDB1A5E50C40 /* Frameworks */,
+				6D29B04C7BC9E561A135318F49B40BF2 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -874,35 +878,97 @@
 			productReference = 11BE1AAD8537B9CFDAAF7003F06FE707 /* SuperLayout.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		35F69E6EABB6B371E6B09470108753AC /* Pods-TipJarViewController_Example */ = {
+		266B149FD355123B72584F479E5B0124 /* Pods-TipJarViewController_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DA6D7D19588D8A42E9D16B2A716900F7 /* Build configuration list for PBXNativeTarget "Pods-TipJarViewController_Example" */;
+			buildConfigurationList = 7E57ADCE24D85FEF27BEF764279941DC /* Build configuration list for PBXNativeTarget "Pods-TipJarViewController_Example" */;
 			buildPhases = (
-				CDF900CBDA78A6BB592C6CC230A55F7C /* Sources */,
-				D2B5060C0A863A4DBEC2D4B8852E35AE /* Frameworks */,
-				D72EE9873201EE98B488EF52B99091A5 /* Headers */,
+				4F546E31C1C19CB0ED511692AA0E46EB /* Headers */,
+				218A51BEF02F34C28E588C64F6D81FB2 /* Sources */,
+				92F77C373E845E0C7C67BE86FD0AC70C /* Frameworks */,
+				22E12DD1D6F2AB824595F09F30D4BAC1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2DF3D0B79B04ACBF71C82722FA4CB928 /* PBXTargetDependency */,
-				2EF361FE716FD3DFE22446435C69BF81 /* PBXTargetDependency */,
-				0DB1C316A1EAFC7A8BBBCF9736E99F62 /* PBXTargetDependency */,
-				768ADBCF1A7B6EB442F4E04E94FF620A /* PBXTargetDependency */,
-				3DBCDB104964A78A7EACDB8FA8E9C583 /* PBXTargetDependency */,
+				5A2F0C7EE5B6FE3A67DDF8C26A0A2840 /* PBXTargetDependency */,
+				F2736EDF7A3F5896E17B1322222F909A /* PBXTargetDependency */,
+				81A30ED3456D1853773FC1D90095AE7B /* PBXTargetDependency */,
+				3308C9FB081F221D280DC4DD5E66821A /* PBXTargetDependency */,
+				D8AEFB286BEFC0FC7F92039FEEB8F618 /* PBXTargetDependency */,
 			);
 			name = "Pods-TipJarViewController_Example";
 			productName = "Pods-TipJarViewController_Example";
 			productReference = 51847E2A8093AFB8F261E4FCD866BFC5 /* Pods_TipJarViewController_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		3936CB349499B90894F495A51775D37F /* KeyboardAdjuster */ = {
+		28661753ABE021FBBDC706A0DE2A2A23 /* QuickTableView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3E0ACB0797BCB48E28859E2336B7FEB9 /* Build configuration list for PBXNativeTarget "KeyboardAdjuster" */;
+			buildConfigurationList = C1DC3FD523B4710EA8C185017DB13114 /* Build configuration list for PBXNativeTarget "QuickTableView" */;
 			buildPhases = (
-				ED4AC9F06A6C6D68938B07F56EF39C1E /* Sources */,
-				04F17AF051EB45F03EC7D0B557EB835B /* Frameworks */,
-				A89B111C93E919030BA3309A29F8B828 /* Headers */,
+				FB409858910CB8D26053D515D633A008 /* Headers */,
+				2B636282560B31E7B6C205865F2AA275 /* Sources */,
+				A326D6D4DA7DF17BA2F7127ED460A354 /* Frameworks */,
+				44C622F90BB76BC47AD846EB1259F4FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA00A5B2982A03AF59F635D699C9B646 /* PBXTargetDependency */,
+			);
+			name = QuickTableView;
+			productName = QuickTableView;
+			productReference = 20702FE8AA5436393F4204941519130A /* QuickTableView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5EDD46084CEBD4D29C93953C06BB29E0 /* Pods-TipJarViewController_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D31DAB5434352B7CC1498E5DAED2F13 /* Build configuration list for PBXNativeTarget "Pods-TipJarViewController_Tests" */;
+			buildPhases = (
+				66377EAF8B7CA604804C2F17FFCEB2BE /* Headers */,
+				ED174DA9BB663C5C76CA86C71C0D4C4A /* Sources */,
+				13E0BAE988F26A401CE3204E5904C1E5 /* Frameworks */,
+				1ED6ED4F20D1A561A1905B363D73F4B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18F2C36C0F5B13719DEFF1BD0956CA89 /* PBXTargetDependency */,
+			);
+			name = "Pods-TipJarViewController_Tests";
+			productName = "Pods-TipJarViewController_Tests";
+			productReference = B39CBA11E508C0FEBD52B6FADB79ECA5 /* Pods_TipJarViewController_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		81EEAB9C349C409EDCCFEAC0A9D6B2B3 /* TipJarViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF48C8B24FB61AF8049DF007A8A6B807 /* Build configuration list for PBXNativeTarget "TipJarViewController" */;
+			buildPhases = (
+				1DD16A36474F3D4E55C18B07DFB280F2 /* Headers */,
+				8B0609DD216D4E884697B6B85D0AE9F6 /* Sources */,
+				32876F16C9DD18B66E7B5678BB34F427 /* Frameworks */,
+				26CA9FDC120A6BC7D1CF0B4DCBFBFED0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82C1233F196B1FE403CADF74503A30DE /* PBXTargetDependency */,
+				297DB52CFE168F0E13500EAE6BE0C5D7 /* PBXTargetDependency */,
+				93C6EDF07628563B4FF44AC8064A365B /* PBXTargetDependency */,
+				68BB40255CDC858A4217BDD6524596CE /* PBXTargetDependency */,
+			);
+			name = TipJarViewController;
+			productName = TipJarViewController;
+			productReference = 00496660024F8A285248557FD3E437FE /* TipJarViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D8E7C179C3FCB9B58A055109B8F9F419 /* KeyboardAdjuster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02CE4F65530105149DA94C1A61B6B944 /* Build configuration list for PBXNativeTarget "KeyboardAdjuster" */;
+			buildPhases = (
+				6EEF596F9DB51CBBD004302C6CB93BCD /* Headers */,
+				1670FBC3145F3C9A3F50F7C05269EF9F /* Sources */,
+				B7D85C8AAE0CFAC524727902071AD555 /* Frameworks */,
+				DCC9FBE716E960B997CA53CBBB2CFACC /* Resources */,
 			);
 			buildRules = (
 			);
@@ -913,52 +979,14 @@
 			productReference = 93FA577DDBCC59CC9EB40A29294E3781 /* KeyboardAdjuster.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C638C9E0D82ADCB9DD3E1A2CBAEA3598 /* TipJarViewController */ = {
+		E0ABE9D38BE20D63B933BB0F0EC23AC4 /* LionheartExtensions */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ABB72542FAAA5812753343D5490F99BD /* Build configuration list for PBXNativeTarget "TipJarViewController" */;
+			buildConfigurationList = EFBB956ED77C1C8B613457C9DEFE9B2A /* Build configuration list for PBXNativeTarget "LionheartExtensions" */;
 			buildPhases = (
-				9A5F25F8E1A5C40A318D62CC9AFB5C49 /* Sources */,
-				70CFBD65B37E2F32F5AFA10D84178EF5 /* Frameworks */,
-				A1D9C153717F7D74AFC3436D5CCF6043 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				523D6EA4EE7B67A4FADF9D0AA157E042 /* PBXTargetDependency */,
-				630A77940823A476490C8632F5B8BA1A /* PBXTargetDependency */,
-				560563E2D9CE2C41D0312D1D83D06864 /* PBXTargetDependency */,
-				528C09614DEFC9F7CF5BE2E179E222F0 /* PBXTargetDependency */,
-			);
-			name = TipJarViewController;
-			productName = TipJarViewController;
-			productReference = 00496660024F8A285248557FD3E437FE /* TipJarViewController.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		D1B50B9B447D2577DF6BED5EC0B3CADF /* QuickTableView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 128C6A4F85B564B8C7154A7D945C77CF /* Build configuration list for PBXNativeTarget "QuickTableView" */;
-			buildPhases = (
-				38E49DA1A91B60E13CD04683417D9F4D /* Sources */,
-				AD0E006CE50A2472BB69E21200958A61 /* Frameworks */,
-				55B9843DCADED27F6C2D9E4127D7E5D7 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DF4D0EE88E36F6609592A9FB1B1FC365 /* PBXTargetDependency */,
-			);
-			name = QuickTableView;
-			productName = QuickTableView;
-			productReference = 20702FE8AA5436393F4204941519130A /* QuickTableView.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		DBFFF639F5B12CCBDC7BE95224B386E9 /* LionheartExtensions */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AA8DF98810B8E7428CC676EC22E65724 /* Build configuration list for PBXNativeTarget "LionheartExtensions" */;
-			buildPhases = (
-				7A1126BE16EB90EB7504C7F3B030C846 /* Sources */,
-				BC2C08FEB28D9D13D1D7685F1551DEA4 /* Frameworks */,
-				70586C29D39AA110FD5B8C24B7F4EA71 /* Headers */,
+				643B3D1A5DAB51E47B1E7BD3E72DCEE8 /* Headers */,
+				A1D4530B642F6518FBF60336E9FCA9BA /* Sources */,
+				70A400E5C38FFD8B6EBAED82E2585DD2 /* Frameworks */,
+				AF4ABE89A64736E08CCF7C04AC1C5C42 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -967,24 +995,6 @@
 			name = LionheartExtensions;
 			productName = LionheartExtensions;
 			productReference = F4C92C9704CCF6389E08A9E4D071714E /* LionheartExtensions.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		EF17D65B8481003EF3ED94A941DBFE93 /* Pods-TipJarViewController_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 78C8447FC2464D652979C4695D9B3F90 /* Build configuration list for PBXNativeTarget "Pods-TipJarViewController_Tests" */;
-			buildPhases = (
-				194D32673DFFE7DA361A6587B54E479F /* Sources */,
-				0D8C188A62F43E01AE9D8C348081A1F1 /* Frameworks */,
-				1DC1108E600E18FD06FDB11017D84146 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AD9A094631F677D13AF70AB44F2C8C2B /* PBXTargetDependency */,
-			);
-			name = "Pods-TipJarViewController_Tests";
-			productName = "Pods-TipJarViewController_Tests";
-			productReference = B39CBA11E508C0FEBD52B6FADB79ECA5 /* Pods_TipJarViewController_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -1008,469 +1018,256 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3936CB349499B90894F495A51775D37F /* KeyboardAdjuster */,
-				DBFFF639F5B12CCBDC7BE95224B386E9 /* LionheartExtensions */,
-				35F69E6EABB6B371E6B09470108753AC /* Pods-TipJarViewController_Example */,
-				EF17D65B8481003EF3ED94A941DBFE93 /* Pods-TipJarViewController_Tests */,
-				D1B50B9B447D2577DF6BED5EC0B3CADF /* QuickTableView */,
-				2B21B0A3CBA25C92BDDF5E8955CEAD1D /* SuperLayout */,
-				C638C9E0D82ADCB9DD3E1A2CBAEA3598 /* TipJarViewController */,
+				D8E7C179C3FCB9B58A055109B8F9F419 /* KeyboardAdjuster */,
+				E0ABE9D38BE20D63B933BB0F0EC23AC4 /* LionheartExtensions */,
+				266B149FD355123B72584F479E5B0124 /* Pods-TipJarViewController_Example */,
+				5EDD46084CEBD4D29C93953C06BB29E0 /* Pods-TipJarViewController_Tests */,
+				28661753ABE021FBBDC706A0DE2A2A23 /* QuickTableView */,
+				21BADDE4BDBCE182314638CB3B969A2E /* SuperLayout */,
+				81EEAB9C349C409EDCCFEAC0A9D6B2B3 /* TipJarViewController */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		1ED6ED4F20D1A561A1905B363D73F4B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22E12DD1D6F2AB824595F09F30D4BAC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26CA9FDC120A6BC7D1CF0B4DCBFBFED0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44C622F90BB76BC47AD846EB1259F4FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D29B04C7BC9E561A135318F49B40BF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF4ABE89A64736E08CCF7C04AC1C5C42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC9FBE716E960B997CA53CBBB2CFACC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		194D32673DFFE7DA361A6587B54E479F /* Sources */ = {
+		1670FBC3145F3C9A3F50F7C05269EF9F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89C60F57BE85EB1A2D1DF1B9007692EF /* Pods-TipJarViewController_Tests-dummy.m in Sources */,
+				563D26E1C753EC03DE260ED2F4F223A9 /* KeyboardAdjuster-dummy.m in Sources */,
+				0F900F03B9992A1E969A8A065B9BABFA /* KeyboardAdjuster.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		38E49DA1A91B60E13CD04683417D9F4D /* Sources */ = {
+		218A51BEF02F34C28E588C64F6D81FB2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6851578C4BCD6146536D2D325F9E323 /* BaseTableViewController.swift in Sources */,
-				1F4388268680E1F5C4D02160847A41E1 /* QuickTableView-dummy.m in Sources */,
-				A201F1C81615A8EB2F15B82A63334FB1 /* QuickTableViewCellDefault.swift in Sources */,
-				16E66523103381536E978A6B6557F303 /* QuickTableViewCellSubtitle.swift in Sources */,
-				2D60543486B69C2D34FBBB93612A0969 /* QuickTableViewCellValue1.swift in Sources */,
-				D10E7809CF3B5F014BDF7F79DAE50DC2 /* QuickTableViewCellValue2.swift in Sources */,
-				4ABCE6241383E1D18DC749FA7E2B77EB /* QuickTableViewController.swift in Sources */,
-				64410FC3E206C84A100F2622128541A4 /* QuickTableViewProtocols.swift in Sources */,
-				802EAB015D1A87C4F3A4752CC7BA7A16 /* QuickTableViewRow.swift in Sources */,
-				CEE53F823465721BC152E02D22260941 /* QuickTableViewSection.swift in Sources */,
-				BA1CB8B89AD8F273A877A086CE34BBDA /* UITableView.swift in Sources */,
+				2B4FBD64062942161F3706F06B2D5B82 /* Pods-TipJarViewController_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6AF0D84735D9670F6318557921798776 /* Sources */ = {
+		2B636282560B31E7B6C205865F2AA275 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E00CDD66C84CE8F33036333E5365AA69 /* SuperLayout-dummy.m in Sources */,
-				F3747812C5CF03F50B149F20204A636F /* SuperLayout.swift in Sources */,
+				AAB0305779451E50108DD869CBA16804 /* BaseTableViewController.swift in Sources */,
+				033D310216017CE947B2A5AF971C8757 /* QuickTableView-dummy.m in Sources */,
+				0A386C1669AD14BAB8FEE49F7FA680CA /* QuickTableViewCellDefault.swift in Sources */,
+				0EB41CD646F5F57DF129700D526DC746 /* QuickTableViewCellSubtitle.swift in Sources */,
+				12DFFC5F08BAEF1EB55B4D05301FEE72 /* QuickTableViewCellValue1.swift in Sources */,
+				47FFBE0F1EC69E9A02FB723C008C93C6 /* QuickTableViewCellValue2.swift in Sources */,
+				0959226A424A02987FAADC078EF3CA03 /* QuickTableViewController.swift in Sources */,
+				01BE035EFBC5828BC012423D089BC4BE /* QuickTableViewProtocols.swift in Sources */,
+				6BA4DF71CF7FAE7F65D0B825D81B8240 /* QuickTableViewRow.swift in Sources */,
+				2E69A0E5D74F5797FF53CC0CAC126C1B /* QuickTableViewSection.swift in Sources */,
+				E18CE6E2A80D472628FE0877F6193983 /* UITableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7A1126BE16EB90EB7504C7F3B030C846 /* Sources */ = {
+		8B0609DD216D4E884697B6B85D0AE9F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17D227F4B68B7EC67732B09C10A08F10 /* ActivityIndicatorButton.swift in Sources */,
-				B1F4F1047F4D83EC25F6DB1A0404E02E /* Any+LionheartExtensions.swift in Sources */,
-				B0BC517AA427C283645EBDCFD13C1692 /* Array+LionheartExtensions.swift in Sources */,
-				7156FC51A284415E87ADE6B05536B09E /* Bundle+LionheartExtensions.swift in Sources */,
-				4E56D6A79122BBF20F23477A7AC0216A /* CIImage+LionheartExtensions.swift in Sources */,
-				8B34D627C4528ED957071EBF6A0779E2 /* ColorRepresentation.swift in Sources */,
-				9F98C482388B7A2D0F16994D8E32838A /* CustomButtonType.swift in Sources */,
-				BAB0A7A84213EC9ED7B5C9420324A1D5 /* DateFormatter+LionheartExtensions.swift in Sources */,
-				E6F54F35FC07F916EE1F1CECDF5F73D8 /* File.swift in Sources */,
-				D0F72A5E9CFA4F4B1CFDAEF6FBA52FBB /* FileManager+LionheartExtensions.swift in Sources */,
-				EA31B284AC75E4E3E6CDF04E0F5B330B /* Functional.swift in Sources */,
-				A5DA78EE7CA4387C29F964B4ADC9442D /* IndexPath+LionheartExtensions.swift in Sources */,
-				06244542747736AFB17E5D95836F7409 /* Int+LionheartExtensions.swift in Sources */,
-				F437883C0A14DE1883726E8E807F8949 /* LionheartExtensions-dummy.m in Sources */,
-				D401C57349C650462EF760A235DD42D7 /* Main.swift in Sources */,
-				67A50970447A7CE8EF75118B726E9D78 /* NSDecimalNumber+LionheartExtensions.swift in Sources */,
-				FED52AECB002867D409D08CFE356A47E /* NSRegularExpression+LionheartExtensions.swift in Sources */,
-				7AB7924AB396DF2658BFD8ACA3C57467 /* NSURLSession+LionheartExtensions.swift in Sources */,
-				AB6270EEC5FB6C5CFA39B9E6D2ED3FB5 /* Optional+LionheartExtensions.swift in Sources */,
-				B0E93D96A75F303596192202C3F67A1F /* String+LionheartExtensions.swift in Sources */,
-				C886CBDEACE24C8962767CDDB2682A97 /* Summable.swift in Sources */,
-				8736360A63A154702107AA993D1BD70E /* TitleButton.swift in Sources */,
-				07CF20EB5C8D03992FF0F279914277D2 /* UIAlertController+LionheartExtensions.swift in Sources */,
-				2BAFF91C82EE3A4623A604AEE9EBF2EF /* UIApplicationDelegate+LionheartExtensions.swift in Sources */,
-				387AD1EE479F99DB2D0EF2DF3662BE76 /* UIColor+LionheartExtensions.swift in Sources */,
-				21E8E7BF8F5383CE72BDD73A36CFE656 /* UIDevice+LionheartExtensions.swift in Sources */,
-				95627386B8729652B27B1198830E9EED /* UIFont+LionheartExtensions.swift in Sources */,
-				D73B14CCEDD0769E0E7E7E82D6885F60 /* UIImage+LionheartExtensions.swift in Sources */,
-				2FD4B0F4ED7832457E06206F3F5F65C0 /* UIPrintPageRenderer+LionheartExtensions.swift in Sources */,
-				0B66314B219B0AAE35E8B71842B70070 /* UIScreen+LionheartExtensions.swift in Sources */,
-				1D4B9FDB48B0C44C6DB61A73A50511EB /* UITextField+LionheartExtensions.swift in Sources */,
-				BDBB59EBEBD611CD92201F792432E0CF /* UIView+LionheartExtensions.swift in Sources */,
-				F8903877AE5EBDC31E144F1C55D6F4F2 /* UIViewController+LionheartExtensions.swift in Sources */,
-				43E7314F66BC85191531BD7879C60C0A /* UIWindow+LionheartExtensions.swift in Sources */,
+				A5180DE28E6EF92BA98EE35E79DC4280 /* ActivityIndicatorTableViewCell.swift in Sources */,
+				C606E817DD702F8666B5E388BFDD254F /* IAPRow.swift in Sources */,
+				D28D702132E825E6E4865A9A72EA1A1C /* MultilineTableViewCell.swift in Sources */,
+				2943E736ED3083B40260FD540D4C6AE1 /* TipJarButton.swift in Sources */,
+				10541D9C1DD4A4C0C35769B6E8362A60 /* TipJarFrequency.swift in Sources */,
+				3DDEBF630622C9A62F2E26CC0BAA5D9D /* TipJarTableViewCell.swift in Sources */,
+				EFE9C53B2DE5ECAA977E6EE1ED36DE14 /* TipJarViewController-dummy.m in Sources */,
+				8212D26BAA770550313EC6FB24C0C689 /* TipJarViewController.swift in Sources */,
+				899208A12B47BF9BCBA673B138D41B67 /* TipJarViewControllerDelegate.swift in Sources */,
+				C36A42113F4B147F02DB14DC7F34D9CA /* UIImage+TipJarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A5F25F8E1A5C40A318D62CC9AFB5C49 /* Sources */ = {
+		A1D4530B642F6518FBF60336E9FCA9BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9FB8DC19C1DD68D147B3C948E6EBF1F /* ActivityIndicatorTableViewCell.swift in Sources */,
-				604BF2434604A24B8BDD9BE7051F3383 /* IAPRow.swift in Sources */,
-				15A0AA05CD6FF7B18DB056B506B87CF5 /* MultilineTableViewCell.swift in Sources */,
-				422B39474F50DED6F89645B1542BB3EE /* TipJarButton.swift in Sources */,
-				632064E02BAE989BA75FC4F5897410EE /* TipJarFrequency.swift in Sources */,
-				EDD7890FDAD828FD276EED7F075FF6B7 /* TipJarTableViewCell.swift in Sources */,
-				C2B10B3441ED29D151C7C639548FB422 /* TipJarViewController-dummy.m in Sources */,
-				4479E4DEB059C028AAD1FE8E5BB93FB8 /* TipJarViewController.swift in Sources */,
-				F05F1B08C03AE0B47C4C58117A734098 /* TipJarViewControllerDelegate.swift in Sources */,
-				9D713B14BEF6596DF6BC480F282E43E3 /* UIImage+TipJarViewController.swift in Sources */,
+				F1D9C2EF29C7F32B722C650B6C7C0D28 /* ActivityIndicatorButton.swift in Sources */,
+				73FB220F29D7BAC11B8055035B83531F /* Any+LionheartExtensions.swift in Sources */,
+				0BE0DA65254029A99B5807E0079D3CE9 /* Array+LionheartExtensions.swift in Sources */,
+				E2CEC3A5A8465371B2C89FDB0C18FEAD /* Bundle+LionheartExtensions.swift in Sources */,
+				90C3830EC305E787AA68598211759F9A /* CIImage+LionheartExtensions.swift in Sources */,
+				6833F180A2F7E1559679E06EA896F01E /* ColorRepresentation.swift in Sources */,
+				9CB5444FB8EA4AC7221981F4B124D743 /* CustomButtonType.swift in Sources */,
+				4A82FDC77711F0A2BF9633E696FD602D /* DateFormatter+LionheartExtensions.swift in Sources */,
+				396FFD9EEB607FCA01097A48A75D26E7 /* File.swift in Sources */,
+				22EA06FFC95E9EE261FA3917EFD7DB69 /* FileManager+LionheartExtensions.swift in Sources */,
+				8CE26FEC52479EE7A5E201EF7EE0A7D1 /* Functional.swift in Sources */,
+				51CABA20E27DE27B82C59EA0B4F05A21 /* IndexPath+LionheartExtensions.swift in Sources */,
+				4581DB236609DB8765874BF475E83A53 /* Int+LionheartExtensions.swift in Sources */,
+				04F456FC96EDC1BB0A75587872CA4F74 /* LionheartExtensions-dummy.m in Sources */,
+				1FC50C99D6C9F53C4A452C43AD36940B /* Main.swift in Sources */,
+				A91A0E6B4CB5082856BF68490F751E2F /* NSDecimalNumber+LionheartExtensions.swift in Sources */,
+				6D1447FF5491F952C9C8CE4ED128F250 /* NSRegularExpression+LionheartExtensions.swift in Sources */,
+				0AD01EAA7AEC9C074C70CFBE41A1F457 /* NSURLSession+LionheartExtensions.swift in Sources */,
+				18558E85F70C0E69978A1BE73BC3E4C7 /* Optional+LionheartExtensions.swift in Sources */,
+				A413373352C880005B867F8B4903462A /* String+LionheartExtensions.swift in Sources */,
+				1919DEC635DDA36D90CE04C6E3E86A73 /* Summable.swift in Sources */,
+				3D82FD48F8EAF45050D3454510415005 /* TitleButton.swift in Sources */,
+				871D74DD45429C7D221F0981B509CD23 /* UIAlertController+LionheartExtensions.swift in Sources */,
+				7F4F376A4497BB6D2E3CA23159F5FD37 /* UIApplicationDelegate+LionheartExtensions.swift in Sources */,
+				733CBE857788620D8769D44F99238B37 /* UIColor+LionheartExtensions.swift in Sources */,
+				121B49A509E5B342C04ECC8C02DE682F /* UIDevice+LionheartExtensions.swift in Sources */,
+				96768DB6692C219EE0D314E81E75E45E /* UIFont+LionheartExtensions.swift in Sources */,
+				E53C6F0FEE2C88584C25FC60467694C8 /* UIImage+LionheartExtensions.swift in Sources */,
+				1DA6ADB1E18CFD931B32E1FA4B6EA5D3 /* UIPrintPageRenderer+LionheartExtensions.swift in Sources */,
+				B3BF505E0A487530B21A278C93826802 /* UIScreen+LionheartExtensions.swift in Sources */,
+				B21B11121442377A4FECA3531A514F51 /* UITextField+LionheartExtensions.swift in Sources */,
+				8EB38CC256F05BE48D895D6CC0C80951 /* UIView+LionheartExtensions.swift in Sources */,
+				AD47FAAFCAB4B382D57FBD8D4417A159 /* UIViewController+LionheartExtensions.swift in Sources */,
+				CA815DE10A33DA0A09DF2EA40CBF2F73 /* UIWindow+LionheartExtensions.swift in Sources */,
+				7395E424601C601A7A19EB4057D50A5D /* WKWebView+LionheartExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CDF900CBDA78A6BB592C6CC230A55F7C /* Sources */ = {
+		D897E1145987BB54AA8145242A8BDC6A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				890951D6BACE5C4DDE03AF5184AC39F5 /* Pods-TipJarViewController_Example-dummy.m in Sources */,
+				57E2CAEC2988A90BC0E9197BC412260E /* SuperLayout-dummy.m in Sources */,
+				FF35FD91A2BCCC238E52150897A6852C /* SuperLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ED4AC9F06A6C6D68938B07F56EF39C1E /* Sources */ = {
+		ED174DA9BB663C5C76CA86C71C0D4C4A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53F4A51EAB077341AA2ACC90372C7002 /* KeyboardAdjuster-dummy.m in Sources */,
-				EB33D33EE6B552E80CA361D0531A0B67 /* KeyboardAdjuster.swift in Sources */,
+				B626CAF5C432A04562A62C04B57C30CA /* Pods-TipJarViewController_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0DB1C316A1EAFC7A8BBBCF9736E99F62 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = QuickTableView;
-			target = D1B50B9B447D2577DF6BED5EC0B3CADF /* QuickTableView */;
-			targetProxy = AA650F7C54AB452F6EFC73D9D2AC01D4 /* PBXContainerItemProxy */;
-		};
-		2DF3D0B79B04ACBF71C82722FA4CB928 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = KeyboardAdjuster;
-			target = 3936CB349499B90894F495A51775D37F /* KeyboardAdjuster */;
-			targetProxy = 2AB988D0ADCC653182E1B5FD71917496 /* PBXContainerItemProxy */;
-		};
-		2EF361FE716FD3DFE22446435C69BF81 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = LionheartExtensions;
-			target = DBFFF639F5B12CCBDC7BE95224B386E9 /* LionheartExtensions */;
-			targetProxy = 39812A30AEA783939AB30EE2C8089DEB /* PBXContainerItemProxy */;
-		};
-		3DBCDB104964A78A7EACDB8FA8E9C583 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TipJarViewController;
-			target = C638C9E0D82ADCB9DD3E1A2CBAEA3598 /* TipJarViewController */;
-			targetProxy = 953D15D7FD566E57DF94A5DB1C5F436E /* PBXContainerItemProxy */;
-		};
-		523D6EA4EE7B67A4FADF9D0AA157E042 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = KeyboardAdjuster;
-			target = 3936CB349499B90894F495A51775D37F /* KeyboardAdjuster */;
-			targetProxy = AAF25ABF22B142528882CEF62FA4A1C2 /* PBXContainerItemProxy */;
-		};
-		528C09614DEFC9F7CF5BE2E179E222F0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SuperLayout;
-			target = 2B21B0A3CBA25C92BDDF5E8955CEAD1D /* SuperLayout */;
-			targetProxy = 9358019A8FFAE763073CDE733D27B414 /* PBXContainerItemProxy */;
-		};
-		560563E2D9CE2C41D0312D1D83D06864 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = QuickTableView;
-			target = D1B50B9B447D2577DF6BED5EC0B3CADF /* QuickTableView */;
-			targetProxy = 21432AD90B5B3CF795C94DBC0173769D /* PBXContainerItemProxy */;
-		};
-		630A77940823A476490C8632F5B8BA1A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = LionheartExtensions;
-			target = DBFFF639F5B12CCBDC7BE95224B386E9 /* LionheartExtensions */;
-			targetProxy = BA61CE152F893FF88AD57B4F53FCCB45 /* PBXContainerItemProxy */;
-		};
-		768ADBCF1A7B6EB442F4E04E94FF620A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SuperLayout;
-			target = 2B21B0A3CBA25C92BDDF5E8955CEAD1D /* SuperLayout */;
-			targetProxy = E69F46BF5E0DCCCD1EB3EF3F5CFA6623 /* PBXContainerItemProxy */;
-		};
-		AD9A094631F677D13AF70AB44F2C8C2B /* PBXTargetDependency */ = {
+		18F2C36C0F5B13719DEFF1BD0956CA89 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-TipJarViewController_Example";
-			target = 35F69E6EABB6B371E6B09470108753AC /* Pods-TipJarViewController_Example */;
-			targetProxy = 8507A3E310914CCB560B2F1572BED824 /* PBXContainerItemProxy */;
+			target = 266B149FD355123B72584F479E5B0124 /* Pods-TipJarViewController_Example */;
+			targetProxy = 15BE3F80F242FA6D0E76A59E8D555ECA /* PBXContainerItemProxy */;
 		};
-		DF4D0EE88E36F6609592A9FB1B1FC365 /* PBXTargetDependency */ = {
+		297DB52CFE168F0E13500EAE6BE0C5D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LionheartExtensions;
+			target = E0ABE9D38BE20D63B933BB0F0EC23AC4 /* LionheartExtensions */;
+			targetProxy = 63051C3F5C6F8CB37DF751055D6E85E8 /* PBXContainerItemProxy */;
+		};
+		3308C9FB081F221D280DC4DD5E66821A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SuperLayout;
+			target = 21BADDE4BDBCE182314638CB3B969A2E /* SuperLayout */;
+			targetProxy = 2869CBCF91B5859CAF2C9BE6C827206E /* PBXContainerItemProxy */;
+		};
+		5A2F0C7EE5B6FE3A67DDF8C26A0A2840 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KeyboardAdjuster;
-			target = 3936CB349499B90894F495A51775D37F /* KeyboardAdjuster */;
-			targetProxy = A1136F6FD9FA4D29CF46DDF641CEEFD3 /* PBXContainerItemProxy */;
+			target = D8E7C179C3FCB9B58A055109B8F9F419 /* KeyboardAdjuster */;
+			targetProxy = 392CDE04E0605B3304A954477AFAF623 /* PBXContainerItemProxy */;
+		};
+		68BB40255CDC858A4217BDD6524596CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SuperLayout;
+			target = 21BADDE4BDBCE182314638CB3B969A2E /* SuperLayout */;
+			targetProxy = 5B0357EB08200275FFD7F81D2E19476E /* PBXContainerItemProxy */;
+		};
+		81A30ED3456D1853773FC1D90095AE7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QuickTableView;
+			target = 28661753ABE021FBBDC706A0DE2A2A23 /* QuickTableView */;
+			targetProxy = FD096F6053D81C20DF6D85DE81FCBB7A /* PBXContainerItemProxy */;
+		};
+		82C1233F196B1FE403CADF74503A30DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KeyboardAdjuster;
+			target = D8E7C179C3FCB9B58A055109B8F9F419 /* KeyboardAdjuster */;
+			targetProxy = 95D2DEA91D09AFC31BD58E970D30D365 /* PBXContainerItemProxy */;
+		};
+		93C6EDF07628563B4FF44AC8064A365B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QuickTableView;
+			target = 28661753ABE021FBBDC706A0DE2A2A23 /* QuickTableView */;
+			targetProxy = A938BAA670E55A8E2CE7C585D3509158 /* PBXContainerItemProxy */;
+		};
+		AA00A5B2982A03AF59F635D699C9B646 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KeyboardAdjuster;
+			target = D8E7C179C3FCB9B58A055109B8F9F419 /* KeyboardAdjuster */;
+			targetProxy = 465D4CC34C47A7A6B261BDF7C62EA46F /* PBXContainerItemProxy */;
+		};
+		D8AEFB286BEFC0FC7F92039FEEB8F618 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TipJarViewController;
+			target = 81EEAB9C349C409EDCCFEAC0A9D6B2B3 /* TipJarViewController */;
+			targetProxy = E96ACBE5D8AA2B2BE72E9251ABF1527E /* PBXContainerItemProxy */;
+		};
+		F2736EDF7A3F5896E17B1322222F909A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LionheartExtensions;
+			target = E0ABE9D38BE20D63B933BB0F0EC23AC4 /* LionheartExtensions */;
+			targetProxy = 1F49161CA238EC034AD239860672BF82 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0147BD45C2BB4ADE90BD9BBC1B3E31DA /* Debug */ = {
+		23A95BD2BBBC460D3A49D1A28C23B8AF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DAB4194476855AD2E62A18A0B9F0A802 /* TipJarViewController.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TipJarViewController/TipJarViewController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TipJarViewController/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TipJarViewController/TipJarViewController.modulemap";
-				PRODUCT_MODULE_NAME = TipJarViewController;
-				PRODUCT_NAME = TipJarViewController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		04891577840F619B7702A0B0F52D926C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E680B3C8EC724353DB461F0942A60C82 /* QuickTableView.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/QuickTableView/QuickTableView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/QuickTableView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/QuickTableView/QuickTableView.modulemap";
-				PRODUCT_MODULE_NAME = QuickTableView;
-				PRODUCT_NAME = QuickTableView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		0775981B89E62B4F09567EC2C598132B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E8A4E041DF03B600E9E86EB377616DC4 /* LionheartExtensions.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LionheartExtensions/LionheartExtensions-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LionheartExtensions/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LionheartExtensions/LionheartExtensions.modulemap";
-				PRODUCT_MODULE_NAME = LionheartExtensions;
-				PRODUCT_NAME = LionheartExtensions;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		1218B6E05316CCCB3D677C4C316D7247 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 017D134677C79EAEADB6847590C9F77F /* SuperLayout.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SuperLayout/SuperLayout-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SuperLayout/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SuperLayout/SuperLayout.modulemap";
-				PRODUCT_MODULE_NAME = SuperLayout;
-				PRODUCT_NAME = SuperLayout;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		16F86F547474657976EF5575215E8E14 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E680B3C8EC724353DB461F0942A60C82 /* QuickTableView.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/QuickTableView/QuickTableView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/QuickTableView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/QuickTableView/QuickTableView.modulemap";
-				PRODUCT_MODULE_NAME = QuickTableView;
-				PRODUCT_NAME = QuickTableView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		19AB6D492C589C2CEB809204BD7DE9C6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 017D134677C79EAEADB6847590C9F77F /* SuperLayout.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SuperLayout/SuperLayout-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SuperLayout/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SuperLayout/SuperLayout.modulemap";
-				PRODUCT_MODULE_NAME = SuperLayout;
-				PRODUCT_NAME = SuperLayout;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3EEBBBB435E3F3EEE1F9E3412BC5165E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DAB4194476855AD2E62A18A0B9F0A802 /* TipJarViewController.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TipJarViewController/TipJarViewController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TipJarViewController/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TipJarViewController/TipJarViewController.modulemap";
-				PRODUCT_MODULE_NAME = TipJarViewController;
-				PRODUCT_NAME = TipJarViewController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		53692A4E1CD06FE95051F23915D5E165 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 727C54D3F909012E9409D526E61202BA /* KeyboardAdjuster.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/KeyboardAdjuster/KeyboardAdjuster-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KeyboardAdjuster/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KeyboardAdjuster/KeyboardAdjuster.modulemap";
-				PRODUCT_MODULE_NAME = KeyboardAdjuster;
-				PRODUCT_NAME = KeyboardAdjuster;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5CA5F6511BB77AA549A08812D623D45A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E8A2457D479D01DECD1E0E2F5C3C3D0 /* Pods-TipJarViewController_Tests.release.xcconfig */;
+			baseConfigurationReference = 1EBDF1F1830749C8A6CF3C8E28EA4118 /* Pods-TipJarViewController_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1497,17 +1294,15 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		74A19DFFA9C7B8B4B155C488593AF381 /* Release */ = {
+		352A9584EAF6C7CC57CA474821C73A10 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89693930BA46D72B263559943C14299B /* Pods-TipJarViewController_Example.release.xcconfig */;
+			baseConfigurationReference = C87CE8606BA87DE9297D9282739AD564 /* LionheartExtensions.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1518,20 +1313,20 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TipJarViewController_Example/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/LionheartExtensions/LionheartExtensions-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LionheartExtensions/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TipJarViewController_Example/Pods-TipJarViewController_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/LionheartExtensions/LionheartExtensions.modulemap";
+				PRODUCT_MODULE_NAME = LionheartExtensions;
+				PRODUCT_NAME = LionheartExtensions;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1539,7 +1334,75 @@
 			};
 			name = Release;
 		};
-		7E7ED31102E92514BBEC67E1D771FBBC /* Debug */ = {
+		4FF4D27BB6C8B45FBD1A77B71AD8DBB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C87CE8606BA87DE9297D9282739AD564 /* LionheartExtensions.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LionheartExtensions/LionheartExtensions-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LionheartExtensions/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LionheartExtensions/LionheartExtensions.modulemap";
+				PRODUCT_MODULE_NAME = LionheartExtensions;
+				PRODUCT_NAME = LionheartExtensions;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5531F0BCC0236412CD8689EE4A544AA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAB4194476855AD2E62A18A0B9F0A802 /* TipJarViewController.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TipJarViewController/TipJarViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TipJarViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TipJarViewController/TipJarViewController.modulemap";
+				PRODUCT_MODULE_NAME = TipJarViewController;
+				PRODUCT_NAME = TipJarViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		559C56EF6BAB4F0A78FA2D18626ABAE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E1BFB2AB5983DA96B00733F5DEFF2766 /* Pods-TipJarViewController_Example.debug.xcconfig */;
 			buildSettings = {
@@ -1575,9 +1438,9 @@
 			};
 			name = Debug;
 		};
-		953D2A6BA75B322D92B7343C07273FC3 /* Debug */ = {
+		6FA65609CBF0B752B006E3065D37BE45 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1EBDF1F1830749C8A6CF3C8E28EA4118 /* Pods-TipJarViewController_Tests.debug.xcconfig */;
+			baseConfigurationReference = 89693930BA46D72B263559943C14299B /* Pods-TipJarViewController_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1590,12 +1453,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TipJarViewController_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-TipJarViewController_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TipJarViewController_Tests/Pods-TipJarViewController_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-TipJarViewController_Example/Pods-TipJarViewController_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1603,45 +1466,16 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		A20100D0F07EC087EE586FB7773EBB7E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 727C54D3F909012E9409D526E61202BA /* KeyboardAdjuster.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/KeyboardAdjuster/KeyboardAdjuster-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KeyboardAdjuster/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KeyboardAdjuster/KeyboardAdjuster.modulemap";
-				PRODUCT_MODULE_NAME = KeyboardAdjuster;
-				PRODUCT_NAME = KeyboardAdjuster;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CE6BB864FB202B78BB66ACCAACAA0513 /* Release */ = {
+		74A80190F6EE6099E873C9FF92732E78 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1693,13 +1527,247 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		CF76A09C3B09DA1B0DB6FD5DB2C3A2A2 /* Debug */ = {
+		7B26C882918D790DE87AFE19234EFCD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E680B3C8EC724353DB461F0942A60C82 /* QuickTableView.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QuickTableView/QuickTableView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QuickTableView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QuickTableView/QuickTableView.modulemap";
+				PRODUCT_MODULE_NAME = QuickTableView;
+				PRODUCT_NAME = QuickTableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7F290995A83A10AC9FA829D87EE4392F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 017D134677C79EAEADB6847590C9F77F /* SuperLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SuperLayout/SuperLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SuperLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SuperLayout/SuperLayout.modulemap";
+				PRODUCT_MODULE_NAME = SuperLayout;
+				PRODUCT_NAME = SuperLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9AF3231F58A3F25ED4FECE5C2ED3F89C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAB4194476855AD2E62A18A0B9F0A802 /* TipJarViewController.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TipJarViewController/TipJarViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TipJarViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TipJarViewController/TipJarViewController.modulemap";
+				PRODUCT_MODULE_NAME = TipJarViewController;
+				PRODUCT_NAME = TipJarViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A319D42AFE1AF38B40182BC13DF83420 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 727C54D3F909012E9409D526E61202BA /* KeyboardAdjuster.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KeyboardAdjuster/KeyboardAdjuster-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KeyboardAdjuster/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KeyboardAdjuster/KeyboardAdjuster.modulemap";
+				PRODUCT_MODULE_NAME = KeyboardAdjuster;
+				PRODUCT_NAME = KeyboardAdjuster;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BA76682CDF3E7D738BD328BBCE8634E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E680B3C8EC724353DB461F0942A60C82 /* QuickTableView.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QuickTableView/QuickTableView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QuickTableView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QuickTableView/QuickTableView.modulemap";
+				PRODUCT_MODULE_NAME = QuickTableView;
+				PRODUCT_NAME = QuickTableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D8D16E0602A26DDCA40FE32C8E750536 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 727C54D3F909012E9409D526E61202BA /* KeyboardAdjuster.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KeyboardAdjuster/KeyboardAdjuster-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KeyboardAdjuster/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KeyboardAdjuster/KeyboardAdjuster.modulemap";
+				PRODUCT_MODULE_NAME = KeyboardAdjuster;
+				PRODUCT_NAME = KeyboardAdjuster;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DC03E6E70BD3C4B39EBDF58C3777EE4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 017D134677C79EAEADB6847590C9F77F /* SuperLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SuperLayout/SuperLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SuperLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SuperLayout/SuperLayout.modulemap";
+				PRODUCT_MODULE_NAME = SuperLayout;
+				PRODUCT_NAME = SuperLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E22CAAD1A64A2DF3D0511DBBD4F989AB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1753,7 +1821,8 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -1762,10 +1831,11 @@
 			};
 			name = Debug;
 		};
-		D8A3C6E8685543B4B703ABD25A28124A /* Debug */ = {
+		FB78AC953DFDFC12116B03A77DA7EF0C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E8A4E041DF03B600E9E86EB377616DC4 /* LionheartExtensions.xcconfig */;
+			baseConfigurationReference = 2E8A2457D479D01DECD1E0E2F5C3C3D0 /* Pods-TipJarViewController_Tests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1776,42 +1846,34 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LionheartExtensions/LionheartExtensions-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LionheartExtensions/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-TipJarViewController_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LionheartExtensions/LionheartExtensions.modulemap";
-				PRODUCT_MODULE_NAME = LionheartExtensions;
-				PRODUCT_NAME = LionheartExtensions;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TipJarViewController_Tests/Pods-TipJarViewController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		128C6A4F85B564B8C7154A7D945C77CF /* Build configuration list for PBXNativeTarget "QuickTableView" */ = {
+		02CE4F65530105149DA94C1A61B6B944 /* Build configuration list for PBXNativeTarget "KeyboardAdjuster" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				04891577840F619B7702A0B0F52D926C /* Debug */,
-				16F86F547474657976EF5575215E8E14 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1BC1CC9BDE328F0C1A9A30EC55FF6325 /* Build configuration list for PBXNativeTarget "SuperLayout" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1218B6E05316CCCB3D677C4C316D7247 /* Debug */,
-				19AB6D492C589C2CEB809204BD7DE9C6 /* Release */,
+				A319D42AFE1AF38B40182BC13DF83420 /* Debug */,
+				D8D16E0602A26DDCA40FE32C8E750536 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1819,53 +1881,62 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CF76A09C3B09DA1B0DB6FD5DB2C3A2A2 /* Debug */,
-				CE6BB864FB202B78BB66ACCAACAA0513 /* Release */,
+				E22CAAD1A64A2DF3D0511DBBD4F989AB /* Debug */,
+				74A80190F6EE6099E873C9FF92732E78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3E0ACB0797BCB48E28859E2336B7FEB9 /* Build configuration list for PBXNativeTarget "KeyboardAdjuster" */ = {
+		6AC35D0300EE8CE0076FCC2843508874 /* Build configuration list for PBXNativeTarget "SuperLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A20100D0F07EC087EE586FB7773EBB7E /* Debug */,
-				53692A4E1CD06FE95051F23915D5E165 /* Release */,
+				DC03E6E70BD3C4B39EBDF58C3777EE4F /* Debug */,
+				7F290995A83A10AC9FA829D87EE4392F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		78C8447FC2464D652979C4695D9B3F90 /* Build configuration list for PBXNativeTarget "Pods-TipJarViewController_Tests" */ = {
+		6D31DAB5434352B7CC1498E5DAED2F13 /* Build configuration list for PBXNativeTarget "Pods-TipJarViewController_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				953D2A6BA75B322D92B7343C07273FC3 /* Debug */,
-				5CA5F6511BB77AA549A08812D623D45A /* Release */,
+				23A95BD2BBBC460D3A49D1A28C23B8AF /* Debug */,
+				FB78AC953DFDFC12116B03A77DA7EF0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA8DF98810B8E7428CC676EC22E65724 /* Build configuration list for PBXNativeTarget "LionheartExtensions" */ = {
+		7E57ADCE24D85FEF27BEF764279941DC /* Build configuration list for PBXNativeTarget "Pods-TipJarViewController_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D8A3C6E8685543B4B703ABD25A28124A /* Debug */,
-				0775981B89E62B4F09567EC2C598132B /* Release */,
+				559C56EF6BAB4F0A78FA2D18626ABAE5 /* Debug */,
+				6FA65609CBF0B752B006E3065D37BE45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ABB72542FAAA5812753343D5490F99BD /* Build configuration list for PBXNativeTarget "TipJarViewController" */ = {
+		C1DC3FD523B4710EA8C185017DB13114 /* Build configuration list for PBXNativeTarget "QuickTableView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0147BD45C2BB4ADE90BD9BBC1B3E31DA /* Debug */,
-				3EEBBBB435E3F3EEE1F9E3412BC5165E /* Release */,
+				7B26C882918D790DE87AFE19234EFCD5 /* Debug */,
+				BA76682CDF3E7D738BD328BBCE8634E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DA6D7D19588D8A42E9D16B2A716900F7 /* Build configuration list for PBXNativeTarget "Pods-TipJarViewController_Example" */ = {
+		DF48C8B24FB61AF8049DF007A8A6B807 /* Build configuration list for PBXNativeTarget "TipJarViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7E7ED31102E92514BBEC67E1D771FBBC /* Debug */,
-				74A19DFFA9C7B8B4B155C488593AF381 /* Release */,
+				9AF3231F58A3F25ED4FECE5C2ED3F89C /* Debug */,
+				5531F0BCC0236412CD8689EE4A544AA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFBB956ED77C1C8B613457C9DEFE9B2A /* Build configuration list for PBXNativeTarget "LionheartExtensions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FF4D27BB6C8B45FBD1A77B71AD8DBB6 /* Debug */,
+				352A9584EAF6C7CC57CA474821C73A10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

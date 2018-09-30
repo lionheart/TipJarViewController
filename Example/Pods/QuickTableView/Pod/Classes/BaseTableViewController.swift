@@ -32,7 +32,7 @@ open class BaseTableViewController: UIViewController, HasTableView {
 
     open var tableView: UITableView!
 
-    public init(style: UITableViewStyle = .grouped) {
+    public init(style: UITableView.Style = .grouped) {
         super.init(nibName: nil, bundle: nil)
 
         edgesForExtendedLayout = []
@@ -49,7 +49,7 @@ open class BaseTableViewController: UIViewController, HasTableView {
         } else {
             // iOS 11 and below need to have auto-layout specified manually
             tableView.estimatedRowHeight = 44
-            tableView.rowHeight = UITableViewAutomaticDimension
+            tableView.rowHeight = UITableView.automaticDimension
         }
     }
 

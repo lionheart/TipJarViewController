@@ -27,7 +27,7 @@ public protocol QuickTableViewCellIdentifiableAutomaticHeight: QuickTableViewCel
 
 public protocol QuickTableViewContainer {
     static var sections: [QuickTableViewSectionBuilder] { get }
-    static var style: UITableViewStyle { get }
+    static var style: UITableView.Style { get }
     static var shouldAutoResizeCells: Bool { get }
 }
 

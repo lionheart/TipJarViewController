@@ -7,7 +7,46 @@
 
 import Foundation
 
-public final class TitleButton: UIButton {
+public protocol TitleButtonThemeProtocol {
+    static var normalColor: UIColor { get }
+    static var highlightedColor: UIColor { get }
+    static var subtitleColor: UIColor { get }
+}
+
+extension TitleButtonThemeProtocol {
+    static var centeredParagraphStyle: NSParagraphStyle {
+        let style = NSMutableParagraphStyle()
+        style.setParagraphStyle(.default)
+        style.alignment = .center
+        return style
+    }
+    
+    static var normalAttributes: [NSAttributedStringKey: Any] {
+        return [
+            NSAttributedStringKey.font: UIFont.boldSystemFont(ofSize: 17),
+            NSAttributedStringKey.foregroundColor: Self.normalColor,
+            NSAttributedStringKey.paragraphStyle: centeredParagraphStyle
+        ]
+    }
+    
+    static var highlightedAttributes: [NSAttributedStringKey: Any] {
+        return [
+            NSAttributedStringKey.font: UIFont.boldSystemFont(ofSize: 17),
+            NSAttributedStringKey.foregroundColor: Self.highlightedColor,
+            NSAttributedStringKey.paragraphStyle: centeredParagraphStyle
+        ]
+    }
+    
+    static var subtitleAttributes: [NSAttributedStringKey: Any] {
+        return [
+            NSAttributedStringKey.font: UIFont.systemFont(ofSize: 12),
+            NSAttributedStringKey.foregroundColor: Self.subtitleColor,
+            NSAttributedStringKey.paragraphStyle: centeredParagraphStyle
+        ]
+    }
+}
+
+public final class TitleButton<T>: UIButton where T: TitleButtonThemeProtocol {
     public var enableTitleCopy = false
     
     public override var canBecomeFirstResponder: Bool {
@@ -21,33 +60,8 @@ public final class TitleButton: UIButton {
     public override func copy(_ sender: Any?) {
         UIPasteboard.general.string = titleLabel?.text
     }
-
-    static let centeredParagraphStyle: NSParagraphStyle = {
-        let style = NSMutableParagraphStyle()
-        style.setParagraphStyle(.default)
-        style.alignment = .center
-        return style
-    }()
     
-    static let normalAttributes = [
-        NSAttributedStringKey.font: UIFont.boldSystemFont(ofSize: 17),
-        NSAttributedStringKey.foregroundColor: UIColor.black,
-        NSAttributedStringKey.paragraphStyle: centeredParagraphStyle
-    ]
-    
-    static let highlightedAttributes = [
-        NSAttributedStringKey.font: UIFont.boldSystemFont(ofSize: 17),
-        NSAttributedStringKey.foregroundColor: UIColor.gray,
-        NSAttributedStringKey.paragraphStyle: centeredParagraphStyle
-    ]
-    
-    static let subtitleAttributes = [
-        NSAttributedStringKey.font: UIFont.systemFont(ofSize: 12),
-        NSAttributedStringKey.foregroundColor: UIColor.darkGray,
-        NSAttributedStringKey.paragraphStyle: centeredParagraphStyle
-    ]
-    
-    @objc convenience init() {
+    @objc public convenience init() {
         self.init(frame: .zero)
     }
 }
@@ -59,12 +73,12 @@ extension TitleButton: CustomButtonType {
     }
     
     public func setTitle(title: String, subtitle: String?) {
-        let normalString = NSMutableAttributedString(string: title, attributes: TitleButton.normalAttributes)
-        let highlightedString = NSMutableAttributedString(string: title, attributes: TitleButton.highlightedAttributes)
+        let normalString = NSMutableAttributedString(string: title, attributes: T.normalAttributes)
+        let highlightedString = NSMutableAttributedString(string: title, attributes: T.highlightedAttributes)
         
         if let subtitle = subtitle {
-            normalString.append(NSAttributedString(string: "\n" + subtitle, attributes: TitleButton.subtitleAttributes))
-            highlightedString.append(NSAttributedString(string: "\n" + subtitle, attributes: TitleButton.subtitleAttributes))
+            normalString.append(NSAttributedString(string: "\n" + subtitle, attributes: T.subtitleAttributes))
+            highlightedString.append(NSAttributedString(string: "\n" + subtitle, attributes: T.subtitleAttributes))
             titleLabel?.lineBreakMode = .byWordWrapping
         } else {
             titleLabel?.lineBreakMode = .byTruncatingTail

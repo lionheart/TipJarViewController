@@ -44,10 +44,10 @@ public extension QuickTableViewRow where Self: RawRepresentable, Self.RawValue =
 
 public extension QuickTableViewRowWithConditions where Self: RawRepresentable, Self.RawValue == Int {
     init(at indexPath: IndexPath, container: Container) {
-        self.init(row: indexPath.row, container: container)
+        self.init(at: indexPath.row, container: container)
     }
 
-    init(row: Int, container: Container) {
+    init(at row: Int, container: Container) {
         var row = row
         let _conditionalRows = Self.conditionalRows(for: container)
         for (conditionalRow, test) in _conditionalRows {
@@ -61,7 +61,7 @@ public extension QuickTableViewRowWithConditions where Self: RawRepresentable, S
 
     static func index(row: Self, container: Container) -> Int? {
         for i in 0..<count(for: container) {
-            if row == Self(row: i, container: container) {
+            if row == Self(at: i, container: container) {
                 return i
             }
         }

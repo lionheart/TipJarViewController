@@ -1,6 +1,6 @@
 {
   "name": "TipJarViewController",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "summary": "Easy, drop-in tipping for iOS apps.",
   "homepage": "https://github.com/lionheart/TipJarViewController",
   "license": {
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/lionheart/TipJarViewController.git",
-    "tag": "0.1.2"
+    "tag": "0.1.3"
   },
   "social_media_url": "https://twitter.com/lionheartsw",
   "documentation_url": "https://code.lionheart.software/TipJarViewController/",
@@ -28,13 +28,13 @@
   ],
   "dependencies": {
     "QuickTableView": [
-      "~> 2.0"
+      "~> 3"
     ],
     "SuperLayout": [
-      "~> 1.0"
+      "~> 1"
     ],
     "LionheartExtensions": [
-      "~> 3.0"
+      "~> 3"
     ]
   }
 }
