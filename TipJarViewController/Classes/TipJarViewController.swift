@@ -21,7 +21,7 @@ open class TipJarViewController<T>: BaseTableViewController, UITableViewDelegate
         super.init()
     }
     
-    @objc override init(style: UITableViewStyle) {
+    @objc override init(style: UITableView.Style) {
         super.init(style: style)
     }
     
@@ -216,11 +216,11 @@ open class TipJarViewController<T>: BaseTableViewController, UITableViewDelegate
                 return
             }
 
-            UIApplication.shared.open(url, options: [:], completionHandler: nil)
+            UIApplication.shared.open(url, options: convertToUIApplicationOpenExternalURLOptionsKeyDictionary([:]), completionHandler: nil)
             
         case .manageSubscription:
             let url = URL(string: "https://buy.itunes.apple.com/WebObjects/MZFinance.woa/wa/manageSubscriptions")!
-            UIApplication.shared.open(url, options: [:], completionHandler: nil)
+            UIApplication.shared.open(url, options: convertToUIApplicationOpenExternalURLOptionsKeyDictionary([:]), completionHandler: nil)
             
         case .subscription:
             iapRow = SubscriptionRow(at: indexPath)
@@ -449,4 +449,9 @@ open class TipJarViewController<T>: BaseTableViewController, UITableViewDelegate
     public func paymentQueue(_ queue: SKPaymentQueue, shouldAddStorePayment payment: SKPayment, for product: SKProduct) -> Bool {
         return true
     }
+}
+
+// Helper function inserted by Swift 4.2 migrator.
+fileprivate func convertToUIApplicationOpenExternalURLOptionsKeyDictionary(_ input: [String: Any]) -> [UIApplication.OpenExternalURLOptionsKey: Any] {
+	return Dictionary(uniqueKeysWithValues: input.map { key, value in (UIApplication.OpenExternalURLOptionsKey(rawValue: key), value)})
 }

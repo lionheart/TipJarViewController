@@ -16,7 +16,7 @@ final class MultilineTableViewCell: UITableViewCell {
     override var textLabel: UILabel? { return theTextLabel }
     override var detailTextLabel: UILabel? { return theDetailTextLabel }
     
-    override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
+    override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: .default, reuseIdentifier: reuseIdentifier)
         
         theTextLabel = UILabel()

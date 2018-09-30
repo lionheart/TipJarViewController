@@ -15,7 +15,7 @@ import QuickTableView
 class AppDelegate: UIResponder, UIApplicationDelegateWithWindow {
     var window: UIWindow?
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         let navigation = UINavigationController(rootViewController: TipJarViewController<ExampleTipJarOptions>())
         rootViewController = navigation
         return true
