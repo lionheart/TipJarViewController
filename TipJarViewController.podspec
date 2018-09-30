@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TipJarViewController'
-  s.version          =  "0.1.3"
+  s.version          =  "1.0.0"
   s.summary          = 'Easy, drop-in tipping for iOS apps.'
   s.homepage         = 'https://github.com/lionheart/TipJarViewController'
   s.license          = { :type => 'Apache 2.0', :file => 'LICENSE' }
@@ -22,7 +22,7 @@ TODO: Add long description of the pod here.
                        DESC
 
   s.ios.deployment_target = '10.3'
-  s.swift_version = '4.0'
+  s.swift_version = '4.2'
 
   s.source_files = 'TipJarViewController/Classes/**/*'
   # s.resource_bundles = {
