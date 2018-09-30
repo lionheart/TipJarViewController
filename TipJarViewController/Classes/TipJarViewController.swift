@@ -251,7 +251,7 @@ open class TipJarViewController<T>: BaseTableViewController, UITableViewDelegate
     }
     
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        switch Section(section: section, container: sectionContainer) {
+        switch Section(at: section, container: sectionContainer) {
         case .top: return 1
         case .legal: return LegalRow.count
         case .couldNotLoad: return 1
@@ -264,7 +264,7 @@ open class TipJarViewController<T>: BaseTableViewController, UITableViewDelegate
     }
     
     public func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        switch Section(section: section, container: sectionContainer) {
+        switch Section(at: section, container: sectionContainer) {
         case .top: return nil
         case .legal: return LegalRow.title
         case .couldNotLoad: return nil
@@ -277,7 +277,7 @@ open class TipJarViewController<T>: BaseTableViewController, UITableViewDelegate
     }
     
     public func tableView(_ tableView: UITableView, titleForFooterInSection section: Int) -> String? {
-        switch Section(section: section, container: sectionContainer) {
+        switch Section(at: section, container: sectionContainer) {
         case .top: return nil
         case .legal: return nil
         case .couldNotLoad: return nil
