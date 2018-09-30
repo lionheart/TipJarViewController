@@ -21,27 +21,27 @@ extension TitleButtonThemeProtocol {
         return style
     }
     
-    static var normalAttributes: [NSAttributedStringKey: Any] {
+    static var normalAttributes: [NSAttributedString.Key: Any] {
         return [
-            NSAttributedStringKey.font: UIFont.boldSystemFont(ofSize: 17),
-            NSAttributedStringKey.foregroundColor: Self.normalColor,
-            NSAttributedStringKey.paragraphStyle: centeredParagraphStyle
+            NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: 17),
+            NSAttributedString.Key.foregroundColor: Self.normalColor,
+            NSAttributedString.Key.paragraphStyle: centeredParagraphStyle
         ]
     }
     
-    static var highlightedAttributes: [NSAttributedStringKey: Any] {
+    static var highlightedAttributes: [NSAttributedString.Key: Any] {
         return [
-            NSAttributedStringKey.font: UIFont.boldSystemFont(ofSize: 17),
-            NSAttributedStringKey.foregroundColor: Self.highlightedColor,
-            NSAttributedStringKey.paragraphStyle: centeredParagraphStyle
+            NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: 17),
+            NSAttributedString.Key.foregroundColor: Self.highlightedColor,
+            NSAttributedString.Key.paragraphStyle: centeredParagraphStyle
         ]
     }
     
-    static var subtitleAttributes: [NSAttributedStringKey: Any] {
+    static var subtitleAttributes: [NSAttributedString.Key: Any] {
         return [
-            NSAttributedStringKey.font: UIFont.systemFont(ofSize: 12),
-            NSAttributedStringKey.foregroundColor: Self.subtitleColor,
-            NSAttributedStringKey.paragraphStyle: centeredParagraphStyle
+            NSAttributedString.Key.font: UIFont.systemFont(ofSize: 12),
+            NSAttributedString.Key.foregroundColor: Self.subtitleColor,
+            NSAttributedString.Key.paragraphStyle: centeredParagraphStyle
         ]
     }
 }

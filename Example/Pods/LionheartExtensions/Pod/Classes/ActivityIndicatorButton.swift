@@ -11,12 +11,12 @@ public final class ActivityIndicatorButton: UIButton {
     var activity: UIActivityIndicatorView!
     
     static let titleAttributes = [
-        NSAttributedStringKey.font: UIFont.boldSystemFont(ofSize: 17),
+        NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: 17),
         ]
     
     static let subtitleAttributes = [
-        NSAttributedStringKey.font: UIFont.systemFont(ofSize: 11),
-        NSAttributedStringKey.foregroundColor: UIColor.darkGray
+        NSAttributedString.Key.font: UIFont.systemFont(ofSize: 11),
+        NSAttributedString.Key.foregroundColor: UIColor.darkGray
     ]
     
     @objc convenience init() {
@@ -26,7 +26,7 @@ public final class ActivityIndicatorButton: UIButton {
     override init(frame: CGRect) {
         super.init(frame: .zero)
         
-        activity = UIActivityIndicatorView(activityIndicatorStyle: .gray)
+        activity = UIActivityIndicatorView(style: .gray)
         activity.translatesAutoresizingMaskIntoConstraints = false
         
         addSubview(activity)
