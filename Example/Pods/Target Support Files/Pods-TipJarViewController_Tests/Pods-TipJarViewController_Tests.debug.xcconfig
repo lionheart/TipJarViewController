@@ -1,7 +1,8 @@
 FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/KeyboardAdjuster" "${PODS_CONFIGURATION_BUILD_DIR}/LionheartExtensions" "${PODS_CONFIGURATION_BUILD_DIR}/QuickTableView" "${PODS_CONFIGURATION_BUILD_DIR}/SuperLayout" "${PODS_CONFIGURATION_BUILD_DIR}/TipJarViewController"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/KeyboardAdjuster/KeyboardAdjuster.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/LionheartExtensions/LionheartExtensions.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/QuickTableView/QuickTableView.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SuperLayout/SuperLayout.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/TipJarViewController/TipJarViewController.framework/Headers"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_CFLAGS = $(inherited) -iquote "${PODS_CONFIGURATION_BUILD_DIR}/KeyboardAdjuster/KeyboardAdjuster.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/LionheartExtensions/LionheartExtensions.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/QuickTableView/QuickTableView.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/SuperLayout/SuperLayout.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/TipJarViewController/TipJarViewController.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -framework "KeyboardAdjuster" -framework "LionheartExtensions" -framework "QuickTableView" -framework "StoreKit" -framework "SuperLayout" -framework "TipJarViewController" -framework "UIKit"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
