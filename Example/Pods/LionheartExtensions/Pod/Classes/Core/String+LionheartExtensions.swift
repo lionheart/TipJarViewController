@@ -228,7 +228,7 @@ public extension NSString {
         return String(self).stringByReplacingSpacesWithDashes
     }
 
-    public func stringByConverting(toNamingFormat naming: VariableNamingFormat) -> String {
+    func stringByConverting(toNamingFormat naming: VariableNamingFormat) -> String {
         return String(self).stringByConverting(toNamingFormat: naming)
     }
 }
