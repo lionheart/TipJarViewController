@@ -22,7 +22,7 @@ TODO: Add long description of the pod here.
                        DESC
 
   s.ios.deployment_target = '10.3'
-  s.swift_version = '4.2'
+  s.swift_version = '5'
 
   s.source_files = 'TipJarViewController/Classes/**/*'
   # s.resource_bundles = {
