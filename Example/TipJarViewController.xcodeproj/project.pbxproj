@@ -269,7 +269,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-TipJarViewController_Example/Pods-TipJarViewController_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-TipJarViewController_Example/Pods-TipJarViewController_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/KeyboardAdjuster/KeyboardAdjuster.framework",
 				"${BUILT_PRODUCTS_DIR}/LionheartExtensions/LionheartExtensions.framework",
 				"${BUILT_PRODUCTS_DIR}/QuickTableView/QuickTableView.framework",
@@ -286,7 +286,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TipJarViewController_Example/Pods-TipJarViewController_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TipJarViewController_Example/Pods-TipJarViewController_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		66F3BEA12724B468923564EE /* [CP] Check Pods Manifest.lock */ = {

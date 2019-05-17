@@ -33,5 +33,5 @@ TODO: Add long description of the pod here.
   s.frameworks = 'UIKit', 'StoreKit'
   s.dependency 'QuickTableView', '~> 3'
   s.dependency 'SuperLayout', '~> 2'
-  s.dependency 'LionheartExtensions', '~> 4'
+  s.dependency 'LionheartExtensions', '~> 5'
 end
