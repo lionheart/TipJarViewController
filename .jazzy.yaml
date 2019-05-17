@@ -1,7 +1,7 @@
 author: "Lionheart Software"
 author_url: "https://lionheartsw.com"
 github_url: "https://github.com/lionheart/TipJarViewController"
-github_file_prefix: "https://github.com/lionheart/TipJarViewController/tree/1.0.0"
+github_file_prefix: "https://github.com/lionheart/TipJarViewController/tree/1.1.0"
 xcodebuild_arguments: ["-workspace", "Example/TipJarViewController.xcworkspace", "-scheme", "TipJarViewController"]
 readme: "README.md"
 copyright: "&copy; 2016-2017 Lionheart Software LLC"
