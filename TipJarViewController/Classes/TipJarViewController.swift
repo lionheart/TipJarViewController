@@ -182,11 +182,14 @@ open class TipJarViewController<T>: BaseTableViewController, UITableViewDelegate
     }
     
     func addPaymentForIAP(row: IAPRow) {
+        guard !loading else {
+            return;
+        }
+
         loading = true
-        print(Date())
         tableView.reloadData()
-        
-        guard let products = self.products,
+
+        guard let products = products,
             let product = products[row.productIdentifier] else {
                 return
         }
