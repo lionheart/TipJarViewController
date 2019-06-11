@@ -442,6 +442,9 @@ open class TipJarViewController<T>: BaseTableViewController, UITableViewDelegate
                 
             case .purchasing:
                 break
+
+            @unknown default:
+                fatalError()
             }
         }
     }
