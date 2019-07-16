@@ -32,6 +32,7 @@ open class TipJarViewController<T>: BaseTableViewController, UITableViewDelegate
             var purchased: Bool
         }
         
+        case restorePurchases
         case top
         case couldNotLoad
         case subscription
@@ -212,6 +213,9 @@ open class TipJarViewController<T>: BaseTableViewController, UITableViewDelegate
         
         var iapRow: IAPRow?
         switch Section(at: indexPath, container: sectionContainer) {
+        case .restorePurchases:
+            SKPaymentQueue.default().restoreCompletedTransactions()
+            
         case .legal:
             let legalRow = LegalRow(at: indexPath)
             guard let url = legalRow.url else {
@@ -255,6 +259,7 @@ open class TipJarViewController<T>: BaseTableViewController, UITableViewDelegate
     
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         switch Section(at: section, container: sectionContainer) {
+        case .restorePurchases: return 1
         case .top: return 1
         case .legal: return LegalRow.count
         case .couldNotLoad: return 1
@@ -268,6 +273,7 @@ open class TipJarViewController<T>: BaseTableViewController, UITableViewDelegate
     
     public func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         switch Section(at: section, container: sectionContainer) {
+        case .restorePurchases: return nil
         case .top: return nil
         case .legal: return LegalRow.title
         case .couldNotLoad: return nil
@@ -281,6 +287,7 @@ open class TipJarViewController<T>: BaseTableViewController, UITableViewDelegate
     
     public func tableView(_ tableView: UITableView, titleForFooterInSection section: Int) -> String? {
         switch Section(at: section, container: sectionContainer) {
+        case .restorePurchases: return nil
         case .top: return nil
         case .legal: return nil
         case .couldNotLoad: return nil
@@ -303,6 +310,13 @@ open class TipJarViewController<T>: BaseTableViewController, UITableViewDelegate
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let row: IAPRow
         switch Section(at: indexPath, container: sectionContainer) {
+        case .restorePurchases:
+            let cell = tableView.dequeueReusableCell(for: indexPath) as QuickTableViewCellValue1
+            cell.textLabel?.text = "Restore Purchases"
+            cell.textLabel?.textAlignment = .center
+            cell.textLabel?.textColor = TipJarButton.blue
+            return cell
+
         case .top:
             let cell = tableView.dequeueReusableCell(for: indexPath) as MultilineTableViewCell
             cell.textLabel?.text = T.topHeader
