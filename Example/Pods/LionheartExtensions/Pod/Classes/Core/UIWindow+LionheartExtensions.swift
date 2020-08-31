@@ -1,5 +1,5 @@
 //
-//  Copyright 2016 Lionheart Software LLC
+//  Copyright 2016-2020 Lionheart Software LLC
 //
 //  Licensed under the Apache License, Version 2.0 (the "License");
 //  you may not use this file except in compliance with the License.
@@ -25,12 +25,12 @@ public extension UIWindow {
      - parameter path: The path on the local filesystem to save the screenshot to.
      - Returns: A bool indicating whether the save was successful.
      - author: Daniel Loewenherz
-     - copyright: ©2016 Lionheart Software LLC
+     - Copyright: ©2016 Lionheart Software LLC
      - Date: February 17, 2016
      */
     class func takeScreenshotAndSaveToPath(_ path: String) -> Bool {
-        guard let window = LionheartExtensions.sharedUIApplication?.keyWindow else {
-            return false
+        guard let window = LionheartExtensions.sharedUIApplication?.patchedKeyWindow else {
+                return false
         }
 
         let bounds = window.bounds

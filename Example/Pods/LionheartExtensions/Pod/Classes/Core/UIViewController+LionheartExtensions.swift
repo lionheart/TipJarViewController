@@ -27,7 +27,7 @@ public extension UIViewController {
      - Date: February 17, 2016
      */
     class var topViewController: UIViewController? {
-        return LionheartExtensions.sharedUIApplication?.keyWindow?.rootViewController?.topViewController
+        return LionheartExtensions.sharedUIApplication?.patchedKeyWindow?.rootViewController?.topViewController
     }
 
     /**

@@ -186,8 +186,8 @@ public extension UIImage {
             context.translateBy(x: window.center.x, y: window.center.y)
             context.concatenate(window.transform)
             context.translateBy(x: -window.bounds.size.width * window.layer.anchorPoint.x, y: -window.bounds.size.height * window.layer.anchorPoint.y)
-            
-            guard let statusBarOrientation = LionheartExtensions.sharedUIApplication?.statusBarOrientation else {
+
+            guard let statusBarOrientation = LionheartExtensions.sharedUIApplication?.connectedScenes.filter({$0.activationState == .foregroundActive}).map({$0 as? UIWindowScene}).compactMap({$0}).first?.interfaceOrientation else {
                 continue
             }
             

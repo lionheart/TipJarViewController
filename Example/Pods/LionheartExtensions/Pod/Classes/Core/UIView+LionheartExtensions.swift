@@ -199,6 +199,9 @@ public extension UIView {
 
             case .vertical:
                 fillHeightOfSuperview(margin: margin)
+
+            @unknown default:
+                break
             }
         }
         else {
