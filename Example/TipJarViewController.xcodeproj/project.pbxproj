@@ -147,7 +147,6 @@
 				D68EAAF85050EAD64C83DE02 /* Pods-TipJarViewController_Tests.debug.xcconfig */,
 				0B0EFCFD9C19308576982861 /* Pods-TipJarViewController_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -226,10 +225,9 @@
 			};
 			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "TipJarViewController" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 				Base,
 			);

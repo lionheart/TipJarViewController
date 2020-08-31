@@ -413,8 +413,8 @@ open class TipJarViewController<T>: BaseTableViewController, UITableViewDelegate
         
         loading = false
 
-        DispatchQueue.main.async {
-            tableView.reloadData()
+        DispatchQueue.main.async { [weak self] in
+            self?.tableView.reloadData()
         }
     }
 
