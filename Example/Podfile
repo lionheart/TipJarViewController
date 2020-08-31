@@ -2,6 +2,9 @@
 
 platform :ios, '13.6'
 use_frameworks!
+use_modular_headers!
+
+workspace 'TipJarViewController.xcworkspace'
 
 target 'TipJarViewController_Example' do
   pod 'TipJarViewController', :path => '../'
@@ -17,6 +20,7 @@ post_install do |installer|
       config.build_settings.delete('IPHONEOS_DEPLOYMENT_TARGET')
       config.build_settings.delete('TARGETED_DEVICE_FAMILY')
       config.build_settings.delete('SWIFT_VERSION')
+      config.build_settings.delete('ARCHS')
     end
   end
 end
