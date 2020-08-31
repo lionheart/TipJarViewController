@@ -412,7 +412,10 @@ open class TipJarViewController<T>: BaseTableViewController, UITableViewDelegate
         }
         
         loading = false
-        tableView.reloadData()
+
+        DispatchQueue.main.async {
+            tableView.reloadData()
+        }
     }
 
     // MARK: - SKPaymentTransactionObserver
