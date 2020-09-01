@@ -1,0 +1,6 @@
+${PODS_ROOT}/Target Support Files/Pods-TipJarViewController_Example/Pods-TipJarViewController_Example-frameworks.sh
+${BUILT_PRODUCTS_DIR}/KeyboardAdjuster/KeyboardAdjuster.framework
+${BUILT_PRODUCTS_DIR}/LionheartExtensions/LionheartExtensions.framework
+${BUILT_PRODUCTS_DIR}/QuickTableView/QuickTableView.framework
+${BUILT_PRODUCTS_DIR}/SuperLayout/SuperLayout.framework
+${BUILT_PRODUCTS_DIR}/TipJarViewController/TipJarViewController.framework

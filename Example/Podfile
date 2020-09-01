@@ -3,7 +3,7 @@
 platform :ios, '13.6'
 
 use_frameworks!
-# use_modular_headers!
+use_modular_headers!
 
 workspace 'TipJarViewController.xcworkspace'
 
@@ -22,6 +22,7 @@ post_install do |installer|
       config.build_settings.delete('TARGETED_DEVICE_FAMILY')
       config.build_settings.delete('SWIFT_VERSION')
       config.build_settings.delete('ARCHS')
+      config.build_settings['SUPPORTS_MACCATALYST'] = 'NO'
     end
   end
 end

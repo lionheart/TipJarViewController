@@ -423,43 +423,43 @@ open class TipJarViewController<T>: BaseTableViewController, UITableViewDelegate
         loading = false
         print(Date())
         tableView.reloadData()
-        
+
         for transaction in transactions {
             switch transaction.transactionState {
             case .purchased, .restored:
                 purchased = true
-                
+
                 queue.finishTransaction(transaction)
-                
+
                 tableView.reloadData()
-                
+
             case .deferred:
                 queue.finishTransaction(transaction)
                 break
-                
+
             case .failed:
                 queue.finishTransaction(transaction)
                 guard let error = transaction.error as? SKError else {
                     return
                 }
-                
+
                 let message: String
                 switch error {
                 case SKError.unknown:
                     // This error occurs if running on the simulator.
                     message = error.localizedDescription
-                    
+
                 case SKError.clientInvalid:
                     message = "This client is unauthorized to make In-App Purchases."
-                    
+
                 default:
                     message = error.localizedDescription
                 }
-                
+
                 let alert = UIAlertController(title: "Purchase Error", message: message, preferredStyle: .alert)
                 alert.addAction(title: "OK", style: .default, handler: nil)
                 present(alert, animated: true)
-                
+
             case .purchasing:
                 break
 
