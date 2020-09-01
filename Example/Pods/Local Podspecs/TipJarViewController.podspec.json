@@ -18,7 +18,7 @@
   "documentation_url": "https://code.lionheart.software/TipJarViewController/",
   "description": "TODO: Add long description of the pod here.",
   "platforms": {
-    "ios": "10.3"
+    "ios": "13.6"
   },
   "swift_versions": "5",
   "source_files": "TipJarViewController/Classes/**/*",
@@ -28,13 +28,13 @@
   ],
   "dependencies": {
     "QuickTableView": [
-      "~> 3"
+      "~> 4.0"
     ],
     "SuperLayout": [
-      "~> 2"
+      "~> 2.0"
     ],
     "LionheartExtensions": [
-      "~> 5"
+      "~> 5.0"
     ]
   },
   "swift_version": "5"

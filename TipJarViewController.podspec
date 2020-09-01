@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.ios.deployment_target = '10.3'
+  s.ios.deployment_target = '13.6'
   s.swift_version = '5'
 
   s.source_files = 'TipJarViewController/Classes/**/*'
@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit', 'StoreKit'
-  s.dependency 'QuickTableView', '~> 3.0'
+  s.dependency 'QuickTableView', '~> 4.0'
   s.dependency 'SuperLayout', '~> 2.0'
   s.dependency 'LionheartExtensions', '~> 5.0'
 end
