@@ -72,182 +72,182 @@
     },
     {
       "file": "/Users/dan/Projects/30-39 Open Source/31 Lionheart/TipJarViewController/TipJarViewController/Classes/TipJarViewController.swift",
-      "line": 82,
+      "line": 83,
       "symbol": "TipJarViewController.SubscriptionRow",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
       "file": "/Users/dan/Projects/30-39 Open Source/31 Lionheart/TipJarViewController/TipJarViewController/Classes/TipJarViewController.swift",
-      "line": 83,
+      "line": 84,
       "symbol": "TipJarViewController.SubscriptionRow.monthly",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/dan/Projects/30-39 Open Source/31 Lionheart/TipJarViewController/TipJarViewController/Classes/TipJarViewController.swift",
-      "line": 84,
+      "line": 85,
       "symbol": "TipJarViewController.SubscriptionRow.yearly",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/dan/Projects/30-39 Open Source/31 Lionheart/TipJarViewController/TipJarViewController/Classes/TipJarViewController.swift",
-      "line": 88,
+      "line": 89,
       "symbol": "TipJarViewController.SubscriptionRow.frequency",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/dan/Projects/30-39 Open Source/31 Lionheart/TipJarViewController/TipJarViewController/Classes/TipJarViewController.swift",
-      "line": 95,
+      "line": 96,
       "symbol": "TipJarViewController.SubscriptionRow.productIdentifier",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/dan/Projects/30-39 Open Source/31 Lionheart/TipJarViewController/TipJarViewController/Classes/TipJarViewController.swift",
-      "line": 100,
+      "line": 101,
       "symbol": "TipJarViewController.OneTimeRow",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
       "file": "/Users/dan/Projects/30-39 Open Source/31 Lionheart/TipJarViewController/TipJarViewController/Classes/TipJarViewController.swift",
-      "line": 101,
+      "line": 102,
       "symbol": "TipJarViewController.OneTimeRow.small",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/dan/Projects/30-39 Open Source/31 Lionheart/TipJarViewController/TipJarViewController/Classes/TipJarViewController.swift",
-      "line": 102,
+      "line": 103,
       "symbol": "TipJarViewController.OneTimeRow.medium",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/dan/Projects/30-39 Open Source/31 Lionheart/TipJarViewController/TipJarViewController/Classes/TipJarViewController.swift",
-      "line": 103,
+      "line": 104,
       "symbol": "TipJarViewController.OneTimeRow.large",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/dan/Projects/30-39 Open Source/31 Lionheart/TipJarViewController/TipJarViewController/Classes/TipJarViewController.swift",
-      "line": 104,
+      "line": 105,
       "symbol": "TipJarViewController.OneTimeRow.huge",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/dan/Projects/30-39 Open Source/31 Lionheart/TipJarViewController/TipJarViewController/Classes/TipJarViewController.swift",
-      "line": 105,
+      "line": 106,
       "symbol": "TipJarViewController.OneTimeRow.massive",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/dan/Projects/30-39 Open Source/31 Lionheart/TipJarViewController/TipJarViewController/Classes/TipJarViewController.swift",
-      "line": 109,
+      "line": 110,
       "symbol": "TipJarViewController.OneTimeRow.frequency",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/dan/Projects/30-39 Open Source/31 Lionheart/TipJarViewController/TipJarViewController/Classes/TipJarViewController.swift",
-      "line": 111,
+      "line": 112,
       "symbol": "TipJarViewController.OneTimeRow.productIdentifier",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/dan/Projects/30-39 Open Source/31 Lionheart/TipJarViewController/TipJarViewController/Classes/TipJarViewController.swift",
-      "line": 116,
+      "line": 117,
       "symbol": "TipJarViewController.viewDidLoad()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/dan/Projects/30-39 Open Source/31 Lionheart/TipJarViewController/TipJarViewController/Classes/TipJarViewController.swift",
-      "line": 172,
+      "line": 173,
       "symbol": "TipJarViewController.viewDidDisappear(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/dan/Projects/30-39 Open Source/31 Lionheart/TipJarViewController/TipJarViewController/Classes/TipJarViewController.swift",
-      "line": 178,
+      "line": 179,
       "symbol": "TipJarViewController.viewWillAppear(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/dan/Projects/30-39 Open Source/31 Lionheart/TipJarViewController/TipJarViewController/Classes/TipJarViewController.swift",
-      "line": 210,
+      "line": 211,
       "symbol": "TipJarViewController.tableView(_:didSelectRowAt:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/dan/Projects/30-39 Open Source/31 Lionheart/TipJarViewController/TipJarViewController/Classes/TipJarViewController.swift",
-      "line": 252,
+      "line": 256,
       "symbol": "TipJarViewController.numberOfSections(in:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/dan/Projects/30-39 Open Source/31 Lionheart/TipJarViewController/TipJarViewController/Classes/TipJarViewController.swift",
-      "line": 256,
+      "line": 260,
       "symbol": "TipJarViewController.tableView(_:numberOfRowsInSection:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/dan/Projects/30-39 Open Source/31 Lionheart/TipJarViewController/TipJarViewController/Classes/TipJarViewController.swift",
-      "line": 269,
+      "line": 274,
       "symbol": "TipJarViewController.tableView(_:titleForHeaderInSection:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/dan/Projects/30-39 Open Source/31 Lionheart/TipJarViewController/TipJarViewController/Classes/TipJarViewController.swift",
-      "line": 282,
+      "line": 288,
       "symbol": "TipJarViewController.tableView(_:titleForFooterInSection:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/dan/Projects/30-39 Open Source/31 Lionheart/TipJarViewController/TipJarViewController/Classes/TipJarViewController.swift",
-      "line": 303,
+      "line": 310,
       "symbol": "TipJarViewController.tableView(_:cellForRowAt:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/dan/Projects/30-39 Open Source/31 Lionheart/TipJarViewController/TipJarViewController/Classes/TipJarViewController.swift",
-      "line": 390,
+      "line": 404,
       "symbol": "TipJarViewController.request(_:didFailWithError:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/dan/Projects/30-39 Open Source/31 Lionheart/TipJarViewController/TipJarViewController/Classes/TipJarViewController.swift",
-      "line": 394,
+      "line": 408,
       "symbol": "TipJarViewController.productsRequest(_:didReceive:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/dan/Projects/30-39 Open Source/31 Lionheart/TipJarViewController/TipJarViewController/Classes/TipJarViewController.swift",
-      "line": 405,
+      "line": 419,
       "symbol": "TipJarViewController.paymentQueue(_:updatedTransactions:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/dan/Projects/30-39 Open Source/31 Lionheart/TipJarViewController/TipJarViewController/Classes/TipJarViewController.swift",
-      "line": 455,
+      "line": 469,
       "symbol": "TipJarViewController.paymentQueue(_:shouldAddStorePayment:for:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
