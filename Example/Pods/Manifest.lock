@@ -1,16 +1,16 @@
 PODS:
-  - KeyboardAdjuster (4.0.0)
-  - LionheartExtensions (5.1.0):
-    - LionheartExtensions/Core (= 5.1.0)
-  - LionheartExtensions/Core (5.1.0)
-  - QuickTableView (3.0.0):
-    - KeyboardAdjuster (~> 4)
+  - KeyboardAdjuster (5.0.2)
+  - LionheartExtensions (5.1.1):
+    - LionheartExtensions/Core (= 5.1.1)
+  - LionheartExtensions/Core (5.1.1)
+  - QuickTableView (4.0.0):
+    - KeyboardAdjuster (~> 5)
   - SuperLayout (2.0.0):
     - SuperLayout/Core (= 2.0.0)
   - SuperLayout/Core (2.0.0)
   - TipJarViewController (1.1.0):
     - LionheartExtensions (~> 5.0)
-    - QuickTableView (~> 3.0)
+    - QuickTableView (~> 4.0)
     - SuperLayout (~> 2.0)
 
 DEPENDENCIES:
@@ -28,12 +28,12 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  KeyboardAdjuster: 50eec4e8d52fd5d7f5df74fc07193cdadcc88abb
-  LionheartExtensions: 0734a591a1f210ac59c894f0890513f70de2ebf4
-  QuickTableView: 296b258f41ac91521ae517404646da4beab73fa3
+  KeyboardAdjuster: 93eff119ccdeae5d997008a8d3258dce5fad2a4a
+  LionheartExtensions: a7095285260f2817776217efe7f46204f903a80d
+  QuickTableView: 379683237a429be2fd94257e08373b8656a3be24
   SuperLayout: 0208ad821522fb50b62d9b8b808690d190a871ea
-  TipJarViewController: 01d010f921b37e22f7104072325949a2cd534d18
+  TipJarViewController: 1e8240735bf2616d5d5493d465ae29a3ae279e70
 
-PODFILE CHECKSUM: 950db60de6ec9f33f84fad5b4534a379e2a877e6
+PODFILE CHECKSUM: 4df52a2177ffba3a1c640f0d755f24d078891d7f
 
 COCOAPODS: 1.9.3
