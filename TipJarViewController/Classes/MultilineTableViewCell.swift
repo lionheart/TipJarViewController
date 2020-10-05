@@ -24,7 +24,7 @@ final class MultilineTableViewCell: UITableViewCell {
         theTextLabel.lineBreakMode = .byWordWrapping
         theTextLabel.font = UIFont.systemFont(ofSize: 16, weight: .medium)
         theTextLabel.translatesAutoresizingMaskIntoConstraints = false
-        theTextLabel.textColor = .black
+        theTextLabel.textColor = .label
         theTextLabel.textAlignment = .left
         
         theDetailTextLabel = UILabel()
@@ -32,7 +32,7 @@ final class MultilineTableViewCell: UITableViewCell {
         theDetailTextLabel.lineBreakMode = .byWordWrapping
         theDetailTextLabel.font = UIFont.systemFont(ofSize: 14, weight: .regular)
         theDetailTextLabel.translatesAutoresizingMaskIntoConstraints = false
-        theDetailTextLabel.textColor = .darkGray
+        theDetailTextLabel.textColor = .secondaryLabel
         theDetailTextLabel.textAlignment = .left
         
         contentView.addSubview(theTextLabel)

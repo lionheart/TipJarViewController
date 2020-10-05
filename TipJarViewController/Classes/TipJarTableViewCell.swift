@@ -28,7 +28,7 @@ final class TipJarTableViewCell: UITableViewCell {
         theTextLabel = UILabel()
         theTextLabel.font = UIFont.systemFont(ofSize: 16, weight: .medium)
         theTextLabel.translatesAutoresizingMaskIntoConstraints = false
-        theTextLabel.textColor = .black
+        theTextLabel.textColor = .label
         theTextLabel.textAlignment = .left
         
         theDetailTextLabel = UILabel()
@@ -36,7 +36,7 @@ final class TipJarTableViewCell: UITableViewCell {
         theDetailTextLabel.lineBreakMode = .byWordWrapping
         theDetailTextLabel.font = UIFont.systemFont(ofSize: 14, weight: .regular)
         theDetailTextLabel.translatesAutoresizingMaskIntoConstraints = false
-        theDetailTextLabel.textColor = .darkGray
+        theDetailTextLabel.textColor = .secondaryLabel
         theDetailTextLabel.textAlignment = .left
         
         tipJarButton = TipJarButton()
