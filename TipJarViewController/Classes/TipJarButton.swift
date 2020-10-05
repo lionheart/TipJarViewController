@@ -36,8 +36,14 @@ final class TipJarButton: UIButton {
         layer.cornerRadius = 6
         layer.borderColor = TipJarButton.blue.cgColor
         layer.borderWidth = 1
-        
-        setBackgroundImage(UIImage(color: .white), for: .normal)
+
+        if let normalBackgroundImageLight = UIImage(color: .white), let normalBackgroundImageDark = UIImage(color: .systemBackground) {
+            let normalBackgroundImage = UIImage.dynamicImageWith(light: normalBackgroundImageLight, dark: normalBackgroundImageDark)
+            setBackgroundImage(normalBackgroundImage, for: .normal)
+        } else {
+            setBackgroundImage(UIImage(color: .white), for: .normal)
+        }
+
         setBackgroundImage(UIImage(color: TipJarButton.blue), for: .highlighted)
         
         titleLabel?.numberOfLines = 0
