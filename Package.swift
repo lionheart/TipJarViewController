@@ -25,10 +25,7 @@ let package = Package(
                 .product(name: "SuperLayout", package: "SuperLayout"),
                 .product(name: "LionheartExtensions", package: "LionheartExtensions")
             ],
-            path: "TipJarViewController/Classes",
-            resources: [
-                .process("Assets")
-            ]
+            path: "TipJarViewController/Classes"
         ),
         .testTarget(
             name: "TipJarViewControllerTests",
