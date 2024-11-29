@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 53;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -28,11 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0D10E24BFE8BC4AA633F7A8B /* Pods-TipJarViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TipJarViewController_Tests.release.xcconfig"; path = "Target Support Files/Pods-TipJarViewController_Tests/Pods-TipJarViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		1B87E78EAE477705418C3A6A /* TipJarViewController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TipJarViewController.podspec; path = ../TipJarViewController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1C2DF340F16C0A4B3A557397 /* Pods_TipJarViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TipJarViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		461D7EC9F7604F4DB1B4B303 /* Pods-TipJarViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TipJarViewController_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TipJarViewController_Tests/Pods-TipJarViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		517659CE2A4D095755AE3796 /* Pods-TipJarViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TipJarViewController_Example.release.xcconfig"; path = "Target Support Files/Pods-TipJarViewController_Example/Pods-TipJarViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* TipJarViewController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipJarViewController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,7 +42,6 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		60DC317EC8FCF691C8B3BBE4 /* Pods_TipJarViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TipJarViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C9383EA8020A5327A5ADF2F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		BE0F26C62C47AA3F0A9CD0DB /* Pods-TipJarViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TipJarViewController_Example.debug.xcconfig"; path = "Target Support Files/Pods-TipJarViewController_Example/Pods-TipJarViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CC5253C900C399632D9D5347 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -76,7 +72,6 @@
 				607FACD21AFB9204008FA782 /* Example for TipJarViewController */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
-				9CACB809F12CDF9C1A715013 /* Pods */,
 				B6E18EEA1F9879B42D93609A /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -137,17 +132,6 @@
 				CC5253C900C399632D9D5347 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
-			sourceTree = "<group>";
-		};
-		9CACB809F12CDF9C1A715013 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				BE0F26C62C47AA3F0A9CD0DB /* Pods-TipJarViewController_Example.debug.xcconfig */,
-				517659CE2A4D095755AE3796 /* Pods-TipJarViewController_Example.release.xcconfig */,
-				461D7EC9F7604F4DB1B4B303 /* Pods-TipJarViewController_Tests.debug.xcconfig */,
-				0D10E24BFE8BC4AA633F7A8B /* Pods-TipJarViewController_Tests.release.xcconfig */,
-			);
-			path = Pods;
 			sourceTree = "<group>";
 		};
 		B6E18EEA1F9879B42D93609A /* Frameworks */ = {
@@ -406,6 +390,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DRIVERKIT_DEPLOYMENT_TARGET = 20.4;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -423,7 +408,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -462,6 +447,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DRIVERKIT_DEPLOYMENT_TARGET = 20.4;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -472,7 +458,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -483,11 +469,11 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE0F26C62C47AA3F0A9CD0DB /* Pods-TipJarViewController_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 63553QQ62F;
 				INFOPLIST_FILE = TipJarViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -501,11 +487,11 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 517659CE2A4D095755AE3796 /* Pods-TipJarViewController_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 63553QQ62F;
 				INFOPLIST_FILE = TipJarViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -519,7 +505,6 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 461D7EC9F7604F4DB1B4B303 /* Pods-TipJarViewController_Tests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 63553QQ62F;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -545,7 +530,6 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0D10E24BFE8BC4AA633F7A8B /* Pods-TipJarViewController_Tests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 63553QQ62F;
 				FRAMEWORK_SEARCH_PATHS = (
